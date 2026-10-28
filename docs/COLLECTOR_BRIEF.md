@@ -31,4 +31,4 @@
 
 ## 마무리
 
-`npx tsx scripts/validate-data.ts` 로 검증 통과 확인 후, 메인에 **10줄 이내 요약만** 반환: 도시별 채운 월 수(항공/경비), null 비율, 패키지 개수, confidence low 항목, 막힌 사이트.
+`npm run fx`, `npm run fetch:images`는 **실행하지 않는다**(메인이 일괄 실행). 기후는 `npx tsx scripts/fetch-climate.ts <region>`으로 자기 지역만 생성. 검증은 `VALIDATE_SKIP_FX=1 npx tsx scripts/validate-data.ts`로 하고 자기 파일의 오류만 고친 뒤, 메인에 **10줄 이내 요약만** 반환: 도시별 채운 월 수(항공/경비), null 비율, 패키지 개수, confidence low 항목, 막힌 사이트.
