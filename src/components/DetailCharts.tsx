@@ -29,6 +29,8 @@ export function DetailCharts({ months, selected }: { months: MonthView[]; select
   }));
   const seasonAreas = rows.filter((r) => r.season);
   const hasFlight = rows.some((r) => r.flightMin !== null);
+  // 출처가 월 평균/중간값 하나만 줄 때(min=max)는 선을 하나로
+  const singleValue = rows.every((r) => r.flightMin === r.flightMax);
   return (
     <div className="space-y-6">
       <figure>
@@ -101,18 +103,20 @@ export function DetailCharts({ months, selected }: { months: MonthView[]; select
                 <ReferenceArea x1={`${selected}월`} x2={`${selected}월`} fill="#e0f2fe" />
                 <Line
                   dataKey="flightMin"
-                  name="최저"
+                  name={singleValue ? '월 평균/중간값' : '최저'}
                   stroke="#0369a1"
                   strokeWidth={2}
                   connectNulls={false}
                 />
-                <Line
-                  dataKey="flightMax"
-                  name="최고"
-                  stroke="#94a3b8"
-                  strokeWidth={2}
-                  connectNulls={false}
-                />
+                {!singleValue && (
+                  <Line
+                    dataKey="flightMax"
+                    name="최고"
+                    stroke="#94a3b8"
+                    strokeWidth={2}
+                    connectNulls={false}
+                  />
+                )}
               </ComposedChart>
             </ResponsiveContainer>
           </div>
