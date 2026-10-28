@@ -8,12 +8,10 @@ import {
   type Destination,
   type PackageTour,
 } from './schema';
-import { computeScore, type ScoreResult } from './score';
+import { flightFor, MAX_NIGHTS, MIN_NIGHTS, tripTotal, type PeerStats } from './trip';
+import { SCORE_PARAMS } from './score';
 
-/** 점수·비교의 기본 일정 (3박 4일 / 4박 5일 중 기본) */
-export const DEFAULT_NIGHTS = 4;
-/** 지역 내 비교 가능한 도시가 이보다 적으면 전체 평균으로 대체 */
-const MIN_REGION_PEERS = 3;
+export { DEFAULT_NIGHTS, flightFor } from './trip';
 
 export type MonthView = Destination['monthly'][number] & {
   avgTempMin: number | null;
@@ -21,11 +19,6 @@ export type MonthView = Destination['monthly'][number] & {
   rainfallMm: number | null;
   /** 실제 표시용 항공가 (월별 없으면 연중 대표가, typical=true) */
   flight: ReturnType<typeof flightFor>;
-  /** 항공 중간값 + 1일 경비 × DEFAULT_NIGHTS */
-  totalCost: number | null;
-  score: ScoreResult;
-  /** 가격 점수 기준: region | all */
-  priceBasis: 'region' | 'all' | null;
 };
 
 export type DestinationView = Omit<Destination, 'monthly'> & {
@@ -46,33 +39,6 @@ function readDir<T>(sub: string, parse: (x: unknown) => T): Map<string, T> {
   return out;
 }
 
-/** 해당 월 항공가. 월별 값이 없으면 연중 대표가로 대체하고 typical=true */
-export function flightFor(
-  d: Pick<Destination, 'flightPriceTypical'>,
-  m: Destination['monthly'][number],
-) {
-  const monthly = m.flightPrice;
-  if (monthly.min !== null || monthly.max !== null) {
-    // 한쪽만 있으면(월 중간값 등) 같은 값으로 취급
-    const v = { min: monthly.min ?? monthly.max, max: monthly.max ?? monthly.min };
-    return { ...monthly, ...v, typical: false };
-  }
-  const t = d.flightPriceTypical;
-  if (t.min !== null && t.max !== null) return { ...t, typical: true };
-  return { ...monthly, typical: false };
-}
-
-export function representativeTotal(
-  d: Pick<Destination, 'flightPriceTypical'>,
-  m: Destination['monthly'][number],
-  nights = DEFAULT_NIGHTS,
-) {
-  const { min, max } = flightFor(d, m);
-  const daily = m.dailyCost.total;
-  if (min === null || max === null || daily === null) return null;
-  return Math.round((min + max) / 2 + daily * nights);
-}
-
 let cache: DestinationView[] | null = null;
 
 export function loadDestinations(): DestinationView[] {
@@ -81,61 +47,58 @@ export function loadDestinations(): DestinationView[] {
   const climate = readDir('climate', (x) => climateFileSchema.parse(x));
   const packages = readDir('packages', (x) => packageFileSchema.parse(x));
 
-  const flat = [...dests.entries()].flatMap(([region, ds]) => ds.map((d) => ({ d, region })));
-  const avg = (xs: number[]) => (xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : null);
-
-  cache = flat.map(({ d, region }) => {
-    const c = climate.get(region);
-    const rows = c?.cities[d.id];
-    const months: MonthView[] = d.monthly
-      .slice()
-      .sort((a, b) => a.month - b.month)
-      .map((m) => {
-        const cl = rows?.find((r) => r.month === m.month);
-        const totalCost = representativeTotal(d, m);
-        const peerTotals = (filter: (x: { d: Destination }) => boolean) =>
-          flat
-            .filter(filter)
-            .map(({ d: o }) =>
-              representativeTotal(
-                o,
-                o.monthly.find((x) => x.month === m.month)!,
-              ),
-            )
-            .filter((v): v is number => v !== null);
-        const regionPeers = peerTotals((x) => x.d.region === d.region);
-        const usesRegion = regionPeers.length >= MIN_REGION_PEERS;
-        const peers = usesRegion ? regionPeers : peerTotals(() => true);
-        const regionAvgCost = peers.length >= 2 ? avg(peers) : null;
-        const score = computeScore({
-          totalCost,
-          regionAvgCost,
-          avgTempMin: cl?.avgTempMin ?? null,
-          avgTempMax: cl?.avgTempMax ?? null,
-          rainfallMm: cl?.rainfallMm ?? null,
-          themeCount: d.themes.length,
-          flightHours: d.flightHours.ICN,
-          visaKind: d.visaInfo.kind,
+  cache = [...dests.entries()].flatMap(([region, ds]) =>
+    ds.map((d) => {
+      const c = climate.get(region);
+      const rows = c?.cities[d.id];
+      const months: MonthView[] = d.monthly
+        .slice()
+        .sort((a, b) => a.month - b.month)
+        .map((m) => {
+          const cl = rows?.find((r) => r.month === m.month);
+          return {
+            ...m,
+            flight: flightFor(d, m),
+            avgTempMin: cl?.avgTempMin ?? null,
+            avgTempMax: cl?.avgTempMax ?? null,
+            rainfallMm: cl?.rainfallMm ?? null,
+          };
         });
-        return {
-          ...m,
-          flight: flightFor(d, m),
-          avgTempMin: cl?.avgTempMin ?? null,
-          avgTempMax: cl?.avgTempMax ?? null,
-          rainfallMm: cl?.rainfallMm ?? null,
-          totalCost,
-          score,
-          priceBasis: regionAvgCost === null ? null : usesRegion ? 'region' : 'all',
-        };
-      });
-    const { monthly: _monthly, ...rest } = d;
-    void _monthly;
-    return {
-      ...rest,
-      months,
-      packages: (packages.get(region) ?? []).filter((p) => p.destinationId === d.id),
-      climateSource: c ? `${c.source} (${c.years[0]}–${c.years[c.years.length - 1]})` : null,
-    };
-  });
+      const { monthly: _monthly, ...rest } = d;
+      void _monthly;
+      return {
+        ...rest,
+        months,
+        packages: (packages.get(region) ?? []).filter((p) => p.destinationId === d.id),
+        climateSource: c ? `${c.source} (${c.years[0]}–${c.years[c.years.length - 1]})` : null,
+      };
+    }),
+  );
   return cache;
+}
+
+/** 월·박수별 가격 비교 평균 (지역은 비교 도시가 minRegionPeers 이상일 때만) */
+export function loadPeerStats(): PeerStats {
+  const all = loadDestinations();
+  const avg = (xs: number[]) =>
+    xs.length >= 2 ? Math.round(xs.reduce((a, b) => a + b, 0) / xs.length) : null;
+  const out: PeerStats = {};
+  for (let month = 1; month <= 12; month++) {
+    out[month] = {};
+    for (let n = MIN_NIGHTS; n <= MAX_NIGHTS; n++) {
+      const totals = all
+        .map((d) => ({
+          region: d.region as string,
+          t: tripTotal(d.months[month - 1].flight, d.months[month - 1].dailyCost.total, n),
+        }))
+        .filter((x): x is { region: string; t: number } => x.t !== null);
+      const region: Record<string, number | null> = {};
+      for (const r of new Set(totals.map((x) => x.region))) {
+        const xs = totals.filter((x) => x.region === r).map((x) => x.t);
+        region[r] = xs.length >= SCORE_PARAMS.minRegionPeers ? avg(xs) : null;
+      }
+      out[month][n] = { all: avg(totals.map((x) => x.t)), region };
+    }
+  }
+  return out;
 }

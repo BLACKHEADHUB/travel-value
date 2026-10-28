@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { loadDestinations } from '@/lib/data';
+import { loadDestinations, loadPeerStats } from '@/lib/data';
 import { REGION_LABEL } from '@/lib/themes';
 import { DetailBody } from '@/components/DetailBody';
 
@@ -46,7 +46,7 @@ export default async function DetailPage({ params }: { params: Promise<{ id: str
         </ul>
       </header>
       <Suspense fallback={null}>
-        <DetailBody d={d} />
+        <DetailBody d={d} peers={loadPeerStats()} />
       </Suspense>
     </main>
   );

@@ -1,5 +1,4 @@
 'use client';
-import { useState } from 'react';
 import type { DestinationView, MonthView } from '@/lib/data';
 import { freeTripCost, packageStats, verdict } from '@/lib/compare';
 import { NA, won, wonRange } from '@/lib/format';
@@ -9,13 +8,14 @@ const yn = (v: boolean | null, yes: string, no: string) => (v === null ? NA : v 
 export function PackageCompare({
   d,
   m,
-  defaultNights,
+  nights,
+  onNights,
 }: {
   d: DestinationView;
   m: MonthView;
-  defaultNights: number;
+  nights: number;
+  onNights: (n: number) => void;
 }) {
-  const [nights, setNights] = useState(defaultNights);
   const nightOptions = [...new Set([3, 4, ...d.packages.map((p) => p.nights)])].sort(
     (a, b) => a - b,
   );
@@ -42,7 +42,7 @@ export function PackageCompare({
               key={n}
               role="radio"
               aria-checked={nights === n}
-              onClick={() => setNights(n)}
+              onClick={() => onNights(n)}
               className={`rounded-full border px-3 py-1 text-sm focus-visible:outline-2 focus-visible:outline-sky-600 ${
                 nights === n ? 'border-sky-700 bg-sky-700 text-white' : 'border-line-strong'
               }`}

@@ -8,6 +8,7 @@ const LINKS = [
   { href: '/', label: '여행지' },
   { href: '/map/', label: '지도' },
   { href: '/quiz/', label: '추천 퀴즈' },
+  { href: '/score/', label: '점수 기준' },
 ] as const;
 
 export function SiteNav() {

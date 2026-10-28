@@ -2,12 +2,26 @@ import Link from 'next/link';
 import { CardActions } from './CardActions';
 import type { DestinationView } from '@/lib/data';
 import { NA, SEASON_LABEL, temp, won, wonRange } from '@/lib/format';
-import { fallbackNights, isRainy, visaLabel } from '@/lib/view';
-import { freeTripCost, packageStats, pickNights, verdict } from '@/lib/compare';
+import { isRainy, visaLabel } from '@/lib/view';
+import { freeTripCost, packageStats, verdict } from '@/lib/compare';
+import { nightsLabel, type Prefs } from '@/lib/prefs';
+import type { DestinationScore } from '@/lib/score';
+import { ScoreBreakdown } from './ScoreBreakdown';
 
-export function DestinationCard({ d, month }: { d: DestinationView; month: number }) {
+export function DestinationCard({
+  d,
+  prefs,
+  score,
+  query,
+}: {
+  d: DestinationView;
+  prefs: Prefs;
+  score: DestinationScore;
+  /** 상세 링크에 넘길 여행 조건 쿼리 */
+  query: string;
+}) {
+  const { month, nights } = prefs;
   const m = d.months[month - 1];
-  const nights = pickNights(d.packages, fallbackNights(d));
   const visa = visaLabel(d, month);
   const stats = packageStats(d.packages, month, nights);
   const v = verdict(
@@ -41,9 +55,9 @@ export function DestinationCard({ d, month }: { d: DestinationView; month: numbe
         )}
         <div className="absolute top-3 right-3 rounded-full bg-surface/95 px-3 py-1 text-sm font-bold text-ink shadow">
           <span className="sr-only">가성비 점수 </span>
-          {m.score.total ?? '–'}
+          {score.total ?? '–'}
           <span className="text-xs font-normal text-sub">점</span>
-          {m.score.total !== null && m.score.parts.price === null && (
+          {score.total !== null && score.parts.price === null && (
             <span
               className="ml-1 text-xs font-normal text-sub"
               title="가격 정보가 없어 가격 항목을 빼고 계산"
@@ -63,7 +77,7 @@ export function DestinationCard({ d, month }: { d: DestinationView; month: numbe
           <div>
             <h2 className="text-lg font-bold">
               <Link
-                href={`/d/${d.id}/?m=${month}`}
+                href={`/d/${d.id}/?${query}`}
                 className="after:absolute after:inset-0 focus:outline-none"
               >
                 {d.nameKo}
@@ -113,11 +127,18 @@ export function DestinationCard({ d, month }: { d: DestinationView; month: numbe
             <dd className="font-medium">{visa.text}</dd>
           </div>
         </dl>
+        <div className="space-y-0.5 rounded-lg bg-surface-2 px-3 py-2">
+          <p className="text-xs text-sub">
+            {nightsLabel(nights)} 예상 총액{' '}
+            <b className="text-sm text-ink">{won(score.totalCost)}</b>
+          </p>
+          <ScoreBreakdown score={score} />
+        </div>
         <p className="text-xs text-sub">
           <span className="font-medium">랜드마크</span> · {d.landmarks.join(' · ')}
         </p>
         <p className="rounded-lg bg-note px-3 py-2 text-xs text-note-ink">
-          <span className="font-semibold">{nights}박 기준 패키지 비교</span> · {v.text}
+          <span className="font-semibold">{nightsLabel(nights)} 패키지 비교</span> · {v.text}
         </p>
         {d.imageCredit && (
           <p className="truncate text-xs text-sub">

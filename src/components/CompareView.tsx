@@ -1,21 +1,28 @@
 'use client';
 import Link from 'next/link';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import type { DestinationView } from '@/lib/data';
-import { freeTripCost, packageStats, pickNights, verdict } from '@/lib/compare';
+import { freeTripCost, packageStats, verdict } from '@/lib/compare';
 import { NA, SEASON_LABEL, temp, won, wonRange } from '@/lib/format';
 import { COMPARE_KEY, COMPARE_MAX, useStoredList } from '@/lib/storage';
-import { fallbackNights, isRainy, parseMonth, visaLabel } from '@/lib/view';
-import { MonthPicker } from './MonthPicker';
+import { isRainy, visaLabel } from '@/lib/view';
+import { nightsLabel } from '@/lib/prefs';
+import type { PeerStats } from '@/lib/trip';
+import { useTrip } from '@/lib/useTrip';
+import { ScoreBreakdown } from './ScoreBreakdown';
+import { TripControls } from './TripControls';
 import { PriceNotice } from './Notice';
 
 type Row = { label: string; cell: (d: DestinationView) => React.ReactNode };
 
-export function CompareView({ destinations }: { destinations: DestinationView[] }) {
-  const sp = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
-  const month = parseMonth(sp.get('m'));
+export function CompareView({
+  destinations,
+  peers,
+}: {
+  destinations: DestinationView[];
+  peers: PeerStats;
+}) {
+  const { prefs, scores, sp, setPrefs, query } = useTrip(destinations, peers);
+  const { month, nights } = prefs;
   const stored = useStoredList(COMPARE_KEY, COMPARE_MAX);
   // ?ids= 로 공유된 링크가 있으면 그것을, 없으면 저장된 비교 목록을 쓴다
   const shared = sp.get('ids')?.split(',').filter(Boolean) ?? null;
@@ -24,15 +31,8 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
     .map((id) => destinations.find((d) => d.id === id))
     .filter((d): d is DestinationView => !!d);
 
-  const setMonth = (m: number) => {
-    const p = new URLSearchParams(sp.toString());
-    p.set('m', String(m));
-    router.replace(`${pathname}?${p}`, { scroll: false });
-  };
-
   const trip = (d: DestinationView) => {
     const m = d.months[month - 1];
-    const nights = pickNights(d.packages, fallbackNights(d));
     const free = freeTripCost({
       flightMin: m.flight.min,
       flightMax: m.flight.max,
@@ -44,7 +44,15 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
   };
 
   const rows: Row[] = [
-    { label: '가성비 점수', cell: (d) => d.months[month - 1].score.total ?? NA },
+    {
+      label: '가성비 점수',
+      cell: (d) => (
+        <>
+          <b>{scores.get(d.id)!.total ?? NA}</b>
+          <ScoreBreakdown score={scores.get(d.id)!} compact />
+        </>
+      ),
+    },
     {
       label: '기온',
       cell: (d) => temp(d.months[month - 1].avgTempMin, d.months[month - 1].avgTempMax),
@@ -71,7 +79,7 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
       },
     },
     { label: '현지 1일 경비', cell: (d) => won(d.months[month - 1].dailyCost.total) },
-    { label: '4박 총액(대표값)', cell: (d) => won(d.months[month - 1].totalCost) },
+    { label: `${nightsLabel(nights)} 총액`, cell: (d) => won(scores.get(d.id)!.totalCost) },
     {
       label: '비행시간',
       cell: (d) => (d.flightHours.ICN === null ? NA : `약 ${d.flightHours.ICN}시간`),
@@ -81,7 +89,7 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
       label: '자유여행 추정',
       cell: (d) => {
         const t = trip(d);
-        return t.free ? `${wonRange(t.free.min, t.free.max)} (${t.nights}박)` : NA;
+        return t.free ? wonRange(t.free.min, t.free.max) : NA;
       },
     },
     {
@@ -98,11 +106,11 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
 
   return (
     <div className="space-y-5">
-      <MonthPicker value={month} onChange={setMonth} />
+      <TripControls prefs={prefs} onChange={setPrefs} />
       {shared && (
         <p className="text-xs text-sub">
           공유된 비교 링크를 보고 있어요.{' '}
-          <Link href={`/compare/?m=${month}`} className="text-link underline">
+          <Link href={`/compare/?${query}`} className="text-link underline">
             내 비교 목록 보기
           </Link>
         </p>
@@ -111,7 +119,7 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
         <div className="rounded-xl border border-dashed border-line-strong p-8 text-center text-sm text-sub">
           비교할 여행지가 없어요. 목록에서 카드의 <b>+ 비교</b>를 눌러 최대 {COMPARE_MAX}곳까지 담아
           보세요.{' '}
-          <Link href={`/?m=${month}`} className="text-link underline">
+          <Link href={`/?${query}`} className="text-link underline">
             여행지 보러 가기
           </Link>
         </div>
@@ -127,10 +135,7 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
                   </th>
                   {picked.map((d) => (
                     <th key={d.id} scope="col" className="p-3 text-left align-top">
-                      <Link
-                        href={`/d/${d.id}/?m=${month}`}
-                        className="font-bold text-link underline"
-                      >
+                      <Link href={`/d/${d.id}/?${query}`} className="font-bold text-link underline">
                         {d.nameKo}
                       </Link>
                       <span className="ml-1 text-xs font-normal text-sub">{d.country}</span>
@@ -169,7 +174,7 @@ export function CompareView({ destinations }: { destinations: DestinationView[] 
             <span>
               공유 링크:{' '}
               <Link
-                href={`/compare/?m=${month}&ids=${picked.map((d) => d.id).join(',')}`}
+                href={`/compare/?${query}&ids=${picked.map((d) => d.id).join(',')}`}
                 className="text-link underline"
               >
                 이 비교 열기

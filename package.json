@@ -20,6 +20,7 @@
     "fx": "tsx scripts/fx.ts"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "next": "^16.4.3",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@playwright/test": "^1.64.1",
     "@tailwindcss/postcss": "^4.3.3",
+    "@types/leaflet": "^1.9.22",
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",

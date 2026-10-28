@@ -1,122 +1,116 @@
 'use client';
 import { useMemo } from 'react';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import type { DestinationView } from '@/lib/data';
 import { THEMES } from '@/lib/themes';
-import { meanTemp, parseMonth } from '@/lib/view';
-import { MonthPicker } from './MonthPicker';
+import { meanTemp } from '@/lib/view';
+import { nightsLabel } from '@/lib/prefs';
+import { FAV_KEY, useStoredList } from '@/lib/storage';
+import { useTrip } from '@/lib/useTrip';
+import type { PeerStats } from '@/lib/trip';
 import { DestinationCard } from './DestinationCard';
 import { PriceNotice } from './Notice';
 import { TopFive } from './TopFive';
-import { FAV_KEY, useStoredList } from '@/lib/storage';
+import { TripControls } from './TripControls';
 
-type Sort = 'score' | 'flight' | 'comfort';
+type Sort = 'score' | 'cost' | 'flight' | 'comfort';
 const SORT_LABEL: Record<Sort, string> = {
   score: '가성비 점수순',
+  cost: '총액 낮은 순',
   flight: '항공값 낮은 순',
-  comfort: '기온 쾌적도순',
+  comfort: '날씨 점수순',
 };
-const BUDGETS = [50, 100, 150, 200, 300];
-const TEMP_FILTER = {
-  any: '전체',
-  cool: '선선 (평균 18℃ 미만)',
-  mild: '쾌적 (18~27℃)',
-  hot: '더움 (27℃ 초과)',
-} as const;
-type TempKey = keyof typeof TEMP_FILTER;
+const BUDGETS = [50, 100, 150, 200, 300, 400, 500];
 
 const last = (a: number | null, b: number) => (a === null ? b : a);
 
-export function Explorer({ destinations }: { destinations: DestinationView[] }) {
-  const sp = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
+export function Explorer({
+  destinations,
+  peers,
+}: {
+  destinations: DestinationView[];
+  peers: PeerStats;
+}) {
+  const { prefs, scores, sp, setParams, setPrefs, query } = useTrip(destinations, peers);
+  const { month } = prefs;
 
-  const month = parseMonth(sp.get('m'));
   const themeParam = sp.get('theme') ?? '';
   const themes = useMemo(() => themeParam.split(',').filter(Boolean), [themeParam]);
   const budget = Number(sp.get('budget')) || null; // 만 원
   const includeUnknownCost = sp.get('unknown') === '1';
   const maxHours = Number(sp.get('hours')) || null;
   const visaFree = sp.get('visa') === 'free';
-  const tempKey = (sp.get('temp') ?? 'any') as TempKey;
+  const inTempOnly = sp.get('intemp') === '1';
   const sort = (sp.get('sort') ?? 'score') as Sort;
   const favOnly = sp.get('fav') === '1';
   const fav = useStoredList(FAV_KEY);
-
-  const set = (patch: Record<string, string | null>) => {
-    const p = new URLSearchParams(sp.toString());
-    for (const [k, v] of Object.entries(patch)) {
-      if (v === null || v === '') p.delete(k);
-      else p.set(k, v);
-    }
-    router.replace(`${pathname}?${p}`, { scroll: false });
-  };
 
   const { list, unknownCostHidden } = useMemo(() => {
     let unknownCostHidden = 0;
     const out = destinations.filter((d) => {
       const m = d.months[month - 1];
+      const s = scores.get(d.id)!;
       if (favOnly && !fav.list.includes(d.id)) return false;
       if (themes.length && !themes.some((t) => (d.themes as string[]).includes(t))) return false;
       if (visaFree && d.visaInfo.kind !== 'free') return false;
       const h = d.flightHours.ICN;
       if (maxHours && (h === null || h > maxHours)) return false;
-      const t = meanTemp(m);
-      if (tempKey !== 'any') {
-        if (t === null) return false;
-        if (tempKey === 'cool' && t >= 18) return false;
-        if (tempKey === 'mild' && (t < 18 || t > 27)) return false;
-        if (tempKey === 'hot' && t <= 27) return false;
+      if (inTempOnly) {
+        const t = meanTemp(m);
+        if (t === null || t < prefs.tMin || t > prefs.tMax) return false;
       }
       if (budget) {
-        if (m.totalCost === null) {
+        if (s.totalCost === null) {
           if (!includeUnknownCost) unknownCostHidden++;
           return includeUnknownCost;
         }
-        if (m.totalCost > budget * 10000) return false;
+        if (s.totalCost > budget * 10000) return false;
       }
       return true;
     });
     const key = (d: DestinationView) => {
-      const m = d.months[month - 1];
-      if (sort === 'flight') return last(m.flight.min, Infinity);
-      if (sort === 'comfort') return -last(m.score.parts.climate, -Infinity);
-      return -last(m.score.total, -Infinity);
+      const s = scores.get(d.id)!;
+      if (sort === 'cost') return last(s.totalCost, Infinity);
+      if (sort === 'flight') return last(d.months[month - 1].flight.min, Infinity);
+      if (sort === 'comfort') return -last(s.parts.climate, -Infinity);
+      return -last(s.total, -Infinity);
     };
     return { list: out.sort((a, b) => key(a) - key(b)), unknownCostHidden };
   }, [
     destinations,
+    scores,
     month,
+    prefs.tMin,
+    prefs.tMax,
     themes,
     budget,
     includeUnknownCost,
     maxHours,
     visaFree,
-    tempKey,
+    inTempOnly,
     sort,
     favOnly,
     fav.list,
   ]);
 
-  const unpricedShown = list.filter((d) => d.months[month - 1].score.parts.price === null).length;
+  const unpricedShown = list.filter((d) => scores.get(d.id)!.parts.price === null).length;
 
   const toggleTheme = (t: string) =>
-    set({
+    setParams({
       theme:
         (themes.includes(t) ? themes.filter((x) => x !== t) : [...themes, t]).join(',') || null,
     });
 
   const select =
     'rounded-lg border border-line-strong bg-surface px-2.5 py-2 text-sm focus-visible:outline-2 focus-visible:outline-sky-600';
+  const check = 'flex items-center gap-2 py-2 text-sm text-ink';
 
   return (
     <div className="space-y-5">
-      <section aria-label="월 선택" className="space-y-2">
-        <MonthPicker value={month} onChange={(m) => set({ m: String(m) })} />
-      </section>
+      <TripControls prefs={prefs} onChange={setPrefs} />
 
-      {!favOnly && <TopFive destinations={destinations} month={month} />}
+      {!favOnly && (
+        <TopFive destinations={destinations} prefs={prefs} scores={scores} query={query} />
+      )}
 
       <section
         aria-label="필터와 정렬"
@@ -144,27 +138,13 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             })}
           </div>
         </fieldset>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
           <label className="flex flex-col gap-1 text-xs text-sub">
-            기온
-            <select
-              className={select}
-              value={tempKey}
-              onChange={(e) => set({ temp: e.target.value === 'any' ? null : e.target.value })}
-            >
-              {(Object.keys(TEMP_FILTER) as TempKey[]).map((k) => (
-                <option key={k} value={k}>
-                  {TEMP_FILTER[k]}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="flex flex-col gap-1 text-xs text-sub">
-            예산 상한 (항공+경비)
+            예산 상한 ({nightsLabel(prefs.nights)} 총액)
             <select
               className={select}
               value={budget ?? ''}
-              onChange={(e) => set({ budget: e.target.value || null })}
+              onChange={(e) => setParams({ budget: e.target.value || null })}
             >
               <option value="">제한 없음</option>
               {BUDGETS.map((b) => (
@@ -179,7 +159,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             <select
               className={select}
               value={maxHours ?? ''}
-              onChange={(e) => set({ hours: e.target.value || null })}
+              onChange={(e) => setParams({ hours: e.target.value || null })}
             >
               <option value="">제한 없음</option>
               {[3, 5, 8, 12].map((h) => (
@@ -194,7 +174,9 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             <select
               className={select}
               value={sort}
-              onChange={(e) => set({ sort: e.target.value === 'score' ? null : e.target.value })}
+              onChange={(e) =>
+                setParams({ sort: e.target.value === 'score' ? null : e.target.value })
+              }
             >
               {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
                 <option key={s} value={s}>
@@ -203,46 +185,57 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
               ))}
             </select>
           </label>
-          <label className="flex items-center gap-2 self-end py-2 text-sm text-ink">
+        </div>
+        <div className="flex flex-wrap gap-x-5">
+          <label className={check}>
+            <input
+              type="checkbox"
+              className="size-4 accent-sky-700"
+              checked={inTempOnly}
+              onChange={(e) => setParams({ intemp: e.target.checked ? '1' : null })}
+            />
+            선호 기온 안에 드는 곳만
+          </label>
+          <label className={check}>
             <input
               type="checkbox"
               className="size-4 accent-sky-700"
               checked={visaFree}
-              onChange={(e) => set({ visa: e.target.checked ? 'free' : null })}
+              onChange={(e) => setParams({ visa: e.target.checked ? 'free' : null })}
             />
             무비자만
           </label>
-          <label className="flex items-center gap-2 self-end py-2 text-sm text-ink">
+          <label className={check}>
             <input
               type="checkbox"
               className="size-4 accent-sky-700"
               checked={favOnly}
-              onChange={(e) => set({ fav: e.target.checked ? '1' : null })}
+              onChange={(e) => setParams({ fav: e.target.checked ? '1' : null })}
             />
             즐겨찾기만 ({fav.list.length})
           </label>
+          {budget !== null && (
+            <label className={check}>
+              <input
+                type="checkbox"
+                className="size-4 accent-sky-700"
+                checked={includeUnknownCost}
+                onChange={(e) => setParams({ unknown: e.target.checked ? '1' : null })}
+              />
+              경비 정보 없는 곳도 보기
+              {unknownCostHidden > 0 && ` (${unknownCostHidden}곳 숨김)`}
+            </label>
+          )}
         </div>
-        {budget !== null && (
-          <label className="flex items-center gap-2 text-xs text-sub">
-            <input
-              type="checkbox"
-              className="size-4 accent-sky-700"
-              checked={includeUnknownCost}
-              onChange={(e) => set({ unknown: e.target.checked ? '1' : null })}
-            />
-            경비 정보가 없는 곳도 보기
-            {unknownCostHidden > 0 && ` (지금 ${unknownCostHidden}곳 숨김)`}
-          </label>
-        )}
         <p className="text-xs text-sub">
-          예산은 왕복 항공(해당 월 또는 연중 대표가 중간값) + 1일 경비 × 4박 기준이에요. 항공값은
-          인천 출발 기준이에요.
+          총액 = 왕복 항공(해당 월, 없으면 연중 대표가의 중간값) + 1일 경비 × {prefs.nights}박.
+          항공은 인천 출발 기준이에요.
         </p>
       </section>
 
       <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
         <h2 className="text-base font-semibold" aria-live="polite">
-          {month}월 추천 {list.length}곳
+          {month}월 · {nightsLabel(prefs.nights)} 추천 {list.length}곳
         </h2>
         <PriceNotice />
       </div>
@@ -257,7 +250,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((d) => (
             <li key={d.id}>
-              <DestinationCard d={d} month={month} />
+              <DestinationCard d={d} prefs={prefs} score={scores.get(d.id)!} query={query} />
             </li>
           ))}
         </ul>
