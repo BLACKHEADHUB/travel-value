@@ -25,9 +25,11 @@ export function TopFive({
     <section aria-labelledby="top5-h" className="space-y-3">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="top5-h" className="text-xl font-bold tracking-tight">
-          {prefs.month}월 · {nightsLabel(prefs.nights)} 가성비 TOP 5
+          {prefs.month}월의 제철 여행지 TOP 5
         </h2>
-        <p className="text-xs text-sub">가격 정보가 있는 곳만 순위에 넣었어요</p>
+        <p className="text-xs text-sub">
+          {nightsLabel(prefs.nights)} 기준 · 가격 정보가 있는 곳만 순위에 넣었어요
+        </p>
       </div>
       <ol className="no-scrollbar -mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-1 lg:mx-0 lg:grid lg:grid-cols-5 lg:px-0">
         {top.map((d, i) => {

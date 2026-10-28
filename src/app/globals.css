@@ -26,25 +26,25 @@
 
 :root {
   color-scheme: light;
-  --surface-0: #f6f7f9;
+  --surface-0: #f7f5f0;
   --surface: #ffffff;
-  --surface-2: #fafafa;
-  --muted: #f4f4f5;
-  --line: #e4e4e7;
-  --line-strong: #d4d4d8;
-  --ink: #18181b;
-  --sub: #52525b;
-  --link: #075985;
+  --surface-2: #fbfaf7;
+  --muted: #f1efe9;
+  --line: #e7e3da;
+  --line-strong: #d6d1c4;
+  --ink: #1c1917;
+  --sub: #57534e;
+  --link: #0f766e;
   --info: #e0f2fe;
   --note: #fffbeb;
   --note-ink: #78350f;
-  --accent: #0369a1;
-  --accent-soft: #e0f2fe;
+  --accent: #0f766e;
+  --accent-soft: #ccfbf1;
 }
 
 .dark {
   color-scheme: dark;
-  --surface-0: #0f0f12;
+  --surface-0: #0c0f0e;
   --surface: #18181b;
   --surface-2: #1f1f23;
   --muted: #27272a;
@@ -52,12 +52,12 @@
   --line-strong: #52525b;
   --ink: #f4f4f5;
   --sub: #a1a1aa;
-  --link: #7dd3fc;
+  --link: #5eead4;
   --info: #0c4a6e;
   --note: #422006;
   --note-ink: #fde68a;
-  --accent: #38bdf8;
-  --accent-soft: #0c4a6e;
+  --accent: #2dd4bf;
+  --accent-soft: #134e4a;
 }
 
 /* Leaflet 팝업·컨트롤은 라이트 고정이라 글자색만 보정 */

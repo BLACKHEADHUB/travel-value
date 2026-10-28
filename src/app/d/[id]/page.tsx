@@ -12,7 +12,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const d = loadDestinations().find((x) => x.id === id);
-  return { title: d ? `${d.nameKo} — 몇 월에 어디 갈까` : '여행지' };
+  return { title: d ? `${d.nameKo} 제철 정보` : '여행지' };
 }
 
 export default async function DetailPage({ params }: { params: Promise<{ id: string }> }) {

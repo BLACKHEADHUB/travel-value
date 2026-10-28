@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { loadDestinations, loadPeerStats } from '@/lib/data';
 import { CompareView } from '@/components/CompareView';
 
-export const metadata = { title: '여행지 비교 — 몇 월에 어디 갈까' };
+export const metadata = { title: '여행지 비교' };
 
 export default function ComparePage() {
   return (

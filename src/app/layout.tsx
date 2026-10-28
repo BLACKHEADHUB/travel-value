@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import { SiteNav } from '@/components/SiteNav';
 import { SiteFooter } from '@/components/SiteFooter';
 import { themeInitScript } from '@/components/ThemeToggle';
+import { BRAND } from '@/components/Logo';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '몇 월에 어디 갈까 — 시기별 가성비 여행지',
-  description: '언제, 며칠, 어떤 날씨로 떠날지 고르면 같은 돈으로 가장 알찬 여행지를 골라 드려요.',
+  title: { default: `${BRAND.name} — ${BRAND.tagline}`, template: `%s · ${BRAND.name}` },
+  description: BRAND.description,
+  icons: { icon: '/icon.svg' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

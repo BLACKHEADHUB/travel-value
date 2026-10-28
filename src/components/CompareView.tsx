@@ -143,7 +143,7 @@ export function CompareView({
                         <button
                           type="button"
                           onClick={() => stored.toggle(d.id)}
-                          className="ml-2 text-xs text-sub underline focus-visible:outline-2 focus-visible:outline-sky-600"
+                          className="ml-2 text-xs text-sub underline focus-visible:outline-2 focus-visible:outline-accent"
                           aria-label={`${d.nameKo} 비교에서 빼기`}
                         >
                           빼기
