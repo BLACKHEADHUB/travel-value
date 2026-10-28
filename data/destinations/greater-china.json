@@ -432,5 +432,1187 @@
         "notes": null
       }
     ]
+  },
+  {
+    "id": "hongkong",
+    "nameKo": "홍콩",
+    "country": "홍콩",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 22.3193,
+      "lng": 114.1694
+    },
+    "themes": ["도시", "미식", "쇼핑"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 여권 관광 90일 무비자(홍콩 정부 2024년 발표 보도 기준). 공식 이민국 페이지는 열람 실패 — 현행 여부 재확인 필요",
+      "source": "https://www.news.gov.hk/eng/2024/05/20240523/20240523_223502_886.html"
+    },
+    "flightHours": {
+      "ICN": 3.7,
+      "GMP": null
+    },
+    "landmarks": ["빅토리아 피크", "빅토리아 하버", "센트럴", "침사추이"],
+    "flightPriceTypical": {
+      "min": 269436,
+      "max": 372539,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/홍콩-HKG",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 인천 출발 왕복 최근 12개월 일반 가격 범위(평균 315,571원)"
+    },
+    "imageFile": "Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/1280px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Diliff",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 365481,
+          "max": 365481,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/홍콩-HKG",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 연중 최고가 달"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 266165,
+          "max": 266165,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/홍콩-HKG",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 연중 최저가 달"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 358860,
+          "max": 358860,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/홍콩-HKG",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "HKD",
+            "total": 1523,
+            "lodging": 1199,
+            "food": 422,
+            "transport": 68
+          },
+          "fx": {
+            "rate": 169.233,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 257700,
+          "lodging": 202900,
+          "food": 71400,
+          "transport": 11500,
+          "source": "https://www.budgetyourtrip.com/hong-kong",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 두 번째로 비싼 달"
+      }
+    ]
+  },
+  {
+    "id": "shanghai",
+    "nameKo": "상하이",
+    "country": "중국",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "themes": ["도시", "문화/역사", "미식"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 일반여권 소지자 중국 무비자(관광·상용·친지방문·환승 등 30일 이내), 2026년 12월 31일까지 연장 보도(2025-11 중국 외교부 발표). 공식 원문은 열람 못 해 현행 여부는 주중국대한민국대사관·외교부 해외안전여행에서 재확인 필요",
+      "source": "https://www.heraldk.com/article/2025110303430536138"
+    },
+    "flightHours": {
+      "ICN": 2,
+      "GMP": null
+    },
+    "landmarks": ["와이탄", "동방명주", "예원", "푸둥 루자쭈이"],
+    "flightPriceTypical": {
+      "min": 178016,
+      "max": 310529,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/상하이-SHA",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 인천 출발 왕복 최근 12개월 일반 가격 범위(평균 215,767원)"
+    },
+    "imageFile": "Pudong Shanghai November 2017 panorama.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pudong_Shanghai_November_2017_panorama.jpg/1280px-Pudong_Shanghai_November_2017_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_panorama.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 374339,
+          "max": 374339,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/상하이-SHA",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 두 번째로 비싼 달(SHA 노선 페이지)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 403439,
+          "max": 403439,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/상하이-SHA",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 연중 최고가 달"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 167989,
+          "max": 167989,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/상하이-SHA",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 연중 최저가 달"
+      }
+    ]
+  },
+  {
+    "id": "qingdao",
+    "nameKo": "칭다오",
+    "country": "중국",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 36.0671,
+      "lng": 120.3826
+    },
+    "themes": ["도시", "휴양", "미식"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 일반여권 소지자 중국 무비자(관광·상용·친지방문·환승 등 30일 이내), 2026년 12월 31일까지 연장 보도(2025-11 중국 외교부 발표). 공식 원문은 열람 못 해 현행 여부는 주중국대한민국대사관·외교부 해외안전여행에서 재확인 필요",
+      "source": "https://www.heraldk.com/article/2025110303430536138"
+    },
+    "flightHours": {
+      "ICN": 1.5,
+      "GMP": null
+    },
+    "landmarks": ["잔교", "칭다오 맥주박물관", "5·4광장", "팔대관"],
+    "flightPriceTypical": {
+      "min": 97606,
+      "max": 224027,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칭다오-TAO",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 인천 출발 왕복 최근 12개월 일반 가격 범위(평균 133,079원)"
+    },
+    "imageFile": "20240729 Zhanqiao 02.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/20240729_Zhanqiao_02.jpg/1280px-20240729_Zhanqiao_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Windmemories",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240729_Zhanqiao_02.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 97950,
+          "max": 97950,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칭다오-TAO",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 연중 최저가 달"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 244874,
+          "max": 244874,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칭다오-TAO",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 두 번째로 비싼 달"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 247521,
+          "max": 247521,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칭다오-TAO",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 연중 최고가 달"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 521,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 103300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/qingdao",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
   }
 ]

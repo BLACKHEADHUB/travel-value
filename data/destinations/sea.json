@@ -432,5 +432,1753 @@
         "notes": "건기, 연말연시 수요 높음"
       }
     ]
+  },
+  {
+    "id": "danang",
+    "nameKo": "다낭",
+    "country": "베트남",
+    "region": "sea",
+    "coordinates": {
+      "lat": 16.0544,
+      "lng": 108.2022
+    },
+    "themes": ["휴양", "미식", "도시"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 여권 관광 목적 무비자(45일 체류 안내). 최신 체류일수는 출국 전 주베트남대사관/외교부 공지 재확인 필요.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 4.8,
+      "GMP": null
+    },
+    "landmarks": ["미케 비치", "골든브리지(바나힐)", "용다리", "마블 마운틴", "호이안 구시가지"],
+    "flightPriceTypical": {
+      "min": 264919,
+      "max": 404031,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/다낭-DAD",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "Kayak ICN-다낭 왕복 '일반적인 금액' 범위, 지난 12개월 평균 왕복 326,592원 기준"
+    },
+    "imageFile": "Golden_Bridge_Da_Nang.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Golden_Bridge_Da_Nang.jpg/1280px-Golden_Bridge_Da_Nang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Vivu Vietnam",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Bridge_Da_Nang.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기, 선선하고 맑음. 항공가 연중 최고 경향(Kayak 중간값)"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 404719,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/다낭-DAD",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기, 따뜻해지는 시기"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기, 해수욕 시작"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기, 맑고 더움"
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기, 해수욕 적기"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 380912,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/다낭-DAD",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기, 여름휴가 수요. 항공가 높은 편"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기, 매우 더움"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 267168,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/다낭-DAD",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기 시작(9~12월), 태풍 시기. 항공가 연중 최저 경향"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기 한복판, 태풍·호우 가능"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기, 태풍·호우 가능"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": 27,
+            "transport": 11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": 35800,
+          "transport": 14600,
+          "source": "https://www.budgetyourtrip.com/vietnam/da-nang",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "우기 끝자락, 선선"
+      }
+    ]
+  },
+  {
+    "id": "cebu",
+    "nameKo": "세부",
+    "country": "필리핀",
+    "region": "sea",
+    "coordinates": {
+      "lat": 10.3157,
+      "lng": 123.8854
+    },
+    "themes": ["휴양", "액티비티"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 여권 관광 목적 30일 무비자. 입국 72시간 이내 eTravel 온라인 등록 필요(최신 요건 출국 전 재확인).",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 4.7,
+      "GMP": null
+    },
+    "landmarks": ["막탄 섬", "마젤란 십자가", "산토니뇨 성당", "카와산 폭포", "오슬롭"],
+    "flightPriceTypical": {
+      "min": 299276,
+      "max": 462614,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/세부-CEB",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "Kayak ICN-세부 왕복 '일반적인 금액' 범위, 지난 12개월 평균 왕복 371,031원 기준"
+    },
+    "imageFile": "Magellan's_Cross_Cebu.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Magellan%27s_Cross_Cebu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageCredit": {
+      "author": "Kingphoto23",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magellan%27s_Cross_Cebu.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기, 성수기"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기, 성수기"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 283260,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/세부-CEB",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기. 항공가 연중 최저 경향(Kayak 중간값)"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 끝, 매우 더움(성수기 막바지), 성주간 수요"
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "더워지고 우기 시작 전후"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": 426213,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/세부-CEB",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기 시작(6~11월), 스콜 잦음. 항공가 연중 최고 경향"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 398417,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/세부-CEB",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기, 태풍 가능"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기, 태풍 가능"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기, 태풍 가능"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "우기 끝자락, 태풍 가능"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "우기 끝, 건기 진입"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 74,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 98100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/philippines/cebu",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기, 연말연시 수요 높음"
+      }
+    ]
+  },
+  {
+    "id": "singapore",
+    "nameKo": "싱가포르",
+    "country": "싱가포르",
+    "region": "sea",
+    "coordinates": {
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    "themes": ["도시", "미식", "쇼핑"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 여권 관광 목적 무비자(90일 체류 안내). 도착 3일 이내 SG Arrival Card(전자 입국신고) 온라인 제출 필수. 최신 요건 출국 전 재확인.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 6.6,
+      "GMP": null
+    },
+    "landmarks": [
+      "마리나 베이 샌즈",
+      "가든스 바이 더 베이",
+      "머라이언 파크",
+      "센토사 섬",
+      "차이나타운"
+    ],
+    "flightPriceTypical": {
+      "min": 394309,
+      "max": 620911,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/싱가포르-SIN",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "Kayak ICN-싱가포르 왕복 '일반적인 금액' 범위, 지난 12개월 평균 왕복 494,971원 기준"
+    },
+    "imageFile": "Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/1280px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Someformofhuman",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_in_the_evening_-_20101120.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 606141,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/싱가포르-SIN",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "연중 고온다습, 1~2월 상대적 건기. 항공가 높은 편"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "상대적 건기, 설 연휴 수요"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "연중 고온다습"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": 365273,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/싱가포르-SIN",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "연중 고온다습. 항공가 연중 최저 경향(Kayak 중간값)"
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "연중 고온다습"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "학교 방학 시즌 수요 증가"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "여름 성수기 수요"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "연중 고온다습, 8월 건국기념일"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "연중 고온다습"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "연중 고온다습"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "북동 몬순 시작, 비 잦아짐"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 673637,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/싱가포르-SIN",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 180,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 238700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/singapore",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "북동 몬순 우기, 연말 성수기. 항공가 연중 최고 경향"
+      }
+    ]
+  },
+  {
+    "id": "bali",
+    "nameKo": "발리",
+    "country": "인도네시아",
+    "region": "sea",
+    "coordinates": {
+      "lat": -8.4095,
+      "lng": 115.1889
+    },
+    "themes": ["휴양", "문화/역사"],
+    "visaInfo": {
+      "required": true,
+      "note": "한국 여권은 도착비자(VoA, 전자 e-VOA 가능) 필요: 30일, 약 IDR 500,000 안내. 도착 전 All Indonesia 전자입국신고 및 발리 관광세(IDR 150,000) 납부 필요. 금액·요건은 출국 전 공식 사이트에서 재확인.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 7.2,
+      "GMP": null
+    },
+    "landmarks": [
+      "울루와뚜 사원",
+      "따나롯 사원",
+      "우붓 몽키 포레스트",
+      "울룬 다누 브라탄 사원",
+      "꾸따 비치"
+    ],
+    "flightPriceTypical": {
+      "min": 553955,
+      "max": 819418,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/발리-DPS",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "Kayak ICN-덴파사르(발리) 왕복 '일반적인 금액' 범위, 지난 12개월 평균 왕복 678,069원 기준"
+    },
+    "imageFile": "Tanah_Lot_Bali.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tanah_Lot_Bali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageCredit": {
+      "author": "AntaraTV",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanah_Lot_Bali.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "우기(11~3월), 연말연시 이후 비 잦음"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기 끝자락"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기 시작(4~10월)"
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기 시작"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 752646,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/발리-DPS",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기, 항공가 높은 편"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 747354,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/발리-DPS",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "건기 성수기, 항공가 높은 편(Kayak 중간값)"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "건기 끝, 우기 직전"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 510582,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/발리-DPS",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": "우기 시작, 항공가 연중 최저 경향(Kayak 중간값)"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 79,
+            "lodging": null,
+            "food": 32,
+            "transport": 8.11
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 104800,
+          "lodging": null,
+          "food": 42400,
+          "transport": 10800,
+          "source": "https://www.budgetyourtrip.com/indonesia/bali",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "우기, 연말 성수기"
+      }
+    ]
   }
 ]

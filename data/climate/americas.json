@@ -1,0 +1,303 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5), 도시 좌표 기준 월평균",
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "generatedAt": "2026-10-28",
+  "cities": {
+    "honolulu": [
+      {
+        "month": 1,
+        "avgTempMin": 20.2,
+        "avgTempMax": 25.4,
+        "rainfallMm": 34
+      },
+      {
+        "month": 2,
+        "avgTempMin": 19.7,
+        "avgTempMax": 24.7,
+        "rainfallMm": 48
+      },
+      {
+        "month": 3,
+        "avgTempMin": 20.2,
+        "avgTempMax": 25.1,
+        "rainfallMm": 64
+      },
+      {
+        "month": 4,
+        "avgTempMin": 21,
+        "avgTempMax": 26.1,
+        "rainfallMm": 40
+      },
+      {
+        "month": 5,
+        "avgTempMin": 21.8,
+        "avgTempMax": 27,
+        "rainfallMm": 35
+      },
+      {
+        "month": 6,
+        "avgTempMin": 22.9,
+        "avgTempMax": 28.4,
+        "rainfallMm": 35
+      },
+      {
+        "month": 7,
+        "avgTempMin": 23.3,
+        "avgTempMax": 28.8,
+        "rainfallMm": 19
+      },
+      {
+        "month": 8,
+        "avgTempMin": 23.6,
+        "avgTempMax": 29.5,
+        "rainfallMm": 20
+      },
+      {
+        "month": 9,
+        "avgTempMin": 23.6,
+        "avgTempMax": 29.4,
+        "rainfallMm": 20
+      },
+      {
+        "month": 10,
+        "avgTempMin": 22.9,
+        "avgTempMax": 28.6,
+        "rainfallMm": 31
+      },
+      {
+        "month": 11,
+        "avgTempMin": 22.2,
+        "avgTempMax": 27.4,
+        "rainfallMm": 32
+      },
+      {
+        "month": 12,
+        "avgTempMin": 21,
+        "avgTempMax": 25.8,
+        "rainfallMm": 75
+      }
+    ],
+    "losangeles": [
+      {
+        "month": 1,
+        "avgTempMin": 7.5,
+        "avgTempMax": 18.7,
+        "rainfallMm": 98
+      },
+      {
+        "month": 2,
+        "avgTempMin": 7.2,
+        "avgTempMax": 19.8,
+        "rainfallMm": 53
+      },
+      {
+        "month": 3,
+        "avgTempMin": 8.9,
+        "avgTempMax": 19.9,
+        "rainfallMm": 98
+      },
+      {
+        "month": 4,
+        "avgTempMin": 11.5,
+        "avgTempMax": 23.9,
+        "rainfallMm": 23
+      },
+      {
+        "month": 5,
+        "avgTempMin": 13.1,
+        "avgTempMax": 24.6,
+        "rainfallMm": 14
+      },
+      {
+        "month": 6,
+        "avgTempMin": 15.2,
+        "avgTempMax": 27.7,
+        "rainfallMm": 10
+      },
+      {
+        "month": 7,
+        "avgTempMin": 16.9,
+        "avgTempMax": 30.9,
+        "rainfallMm": 2
+      },
+      {
+        "month": 8,
+        "avgTempMin": 17.8,
+        "avgTempMax": 31.7,
+        "rainfallMm": 18
+      },
+      {
+        "month": 9,
+        "avgTempMin": 17.7,
+        "avgTempMax": 31,
+        "rainfallMm": 18
+      },
+      {
+        "month": 10,
+        "avgTempMin": 14.7,
+        "avgTempMax": 28.3,
+        "rainfallMm": 6
+      },
+      {
+        "month": 11,
+        "avgTempMin": 10.5,
+        "avgTempMax": 23.9,
+        "rainfallMm": 28
+      },
+      {
+        "month": 12,
+        "avgTempMin": 8.3,
+        "avgTempMax": 18.8,
+        "rainfallMm": 127
+      }
+    ],
+    "newyork": [
+      {
+        "month": 1,
+        "avgTempMin": -2.7,
+        "avgTempMax": 5.2,
+        "rainfallMm": 92
+      },
+      {
+        "month": 2,
+        "avgTempMin": -2.6,
+        "avgTempMax": 6.2,
+        "rainfallMm": 92
+      },
+      {
+        "month": 3,
+        "avgTempMin": 0.7,
+        "avgTempMax": 10.6,
+        "rainfallMm": 106
+      },
+      {
+        "month": 4,
+        "avgTempMin": 5.9,
+        "avgTempMax": 15.7,
+        "rainfallMm": 129
+      },
+      {
+        "month": 5,
+        "avgTempMin": 10.9,
+        "avgTempMax": 20.6,
+        "rainfallMm": 97
+      },
+      {
+        "month": 6,
+        "avgTempMin": 16.7,
+        "avgTempMax": 26.2,
+        "rainfallMm": 89
+      },
+      {
+        "month": 7,
+        "avgTempMin": 20.9,
+        "avgTempMax": 30,
+        "rainfallMm": 147
+      },
+      {
+        "month": 8,
+        "avgTempMin": 20.1,
+        "avgTempMax": 28.5,
+        "rainfallMm": 115
+      },
+      {
+        "month": 9,
+        "avgTempMin": 16.1,
+        "avgTempMax": 24.6,
+        "rainfallMm": 137
+      },
+      {
+        "month": 10,
+        "avgTempMin": 10.8,
+        "avgTempMax": 18.8,
+        "rainfallMm": 174
+      },
+      {
+        "month": 11,
+        "avgTempMin": 3.4,
+        "avgTempMax": 12.1,
+        "rainfallMm": 71
+      },
+      {
+        "month": 12,
+        "avgTempMin": -0.2,
+        "avgTempMax": 7.4,
+        "rainfallMm": 132
+      }
+    ],
+    "vancouver": [
+      {
+        "month": 1,
+        "avgTempMin": 1.9,
+        "avgTempMax": 6.6,
+        "rainfallMm": 261
+      },
+      {
+        "month": 2,
+        "avgTempMin": 0.3,
+        "avgTempMax": 5.3,
+        "rainfallMm": 119
+      },
+      {
+        "month": 3,
+        "avgTempMin": 2.4,
+        "avgTempMax": 8.8,
+        "rainfallMm": 105
+      },
+      {
+        "month": 4,
+        "avgTempMin": 4.7,
+        "avgTempMax": 11.4,
+        "rainfallMm": 116
+      },
+      {
+        "month": 5,
+        "avgTempMin": 9.2,
+        "avgTempMax": 15.9,
+        "rainfallMm": 73
+      },
+      {
+        "month": 6,
+        "avgTempMin": 12.3,
+        "avgTempMax": 19,
+        "rainfallMm": 67
+      },
+      {
+        "month": 7,
+        "avgTempMin": 14.7,
+        "avgTempMax": 21.9,
+        "rainfallMm": 37
+      },
+      {
+        "month": 8,
+        "avgTempMin": 15.2,
+        "avgTempMax": 22.3,
+        "rainfallMm": 41
+      },
+      {
+        "month": 9,
+        "avgTempMin": 12.6,
+        "avgTempMax": 18.7,
+        "rainfallMm": 131
+      },
+      {
+        "month": 10,
+        "avgTempMin": 7.8,
+        "avgTempMax": 12.9,
+        "rainfallMm": 194
+      },
+      {
+        "month": 11,
+        "avgTempMin": 3.4,
+        "avgTempMax": 8.2,
+        "rainfallMm": 265
+      },
+      {
+        "month": 12,
+        "avgTempMin": 1.3,
+        "avgTempMax": 5.6,
+        "rainfallMm": 258
+      }
+    ]
+  }
+}

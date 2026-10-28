@@ -1,0 +1,1504 @@
+[
+  {
+    "id": "honolulu",
+    "nameKo": "호놀룰루",
+    "country": "미국 하와이",
+    "region": "americas",
+    "coordinates": {
+      "lat": 21.3069,
+      "lng": -157.8583
+    },
+    "themes": ["휴양", "자연", "액티비티"],
+    "visaInfo": {
+      "required": true,
+      "note": "한국 여권은 비자면제프로그램(VWP) 대상이나 미국 입국 전 ESTA(전자여행허가) 신청 필수. 관광 90일 이내. 공식 페이지 상세 조건 확인 필요.",
+      "source": "https://esta.cbp.dhs.gov/"
+    },
+    "flightHours": {
+      "ICN": 8,
+      "GMP": null
+    },
+    "landmarks": ["와이키키 해변", "다이아몬드 헤드", "진주만", "할레이바"],
+    "flightPriceTypical": {
+      "min": 627819,
+      "max": 974694,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/호놀룰루-HNL",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 인천→왕복 '일반적인 금액' 범위(1인), 최근 12개월 평균 768,608원"
+    },
+    "imageFile": "View of Waikiki from Diamond Head.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/View_of_Waikiki_from_Diamond_Head.jpg/1280px-View_of_Waikiki_from_Diamond_Head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Jokazoo",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Waikiki_from_Diamond_Head.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 599865,
+          "max": 599865,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/호놀룰루-HNL",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 1050095,
+          "max": 1050095,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/호놀룰루-HNL",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 917674,
+          "max": 917674,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/호놀룰루-HNL",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 상위(성수기 경향)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "losangeles",
+    "nameKo": "로스앤젤레스",
+    "country": "미국",
+    "region": "americas",
+    "coordinates": {
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "themes": ["도시", "쇼핑", "문화/역사"],
+    "visaInfo": {
+      "required": true,
+      "note": "한국 여권은 비자면제프로그램(VWP) 대상이나 미국 입국 전 ESTA(전자여행허가) 신청 필수. 관광 90일 이내. 공식 페이지 상세 조건 확인 필요.",
+      "source": "https://esta.cbp.dhs.gov/"
+    },
+    "flightHours": {
+      "ICN": 11.1,
+      "GMP": null
+    },
+    "landmarks": ["할리우드 사인", "산타모니카 비치", "그리피스 천문대", "유니버설 스튜디오"],
+    "flightPriceTypical": {
+      "min": 779322,
+      "max": 1196296,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로스앤젤레스-LAX",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 인천→왕복 '일반적인 금액' 범위(1인), 최근 12개월 평균 928,642원"
+    },
+    "imageFile": "Los Angeles with Mount Baldy.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/1280px-Los_Angeles_with_Mount_Baldy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Alek Leckszas",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_with_Mount_Baldy.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 1201869,
+          "max": 1201869,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로스앤젤레스-LAX",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1146276,
+          "max": 1146276,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로스앤젤레스-LAX",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 상위"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 722710,
+          "max": 722710,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로스앤젤레스-LAX",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "newyork",
+    "nameKo": "뉴욕",
+    "country": "미국",
+    "region": "americas",
+    "coordinates": {
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "themes": ["도시", "문화/역사", "쇼핑", "미식"],
+    "visaInfo": {
+      "required": true,
+      "note": "한국 여권은 비자면제프로그램(VWP) 대상이나 미국 입국 전 ESTA(전자여행허가) 신청 필수. 관광 90일 이내. 공식 페이지 상세 조건 확인 필요.",
+      "source": "https://esta.cbp.dhs.gov/"
+    },
+    "flightHours": {
+      "ICN": 13.9,
+      "GMP": null
+    },
+    "landmarks": [
+      "타임스스퀘어",
+      "센트럴파크",
+      "자유의 여신상",
+      "브루클린 브리지",
+      "메트로폴리탄 미술관"
+    ],
+    "flightPriceTypical": {
+      "min": 787328,
+      "max": 1417963,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/뉴욕-NYC",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 인천→왕복 '일반적인 금액' 범위(1인), 최근 12개월 평균 1,048,585원"
+    },
+    "imageFile": "Lower Manhattan from Jersey City November 2014 panorama 3.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Lower_Manhattan_from_Jersey_City_November_2014_panorama_3.jpg/1280px-Lower_Manhattan_from_Jersey_City_November_2014_panorama_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "King of Hearts",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Jersey_City_November_2014_panorama_3.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": 1284392,
+          "max": 1284392,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/뉴욕-NYC",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 상위"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1678571,
+          "max": 1678571,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/뉴욕-NYC",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 783069,
+          "max": 783069,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/뉴욕-NYC",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 355,
+            "lodging": 250,
+            "food": 90,
+            "transport": 15
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 470800,
+          "lodging": 331600,
+          "food": 119400,
+          "transport": 19900,
+          "source": "https://radicalstorage.com/travel/is-new-york-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "vancouver",
+    "nameKo": "밴쿠버",
+    "country": "캐나다",
+    "region": "americas",
+    "coordinates": {
+      "lat": 49.2827,
+      "lng": -123.1207
+    },
+    "themes": ["자연", "도시", "액티비티"],
+    "visaInfo": {
+      "required": true,
+      "note": "한국 여권은 캐나다 비자 면제 대상이나 항공 입국 시 eTA(전자여행허가) 필수. 공식 페이지 상세 조건 확인 필요.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html"
+    },
+    "flightHours": {
+      "ICN": 9.8,
+      "GMP": null
+    },
+    "landmarks": ["스탠리 파크", "개스타운", "그랜빌 아일랜드", "캐필라노 현수교"],
+    "flightPriceTypical": {
+      "min": 741588,
+      "max": 1319569,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/밴쿠버-YVR",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 인천→왕복 '일반적인 금액' 범위(1인), 최근 12개월 평균 1,002,010원"
+    },
+    "imageFile": "Vancouver skyline stanley park.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Vancouver_skyline_stanley_park.jpg/1280px-Vancouver_skyline_stanley_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Tomas Hellberg",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vancouver_skyline_stanley_park.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1378161,
+          "max": 1378161,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/밴쿠버-YVR",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 1322611,
+          "max": 1322611,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/밴쿠버-YVR",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 상위"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 644112,
+          "max": 644112,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/밴쿠버-YVR",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CAD",
+            "total": 225,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 945.18,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 212700,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://radicalstorage.com/travel/is-vancouver-expensive/",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  }
+]

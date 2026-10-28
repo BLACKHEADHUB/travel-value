@@ -2,8 +2,11 @@
   "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)",
   "date": "2026-10-28",
   "krwPer": {
+    "USD": 1326.26,
+    "CAD": 945.18,
     "TWD": 40.901,
-    "AUD": 932.836,
-    "USD": 1326.26
+    "HKD": 169.233,
+    "CNY": 198.295,
+    "AUD": 932.836
   }
 }
