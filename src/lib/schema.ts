@@ -1,16 +1,8 @@
 import { z } from 'zod';
 
-export const REGIONS = ['japan', 'sea', 'greater-china', 'europe', 'americas', 'oceania'] as const;
-export const THEMES = [
-  '휴양',
-  '미식',
-  '도시',
-  '자연',
-  '문화/역사',
-  '액티비티',
-  '쇼핑',
-  '온천',
-] as const;
+import { REGIONS, THEMES } from './themes';
+
+export { REGIONS, THEMES };
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD');
 const confidence = z.enum(['high', 'medium', 'low']);
@@ -62,6 +54,10 @@ export const destinationSchema = z.object({
     GMP: z.number().positive().nullable(),
   }),
   landmarks: z.array(z.string().min(1)).min(3).max(5),
+  /** 월별 근거가 없을 때 쓰는 출처 있는 연중 대표 왕복 항공가(ICN). UI에 '연중 대표가'로 표시 */
+  flightPriceTypical: flightPriceSchema.extend({ note: z.string().nullable() }),
+  /** Wikimedia Commons 파일명(File: 제외). fetch-images가 imageUrl/imageCredit을 채운다 */
+  imageFile: z.string().min(1).nullable(),
   imageUrl: z.string().url().nullable(),
   imageCredit: z
     .object({ author: z.string().min(1), license: z.string().min(1), sourceUrl: z.string().url() })

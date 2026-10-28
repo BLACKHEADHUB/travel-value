@@ -12,3 +12,10 @@
 - 패키지 박수 불일치는 1박 환산하지 않고 통계에서 제외 + 제외 개수 표시(환산은 근거 약함).
 - 기후: Open-Meteo ERA5 2019–2023 5년, 일 최저/최고의 월평균, 연도별 월 강수합의 평균.
 - 패키지 스키마에 extraKnownKRW(금액 확인된 불포함 합계), termsClear, departureDate 추가.
+- 2026-10-28 GitHub 비공개 저장소 BLACKHEADHUB/travel-value. main + phase별 브랜치/PR.
+- 가격 보강: 출처 있는 연중 대표 왕복가(flightPriceTypical) 필드 추가, 월별 값 없을 때만 사용하고 UI에 "(연중 대표가)" 표시. 재수집은 sonnet.
+- 이미지: imageFile(파일명)만 수집하고 라이선스 확인·URL은 fetch-images 스크립트가 채움.
+- 딥링크: 항공 Google Flights(q 파라미터), 숙소 Booking.com. 날짜는 선택 월의 다음 15일 출발.
+- 필터/정렬/월은 URL 쿼리로 유지(공유 가능). 상세는 ?m 으로 월 전달.
+- 추천 일정은 비행시간 구간 규칙(≤4h 2~3박, ≤7h 3~4박, ≤10h 5박+, 그 외 7박+).
+- 패키지 출발일이 기준일보다 과거면 경고(지난 가격).

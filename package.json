@@ -15,7 +15,8 @@
     "validate:data": "tsx scripts/validate-data.ts",
     "fetch:climate": "tsx scripts/fetch-climate.ts",
     "verify": "npm run typecheck && npm run lint && npm run test && npm run validate:data && npm run build",
-    "report": "tsx scripts/report.ts"
+    "report": "tsx scripts/report.ts",
+    "fetch:images": "tsx scripts/fetch-images.ts"
   },
   "dependencies": {
     "next": "^16.4.3",

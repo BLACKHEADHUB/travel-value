@@ -4,14 +4,20 @@
     "nameKo": "방콕",
     "country": "태국",
     "region": "sea",
-    "coordinates": { "lat": 13.7563, "lng": 100.5018 },
+    "coordinates": {
+      "lat": 13.7563,
+      "lng": 100.5018
+    },
     "themes": ["도시", "미식", "문화/역사", "쇼핑"],
     "visaInfo": {
       "required": false,
-      "note": "한국 일반여권, 취업 목적 아닐 경우 무비자 최대 90일. 입국 3일 전 이내 TDAC 온라인 신고 필요. 외교부 페이지 확인 못 함(2차 기사 기준).",
-      "source": "https://news-wa.com/article/travel/tour-world/2026/09/08/20260908500063"
+      "note": "한국 여권 관광 목적 무비자(한-태 비자면제협정, 기존 안내 90일). 2026.9.15 태국 무비자 제도 개편으로 체류일수는 출국 전 주태국대사관 공지 재확인 필요. 입국 전 3일 이내 TDAC(디지털 입국카드) 온라인 작성 필수.",
+      "source": "https://www.mofa.go.kr/th-ko/brd/m_25795/view.do?seq=1347228"
     },
-    "flightHours": { "ICN": 6.0, "GMP": null },
+    "flightHours": {
+      "ICN": 6,
+      "GMP": null
+    },
     "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
     "imageUrl": null,
     "imageCredit": null,
@@ -26,16 +32,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "건기(11~3월), 여행 최적기"
       },
       {
         "month": 2,
@@ -47,37 +53,37 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "건기, 여행 최적기"
       },
       {
         "month": 3,
         "flightPrice": {
-          "min": null,
+          "min": 268814,
           "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "shoulder",
+        "notes": "건기 끝자락, 더워지기 시작. 항공가 연중 최저 경향"
       },
       {
         "month": 4,
@@ -89,16 +95,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "shoulder",
+        "notes": "혹서기(4~5월), 중순 송크란 물 축제"
       },
       {
         "month": 5,
@@ -110,58 +116,58 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "shoulder",
+        "notes": "혹서기, 우기 시작 전후"
       },
       {
         "month": 6,
         "flightPrice": {
-          "min": null,
+          "min": 454202,
           "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "우기 시작(6~10월), 스콜 잦음. 항공가 연중 최고 경향"
       },
       {
         "month": 7,
         "flightPrice": {
-          "min": null,
+          "min": 446257,
           "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "우기, 단기 소나기"
       },
       {
         "month": 8,
@@ -173,16 +179,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "우기"
       },
       {
         "month": 9,
@@ -194,16 +200,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "우기 한복판, 강수 많음"
       },
       {
         "month": 10,
@@ -215,16 +221,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "우기 끝자락, 홍수 가능"
       },
       {
         "month": 11,
@@ -236,16 +242,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "건기 시작, 성수기 진입"
       },
       {
         "month": 12,
@@ -257,17 +263,26 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 120000,
+          "total": 143000,
           "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "food": 49000,
+          "transport": 8800,
+          "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "건기, 연말연시 수요 높음"
       }
-    ]
+    ],
+    "flightPriceTypical": {
+      "min": 288306,
+      "max": 485467,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "Kayak ICN-방콕 왕복 최저~최고 범위, 지난 12개월 평균 왕복 374,949원 기준"
+    },
+    "imageFile": "Wat_Arun_Bangkok.jpg"
   }
 ]

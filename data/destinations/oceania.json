@@ -4,14 +4,20 @@
     "nameKo": "시드니",
     "country": "호주",
     "region": "oceania",
-    "coordinates": { "lat": -33.8688, "lng": 151.2093 },
+    "coordinates": {
+      "lat": -33.8688,
+      "lng": 151.2093
+    },
     "themes": ["도시", "자연", "액티비티"],
     "visaInfo": {
       "required": true,
       "note": "한국 여권 보유자는 호주 ETA(전자여행허가, ETA 앱 신청) 대상. 관광·방문 목적 최대 3개월.",
       "source": "https://southkorea.embassy.gov.au/seol/visaoptions.html"
     },
-    "flightHours": { "ICN": 10.3, "GMP": null },
+    "flightHours": {
+      "ICN": 10.3,
+      "GMP": null
+    },
     "landmarks": ["오페라하우스", "하버브리지", "본다이비치", "블루마운틴"],
     "imageUrl": null,
     "imageCredit": null,
@@ -19,255 +25,264 @@
       {
         "month": 1,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1719600,
+          "max": 1719600,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "남반구 여름 성수기, 연중 항공가 최고 수준"
       },
       {
         "month": 2,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1352900,
+          "max": 1352900,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "여름(무더위·소나기 가능)"
       },
       {
         "month": 3,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 957100,
+          "max": 957100,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "가을 시작, 연중 항공가 가장 저렴한 편"
       },
       {
         "month": 4,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1259300,
+          "max": 1259300,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "가을"
       },
       {
         "month": 5,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1001500,
+          "max": 1001500,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "남반구 비수기(관광객 감소)"
       },
       {
         "month": 6,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1210900,
+          "max": 1210900,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "겨울 시작, 비비드 시드니 축제 시기"
       },
       {
         "month": 7,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1273300,
+          "max": 1273300,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "겨울, 호주 학교 방학과 한국 여름 휴가철 겹쳐 항공가 상승"
       },
       {
         "month": 8,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1158100,
+          "max": 1158100,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "겨울 말"
       },
       {
         "month": 9,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1328100,
+          "max": 1328100,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "봄 시작"
       },
       {
         "month": 10,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1150400,
+          "max": 1150400,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "봄"
       },
       {
         "month": 11,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1369400,
+          "max": 1369400,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "초여름 시작"
       },
       {
         "month": 12,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
+          "min": 1260400,
+          "max": 1260400,
+          "source": "https://kr.trip.com/flights/airport-icn-syd/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 191363,
+          "lodging": 118125,
+          "food": 56700,
+          "transport": 16538,
+          "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "여름 성수기, 12/31 새해맞이 불꽃놀이 전후 숙박·항공가 급등"
       }
-    ]
+    ],
+    "flightPriceTypical": {
+      "min": 760319,
+      "max": 1236847,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/시드니-킹스포드스미스국제공항-SYD",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 노선 페이지 ICN-SYD 왕복 일반 가격대, 최근 12개월 평균 983,487원 기준"
+    },
+    "imageFile": "Sydney_Opera_House_-_Dec_2008.jpg"
   }
 ]
