@@ -12,9 +12,11 @@
 - [x] Phase 4 (브랜치 feat/phase-4): 여행 조건(월·1~13박·선호 기온 범위·비 회피) URL 설정 + 브라우저 점수 재계산, 카드 항목별 점수(가격 n/40 …), 점수 기준 페이지(/score), 이달의 TOP 5, 즐겨찾기·비교 담기(localStorage), 비교 뷰(/compare, 공유 링크), 지도(/map, Leaflet+OSM), 추천 퀴즈(/quiz), 다크모드
 - [x] Phase 5 (브랜치 feat/phase-5): Playwright QA 23/23(+1 skip) 통과·증거 docs/qa/, 모바일 넘침 수정, README, 데이터 품질 리포트(docs/DATA_REPORT.md, npm run data:report), Vercel 자동 배포
 
+- [x] UI 개편 (브랜치 feat/ui-refresh): 문장형 여행 조건, 접는 필터, 사진 중심 카드·TOP 5, 점수 막대, 상세 히어로·카드 섹션, 간결한 상단 메뉴+푸터, Pretendard
+
 ## 현재 작업
 
-Phase 5 PR 리뷰/머지 대기. 전체 단계 완료.
+UI 개편 PR 리뷰/머지 대기.
 
 ## 다음 할 일 (선택)
 

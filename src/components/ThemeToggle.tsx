@@ -28,9 +28,13 @@ export function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-pressed={dark}
-      className="rounded-full border border-line-strong px-3 py-1.5 text-xs focus-visible:outline-2 focus-visible:outline-sky-600"
+      aria-label={dark ? '라이트 모드로 바꾸기' : '다크 모드로 바꾸기'}
+      title={dark ? '라이트 모드' : '다크 모드'}
+      className="grid size-9 place-items-center rounded-full text-sub hover:bg-muted hover:text-ink focus-visible:outline-2 focus-visible:outline-accent"
     >
-      {dark ? '라이트 모드' : '다크 모드'}
+      <span aria-hidden className="text-lg leading-none">
+        {dark ? '☀' : '☾'}
+      </span>
     </button>
   );
 }

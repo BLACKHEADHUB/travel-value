@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { CardActions } from './CardActions';
 import type { DestinationView } from '@/lib/data';
-import { NA, SEASON_LABEL, temp, won, wonRange } from '@/lib/format';
+import { NA, SEASON_LABEL, temp, won } from '@/lib/format';
 import { isRainy, visaLabel } from '@/lib/view';
 import { freeTripCost, packageStats, verdict } from '@/lib/compare';
 import { nightsLabel, type Prefs } from '@/lib/prefs';
 import type { DestinationScore } from '@/lib/score';
+import { CardActions } from './CardActions';
 import { ScoreBreakdown } from './ScoreBreakdown';
 
 export function DestinationCard({
@@ -23,7 +23,6 @@ export function DestinationCard({
   const { month, nights } = prefs;
   const m = d.months[month - 1];
   const visa = visaLabel(d, month);
-  const stats = packageStats(d.packages, month, nights);
   const v = verdict(
     freeTripCost({
       flightMin: m.flight.min,
@@ -31,118 +30,93 @@ export function DestinationCard({
       dailyCost: m.dailyCost.total,
       nights,
     }),
-    stats,
+    packageStats(d.packages, month, nights),
   );
   const hours = d.flightHours.ICN;
+  const unpriced = score.total !== null && score.parts.price === null;
+
   return (
-    <article className="group relative min-w-0 overflow-hidden rounded-2xl border border-line bg-surface shadow-sm transition focus-within:ring-2 focus-within:ring-sky-600 hover:shadow-md">
-      <div className="relative aspect-[16/10] bg-gradient-to-br from-sky-200 to-emerald-100">
-        {d.imageUrl ? (
+    <article className="group relative min-w-0 overflow-hidden rounded-2xl bg-surface shadow-sm ring-1 ring-line transition hover:-translate-y-0.5 hover:shadow-lg focus-within:ring-2 focus-within:ring-accent">
+      <div className="relative aspect-[4/3] bg-gradient-to-br from-sky-200 to-emerald-100">
+        {d.imageUrl && (
           // eslint-disable-next-line @next/next/no-img-element -- 정적 export, 외부 Commons 이미지
           <img
             src={d.imageUrl}
-            alt={`${d.nameKo} 풍경`}
-            className="h-full w-full object-cover"
+            alt=""
+            className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
             loading="lazy"
           />
-        ) : (
-          <div
-            className="flex h-full items-center justify-center text-3xl font-bold text-sky-900/40"
-            aria-hidden
-          >
-            {d.nameKo}
-          </div>
         )}
-        <div className="absolute top-3 right-3 rounded-full bg-surface/95 px-3 py-1 text-sm font-bold text-ink shadow">
-          <span className="sr-only">가성비 점수 </span>
-          {score.total ?? '–'}
-          <span className="text-xs font-normal text-sub">점</span>
-          {score.total !== null && score.parts.price === null && (
+        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
+        {m.seasonLevel && (
+          <span className="absolute top-3 left-3 rounded-full bg-black/45 px-2.5 py-1 text-xs font-medium text-white backdrop-blur-sm">
+            {SEASON_LABEL[m.seasonLevel]}
+          </span>
+        )}
+        <div className="absolute top-3 right-3">
+          <CardActions id={d.id} name={d.nameKo} only="fav" />
+        </div>
+        <div className="absolute inset-x-4 bottom-3 flex items-end justify-between gap-3 text-white">
+          <h2 className="min-w-0">
+            <Link
+              href={`/d/${d.id}/?${query}`}
+              className="text-xl font-bold drop-shadow after:absolute after:inset-0 focus:outline-none"
+            >
+              {d.nameKo}
+            </Link>
+            <span className="ml-1.5 text-sm text-white/80">{d.country}</span>
+          </h2>
+          <p className="shrink-0 text-right leading-none">
+            <span className="sr-only">가성비 점수 </span>
+            <span className="text-3xl font-extrabold tabular-nums">{score.total ?? '–'}</span>
+            <span className="text-sm text-white/80">점</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="space-y-3 p-4">
+        <div className="flex items-baseline justify-between gap-2">
+          <p className="text-sm text-sub">
+            {nightsLabel(nights)} 예상{' '}
+            <b className="text-lg font-bold text-ink tabular-nums">{won(score.totalCost)}</b>
+          </p>
+          {unpriced && (
             <span
-              className="ml-1 text-xs font-normal text-sub"
-              title="가격 정보가 없어 가격 항목을 빼고 계산"
+              className="shrink-0 rounded-full bg-muted px-2 py-0.5 text-xs text-sub"
+              title="1일 경비 정보가 없어 가격 항목을 빼고 점수를 매겼어요"
             >
               가격 제외
             </span>
           )}
         </div>
-        {m.seasonLevel && (
-          <span className="absolute top-3 left-3 rounded-full bg-zinc-900/75 px-2.5 py-1 text-xs text-white">
-            {SEASON_LABEL[m.seasonLevel]}
-          </span>
-        )}
-      </div>
-      <div className="space-y-3 p-4">
-        <div className="flex items-start justify-between gap-2">
-          <div>
-            <h2 className="text-lg font-bold">
-              <Link
-                href={`/d/${d.id}/?${query}`}
-                className="after:absolute after:inset-0 focus:outline-none"
-              >
-                {d.nameKo}
-              </Link>
-              <span className="ml-1.5 text-sm font-normal text-sub">{d.country}</span>
-            </h2>
-            <ul className="mt-1.5 flex flex-wrap gap-1" aria-label="테마">
-              {d.themes.map((t) => (
-                <li key={t} className="rounded-md bg-muted px-2 py-0.5 text-xs text-sub">
-                  {t}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <CardActions id={d.id} name={d.nameKo} />
+        <ul className="flex flex-wrap gap-x-3 gap-y-1 text-sm text-sub">
+          <li>
+            <span className="sr-only">기온 </span>
+            {temp(m.avgTempMin, m.avgTempMax)}
+          </li>
+          <li className={isRainy(m) ? 'font-medium text-sky-700 dark:text-sky-300' : ''}>
+            비 {m.rainfallMm === null ? NA : `${m.rainfallMm}mm`}
+          </li>
+          <li>비행 {hours === null ? NA : `${hours}시간`}</li>
+          <li className={visa.caution ? 'text-amber-700 dark:text-amber-300' : ''}>{visa.text}</li>
+        </ul>
+        <ScoreBreakdown score={score} />
+        <div className="flex items-center justify-between gap-2 border-t border-line pt-3">
+          {v.kind === 'package' || v.kind === 'free' ? (
+            <p className="min-w-0 truncate text-xs text-note-ink" title={v.text}>
+              {v.text}
+            </p>
+          ) : (
+            <span className="min-w-0 truncate text-xs text-sub">{d.themes.join(' · ')}</span>
+          )}
+          <CardActions id={d.id} name={d.nameKo} only="compare" />
         </div>
-        <dl className="grid grid-cols-2 gap-x-3 gap-y-2 text-sm">
-          <div>
-            <dt className="text-xs text-sub">기온</dt>
-            <dd className="font-medium">{temp(m.avgTempMin, m.avgTempMax)}</dd>
-          </div>
-          <div>
-            <dt className="text-xs text-sub">강수</dt>
-            <dd className="font-medium">
-              {m.rainfallMm === null ? NA : `${m.rainfallMm}mm`}
-              {isRainy(m) && (
-                <span className="ml-1 rounded bg-info px-1 text-xs text-link">비 많음</span>
-              )}
-            </dd>
-          </div>
-          <div>
-            <dt className="text-xs text-sub">
-              왕복 항공{m.flight.typical ? ' (연중 대표가)' : ''}
-            </dt>
-            <dd className="font-medium">{wonRange(m.flight.min, m.flight.max)}</dd>
-          </div>
-          <div>
-            <dt className="text-xs text-sub">현지 1일 경비</dt>
-            <dd className="font-medium">{won(m.dailyCost.total)}</dd>
-          </div>
-          <div>
-            <dt className="text-xs text-sub">비행</dt>
-            <dd className="font-medium">{hours === null ? NA : `약 ${hours}시간`}</dd>
-          </div>
-          <div>
-            <dt className="text-xs text-sub">비자</dt>
-            <dd className="font-medium">{visa.text}</dd>
-          </div>
-        </dl>
-        <div className="space-y-0.5 rounded-lg bg-surface-2 px-3 py-2">
-          <p className="text-xs text-sub">
-            {nightsLabel(nights)} 예상 총액{' '}
-            <b className="text-sm text-ink">{won(score.totalCost)}</b>
-          </p>
-          <ScoreBreakdown score={score} />
-        </div>
-        <p className="text-xs text-sub">
-          <span className="font-medium">랜드마크</span> · {d.landmarks.join(' · ')}
-        </p>
-        <p className="rounded-lg bg-note px-3 py-2 text-xs text-note-ink">
-          <span className="font-semibold">{nightsLabel(nights)} 패키지 비교</span> · {v.text}
-        </p>
         {d.imageCredit && (
-          <p className="truncate text-xs text-sub">
-            사진: {d.imageCredit.author} / {d.imageCredit.license} (Wikimedia Commons)
+          <p
+            className="truncate text-[11px] text-sub/80"
+            title={`사진: ${d.imageCredit.author} / ${d.imageCredit.license} (Wikimedia Commons)`}
+          >
+            사진 © {d.imageCredit.author} · {d.imageCredit.license}
           </p>
         )}
       </div>

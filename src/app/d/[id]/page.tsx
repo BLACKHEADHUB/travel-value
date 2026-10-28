@@ -20,30 +20,39 @@ export default async function DetailPage({ params }: { params: Promise<{ id: str
   const d = loadDestinations().find((x) => x.id === id);
   if (!d) notFound();
   return (
-    <main className="mx-auto max-w-4xl px-4 py-6">
-      <Link href="/" className="text-sm text-link underline underline-offset-2">
-        ← 목록으로
-      </Link>
-      <header className="mt-3 mb-5">
+    <main className="mx-auto max-w-4xl px-4 py-6 sm:py-8">
+      <header className="relative mb-6 overflow-hidden rounded-3xl bg-gradient-to-br from-sky-300 to-emerald-200">
         {d.imageUrl && (
           // eslint-disable-next-line @next/next/no-img-element -- 정적 export, 외부 Commons 이미지
           <img
             src={d.imageUrl}
             alt={`${d.nameKo} 풍경`}
-            className="mb-4 aspect-[2/1] w-full rounded-2xl object-cover"
+            className="aspect-[4/3] w-full object-cover sm:aspect-[21/9]"
           />
         )}
-        <p className="text-sm text-sub">
-          {REGION_LABEL[d.region]} · {d.country}
-        </p>
-        <h1 className="text-3xl font-extrabold">{d.nameKo}</h1>
-        <ul className="mt-2 flex flex-wrap gap-1">
-          {d.themes.map((t) => (
-            <li key={t} className="rounded-md bg-muted px-2 py-0.5 text-xs">
-              {t}
-            </li>
-          ))}
-        </ul>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-black/30" />
+        <Link
+          href="/"
+          className="absolute top-4 left-4 rounded-full bg-black/40 px-3 py-1.5 text-sm text-white backdrop-blur-sm hover:bg-black/60 focus-visible:outline-2 focus-visible:outline-white"
+        >
+          ← 목록
+        </Link>
+        <div className="absolute inset-x-5 bottom-5 text-white sm:inset-x-8 sm:bottom-7">
+          <p className="text-sm text-white/80">
+            {REGION_LABEL[d.region]} · {d.country}
+          </p>
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{d.nameKo}</h1>
+          <ul className="mt-3 flex flex-wrap gap-1.5">
+            {d.themes.map((t) => (
+              <li
+                key={t}
+                className="rounded-full bg-white/20 px-2.5 py-0.5 text-xs backdrop-blur-sm"
+              >
+                {t}
+              </li>
+            ))}
+          </ul>
+        </div>
       </header>
       <Suspense fallback={null}>
         <DetailBody d={d} peers={loadPeerStats()} />

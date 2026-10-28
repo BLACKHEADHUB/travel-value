@@ -21,6 +21,12 @@ function trackErrors(page: Page) {
 const listHeading = (page: Page) => page.locator('h2[aria-live="polite"]');
 const cards = (page: Page) => page.locator('ul.grid > li');
 const top5 = (page: Page) => page.locator('#top5-h');
+/** 접힌 필터 패널 열기 */
+const openFilters = async (page: Page) => {
+  const details = page.locator('details', { has: page.locator('summary', { hasText: '필터' }) });
+  if (!(await details.evaluate((el) => (el as HTMLDetailsElement).open)))
+    await details.locator('summary').click();
+};
 
 /** "123만 원" → 1230000, "정보 없음" → null */
 const parseWon = (s: string): number | null => {
@@ -57,14 +63,18 @@ test('trip controls: 박수·기온·비', async ({ page }, info) => {
   await expect(top5(page)).toContainText('9박 10일 가성비 TOP 5');
   await expect(page).toHaveURL(/[?&]n=9/);
 
-  const legend = page.locator('legend', { hasText: '선호 기온' });
-  await expect(legend).toContainText('18℃ ~ 27℃');
+  const range = page.getByText(/일평균 -?\d+~-?\d+℃/);
+  await expect(range).toContainText('18~27℃');
+  await page.getByLabel('날씨 취향').selectOption('warm');
+  await expect(range).toContainText('24~32℃');
+  await page.getByLabel('날씨 취향').selectOption('custom');
   await page.getByRole('slider').nth(0).fill('10');
-  await expect(legend).toContainText('10℃ ~ 27℃');
+  await expect(range).toContainText('10~');
   await page.getByRole('slider').nth(1).fill('30');
-  await expect(legend).toContainText('10℃ ~ 30℃');
+  await expect(range).toContainText('10~30℃');
   await expect.poll(() => new URL(page.url()).searchParams.get('t')).toBe('10~30');
 
+  await openFilters(page);
   const rain = page.getByLabel('비 오는 달 피하기');
   await rain.click();
   await expect(rain).toBeChecked();
@@ -81,6 +91,7 @@ test('filters: 테마·예산·정렬', async ({ page }, info) => {
     Number((await listHeading(page).innerText()).match(/추천 (\d+)곳/)![1]);
   const all = await countOf();
   expect(all).toBe(25);
+  await openFilters(page);
 
   const themeBtn = page
     .locator('fieldset', { has: page.locator('legend', { hasText: '테마' }) })
@@ -117,10 +128,7 @@ test('filters: 테마·예산·정렬', async ({ page }, info) => {
     .getByRole('combobox', { name: '정렬', exact: true })
     .selectOption({ label: '총액 낮은 순' });
   await expect(page).toHaveURL(/[?&]sort=cost/);
-  const totals = await cards(page)
-    .locator('p', { hasText: '예상 총액' })
-    .locator('b')
-    .allInnerTexts();
+  const totals = await cards(page).locator('p', { hasText: '예상' }).locator('b').allInnerTexts();
   const known = totals.map(parseWon);
   const [a, b] = known;
   if (a !== null && b !== null) expect(a).toBeLessThanOrEqual(b);
@@ -134,7 +142,7 @@ test('filters: 테마·예산·정렬', async ({ page }, info) => {
 
 test('card: 항목별 점수 표기', async ({ page }, info) => {
   await page.goto('/?m=4');
-  const p = cards(page).first().locator('p', { hasText: '볼거리' });
+  const p = cards(page).first().locator('dl');
   for (const k of ['가격', '날씨', '볼거리', '이동']) await expect(p).toContainText(k);
   await shot(page, info, 'card-breakdown');
 });
@@ -163,9 +171,10 @@ test('favorites: 저장 → 메뉴 카운트 → 즐겨찾기만', async ({ page
   const card = cards(page).first();
   const name = await card.locator('h2 a').innerText();
   await card.getByRole('button', { name: `${name} 즐겨찾기` }).click();
-  await expect(card.getByRole('button', { name: `${name} 즐겨찾기 해제` })).toHaveText('★ 저장됨');
+  await expect(card.getByRole('button', { name: `${name} 즐겨찾기 해제` })).toHaveText('★');
   const nav = page.getByRole('navigation', { name: '주요 메뉴' });
-  await expect(nav.getByRole('link', { name: '즐겨찾기 (1)' })).toBeVisible();
+  await expect(nav.getByRole('link', { name: '즐겨찾기 1곳' })).toBeVisible();
+  await openFilters(page);
   await page.getByLabel(/즐겨찾기만/).click();
   await expect(page.getByLabel(/즐겨찾기만/)).toBeChecked();
   await expect(page).toHaveURL(/[?&]fav=1/);
@@ -183,10 +192,11 @@ test('compare: 3곳 담기, 4번째 비활성, 표·공유 링크', async ({ pag
   for (const i of [0, 1, 2]) await add(i).click();
   await expect(add(3)).toBeDisabled();
   const nav = page.getByRole('navigation', { name: '주요 메뉴' });
-  await expect(nav.getByRole('link', { name: '비교 (3)' })).toBeVisible();
+  const cmpLink = nav.getByRole('link', { name: /^비교/ });
+  await expect(cmpLink).toContainText('3');
   await shot(page, info, 'compare-picked');
 
-  await nav.getByRole('link', { name: '비교 (3)' }).click();
+  await cmpLink.click();
   await expect(page).toHaveURL(/\/compare\//);
   await expect(page.locator('table thead th[scope="col"]')).toHaveCount(4); // 항목 열 + 3곳
   const share = page.getByRole('link', { name: '이 비교 열기' });

@@ -14,7 +14,7 @@ export function MonthPicker({ value, onChange }: { value: number; onChange: (m: 
       ref={ref}
       role="radiogroup"
       aria-label="여행 월 선택"
-      className="-mx-4 flex gap-1.5 overflow-x-auto px-4 pb-1"
+      className="no-scrollbar -mx-4 flex gap-1 overflow-x-auto px-4 sm:mx-0 sm:grid sm:grid-cols-12 sm:px-0"
     >
       {MONTHS.map((m) => {
         const on = m === value;
@@ -43,10 +43,10 @@ export function MonthPicker({ value, onChange }: { value: number; onChange: (m: 
               )?.focus();
             }}
             tabIndex={on ? 0 : -1}
-            className={`min-w-12 shrink-0 rounded-full border px-3 py-2 text-sm font-medium transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600 ${
+            className={`min-w-14 shrink-0 rounded-xl py-2.5 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:min-w-0 ${
               on
-                ? 'border-sky-700 bg-sky-700 text-white'
-                : 'border-line-strong bg-surface text-ink hover:border-sky-600'
+                ? 'bg-ink text-surface shadow-sm'
+                : 'bg-surface text-sub ring-1 ring-line hover:text-ink hover:ring-line-strong'
             }`}
           >
             {m}월

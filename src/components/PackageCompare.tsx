@@ -31,7 +31,10 @@ export function PackageCompare({
   const others = d.packages.filter((p) => p.departureMonth !== m.month);
 
   return (
-    <section aria-labelledby="pkg-h" className="space-y-4">
+    <section
+      aria-labelledby="pkg-h"
+      className="space-y-4 rounded-3xl bg-surface p-5 shadow-sm ring-1 ring-line sm:p-7"
+    >
       <div className="flex flex-wrap items-center justify-between gap-2">
         <h2 id="pkg-h" className="text-lg font-bold">
           자유여행 vs 패키지
