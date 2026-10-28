@@ -1,16 +1,8 @@
 import { z } from 'zod';
 
-export const REGIONS = ['japan', 'sea', 'greater-china', 'europe', 'americas', 'oceania'] as const;
-export const THEMES = [
-  '휴양',
-  '미식',
-  '도시',
-  '자연',
-  '문화/역사',
-  '액티비티',
-  '쇼핑',
-  '온천',
-] as const;
+import { REGIONS, THEMES } from './themes';
+
+export { REGIONS, THEMES };
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD');
 const confidence = z.enum(['high', 'medium', 'low']);

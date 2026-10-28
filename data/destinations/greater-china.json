@@ -8,61 +8,70 @@
       "lat": 25.033,
       "lng": 121.5654
     },
-    "themes": ["도시", "미식", "문화/역사"],
+    "themes": [
+      "도시",
+      "미식",
+      "문화/역사"
+    ],
     "visaInfo": {
       "required": false,
-      "note": "관광 목적 90일 무비자. 주타이베이 대한민국 대표부 공지(2017.10.13 게시, 최신 재확인 필요). 여권 잔여기간 6개월 이상, 왕복 또는 다음 행선지 항공권 필요.",
-      "source": "https://overseas.mofa.go.kr/tw-ko/brd/m_11926/view.do?seq=1331925"
+      "note": "한국 여권 관광 목적 90일 무비자(여행 가이드 기준, 2026년 게재). 여권 잔여 6개월 이상, 왕복/제3국행 항공권, 대만 입국카드(온라인) 필요. 공식 현행 확인: 주타이베이 대한민국 대표부·대만 영사국(BOCA) (공식 페이지 열람 실패)",
+      "source": "https://www.taipeitourism.org/?p=567"
     },
     "flightHours": {
       "ICN": 2.7,
       "GMP": null
     },
-    "landmarks": ["타이베이 101", "지우펀", "스펀", "국립고궁박물관"],
+    "landmarks": [
+      "타이베이 101",
+      "지우펀",
+      "스펀",
+      "국립고궁박물관"
+    ],
     "imageUrl": null,
     "imageCredit": null,
     "monthly": [
       {
         "month": 1,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "min": 392276,
+          "max": 392276,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타이베이-TW1",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "항공권 가격 높은 편(KAYAK). 설 연휴가 1~2월에 걸치면 급등"
       },
       {
         "month": 2,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "min": 441311,
+          "max": 441311,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타이베이-TW1",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "설 연휴(춘절) 기간 호텔 요금 최고. 항공권도 연중 최고가 달(KAYAK)"
       },
       {
         "month": 3,
@@ -74,12 +83,12 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -95,12 +104,12 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -116,16 +125,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "호텔 요금이 성수기보다 낮은 시기"
       },
       {
         "month": 6,
@@ -137,16 +146,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "호텔 요금이 성수기보다 낮은 시기"
       },
       {
         "month": 7,
@@ -158,12 +167,12 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -179,12 +188,12 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -193,23 +202,23 @@
       {
         "month": 9,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "min": 265052,
+          "max": 265052,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타이베이-TW1",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "9월 하순 호텔 요금 낮음. 항공권 연중 최저 달(KAYAK)"
       },
       {
         "month": 10,
@@ -221,12 +230,12 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -242,16 +251,16 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "off",
+        "notes": "11월 하순 호텔 요금 낮음"
       },
       {
         "month": 12,
@@ -263,12 +272,12 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": null,
-          "lodging": null,
-          "food": null,
-          "transport": null,
-          "source": null,
-          "asOf": null,
+          "total": 153000,
+          "lodging": 81000,
+          "food": 58500,
+          "transport": 13500,
+          "source": "https://www.taipeitourism.org/taipei-travel-cost/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -276,13 +285,13 @@
       }
     ],
     "flightPriceTypical": {
-      "min": null,
-      "max": null,
-      "source": null,
-      "asOf": null,
-      "confidence": "low",
-      "note": null
+      "min": 273401,
+      "max": 407914,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타이베이-TW1",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 인천-타이베이 왕복 최근 12개월 가격 범위(평균 326,623원)"
     },
-    "imageFile": null
+    "imageFile": "Taipei_Skyline_2022.06.29.jpg"
   }
 ]

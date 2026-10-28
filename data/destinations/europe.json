@@ -8,17 +8,25 @@
       "lat": 48.8566,
       "lng": 2.3522
     },
-    "themes": ["도시", "문화/역사", "미식"],
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
       "note": "90일 이내 단기방문은 입국사증 불필요. 쉥겐 지역 전체 합산 90일 한도. ETIAS 적용 여부와 시행 시기는 출처 페이지에 없어 미확인.",
       "source": "https://whic.mofa.go.kr/whic/nation/info.jsp?boardNo=100011"
     },
     "flightHours": {
-      "ICN": null,
+      "ICN": 14.2,
       "GMP": null
     },
-    "landmarks": ["에펠탑", "루브르 박물관", "노트르담 대성당"],
+    "landmarks": [
+      "에펠탑",
+      "루브르 박물관",
+      "노트르담 대성당"
+    ],
     "imageUrl": null,
     "imageCredit": null,
     "monthly": [
@@ -193,11 +201,11 @@
       {
         "month": 9,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "min": 1491055,
+          "max": 1491055,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
           "total": null,
@@ -209,16 +217,16 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "카약 기준 월별 왕복 중앙값이 연중 최고권(9월 1,491,055원)"
       },
       {
         "month": 10,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "min": 1382470,
+          "max": 1382470,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
           "total": null,
@@ -230,7 +238,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "카약 기준 월별 왕복 중앙값 1,382,470원으로 높은 편"
       },
       {
         "month": 11,
@@ -256,11 +264,11 @@
       {
         "month": 12,
         "flightPrice": {
-          "min": null,
-          "max": null,
-          "source": null,
-          "asOf": null,
-          "confidence": "low"
+          "min": 887217,
+          "max": 887217,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
         },
         "dailyCost": {
           "total": null,
@@ -272,17 +280,17 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": null
+        "notes": "카약 기준 연중 가장 저렴한 달(왕복 중앙값 887,217원)"
       }
     ],
     "flightPriceTypical": {
-      "min": null,
-      "max": null,
-      "source": null,
-      "asOf": null,
-      "confidence": "low",
-      "note": null
+      "min": 881537,
+      "max": 1369347,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 ICN→파리 왕복 12개월 데이터 기준 일반 범위(평균 약 1,087,053원)"
     },
-    "imageFile": null
+    "imageFile": "Tour_Eiffel_Wikimedia_Commons.jpg"
   }
 ]

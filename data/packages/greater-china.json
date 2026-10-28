@@ -1,24 +1,72 @@
 [
   {
     "destinationId": "taipei",
-    "vendor": "참좋은여행",
-    "title": "대만 3박4일 노쇼핑/월드체인호텔UP (타이중 왕복, 오전출발) 진에어",
+    "vendor": "노랑풍선",
+    "title": "대만 4일 #노쇼핑 #특식4회 #노랑풍선단독 #ZE #인천출발",
     "nights": 3,
     "departureMonth": 11,
-    "priceKRW": 784000,
-    "departureDate": "2026-11-15",
+    "priceKRW": 949900,
+    "departureDate": "2026-11-13",
     "priceIncludesFuelSurcharge": null,
     "included": [
-      "진에어 인천 출발·도착 항공",
-      "4성급 호텔 3박",
-      "딤섬·우육면·대만식 샤브샤브 등 현지식"
+      "왕복항공",
+      "특식 4회"
     ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,
     "hasOptionalTours": null,
     "termsClear": false,
-    "url": "https://www.tripstore.kr/products/TFDBC3DC4B735",
+    "url": "https://tripstore.kr/products/T71CA02C0FDF8",
+    "asOf": "2026-10-28",
+    "confidence": "low"
+  },
+  {
+    "destinationId": "taipei",
+    "vendor": "모두투어",
+    "title": "[노쇼핑/101전망대] 대만/단수이/야류/지우펀/스펀 4일 (4성호텔/천등날리기/특식4회)",
+    "nights": 3,
+    "departureMonth": 11,
+    "priceKRW": 1018900,
+    "departureDate": "2026-11-12",
+    "priceIncludesFuelSurcharge": null,
+    "included": [
+      "왕복항공",
+      "4성급 호텔",
+      "천등날리기",
+      "특식 4회",
+      "101 전망대"
+    ],
+    "excluded": [],
+    "extraKnownKRW": null,
+    "hasShopping": false,
+    "hasOptionalTours": null,
+    "termsClear": false,
+    "url": "https://tripstore.kr/products/T49C28EB0D7A8",
+    "asOf": "2026-10-28",
+    "confidence": "low"
+  },
+  {
+    "destinationId": "taipei",
+    "vendor": "모두투어",
+    "title": "대만/단수이/예류/스펀/지우펀 4일 (4성호텔/천등체험/특식3회)",
+    "nights": 3,
+    "departureMonth": 11,
+    "priceKRW": 911900,
+    "departureDate": "2026-11-12",
+    "priceIncludesFuelSurcharge": null,
+    "included": [
+      "왕복항공",
+      "4성급 호텔",
+      "천등체험",
+      "특식 3회"
+    ],
+    "excluded": [],
+    "extraKnownKRW": null,
+    "hasShopping": true,
+    "hasOptionalTours": null,
+    "termsClear": false,
+    "url": "https://tripstore.kr/products/T7EA7A06B1B81",
     "asOf": "2026-10-28",
     "confidence": "low"
   }
