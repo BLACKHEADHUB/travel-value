@@ -33,7 +33,7 @@ export function TripControls({
             ))}
           </select>
         </label>
-        <fieldset className="min-w-64 flex-1 text-xs text-sub">
+        <fieldset className="w-full min-w-0 text-xs text-sub sm:w-auto sm:min-w-64 sm:flex-1">
           <legend className="mb-1">
             선호 기온 (일평균){' '}
             <b className="text-ink">
@@ -41,11 +41,11 @@ export function TripControls({
             </b>
           </legend>
           <div className="flex items-center gap-2">
-            <label className="flex flex-1 items-center gap-1">
+            <label className="flex min-w-0 flex-1 items-center gap-1">
               <span className="w-6">최저</span>
               <input
                 type="range"
-                className="flex-1 accent-sky-700"
+                className="w-full min-w-0 flex-1 accent-sky-700"
                 min={TEMP_BOUNDS.min}
                 max={TEMP_BOUNDS.max}
                 value={prefs.tMin}
@@ -53,11 +53,11 @@ export function TripControls({
                 onChange={(e) => onChange({ tMin: Math.min(Number(e.target.value), prefs.tMax) })}
               />
             </label>
-            <label className="flex flex-1 items-center gap-1">
+            <label className="flex min-w-0 flex-1 items-center gap-1">
               <span className="w-6">최고</span>
               <input
                 type="range"
-                className="flex-1 accent-sky-700"
+                className="w-full min-w-0 flex-1 accent-sky-700"
                 min={TEMP_BOUNDS.min}
                 max={TEMP_BOUNDS.max}
                 value={prefs.tMax}

@@ -17,7 +17,9 @@
     "verify": "npm run typecheck && npm run lint && npm run test && npm run validate:data && npm run build",
     "report": "tsx scripts/report.ts",
     "fetch:images": "tsx scripts/fetch-images.ts",
-    "fx": "tsx scripts/fx.ts"
+    "fx": "tsx scripts/fx.ts",
+    "data:report": "tsx scripts/data-report.ts",
+    "qa": "playwright test"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

@@ -247,9 +247,9 @@ export function Explorer({
       )}
 
       {list.length ? (
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((d) => (
-            <li key={d.id}>
+            <li key={d.id} className="min-w-0">
               <DestinationCard d={d} prefs={prefs} score={scores.get(d.id)!} query={query} />
             </li>
           ))}
