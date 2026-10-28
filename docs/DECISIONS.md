@@ -7,3 +7,4 @@
 - 추가 요구(패키지 비교, packageTours 스키마, compare.ts, 수집 원칙, 하네스 반영)를 PLAN에 반영.
 - 월/필터 상태는 URL 쿼리로 동기화(제안).
 - 점수의 가격 항목: 기본은 지역 평균 대비, 전체 평균 병용 옵션 제공(제안).
+- 2026-10-28 package.json 직접 구성(create-next-app은 비어있지 않은 폴더라 사용 안 함). eslint는 flat config 직접 실행.
