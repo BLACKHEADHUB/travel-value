@@ -8,28 +8,21 @@
       "lat": 21.3069,
       "lng": -157.8583
     },
-    "themes": [
-      "휴양",
-      "자연",
-      "액티비티"
-    ],
+    "themes": ["휴양", "자연", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
       "validUntil": null,
-      "note": "한국 여권은 비자면제프로그램(VWP) 대상이나 미국 입국 전 ESTA(전자여행허가) 신청 필수. 관광 90일 이내. 공식 페이지 상세 조건 확인 필요.",
-      "source": "https://esta.cbp.dhs.gov/"
+      "note": "한국은 비자면제프로그램(VWP) 대상. 관광·상용 90일 이내 체류 시 비자 대신 탑승 전 ESTA 승인 필수. 90일 초과·기타 목적은 비자 필요.",
+      "source": "https://kr.usembassy.gov/visas/"
     },
     "flightHours": {
       "ICN": 8,
       "GMP": null
     },
-    "landmarks": [
-      "와이키키 해변",
-      "다이아몬드 헤드",
-      "진주만",
-      "할레이바"
-    ],
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/호놀룰루-HNL",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/호놀룰루-HNL",
+    "landmarks": ["와이키키 해변", "다이아몬드 헤드", "진주만", "할레이바"],
     "flightPriceTypical": {
       "min": 627819,
       "max": 974694,
@@ -112,7 +105,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
       },
       {
@@ -204,7 +197,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
       },
       {
@@ -227,7 +220,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값 상위(성수기 경향)"
       },
       {
@@ -333,28 +326,21 @@
       "lat": 34.0522,
       "lng": -118.2437
     },
-    "themes": [
-      "도시",
-      "쇼핑",
-      "문화/역사"
-    ],
+    "themes": ["도시", "쇼핑", "문화/역사"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
       "validUntil": null,
-      "note": "한국 여권은 비자면제프로그램(VWP) 대상이나 미국 입국 전 ESTA(전자여행허가) 신청 필수. 관광 90일 이내. 공식 페이지 상세 조건 확인 필요.",
-      "source": "https://esta.cbp.dhs.gov/"
+      "note": "한국은 비자면제프로그램(VWP) 대상. 관광·상용 90일 이내 체류 시 비자 대신 탑승 전 ESTA 승인 필수. 90일 초과·기타 목적은 비자 필요.",
+      "source": "https://kr.usembassy.gov/visas/"
     },
     "flightHours": {
       "ICN": 11.1,
       "GMP": null
     },
-    "landmarks": [
-      "할리우드 사인",
-      "산타모니카 비치",
-      "그리피스 천문대",
-      "유니버설 스튜디오"
-    ],
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로스앤젤레스-LAX",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로스앤젤레스-LAX",
+    "landmarks": ["할리우드 사인", "산타모니카 비치", "그리피스 천문대", "유니버설 스튜디오"],
     "flightPriceTypical": {
       "min": 779322,
       "max": 1196296,
@@ -529,7 +515,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
       },
       {
@@ -552,7 +538,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값 상위"
       },
       {
@@ -621,7 +607,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
       },
       {
@@ -658,23 +644,20 @@
       "lat": 40.7128,
       "lng": -74.006
     },
-    "themes": [
-      "도시",
-      "문화/역사",
-      "쇼핑",
-      "미식"
-    ],
+    "themes": ["도시", "문화/역사", "쇼핑", "미식"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
       "validUntil": null,
-      "note": "한국 여권은 비자면제프로그램(VWP) 대상이나 미국 입국 전 ESTA(전자여행허가) 신청 필수. 관광 90일 이내. 공식 페이지 상세 조건 확인 필요.",
-      "source": "https://esta.cbp.dhs.gov/"
+      "note": "한국은 비자면제프로그램(VWP) 대상. 관광·상용 90일 이내 체류 시 비자 대신 탑승 전 ESTA 승인 필수. 90일 초과·기타 목적은 비자 필요.",
+      "source": "https://kr.usembassy.gov/visas/"
     },
     "flightHours": {
       "ICN": 13.9,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/뉴욕-NYC",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/뉴욕-NYC",
     "landmarks": [
       "타임스스퀘어",
       "센트럴파크",
@@ -893,7 +876,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값 상위"
       },
       {
@@ -959,7 +942,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
       },
       {
@@ -1058,7 +1041,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
       },
       {
@@ -1105,28 +1088,21 @@
       "lat": 49.2827,
       "lng": -123.1207
     },
-    "themes": [
-      "자연",
-      "도시",
-      "액티비티"
-    ],
+    "themes": ["자연", "도시", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
       "validUntil": null,
-      "note": "한국 여권은 캐나다 비자 면제 대상이나 항공 입국 시 eTA(전자여행허가) 필수. 공식 페이지 상세 조건 확인 필요.",
-      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html"
+      "note": "한국 여권 소지자는 항공 입국 시 eTA(전자여행허가) 필요(육로·해상 입국은 불필요). 체류 가능 기간·유효기간은 공식 페이지에서 확인.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html"
     },
     "flightHours": {
       "ICN": 9.8,
       "GMP": null
     },
-    "landmarks": [
-      "스탠리 파크",
-      "개스타운",
-      "그랜빌 아일랜드",
-      "캐필라노 현수교"
-    ],
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/밴쿠버-YVR",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/밴쿠버-YVR",
+    "landmarks": ["스탠리 파크", "개스타운", "그랜빌 아일랜드", "캐필라노 현수교"],
     "flightPriceTypical": {
       "min": 741588,
       "max": 1319569,
@@ -1404,7 +1380,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
       },
       {
@@ -1437,7 +1413,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 항공 중간값 상위"
       },
       {
@@ -1503,7 +1479,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
       },
       {

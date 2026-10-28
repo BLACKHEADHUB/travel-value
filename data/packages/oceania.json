@@ -147,10 +147,7 @@
       "전일정 조식",
       "레이트체크아웃"
     ],
-    "excluded": [
-      "공항-호텔 픽드랍(선택, 현지 성인 $20)",
-      "조식 외 식사"
-    ],
+    "excluded": ["공항-호텔 픽드랍(선택, 현지 성인 $20)", "조식 외 식사"],
     "extraKnownKRW": null,
     "hasShopping": false,
     "hasOptionalTours": null,

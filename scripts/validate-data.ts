@@ -73,6 +73,10 @@ for (const [region, dests] of destFiles) {
     if ((tp.min !== null || tp.max !== null) && (!tp.source || !tp.asOf))
       err(`${at}: 연중 대표가 source/asOf 누락`);
 
+    if (d.monthly.some((m) => m.seasonLevel !== null) && !d.seasonSource)
+      warn(`${at}: seasonLevel 출처(seasonSource) 없음`);
+    if (d.flightHours.ICN !== null && !d.flightHoursSource) warn(`${at}: 비행시간 출처 없음`);
+
     const months = d.monthly.map((m) => m.month).sort((a, b) => a - b);
     if (months.join() !== '1,2,3,4,5,6,7,8,9,10,11,12') err(`${at}: 12개월(1~12) 데이터가 아님`);
 
