@@ -6,6 +6,7 @@ import { meanTemp } from '@/lib/view';
 import { nightsLabel, whenLabel } from '@/lib/prefs';
 import { FAV_KEY, useStoredList } from '@/lib/storage';
 import { useTrip } from '@/lib/useTrip';
+import { bestMonths, seasonScores } from '@/lib/score';
 import type { PeerStats } from '@/lib/trip';
 import { DestinationCard } from './DestinationCard';
 import { TopFive } from './TopFive';
@@ -42,6 +43,7 @@ export function Explorer({
   const inTempOnly = sp.get('intemp') === '1';
   const sort = (sp.get('sort') ?? 'score') as Sort;
   const favOnly = sp.get('fav') === '1';
+  const search = (sp.get('q') ?? '').trim();
   const fav = useStoredList(FAV_KEY);
 
   const activeFilters =
@@ -56,6 +58,11 @@ export function Explorer({
       const m = d.months[month - 1];
       const s = scores.get(d.id)!;
       if (favOnly && !fav.list.includes(d.id)) return false;
+      if (
+        search &&
+        !`${d.nameKo} ${d.country} ${d.id}`.toLowerCase().includes(search.toLowerCase())
+      )
+        return false;
       if (themes.length && !themes.some((t) => (d.themes as string[]).includes(t))) return false;
       if (visaFree && d.visaInfo.kind !== 'free') return false;
       const h = d.flightHours.ICN;
@@ -96,7 +103,31 @@ export function Explorer({
     sort,
     favOnly,
     fav.list,
+    search,
   ]);
+
+  // 도시별 제철 달 (박수·선호 기온 기준, 월과 무관)
+  const seasons = useMemo(() => {
+    const map = new Map<string, number[]>();
+    for (const d of destinations) map.set(d.id, bestMonths(seasonScores(d, prefs, peers)));
+    return map;
+    // 월·출발일이 바뀌어도 제철 계산은 같음
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [destinations, peers, prefs.nights, prefs.tMin, prefs.tMax, prefs.rainAvoid]);
+
+  // 가성비순일 때 경비 정보가 없는 곳은 가격을 뺀 점수라 따로 묶어 뒤에 보여 줌
+  const isUnpriced = (d: DestinationView) => scores.get(d.id)!.parts.price === null;
+  const groups =
+    sort === 'score' && list.some(isUnpriced) && list.some((d) => !isUnpriced(d))
+      ? [
+          { title: null, note: null, items: list.filter((d) => !isUnpriced(d)) },
+          {
+            title: '경비 정보가 부족한 곳',
+            note: '가격을 빼고 매긴 점수라 위 목록과 따로 보여 드려요',
+            items: list.filter(isUnpriced),
+          },
+        ]
+      : [{ title: null, note: null, items: list }];
 
   const unpricedShown = list.filter((d) => scores.get(d.id)!.parts.price === null).length;
 
@@ -138,6 +169,16 @@ export function Explorer({
             {list.length}곳
           </h2>
           <div className="flex items-center gap-2">
+            <label className="relative">
+              <span className="sr-only">도시·나라 검색</span>
+              <input
+                type="search"
+                placeholder="도시·나라 검색"
+                defaultValue={search}
+                onChange={(e) => setParams({ q: e.target.value.trim() || null })}
+                className="w-36 rounded-full border-0 bg-surface py-2 pr-3 pl-4 text-sm ring-1 ring-line placeholder:text-sub focus-visible:outline-2 focus-visible:outline-accent sm:w-48"
+              />
+            </label>
             <label>
               <span className="sr-only">정렬</span>
               <select
@@ -286,13 +327,28 @@ export function Explorer({
         </p>
 
         {list.length ? (
-          <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {list.map((d) => (
-              <li key={d.id} className="min-w-0">
-                <DestinationCard d={d} prefs={prefs} score={scores.get(d.id)!} query={query} />
-              </li>
-            ))}
-          </ul>
+          groups.map((g) => (
+            <div key={g.title ?? 'main'} className="space-y-3">
+              {g.title && (
+                <h3 className="pt-4 text-base font-bold">
+                  {g.title} <span className="text-sm font-normal text-sub">{g.note}</span>
+                </h3>
+              )}
+              <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {g.items.map((d) => (
+                  <li key={d.id} className="min-w-0">
+                    <DestinationCard
+                      d={d}
+                      prefs={prefs}
+                      score={scores.get(d.id)!}
+                      query={query}
+                      season={seasons.get(d.id)!}
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
         ) : (
           <p className="rounded-2xl bg-surface p-10 text-center text-sm text-sub ring-1 ring-line">
             {favOnly && !fav.list.length

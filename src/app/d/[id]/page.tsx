@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { loadDestinations, loadPeerStats } from '@/lib/data';
 import { REGION_LABEL } from '@/lib/themes';
 import { DetailBody } from '@/components/DetailBody';
+import { ShareButton } from '@/components/ShareButton';
 
 export function generateStaticParams() {
   return loadDestinations().map((d) => ({ id: d.id }));
@@ -12,7 +13,14 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const d = loadDestinations().find((x) => x.id === id);
-  return { title: d ? `${d.nameKo} 제철 정보` : '여행지' };
+  if (!d) return { title: '여행지' };
+  const title = `${d.nameKo} 제철 정보`;
+  const description = `${d.country} ${d.nameKo} — 달마다 날씨·항공값·경비로 매긴 가성비 점수와 제철 달력.`;
+  return {
+    title,
+    description,
+    openGraph: { title, description, images: d.imageUrl ? [{ url: d.imageUrl }] : [] },
+  };
 }
 
 export default async function DetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -31,12 +39,15 @@ export default async function DetailPage({ params }: { params: Promise<{ id: str
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-black/30" />
-        <Link
-          href="/"
-          className="absolute top-4 left-4 rounded-full bg-black/40 px-3 py-1.5 text-sm text-white backdrop-blur-sm hover:bg-black/60 focus-visible:outline-2 focus-visible:outline-white"
-        >
-          ← 목록
-        </Link>
+        <div className="absolute inset-x-4 top-4 flex justify-between">
+          <Link
+            href="/"
+            className="rounded-full bg-black/40 px-3 py-1.5 text-sm text-white backdrop-blur-sm hover:bg-black/60 focus-visible:outline-2 focus-visible:outline-white"
+          >
+            ← 목록
+          </Link>
+          <ShareButton title={`${d.nameKo} 제철 정보 · 제철여행`} />
+        </div>
         <div className="absolute inset-x-5 bottom-5 text-white sm:inset-x-8 sm:bottom-7">
           <p className="text-sm text-white/80">
             {REGION_LABEL[d.region]} · {d.country}

@@ -219,7 +219,7 @@ test('detail: /d/tokyo/?m=4&n=5', async ({ page }, info) => {
 test('favorites: 저장 → 메뉴 카운트 → 즐겨찾기만', async ({ page }, info) => {
   await page.goto('/?m=4');
   const card = cards(page).first();
-  const name = await card.locator('h2 a').innerText();
+  const name = await card.locator('h2 span').first().innerText();
   await card.getByRole('button', { name: `${name} 즐겨찾기` }).click();
   await expect(card.getByRole('button', { name: `${name} 즐겨찾기 해제` })).toHaveText('★');
   const nav = page.getByRole('navigation', { name: '주요 메뉴' });
@@ -229,7 +229,7 @@ test('favorites: 저장 → 메뉴 카운트 → 즐겨찾기만', async ({ page
   await expect(page.getByLabel(/즐겨찾기만/)).toBeChecked();
   await expect(page).toHaveURL(/[?&]fav=1/);
   await expect(cards(page)).toHaveCount(1);
-  await expect(cards(page).first().locator('h2 a')).toHaveText(name);
+  await expect(cards(page).first().locator('h2 span').first()).toHaveText(name);
   await shot(page, info, 'favorites');
 });
 
@@ -320,4 +320,35 @@ test('mobile: 가로 넘침 없음', async ({ page }, info) => {
     await shot(page, info, name);
     expect.soft(sw, `${path} scrollWidth`).toBeLessThanOrEqual(cw);
   }
+});
+
+test('card: 사진만 눌러도 상세로 이동', async ({ page }) => {
+  await page.goto('/?m=4');
+  const card = cards(page).first();
+  const name = await card.locator('h2 span').first().innerText();
+  // 사진 영역 왼쪽 가운데(저장 버튼·이름 줄을 피한 곳)를 클릭
+  await card.scrollIntoViewIfNeeded();
+  const box = (await card.locator('img').first().boundingBox())!;
+  await page.mouse.click(box.x + 30, box.y + box.height / 2);
+  await expect(page).toHaveURL(/\/d\/[a-z-]+\//);
+  await expect(page.locator('h1')).toContainText(name);
+});
+
+test('detail: 제철 달력 12칸, 달 누르면 바뀜', async ({ page }, info) => {
+  await page.goto('/d/bangkok/?m=1');
+  await expect(page.locator('#season-h')).toContainText('제철은');
+  const cells = page.locator('section[aria-labelledby="season-h"] ol button');
+  await expect(cells).toHaveCount(12);
+  await cells.nth(6).click();
+  await expect(page).toHaveURL(/[?&]m=7/);
+  await expect(page.locator('#score-h')).toContainText('7월');
+  await shot(page, info, 'season-calendar');
+});
+
+test('search: 도시 이름으로 찾기', async ({ page }) => {
+  await page.goto('/?m=4');
+  await page.getByRole('searchbox', { name: '도시·나라 검색' }).fill('방콕');
+  await expect(page).toHaveURL(/[?&]q=/);
+  await expect(cards(page)).toHaveCount(1);
+  await expect(cards(page).first().locator('h2')).toContainText('방콕');
 });

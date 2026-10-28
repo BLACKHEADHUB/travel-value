@@ -25,3 +25,18 @@ export const CONFIDENCE_LABEL = {
   low: '신뢰도 낮음',
 } as const;
 export const MONTHS = Array.from({ length: 12 }, (_, i) => i + 1);
+
+/** [11,12,1,2] → "11~2월", [3,5] → "3·5월", [4,5,6,10] → "4~6·10월" (연말-연초는 이어서 봄) */
+export function monthsLabel(ms: number[]): string {
+  if (!ms.length) return NA;
+  const set = new Set(ms);
+  // 연속 구간의 시작: 앞 달(12→1 순환)이 없는 달
+  const starts = ms.filter((m) => !set.has(m === 1 ? 12 : m - 1));
+  if (!starts.length) return '연중';
+  const runs = starts.map((s) => {
+    let e = s;
+    while (set.has(e === 12 ? 1 : e + 1) && (e === 12 ? 1 : e + 1) !== s) e = e === 12 ? 1 : e + 1;
+    return s === e ? `${s}` : `${s}~${e}`;
+  });
+  return `${runs.join('·')}월`;
+}

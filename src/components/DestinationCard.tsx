@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { DestinationView } from '@/lib/data';
-import { NA, SEASON_LABEL, temp, won } from '@/lib/format';
+import { monthsLabel, NA, SEASON_LABEL, temp, won } from '@/lib/format';
 import { isRainy, visaLabel } from '@/lib/view';
 import { freeTripCost, packageStats, verdict } from '@/lib/compare';
 import { nightsLabel, type Prefs } from '@/lib/prefs';
@@ -13,10 +13,13 @@ export function DestinationCard({
   prefs,
   score,
   query,
+  season,
 }: {
   d: DestinationView;
   prefs: Prefs;
   score: DestinationScore;
+  /** 이 조건에서의 제철 달 (bestMonths) */
+  season: number[];
   /** 상세 링크에 넘길 여행 조건 쿼리 */
   query: string;
 }) {
@@ -34,9 +37,16 @@ export function DestinationCard({
   );
   const hours = d.flightHours.ICN;
   const unpriced = score.total !== null && score.parts.price === null;
+  const inSeason = season.includes(month);
 
   return (
     <article className="group relative min-w-0 overflow-hidden rounded-2xl bg-surface shadow-sm ring-1 ring-line transition hover:-translate-y-0.5 hover:shadow-lg focus-within:ring-2 focus-within:ring-accent">
+      {/* 카드 어디를 눌러도 상세로 (저장·비교 버튼은 z-10으로 위에 뜸) */}
+      <Link
+        href={`/d/${d.id}/?${query}`}
+        aria-label={`${d.nameKo} 자세히 보기`}
+        className="absolute inset-0 z-[1] rounded-2xl focus:outline-none"
+      />
       <div className="relative aspect-[4/3] bg-gradient-to-br from-sky-200 to-emerald-100">
         {d.imageUrl && (
           // eslint-disable-next-line @next/next/no-img-element -- 정적 export, 외부 Commons 이미지
@@ -48,22 +58,24 @@ export function DestinationCard({
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent" />
-        {m.seasonLevel && (
-          <span className="absolute top-3 left-3 rounded-full bg-black/45 px-2.5 py-1 text-xs font-medium text-white backdrop-blur-sm">
-            {SEASON_LABEL[m.seasonLevel]}
-          </span>
-        )}
+        <div className="absolute top-3 left-3 flex gap-1.5">
+          {inSeason && (
+            <span className="rounded-full bg-amber-400 px-2.5 py-1 text-xs font-bold text-zinc-900">
+              지금 제철
+            </span>
+          )}
+          {m.seasonLevel && (
+            <span className="rounded-full bg-black/45 px-2.5 py-1 text-xs font-medium text-white backdrop-blur-sm">
+              {SEASON_LABEL[m.seasonLevel]}
+            </span>
+          )}
+        </div>
         <div className="absolute top-3 right-3">
           <CardActions id={d.id} name={d.nameKo} only="fav" />
         </div>
         <div className="absolute inset-x-4 bottom-3 flex items-end justify-between gap-3 text-white">
           <h2 className="min-w-0">
-            <Link
-              href={`/d/${d.id}/?${query}`}
-              className="text-xl font-bold drop-shadow after:absolute after:inset-0 focus:outline-none"
-            >
-              {d.nameKo}
-            </Link>
+            <span className="text-xl font-bold drop-shadow">{d.nameKo}</span>
             <span className="ml-1.5 text-sm text-white/80">{d.country}</span>
           </h2>
           <p className="shrink-0 text-right leading-none">
@@ -107,7 +119,10 @@ export function DestinationCard({
               {v.text}
             </p>
           ) : (
-            <span className="min-w-0 truncate text-xs text-sub">{d.themes.join(' · ')}</span>
+            <span className="min-w-0 truncate text-xs text-sub">
+              <b className="font-semibold text-accent">제철</b> {monthsLabel(season)} ·{' '}
+              {d.themes.join(' · ')}
+            </span>
           )}
           <CardActions id={d.id} name={d.nameKo} only="compare" />
         </div>

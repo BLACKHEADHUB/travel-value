@@ -196,3 +196,31 @@ export function scoreDestination(
     priceBasis: result.parts.price === null ? null : regionAvg !== null ? 'region' : 'all',
   };
 }
+
+/** 같은 조건(박수·선호 기온)으로 1~12월 점수 — '제철 달력'용. 출발일은 무시 */
+export function seasonScores(
+  d: DestinationView,
+  prefs: Prefs,
+  peers: PeerStats,
+): (number | null)[] {
+  return Array.from(
+    { length: 12 },
+    (_, i) => scoreDestination(d, { ...prefs, month: i + 1, date: null }, peers).total,
+  );
+}
+
+/** 제철 달: 최고점에서 SEASON_MARGIN점 이내인 달 (최대 4개, 점수 높은 순으로 고른 뒤 달 순서) */
+export const SEASON_MARGIN = 5;
+export function bestMonths(scores: (number | null)[], max = 4): number[] {
+  const known = scores
+    .map((s, i) => ({ s, m: i + 1 }))
+    .filter((x): x is { s: number; m: number } => x.s !== null);
+  if (!known.length) return [];
+  const top = Math.max(...known.map((x) => x.s));
+  return known
+    .filter((x) => x.s >= top - SEASON_MARGIN)
+    .sort((a, b) => b.s - a.s)
+    .slice(0, max)
+    .map((x) => x.m)
+    .sort((a, b) => a - b);
+}
