@@ -298,6 +298,228 @@
         "avgTempMax": 5.6,
         "rainfallMm": 258
       }
+    ],
+    "cancun": [
+      {
+        "month": 1,
+        "avgTempMin": 21.4,
+        "avgTempMax": 26.2,
+        "rainfallMm": 88
+      },
+      {
+        "month": 2,
+        "avgTempMin": 22.7,
+        "avgTempMax": 27.1,
+        "rainfallMm": 59
+      },
+      {
+        "month": 3,
+        "avgTempMin": 23.1,
+        "avgTempMax": 28,
+        "rainfallMm": 34
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.1,
+        "avgTempMax": 29.5,
+        "rainfallMm": 35
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.8,
+        "avgTempMax": 30.1,
+        "rainfallMm": 87
+      },
+      {
+        "month": 6,
+        "avgTempMin": 25.4,
+        "avgTempMax": 30.3,
+        "rainfallMm": 143
+      },
+      {
+        "month": 7,
+        "avgTempMin": 25.9,
+        "avgTempMax": 31.4,
+        "rainfallMm": 72
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.6,
+        "avgTempMax": 31.3,
+        "rainfallMm": 129
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.2,
+        "avgTempMax": 30.7,
+        "rainfallMm": 123
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.4,
+        "avgTempMax": 29.8,
+        "rainfallMm": 156
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.1,
+        "avgTempMax": 28,
+        "rainfallMm": 134
+      },
+      {
+        "month": 12,
+        "avgTempMin": 21.9,
+        "avgTempMax": 26.9,
+        "rainfallMm": 95
+      }
+    ],
+    "banff": [
+      {
+        "month": 1,
+        "avgTempMin": -12.9,
+        "avgTempMax": -4.4,
+        "rainfallMm": 20
+      },
+      {
+        "month": 2,
+        "avgTempMin": -15.5,
+        "avgTempMax": -5.4,
+        "rainfallMm": 27
+      },
+      {
+        "month": 3,
+        "avgTempMin": -10,
+        "avgTempMax": 1.4,
+        "rainfallMm": 31
+      },
+      {
+        "month": 4,
+        "avgTempMin": -5.4,
+        "avgTempMax": 5.6,
+        "rainfallMm": 31
+      },
+      {
+        "month": 5,
+        "avgTempMin": 0.7,
+        "avgTempMax": 12.5,
+        "rainfallMm": 49
+      },
+      {
+        "month": 6,
+        "avgTempMin": 4.2,
+        "avgTempMax": 17.9,
+        "rainfallMm": 92
+      },
+      {
+        "month": 7,
+        "avgTempMin": 8,
+        "avgTempMax": 22.3,
+        "rainfallMm": 60
+      },
+      {
+        "month": 8,
+        "avgTempMin": 7.9,
+        "avgTempMax": 22.1,
+        "rainfallMm": 47
+      },
+      {
+        "month": 9,
+        "avgTempMin": 3.6,
+        "avgTempMax": 16.9,
+        "rainfallMm": 41
+      },
+      {
+        "month": 10,
+        "avgTempMin": -4.2,
+        "avgTempMax": 7.7,
+        "rainfallMm": 40
+      },
+      {
+        "month": 11,
+        "avgTempMin": -11.6,
+        "avgTempMax": -1.1,
+        "rainfallMm": 44
+      },
+      {
+        "month": 12,
+        "avgTempMin": -14.5,
+        "avgTempMax": -6.2,
+        "rainfallMm": 44
+      }
+    ],
+    "sanfrancisco": [
+      {
+        "month": 1,
+        "avgTempMin": 7.8,
+        "avgTempMax": 13.5,
+        "rainfallMm": 111
+      },
+      {
+        "month": 2,
+        "avgTempMin": 7.4,
+        "avgTempMax": 14,
+        "rainfallMm": 79
+      },
+      {
+        "month": 3,
+        "avgTempMin": 8.5,
+        "avgTempMax": 13.9,
+        "rainfallMm": 92
+      },
+      {
+        "month": 4,
+        "avgTempMin": 9.9,
+        "avgTempMax": 15.2,
+        "rainfallMm": 22
+      },
+      {
+        "month": 5,
+        "avgTempMin": 11.4,
+        "avgTempMax": 16.6,
+        "rainfallMm": 26
+      },
+      {
+        "month": 6,
+        "avgTempMin": 12.9,
+        "avgTempMax": 18.4,
+        "rainfallMm": 2
+      },
+      {
+        "month": 7,
+        "avgTempMin": 13.2,
+        "avgTempMax": 18.2,
+        "rainfallMm": 0
+      },
+      {
+        "month": 8,
+        "avgTempMin": 14.5,
+        "avgTempMax": 19.8,
+        "rainfallMm": 0
+      },
+      {
+        "month": 9,
+        "avgTempMin": 14.6,
+        "avgTempMax": 20.5,
+        "rainfallMm": 5
+      },
+      {
+        "month": 10,
+        "avgTempMin": 12.7,
+        "avgTempMax": 20.1,
+        "rainfallMm": 34
+      },
+      {
+        "month": 11,
+        "avgTempMin": 9.6,
+        "avgTempMax": 16.3,
+        "rainfallMm": 42
+      },
+      {
+        "month": 12,
+        "avgTempMin": 8.1,
+        "avgTempMax": 13.3,
+        "rainfallMm": 186
+      }
     ]
   }
 }

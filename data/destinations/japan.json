@@ -1630,5 +1630,1319 @@
         "notes": "카약 기준 항공 중간값 연중 2위(7월 다음)"
       }
     ]
+  },
+  {
+    "id": "okinawa",
+    "nameKo": "오키나와",
+    "country": "일본",
+    "region": "japan",
+    "coordinates": {
+      "lat": 26.2124,
+      "lng": 127.6809
+    },
+    "themes": ["휴양", "자연", "액티비티"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "일본 외무성 단기체재 사증면제 대상국 목록에 한국 포함(관광 등 90일 이내, 보수를 받는 활동 불가). 한시 정책 아님.",
+      "source": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html"
+    },
+    "flightHours": {
+      "ICN": 2.5,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오키나와-OKA",
+    "seasonSource": null,
+    "landmarks": ["슈리성", "츄라우미 수족관", "국제거리", "만자모"],
+    "flightPriceTypical": {
+      "min": 303110,
+      "max": 468184,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오키나와-OKA",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "카약 인천→오키나와(OKA) 왕복 '일반적인 금액' 범위, 최근 12개월 평균 372,102원"
+    },
+    "imageFile": "Naha_Okinawa_Japan_Shuri-Castle-01.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Naha_Okinawa_Japan_Shuri-Castle-01.jpg/1280px-Naha_Okinawa_Japan_Shuri-Castle-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naha_Okinawa_Japan_Shuri-Castle-01.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 442033,
+          "max": 442033,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오키나와-OKA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 비싼 달(2월 다음)"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 471149,
+          "max": 471149,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오키나와-OKA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 연중 최고"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 297777,
+          "max": 297777,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오키나와-OKA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 연중 최저(9월과 동률)"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "태풍 시즌(8~10월)은 결항 가능성 있음(일반 여행 가이드 기준)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 297777,
+          "max": 297777,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오키나와-OKA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 연중 최저(3월과 동률)"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 30000,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 252200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.haniseoul.com/travels/japan/japan-trip-budget-planner-guide",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "kyoto",
+    "nameKo": "교토",
+    "country": "일본",
+    "region": "japan",
+    "coordinates": {
+      "lat": 35.0116,
+      "lng": 135.7681
+    },
+    "themes": ["문화/역사", "도시", "미식"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "일본 외무성 단기체재 사증면제 대상국 목록에 한국 포함(관광 등 90일 이내, 보수를 받는 활동 불가). 한시 정책 아님.",
+      "source": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html"
+    },
+    "flightHours": {
+      "ICN": 1.9,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오사카-OSA",
+    "seasonSource": "https://www.kayak.co.kr/교토부-일본-호텔.1768.dr.html",
+    "landmarks": ["기요미즈데라", "후시미이나리 신사", "금각사", "아라시야마"],
+    "flightPriceTypical": {
+      "min": 197439,
+      "max": 304819,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오사카-OSA",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "교토는 공항이 없어 간사이(오사카, OSA) 도착 기준. 카약 인천→오사카 왕복 '일반적인 금액' 범위, 최근 12개월 평균 약 242,488원"
+    },
+    "imageFile": "Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-02.jpg/1280px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 266165,
+          "max": 266165,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오사카-OSA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "항공은 간사이(오사카) 기준 카약 중간값"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 376074,
+          "max": 376074,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오사카-OSA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "항공은 간사이(오사카) 기준 카약 중간값 연중 최고"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 193334,
+          "max": 193334,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오사카-OSA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "카약 교토부 호텔 집계 비수기. 항공은 간사이(오사카) 기준 중간값 연중 최저(9월과 동률)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 193334,
+          "max": 193334,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/오사카-OSA",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "항공은 간사이(오사카) 기준 카약 중간값 연중 최저(8월과 동률)"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "카약 교토부 호텔 집계 성수기"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 18930,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 159100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-kyoto",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "nagoya",
+    "nameKo": "나고야",
+    "country": "일본",
+    "region": "japan",
+    "coordinates": {
+      "lat": 35.1815,
+      "lng": 136.9066
+    },
+    "themes": ["도시", "미식", "문화/역사"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "일본 외무성 단기체재 사증면제 대상국 목록에 한국 포함(관광 등 90일 이내, 보수를 받는 활동 불가). 한시 정책 아님.",
+      "source": "https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html"
+    },
+    "flightHours": {
+      "ICN": 1.9,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나고야-NGO",
+    "seasonSource": null,
+    "landmarks": ["나고야성", "아쓰타 신궁", "오스 상점가", "JR 센트럴 타워스"],
+    "flightPriceTypical": {
+      "min": 249630,
+      "max": 376891,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나고야-NGO",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "카약 인천→나고야 왕복 '일반적인 금액' 범위, 최근 12개월 평균 301,952원"
+    },
+    "imageFile": "Nagoya_Station_-_View_from_the_Main_Building_in_Nagoya_Campus_of_Aichi_University_2022-6-29.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Nagoya_Station_-_View_from_the_Main_Building_in_Nagoya_Campus_of_Aichi_University_2022-6-29.jpg/1280px-Nagoya_Station_-_View_from_the_Main_Building_in_Nagoya_Campus_of_Aichi_University_2022-6-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "ウィキ太郎(WikiTaro)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nagoya_Station_-_View_from_the_Main_Building_in_Nagoya_Campus_of_Aichi_University_2022-6-29.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 390170,
+          "max": 390170,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나고야-NGO",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 연중 최고"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 257909,
+          "max": 257909,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나고야-NGO",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 연중 최저"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 359750,
+          "max": 359750,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나고야-NGO",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 항공 중간값 비싼 달(2월 다음)"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "JPY",
+            "total": 16653,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 8.407,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 140000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/japan/nagoya",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
   }
 ]

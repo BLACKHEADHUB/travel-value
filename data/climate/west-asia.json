@@ -1,0 +1,377 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5), 도시 좌표 기준 월평균",
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "generatedAt": "2026-10-28",
+  "cities": {
+    "dubai": [
+      {
+        "month": 1,
+        "avgTempMin": 15.1,
+        "avgTempMax": 23.8,
+        "rainfallMm": 42
+      },
+      {
+        "month": 2,
+        "avgTempMin": 16.2,
+        "avgTempMax": 25.1,
+        "rainfallMm": 5
+      },
+      {
+        "month": 3,
+        "avgTempMin": 18.8,
+        "avgTempMax": 28.5,
+        "rainfallMm": 7
+      },
+      {
+        "month": 4,
+        "avgTempMin": 21.8,
+        "avgTempMax": 32.3,
+        "rainfallMm": 5
+      },
+      {
+        "month": 5,
+        "avgTempMin": 25,
+        "avgTempMax": 35.9,
+        "rainfallMm": 0
+      },
+      {
+        "month": 6,
+        "avgTempMin": 28.4,
+        "avgTempMax": 39.5,
+        "rainfallMm": 0
+      },
+      {
+        "month": 7,
+        "avgTempMin": 31,
+        "avgTempMax": 40.5,
+        "rainfallMm": 5
+      },
+      {
+        "month": 8,
+        "avgTempMin": 30.4,
+        "avgTempMax": 40.7,
+        "rainfallMm": 0
+      },
+      {
+        "month": 9,
+        "avgTempMin": 27.9,
+        "avgTempMax": 39,
+        "rainfallMm": 0
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.4,
+        "avgTempMax": 35.2,
+        "rainfallMm": 2
+      },
+      {
+        "month": 11,
+        "avgTempMin": 20.9,
+        "avgTempMax": 30.5,
+        "rainfallMm": 9
+      },
+      {
+        "month": 12,
+        "avgTempMin": 17.4,
+        "avgTempMax": 26.5,
+        "rainfallMm": 10
+      }
+    ],
+    "kathmandu": [
+      {
+        "month": 1,
+        "avgTempMin": 4.7,
+        "avgTempMax": 16.6,
+        "rainfallMm": 29
+      },
+      {
+        "month": 2,
+        "avgTempMin": 6,
+        "avgTempMax": 18.1,
+        "rainfallMm": 40
+      },
+      {
+        "month": 3,
+        "avgTempMin": 10.2,
+        "avgTempMax": 22.2,
+        "rainfallMm": 57
+      },
+      {
+        "month": 4,
+        "avgTempMin": 13.5,
+        "avgTempMax": 24.8,
+        "rainfallMm": 87
+      },
+      {
+        "month": 5,
+        "avgTempMin": 15.6,
+        "avgTempMax": 25.1,
+        "rainfallMm": 246
+      },
+      {
+        "month": 6,
+        "avgTempMin": 18.8,
+        "avgTempMax": 26.4,
+        "rainfallMm": 488
+      },
+      {
+        "month": 7,
+        "avgTempMin": 20,
+        "avgTempMax": 26.4,
+        "rainfallMm": 970
+      },
+      {
+        "month": 8,
+        "avgTempMin": 20,
+        "avgTempMax": 26.7,
+        "rainfallMm": 723
+      },
+      {
+        "month": 9,
+        "avgTempMin": 18.7,
+        "avgTempMax": 25.9,
+        "rainfallMm": 461
+      },
+      {
+        "month": 10,
+        "avgTempMin": 14.6,
+        "avgTempMax": 23.9,
+        "rainfallMm": 99
+      },
+      {
+        "month": 11,
+        "avgTempMin": 9.6,
+        "avgTempMax": 21.2,
+        "rainfallMm": 7
+      },
+      {
+        "month": 12,
+        "avgTempMin": 5.7,
+        "avgTempMax": 17.9,
+        "rainfallMm": 9
+      }
+    ],
+    "maldives": [
+      {
+        "month": 1,
+        "avgTempMin": 26.5,
+        "avgTempMax": 27.9,
+        "rainfallMm": 68
+      },
+      {
+        "month": 2,
+        "avgTempMin": 26.8,
+        "avgTempMax": 28.1,
+        "rainfallMm": 34
+      },
+      {
+        "month": 3,
+        "avgTempMin": 26.9,
+        "avgTempMax": 28.6,
+        "rainfallMm": 70
+      },
+      {
+        "month": 4,
+        "avgTempMin": 27.3,
+        "avgTempMax": 29.2,
+        "rainfallMm": 106
+      },
+      {
+        "month": 5,
+        "avgTempMin": 27.1,
+        "avgTempMax": 29.1,
+        "rainfallMm": 252
+      },
+      {
+        "month": 6,
+        "avgTempMin": 27.2,
+        "avgTempMax": 28.9,
+        "rainfallMm": 99
+      },
+      {
+        "month": 7,
+        "avgTempMin": 26.7,
+        "avgTempMax": 28.7,
+        "rainfallMm": 180
+      },
+      {
+        "month": 8,
+        "avgTempMin": 26.8,
+        "avgTempMax": 28.6,
+        "rainfallMm": 144
+      },
+      {
+        "month": 9,
+        "avgTempMin": 26.4,
+        "avgTempMax": 28.3,
+        "rainfallMm": 204
+      },
+      {
+        "month": 10,
+        "avgTempMin": 26.3,
+        "avgTempMax": 28.3,
+        "rainfallMm": 224
+      },
+      {
+        "month": 11,
+        "avgTempMin": 26.1,
+        "avgTempMax": 28.1,
+        "rainfallMm": 282
+      },
+      {
+        "month": 12,
+        "avgTempMin": 26.1,
+        "avgTempMax": 28.1,
+        "rainfallMm": 288
+      }
+    ],
+    "samarkand": [
+      {
+        "month": 1,
+        "avgTempMin": -3.5,
+        "avgTempMax": 7.1,
+        "rainfallMm": 60
+      },
+      {
+        "month": 2,
+        "avgTempMin": -0.3,
+        "avgTempMax": 11.5,
+        "rainfallMm": 64
+      },
+      {
+        "month": 3,
+        "avgTempMin": 3.9,
+        "avgTempMax": 16,
+        "rainfallMm": 95
+      },
+      {
+        "month": 4,
+        "avgTempMin": 8.5,
+        "avgTempMax": 21.5,
+        "rainfallMm": 86
+      },
+      {
+        "month": 5,
+        "avgTempMin": 12.8,
+        "avgTempMax": 26.9,
+        "rainfallMm": 68
+      },
+      {
+        "month": 6,
+        "avgTempMin": 17.7,
+        "avgTempMax": 33.3,
+        "rainfallMm": 8
+      },
+      {
+        "month": 7,
+        "avgTempMin": 21.2,
+        "avgTempMax": 36.6,
+        "rainfallMm": 0
+      },
+      {
+        "month": 8,
+        "avgTempMin": 18.5,
+        "avgTempMax": 33.8,
+        "rainfallMm": 6
+      },
+      {
+        "month": 9,
+        "avgTempMin": 13.5,
+        "avgTempMax": 29.4,
+        "rainfallMm": 4
+      },
+      {
+        "month": 10,
+        "avgTempMin": 6.8,
+        "avgTempMax": 20.8,
+        "rainfallMm": 34
+      },
+      {
+        "month": 11,
+        "avgTempMin": 1.2,
+        "avgTempMax": 13.3,
+        "rainfallMm": 45
+      },
+      {
+        "month": 12,
+        "avgTempMin": -1.6,
+        "avgTempMax": 9,
+        "rainfallMm": 31
+      }
+    ],
+    "ulaanbaatar": [
+      {
+        "month": 1,
+        "avgTempMin": -22.5,
+        "avgTempMax": -11.7,
+        "rainfallMm": 1
+      },
+      {
+        "month": 2,
+        "avgTempMin": -19.1,
+        "avgTempMax": -7.3,
+        "rainfallMm": 3
+      },
+      {
+        "month": 3,
+        "avgTempMin": -9.6,
+        "avgTempMax": 2.5,
+        "rainfallMm": 7
+      },
+      {
+        "month": 4,
+        "avgTempMin": -3.5,
+        "avgTempMax": 9.3,
+        "rainfallMm": 17
+      },
+      {
+        "month": 5,
+        "avgTempMin": 1.6,
+        "avgTempMax": 15.6,
+        "rainfallMm": 35
+      },
+      {
+        "month": 6,
+        "avgTempMin": 9.2,
+        "avgTempMax": 22.2,
+        "rainfallMm": 59
+      },
+      {
+        "month": 7,
+        "avgTempMin": 12.5,
+        "avgTempMax": 23.7,
+        "rainfallMm": 100
+      },
+      {
+        "month": 8,
+        "avgTempMin": 9.9,
+        "avgTempMax": 20.7,
+        "rainfallMm": 81
+      },
+      {
+        "month": 9,
+        "avgTempMin": 4.8,
+        "avgTempMax": 17.2,
+        "rainfallMm": 44
+      },
+      {
+        "month": 10,
+        "avgTempMin": -3.8,
+        "avgTempMax": 6.7,
+        "rainfallMm": 13
+      },
+      {
+        "month": 11,
+        "avgTempMin": -13.2,
+        "avgTempMax": -3.8,
+        "rainfallMm": 11
+      },
+      {
+        "month": 12,
+        "avgTempMin": -20.8,
+        "avgTempMax": -12.1,
+        "rainfallMm": 5
+      }
+    ]
+  }
+}

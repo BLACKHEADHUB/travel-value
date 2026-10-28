@@ -1,6 +1,6 @@
 # PROGRESS
 
-갱신: 2026-10-28 · 저장소: https://github.com/BLACKHEADHUB/travel-value (private) · 배포: https://travel-value-eight.vercel.app
+갱신: 2026-10-29 · 저장소: https://github.com/BLACKHEADHUB/travel-value (private) · 배포: https://travel-value-eight.vercel.app
 
 ## 단계
 
@@ -16,30 +16,21 @@
 
 - [x] 날짜 지정·브랜드 (브랜치 feat/date-brand): 출발·귀국일 달력(범위·빠른 길이·월만 정하기, 모바일 바텀시트), 검색창형 조건 바, 브랜드 '제철여행'(잎 로고, 청록 포인트, 따뜻한 바탕)
 
-## 현재 작업 (2026-10-29, 브랜치 feat/expand-cities)
-**도시 25 → 57곳 확장 진행 중.** 수집 에이전트 9개가 `data/staging/<이름>.json`에 쓰는 중(japan-x, vn-th, sea-b, china-x, west-asia, europe-a, europe-b, americas-x, oceania-x). 새 지역 `west-asia`(중동·중앙·남아시아) 추가됨. 패키지는 이번엔 수집 안 함.
-
-이어서 할 순서:
-1. `ls data/staging` 로 9개 파일 확인 → 각각 `npx tsx scripts/staging.ts check <file>`
-2. `npx tsx scripts/staging.ts merge` (지역 파일로 병합, 스테이징 비움)
-3. `npm run fetch:climate` → `npm run fx` → `npm run fetch:images`(429 나면 잠시 후 재실행, 실패 파일명은 Commons 검색으로 교체) → `npm run validate:data`
-4. 점수에 성수기·비수기 수요 반영: `src/lib/score.ts` 가격 항목에 seasonLevel 보정(예: peak −10, off +10), `/score` 페이지 설명·테스트 추가
-5. reviewer 에이전트로 새 도시 검수 → 수정 → `npm run data:report`
-6. `npm run build && npm run qa`, `npm run verify` → PROGRESS·DECISIONS 갱신 → 커밋 → PR
+- [x] 도시 확장 (브랜치 feat/expand-cities): 25 → 57곳, 새 지역 west-asia(중동·중앙·남아시아). 스테이징 병렬 수집(scripts/staging.ts) → reviewer 검수 반영 → 기후·환율·이미지 일괄 생성. 성수기 −10/비수기 +10 가격 점수 보정. QA 도시 수 하드코딩 제거.
 
 ## 다음 할 일 (선택)
 
-1. 1일 경비 없는 8곳 보강, 신뢰도 low 경비를 medium 이상 출처로 교체
+1. 신뢰도 low 경비를 medium 이상 출처로 교체
 2. 패키지: 포함/불포함 확인 상품 확보(판매처 상세 페이지 브라우저 열람, 약관 범위) — 현재 판정 가능 도시 0
-3. 도시 확대(목표 40곳 안팎, 데이터가 다 찬 곳 위주)
+3. 1일 경비 없는 20곳 보강(푸켓·쿠알라룸푸르·런던·이스탄불·인터라켄 등), 사마르칸트 비자 공식 출처(0404)
 4. 체크박스 즉시 반영(낙관적 UI)
 
-## 데이터 현황 (25도시)
+## 데이터 현황 (57도시, 2026-10-29)
 
-- 연중 대표 항공가 25/25, 월별 항공 76/300칸, 1일 경비 204/300칸(17/25도시, 전부 confidence low), 이미지 25/25
-- 비자 출처 25/25(공식·대사관), 비행시간 출처 25/25(Kayak 노선 평균), seasonLevel은 Kayak 최고·최저가 달 위주로 부분 표시
-- 패키지 26개 / 12도시, termsClear=true 1개(사이판) → 자유 vs 패키지 판정 가능한 도시 사실상 0
-- 패키지 없는 도시 13곳: bangkok, danang, cebu, singapore, bali, paris, rome, barcelona, prague, honolulu, losangeles, newyork, vancouver
+- 연중 대표 항공가 57/57, 월별 항공 165/684칸, 1일 경비 444/684칸(37/57도시), 이미지 57/57, seasonLevel 180/684칸
+- 비자 출처 56/57(사마르칸트 미확인 → null), 비행시간 출처 55/57(직항 없는 곳 null)
+- 패키지 26개 / 12도시, 판정 가능 도시 0 (이번 확장은 패키지 미수집)
+- 공식 원문 미확인 표시: 울란바토르 무비자(보도 기준), 멜버른 직항 운항 시기
 
 ## 알려진 이슈
 

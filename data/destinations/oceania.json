@@ -1630,5 +1630,1324 @@
         "notes": null
       }
     ]
+  },
+  {
+    "id": "queenstown",
+    "nameKo": "퀸스타운",
+    "country": "뉴질랜드",
+    "region": "oceania",
+    "coordinates": {
+      "lat": -45.0312,
+      "lng": 168.6626
+    },
+    "themes": ["자연", "액티비티"],
+    "visaInfo": {
+      "required": true,
+      "kind": "eta",
+      "validUntil": null,
+      "note": "한국 여권은 비자면제 대상이나 NZeTA 사전 신청 필요(최대 3개월 체류). NZeTA 수수료 앱 NZ$17/웹 NZ$23 + 국제방문자 보전관광세(IVL) NZ$100(2024-10-01~), 2년간 복수입국 유효(주한 뉴질랜드대사관 안내).",
+      "source": "https://www.immigration.govt.nz/new-zealand-visas/apply-for-a-visa/visa-factsheet/visa-waiver"
+    },
+    "flightHours": {
+      "ICN": null,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/퀸스타운-퀸스타운국제공항-ZQN",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/퀸스타운-퀸스타운국제공항-ZQN",
+    "landmarks": ["와카티푸호수", "밀포드사운드", "스카이라인 곤돌라", "리마커블스"],
+    "flightPriceTypical": {
+      "min": 1544854,
+      "max": 1862566,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/퀸스타운-퀸스타운국제공항-ZQN",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 노선 페이지 ICN-ZQN 왕복 일반 가격대, 지난 12개월 평균 1,730,159원 기준(직항 없음, 경유 최단 약 18시간 39분)"
+    },
+    "imageFile": "Lake_Wakatipu_and_Remarkable_Mountains.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lake_Wakatipu_and_Remarkable_Mountains.jpg/1280px-Lake_Wakatipu_and_Remarkable_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Coekon",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Wakatipu_and_Remarkable_Mountains.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "남반구 여름"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "남반구 겨울, 스키 시즌 시작(대체로 6~9월)"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "스키 시즌"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "스키 시즌"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 1250000,
+          "max": 1250000,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/퀸스타운-퀸스타운국제공항-ZQN",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 기준 항공가 가장 저렴한 달(약 125만원)"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 기준 항공가 가장 비싼 달"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "NZD",
+            "total": 227,
+            "lodging": 97,
+            "food": 107,
+            "transport": null
+          },
+          "fx": {
+            "rate": 754.717,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 171300,
+          "lodging": 73200,
+          "food": 80800,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-queenstown",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "남반구 여름 시작"
+      }
+    ]
+  },
+  {
+    "id": "cairns",
+    "nameKo": "케언즈",
+    "country": "호주",
+    "region": "oceania",
+    "coordinates": {
+      "lat": -16.9186,
+      "lng": 145.7781
+    },
+    "themes": ["휴양", "자연", "액티비티"],
+    "visaInfo": {
+      "required": true,
+      "kind": "eta",
+      "validUntil": null,
+      "note": "한국 여권은 호주 ETA(subclass 601) 대상(호주대사관 안내). 관광·방문 목적 단기 체류(1회 최대 3개월).",
+      "source": "https://southkorea.embassy.gov.au/seol/visaoptions.html"
+    },
+    "flightHours": {
+      "ICN": null,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/케언즈-케언즈국제공항-CNS",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/케언즈-케언즈국제공항-CNS",
+    "landmarks": ["그레이트배리어리프", "쿠란다 열대우림", "에스플러네이드 라군", "포트더글러스"],
+    "flightPriceTypical": {
+      "min": 1055188,
+      "max": 1351866,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/케언즈-케언즈국제공항-CNS",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 노선 페이지 ICN-CNS 왕복 일반 가격대, 지난 12개월 평균 1,221,599원 기준(직항 없음, 경유 최단 약 16시간 12분)"
+    },
+    "imageFile": "Esplanade_Lagoon,_Cairns,_2025,_12.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Esplanade_Lagoon%2C_Cairns%2C_2025%2C_12.jpg/1280px-Esplanade_Lagoon%2C_Cairns%2C_2025%2C_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Chris Olszewski",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esplanade_Lagoon,_Cairns,_2025,_12.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "우기(대체로 11~4월), 고온다습·폭우"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 기준 항공가 가장 비싼 달, 우기"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "우기 말, KAYAK 성수기 표기"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "우기 끝무렵"
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "건기, KAYAK 비수기 표기"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 946268,
+          "max": 946268,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/케언즈-케언즈국제공항-CNS",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 기준 항공가 가장 저렴한 달, 우기 시작"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 162,
+            "lodging": 60,
+            "food": 68,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 151100,
+          "lodging": 56000,
+          "food": 63400,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-cairns",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "우기, 해파리 시즌(대체로 11~5월)"
+      }
+    ]
+  },
+  {
+    "id": "melbourne",
+    "nameKo": "멜버른",
+    "country": "호주",
+    "region": "oceania",
+    "coordinates": {
+      "lat": -37.8136,
+      "lng": 144.9631
+    },
+    "themes": ["도시", "미식", "문화/역사"],
+    "visaInfo": {
+      "required": true,
+      "kind": "eta",
+      "validUntil": null,
+      "note": "한국 여권은 호주 ETA(subclass 601) 대상(호주대사관 안내). 관광·방문 목적 단기 체류(1회 최대 3개월).",
+      "source": "https://southkorea.embassy.gov.au/seol/visaoptions.html"
+    },
+    "flightHours": {
+      "ICN": 10.5,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/멜버른-멜버른국제공항-MEL",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/멜버른-멜버른국제공항-MEL",
+    "landmarks": [
+      "페더레이션 스퀘어",
+      "플린더스 스트리트 역",
+      "퀸빅토리아 마켓",
+      "그레이트 오션 로드"
+    ],
+    "flightPriceTypical": {
+      "min": 750701,
+      "max": 1149312,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/멜버른-멜버른국제공항-MEL",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 노선 페이지 ICN-MEL 왕복 일반 가격대, 지난 12개월 평균 941,345원 기준(직항 10시간 30분은 KAYAK 표기, 직항 운항 시기는 항공사 확인)"
+    },
+    "imageFile": "Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg/1280px-Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 1030969,
+          "max": 1030969,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/멜버른-멜버른국제공항-MEL",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 기준 항공가 가장 비싼 달"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 737162,
+          "max": 737162,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/멜버른-멜버른국제공항-MEL",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 기준 항공가 가장 저렴한 달"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 995236,
+          "max": 995236,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/멜버른-멜버른국제공항-MEL",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 기준 항공가 두 번째로 비싼 달, 남반구 겨울"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "AUD",
+            "total": 273,
+            "lodging": 166,
+            "food": 74,
+            "transport": null
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 254700,
+          "lodging": 154900,
+          "food": 69000,
+          "transport": null,
+          "source": "https://www.exiap.com/guides/spending-money-city-melbourne",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
   }
 ]

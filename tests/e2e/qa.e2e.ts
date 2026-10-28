@@ -1,6 +1,14 @@
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { expect, test, type Page, type TestInfo } from '@playwright/test';
 
 /** 전제: `npm run build` 후 실행 (playwright.config.ts 참고). */
+
+/** 데이터 파일 기준 전체 도시 수 */
+const destDir = join(process.cwd(), 'data', 'destinations');
+const CITY_COUNT = readdirSync(destDir)
+  .filter((f) => f.endsWith('.json'))
+  .reduce((n, f) => n + JSON.parse(readFileSync(join(destDir, f), 'utf8')).length, 0);
 
 const shot = (page: Page, info: TestInfo, name: string) =>
   page.screenshot({ path: `qa-screenshots/${info.project.name}-${name}.png`, fullPage: true });
@@ -140,7 +148,7 @@ test('filters: 테마·예산·정렬', async ({ page }, info) => {
   const countOf = async () =>
     Number((await listHeading(page).innerText()).match(/전체 (\d+)곳/)![1]);
   const all = await countOf();
-  expect(all).toBe(25);
+  expect(all).toBe(CITY_COUNT);
   await openFilters(page);
 
   const themeBtn = page
@@ -254,11 +262,14 @@ test('compare: 3곳 담기, 4번째 비활성, 표·공유 링크', async ({ pag
   await shot(page, info, 'compare-table');
 });
 
-test('map: 마커 25개', async ({ page }, info) => {
+test('map: 마커 = 도시 수', async ({ page }, info) => {
   await page.goto('/map/?m=4');
-  await expect(page.locator('.leaflet-overlay-pane path.leaflet-interactive')).toHaveCount(25, {
-    timeout: 15_000,
-  });
+  await expect(page.locator('.leaflet-overlay-pane path.leaflet-interactive')).toHaveCount(
+    CITY_COUNT,
+    {
+      timeout: 15_000,
+    },
+  );
   await shot(page, info, 'map');
 });
 
