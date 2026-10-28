@@ -181,6 +181,8 @@ export function DetailBody({ d }: { d: DestinationView }) {
             </li>
           )}
           {d.visaInfo.source && <li>비자: {d.visaInfo.source}</li>}
+          {d.seasonSource && <li>시즌: {d.seasonSource}</li>}
+          {d.flightHoursSource && <li>비행시간: {d.flightHoursSource}</li>}
           {d.imageCredit && (
             <li>
               사진: {d.imageCredit.author} / {d.imageCredit.license} · {d.imageCredit.sourceUrl}
