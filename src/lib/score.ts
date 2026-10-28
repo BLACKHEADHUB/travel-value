@@ -11,6 +11,8 @@ export const SCORE_PARAMS = {
   /** 비교 평균 대비 총비용 비율: ratioBest 이하 100점, ratioWorst 이상 0점 (선형) */
   ratioBest: 0.6,
   ratioWorst: 1.6,
+  /** 출처 있는 성수기·비수기(seasonLevel) 수요 보정: 가격 항목 점수에 더함 (0~100으로 자름) */
+  demandAdjust: { peak: -10, shoulder: 0, off: 10 },
   /** 선호 기온 범위를 벗어난 1℃마다 감점 (일평균 = (최저+최고)/2) */
   tempPenaltyPerDeg: 6,
   /** 월 강수량 rainFreeMm 초과분 mm당 감점, 최대 rainMaxPenalty. '비 피하기'면 2배 */
@@ -50,6 +52,8 @@ export type ScoreInput = {
   comfortMin: number;
   comfortMax: number;
   rainAvoid: boolean;
+  /** 해당 월의 성수기·비수기 (출처 있을 때만). 가격 점수 보정에 사용 */
+  seasonLevel?: 'peak' | 'shoulder' | 'off' | null;
 };
 
 export type ScoreParts = {
@@ -70,6 +74,15 @@ const has = (n: number | null | undefined): n is number =>
   typeof n === 'number' && Number.isFinite(n);
 const lerp = (v: number, best: number, worst: number) =>
   clamp(((worst - v) / (worst - best)) * 100);
+
+/** 성수기는 같은 값이라도 실제 예약가가 오르기 쉬워 감점, 비수기는 가점 */
+export function adjustForDemand(
+  price: number | null,
+  level: 'peak' | 'shoulder' | 'off' | null,
+): number | null {
+  if (price === null || level === null) return price;
+  return clamp(price + SCORE_PARAMS.demandAdjust[level]);
+}
 
 export function priceScore(totalCost: number | null, avgCost: number | null): number | null {
   if (!has(totalCost) || !has(avgCost) || avgCost <= 0 || totalCost < 0) return null;
@@ -133,7 +146,7 @@ export function accessScore(
 
 export function computeScore(i: ScoreInput): ScoreResult {
   const parts: ScoreParts = {
-    price: priceScore(i.totalCost, i.regionAvgCost),
+    price: adjustForDemand(priceScore(i.totalCost, i.regionAvgCost), i.seasonLevel ?? null),
     climate: climateScore(i.avgTempMin, i.avgTempMax, i.rainfallMm, i),
     theme: themeScore(i.themeCount),
     access: accessScore(i.flightHours, i.visaKind, i.nights),
@@ -189,6 +202,7 @@ export function scoreDestination(
     comfortMin: prefs.tMin,
     comfortMax: prefs.tMax,
     rainAvoid: prefs.rainAvoid,
+    seasonLevel: m.seasonLevel,
   });
   return {
     ...result,

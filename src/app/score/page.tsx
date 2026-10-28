@@ -10,7 +10,7 @@ export default function ScorePage() {
     {
       name: '가격',
       max: W.price * 100,
-      how: `여행 총액(왕복 항공 중간값 + 1일 경비 × 박수)을 같은 달·같은 박수의 비교 평균과 견줘요. 평균의 ${pct(P.ratioBest)} 이하면 만점, ${pct(P.ratioWorst)} 이상이면 0점, 그 사이는 직선으로 깎여요. 같은 지역에 비교할 도시가 ${P.minRegionPeers}곳 이상이면 지역 평균, 아니면 전체 평균과 비교해요.`,
+      how: `여행 총액(왕복 항공 중간값 + 1일 경비 × 박수)을 같은 달·같은 박수의 비교 평균과 견줘요. 평균의 ${pct(P.ratioBest)} 이하면 만점, ${pct(P.ratioWorst)} 이상이면 0점, 그 사이는 직선으로 깎여요. 같은 지역에 비교할 도시가 ${P.minRegionPeers}곳 이상이면 지역 평균, 아니면 전체 평균과 비교해요. 출처가 있는 성수기 달은 ${-P.demandAdjust.peak}점 깎고 비수기 달은 ${P.demandAdjust.off}점 더해요(실제 예약가가 표시가보다 오르내리기 쉬워서).`,
     },
     {
       name: '날씨',
