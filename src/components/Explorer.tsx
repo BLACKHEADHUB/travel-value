@@ -1,5 +1,5 @@
 'use client';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { DestinationView } from '@/lib/data';
 import { THEMES } from '@/lib/themes';
 import { meanTemp } from '@/lib/view';
@@ -8,16 +8,15 @@ import { FAV_KEY, useStoredList } from '@/lib/storage';
 import { useTrip } from '@/lib/useTrip';
 import type { PeerStats } from '@/lib/trip';
 import { DestinationCard } from './DestinationCard';
-import { PriceNotice } from './Notice';
 import { TopFive } from './TopFive';
 import { TripControls } from './TripControls';
 
 type Sort = 'score' | 'cost' | 'flight' | 'comfort';
 const SORT_LABEL: Record<Sort, string> = {
-  score: '가성비 점수순',
+  score: '가성비순',
   cost: '총액 낮은 순',
   flight: '항공값 낮은 순',
-  comfort: '날씨 점수순',
+  comfort: '날씨 좋은 순',
 };
 const BUDGETS = [50, 100, 150, 200, 300, 400, 500];
 
@@ -43,6 +42,12 @@ export function Explorer({
   const sort = (sp.get('sort') ?? 'score') as Sort;
   const favOnly = sp.get('fav') === '1';
   const fav = useStoredList(FAV_KEY);
+
+  const activeFilters =
+    themes.length +
+    [budget, maxHours, visaFree, inTempOnly, prefs.rainAvoid].filter(Boolean).length;
+  // 패널 열림은 사용자가 정한다 (필터를 모두 꺼도 저절로 닫히지 않게). 처음엔 필터가 있으면 열어 둠
+  const [filtersOpen, setFiltersOpen] = useState(activeFilters > 0);
 
   const { list, unknownCostHidden } = useMemo(() => {
     let unknownCostHidden = 0;
@@ -101,166 +106,200 @@ export function Explorer({
     });
 
   const select =
-    'rounded-lg border border-line-strong bg-surface px-2.5 py-2 text-sm focus-visible:outline-2 focus-visible:outline-sky-600';
-  const check = 'flex items-center gap-2 py-2 text-sm text-ink';
+    'w-full rounded-xl border-0 bg-muted px-3 py-2.5 text-sm ring-1 ring-line focus-visible:outline-2 focus-visible:outline-accent';
+  const chip = (on: boolean) =>
+    `rounded-full px-3.5 py-1.5 text-sm transition focus-visible:outline-2 focus-visible:outline-accent ${
+      on ? 'bg-ink text-surface' : 'bg-muted text-sub hover:text-ink'
+    }`;
+  const check = 'flex items-center gap-2 text-sm';
 
   return (
-    <div className="space-y-5">
-      <TripControls prefs={prefs} onChange={setPrefs} />
+    <div className="space-y-10">
+      <section className="space-y-5 rounded-3xl bg-surface p-5 shadow-sm ring-1 ring-line sm:p-8">
+        <div>
+          <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+            {favOnly ? '저장한 여행지' : '언제 떠나세요?'}
+          </h1>
+          <p className="mt-2 text-sub">
+            같은 돈으로 가장 알차게 다녀올 곳을 날씨·비용·이동 부담으로 골라 드려요.
+          </p>
+        </div>
+        <TripControls prefs={prefs} onChange={setPrefs} />
+      </section>
 
       {!favOnly && (
         <TopFive destinations={destinations} prefs={prefs} scores={scores} query={query} />
       )}
 
-      <section
-        aria-label="필터와 정렬"
-        className="space-y-3 rounded-2xl border border-line bg-surface-2 p-4"
-      >
-        <fieldset>
-          <legend className="mb-1.5 text-xs font-semibold text-sub">테마</legend>
-          <div className="flex flex-wrap gap-1.5">
-            {THEMES.map((t) => {
-              const on = themes.includes(t);
-              return (
-                <button
-                  key={t}
-                  aria-pressed={on}
-                  onClick={() => toggleTheme(t)}
-                  className={`rounded-full border px-3 py-1.5 text-xs focus-visible:outline-2 focus-visible:outline-sky-600 ${
-                    on
-                      ? 'border-sky-700 bg-sky-700 text-white'
-                      : 'border-line-strong bg-surface text-ink'
-                  }`}
-                >
-                  {t}
-                </button>
-              );
-            })}
-          </div>
-        </fieldset>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-          <label className="flex flex-col gap-1 text-xs text-sub">
-            예산 상한 ({nightsLabel(prefs.nights)} 총액)
-            <select
-              className={select}
-              value={budget ?? ''}
-              onChange={(e) => setParams({ budget: e.target.value || null })}
-            >
-              <option value="">제한 없음</option>
-              {BUDGETS.map((b) => (
-                <option key={b} value={b}>
-                  {b}만 원 이하
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="flex flex-col gap-1 text-xs text-sub">
-            비행시간 (인천 출발)
-            <select
-              className={select}
-              value={maxHours ?? ''}
-              onChange={(e) => setParams({ hours: e.target.value || null })}
-            >
-              <option value="">제한 없음</option>
-              {[3, 5, 8, 12].map((h) => (
-                <option key={h} value={h}>
-                  {h}시간 이내
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="flex flex-col gap-1 text-xs text-sub">
-            정렬
-            <select
-              className={select}
-              value={sort}
-              onChange={(e) =>
-                setParams({ sort: e.target.value === 'score' ? null : e.target.value })
-              }
-            >
-              {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
-                <option key={s} value={s}>
-                  {SORT_LABEL[s]}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
-        <div className="flex flex-wrap gap-x-5">
-          <label className={check}>
-            <input
-              type="checkbox"
-              className="size-4 accent-sky-700"
-              checked={inTempOnly}
-              onChange={(e) => setParams({ intemp: e.target.checked ? '1' : null })}
-            />
-            선호 기온 안에 드는 곳만
-          </label>
-          <label className={check}>
-            <input
-              type="checkbox"
-              className="size-4 accent-sky-700"
-              checked={visaFree}
-              onChange={(e) => setParams({ visa: e.target.checked ? 'free' : null })}
-            />
-            무비자만
-          </label>
-          <label className={check}>
-            <input
-              type="checkbox"
-              className="size-4 accent-sky-700"
-              checked={favOnly}
-              onChange={(e) => setParams({ fav: e.target.checked ? '1' : null })}
-            />
-            즐겨찾기만 ({fav.list.length})
-          </label>
-          {budget !== null && (
-            <label className={check}>
-              <input
-                type="checkbox"
-                className="size-4 accent-sky-700"
-                checked={includeUnknownCost}
-                onChange={(e) => setParams({ unknown: e.target.checked ? '1' : null })}
-              />
-              경비 정보 없는 곳도 보기
-              {unknownCostHidden > 0 && ` (${unknownCostHidden}곳 숨김)`}
+      <section aria-labelledby="list-h" className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 id="list-h" className="text-xl font-bold tracking-tight" aria-live="polite">
+            {month}월 · {nightsLabel(prefs.nights)} 추천 {list.length}곳
+          </h2>
+          <div className="flex items-center gap-2">
+            <label>
+              <span className="sr-only">정렬</span>
+              <select
+                className="rounded-full border-0 bg-surface py-2 pr-8 pl-4 text-sm ring-1 ring-line focus-visible:outline-2 focus-visible:outline-accent"
+                value={sort}
+                onChange={(e) =>
+                  setParams({ sort: e.target.value === 'score' ? null : e.target.value })
+                }
+              >
+                {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
+                  <option key={s} value={s}>
+                    {SORT_LABEL[s]}
+                  </option>
+                ))}
+              </select>
             </label>
-          )}
+          </div>
         </div>
+
+        <details
+          className="group rounded-2xl bg-surface ring-1 ring-line open:shadow-sm"
+          open={filtersOpen}
+          onToggle={(e) => setFiltersOpen(e.currentTarget.open)}
+        >
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold focus-visible:outline-2 focus-visible:outline-accent [&::-webkit-details-marker]:hidden">
+            <span>
+              필터
+              {activeFilters > 0 && (
+                <span className="ml-2 rounded-full bg-accent px-2 py-0.5 text-xs text-white">
+                  {activeFilters}
+                </span>
+              )}
+            </span>
+            <span aria-hidden className="text-sub transition group-open:rotate-180">
+              ⌄
+            </span>
+          </summary>
+          <div className="space-y-4 border-t border-line px-4 py-4">
+            <fieldset>
+              <legend className="mb-2 text-xs font-semibold text-sub">테마</legend>
+              <div className="flex flex-wrap gap-1.5">
+                {THEMES.map((t) => (
+                  <button
+                    key={t}
+                    type="button"
+                    aria-pressed={themes.includes(t)}
+                    onClick={() => toggleTheme(t)}
+                    className={chip(themes.includes(t))}
+                  >
+                    {t}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <label className="space-y-1.5 text-xs font-semibold text-sub">
+                <span className="block">예산 상한 ({nightsLabel(prefs.nights)} 총액)</span>
+                <select
+                  className={select}
+                  value={budget ?? ''}
+                  onChange={(e) => setParams({ budget: e.target.value || null })}
+                >
+                  <option value="">제한 없음</option>
+                  {BUDGETS.map((b) => (
+                    <option key={b} value={b}>
+                      {b}만 원 이하
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="space-y-1.5 text-xs font-semibold text-sub">
+                <span className="block">비행시간 (인천 출발)</span>
+                <select
+                  className={select}
+                  value={maxHours ?? ''}
+                  onChange={(e) => setParams({ hours: e.target.value || null })}
+                >
+                  <option value="">제한 없음</option>
+                  {[3, 5, 8, 12].map((h) => (
+                    <option key={h} value={h}>
+                      {h}시간 이내
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+            <div className="flex flex-wrap gap-x-5 gap-y-2">
+              <label className={check}>
+                <input
+                  type="checkbox"
+                  className="size-4 accent-sky-700"
+                  checked={prefs.rainAvoid}
+                  onChange={(e) => setPrefs({ rainAvoid: e.target.checked })}
+                />
+                비 오는 달 피하기
+              </label>
+              <label className={check}>
+                <input
+                  type="checkbox"
+                  className="size-4 accent-sky-700"
+                  checked={inTempOnly}
+                  onChange={(e) => setParams({ intemp: e.target.checked ? '1' : null })}
+                />
+                선호 기온 안에 드는 곳만
+              </label>
+              <label className={check}>
+                <input
+                  type="checkbox"
+                  className="size-4 accent-sky-700"
+                  checked={visaFree}
+                  onChange={(e) => setParams({ visa: e.target.checked ? 'free' : null })}
+                />
+                무비자만
+              </label>
+              <label className={check}>
+                <input
+                  type="checkbox"
+                  className="size-4 accent-sky-700"
+                  checked={favOnly}
+                  onChange={(e) => setParams({ fav: e.target.checked ? '1' : null })}
+                />
+                즐겨찾기만 ({fav.list.length})
+              </label>
+              {budget !== null && (
+                <label className={check}>
+                  <input
+                    type="checkbox"
+                    className="size-4 accent-sky-700"
+                    checked={includeUnknownCost}
+                    onChange={(e) => setParams({ unknown: e.target.checked ? '1' : null })}
+                  />
+                  경비 정보 없는 곳도 보기
+                  {unknownCostHidden > 0 && ` (${unknownCostHidden}곳 숨김)`}
+                </label>
+              )}
+            </div>
+          </div>
+        </details>
+
         <p className="text-xs text-sub">
-          총액 = 왕복 항공(해당 월, 없으면 연중 대표가의 중간값) + 1일 경비 × {prefs.nights}박.
-          항공은 인천 출발 기준이에요.
+          예상 총액 = 왕복 항공(인천 출발, 해당 월 또는 연중 대표가) + 1일 경비 × {prefs.nights}박.
+          대략적인 참고 가격이에요.
+          {sort === 'score' &&
+            unpricedShown > 0 &&
+            ` '가격 제외' ${unpricedShown}곳은 경비 정보가 없어 가격을 빼고 점수를 매겼어요.`}
         </p>
+
+        {list.length ? (
+          <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {list.map((d) => (
+              <li key={d.id} className="min-w-0">
+                <DestinationCard d={d} prefs={prefs} score={scores.get(d.id)!} query={query} />
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="rounded-2xl bg-surface p-10 text-center text-sm text-sub ring-1 ring-line">
+            {favOnly && !fav.list.length
+              ? '아직 저장한 여행지가 없어요. 카드의 ☆를 눌러 보세요.'
+              : '조건에 맞는 여행지가 없어요. 필터를 조금 풀어 보세요.'}
+          </p>
+        )}
       </section>
-
-      <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-        <h2 className="text-base font-semibold" aria-live="polite">
-          {month}월 · {nightsLabel(prefs.nights)} 추천 {list.length}곳
-        </h2>
-        <PriceNotice />
-      </div>
-      {sort === 'score' && unpricedShown > 0 && (
-        <p className="-mt-3 text-xs text-sub">
-          &lsquo;가격 제외&rsquo; 표시가 있는 {unpricedShown}곳은 경비 정보가 없어 가격 항목을 빼고
-          점수를 매겼어요. 가격이 반영된 곳과 점수를 그대로 비교하기는 어려워요.
-        </p>
-      )}
-
-      {list.length ? (
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {list.map((d) => (
-            <li key={d.id} className="min-w-0">
-              <DestinationCard d={d} prefs={prefs} score={scores.get(d.id)!} query={query} />
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="rounded-xl border border-dashed border-line-strong p-8 text-center text-sm text-sub">
-          {favOnly && !fav.list.length
-            ? '아직 저장한 여행지가 없어요. 카드의 ☆ 저장을 눌러 보세요.'
-            : '조건에 맞는 여행지가 없어요. 필터를 조금 풀어 보세요.'}
-        </p>
-      )}
     </div>
   );
 }

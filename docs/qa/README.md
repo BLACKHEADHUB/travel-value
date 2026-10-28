@@ -1,4 +1,4 @@
-# QA 증거 (2026-10-28)
+# QA 증거 (2026-10-28, UI 개편 후 재촬영)
 
 `npm run build && npm run qa` (Playwright, `tests/e2e/qa.e2e.ts`) 결과: **23 통과 / 1 건너뜀(데스크톱에서 모바일 전용 검사)**, 콘솔 오류 0.
 원본 전체 화면 캡처(약 110MB)는 `qa-screenshots/`에 생성되며 git에는 넣지 않고, 아래는 상단만 줄인 사본입니다.

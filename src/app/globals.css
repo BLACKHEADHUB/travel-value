@@ -6,6 +6,7 @@
 /* 의미 기반 색 토큰 — 컴포넌트는 zinc/white 대신 이 토큰을 쓴다 */
 @theme inline {
   --color-surface: var(--surface);
+  --color-canvas: var(--surface-0);
   --color-surface-2: var(--surface-2);
   --color-muted: var(--muted);
   --color-line: var(--line);
@@ -16,10 +17,16 @@
   --color-info: var(--info);
   --color-note: var(--note);
   --color-note-ink: var(--note-ink);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans:
+    'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui,
+    'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
 }
 
 :root {
   color-scheme: light;
+  --surface-0: #f6f7f9;
   --surface: #ffffff;
   --surface-2: #fafafa;
   --muted: #f4f4f5;
@@ -31,10 +38,13 @@
   --info: #e0f2fe;
   --note: #fffbeb;
   --note-ink: #78350f;
+  --accent: #0369a1;
+  --accent-soft: #e0f2fe;
 }
 
 .dark {
   color-scheme: dark;
+  --surface-0: #0f0f12;
   --surface: #18181b;
   --surface-2: #1f1f23;
   --muted: #27272a;
@@ -46,9 +56,25 @@
   --info: #0c4a6e;
   --note: #422006;
   --note-ink: #fde68a;
+  --accent: #38bdf8;
+  --accent-soft: #0c4a6e;
 }
 
 /* Leaflet 팝업·컨트롤은 라이트 고정이라 글자색만 보정 */
 .leaflet-popup-content {
   color: #18181b;
+}
+
+body {
+  font-feature-settings: 'tnum' 0;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+/* 가로 스크롤 줄(월·TOP 5)의 스크롤바 숨김 */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
