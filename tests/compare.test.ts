@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { freeTripCost, packageStats, verdict } from '../src/lib/compare';
+import { freeTripCost, packageStats, pickNights, verdict } from '../src/lib/compare';
 import type { PackageTour } from '../src/lib/schema';
 
 const pkg = (o: Partial<PackageTour>): PackageTour => ({
@@ -127,5 +127,13 @@ describe('verdict', () => {
       verdict({ min: 1, max: 2 }, { ...stats(1, 1), status: 'insufficient', count: 1 }).kind,
     ).toBe('unknown');
     expect(verdict(null, stats(1, 1)).kind).toBe('unknown');
+  });
+});
+
+describe('pickNights', () => {
+  it('most common nights, shorter on tie, fallback when empty', () => {
+    expect(pickNights([{ nights: 3 }, { nights: 3 }, { nights: 4 }], 4)).toBe(3);
+    expect(pickNights([{ nights: 5 }, { nights: 4 }], 3)).toBe(4);
+    expect(pickNights([], 4)).toBe(4);
   });
 });

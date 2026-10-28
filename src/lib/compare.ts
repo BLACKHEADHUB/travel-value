@@ -131,3 +131,14 @@ export function verdict(free: Range | null, stats: PackageStats): Verdict {
     text: `두 방식의 비용이 비슷한 범위예요${extra}.`,
   };
 }
+
+/**
+ * 비교 기본 박수: 그 도시 패키지에서 가장 흔한 박수(동률이면 짧은 쪽), 패키지가 없으면 fallback.
+ * 카드·상세가 같은 기준을 쓰도록 여기서만 정한다.
+ */
+export function pickNights(pkgs: Pick<PackageTour, 'nights'>[], fallback: number): number {
+  if (!pkgs.length) return fallback;
+  const count = new Map<number, number>();
+  for (const p of pkgs) count.set(p.nights, (count.get(p.nights) ?? 0) + 1);
+  return [...count.entries()].sort((a, b) => b[1] - a[1] || a[0] - b[0])[0][0];
+}

@@ -3,7 +3,8 @@ import { useSearchParams } from 'next/navigation';
 import type { DestinationView } from '@/lib/data';
 import { CONFIDENCE_LABEL, NA, SEASON_LABEL, temp, won, wonRange } from '@/lib/format';
 import { flightSearchUrl, staySearchUrl } from '@/lib/links';
-import { isRainy, recommendedTrip } from '@/lib/view';
+import { fallbackNights, isRainy, parseMonth, recommendedTrip, visaLabel } from '@/lib/view';
+import { pickNights } from '@/lib/compare';
 import { SCORE_WEIGHTS } from '@/lib/score';
 import { MonthPicker } from './MonthPicker';
 import { DetailCharts } from './DetailCharts';
@@ -21,9 +22,10 @@ const PART_LABEL = {
 export function DetailBody({ d }: { d: DestinationView }) {
   const sp = useSearchParams();
   const router = useRouter();
-  const month = Number(sp.get('m')) || new Date().getMonth() + 1;
+  const month = parseMonth(sp.get('m'));
   const m = d.months[month - 1];
-  const nights = 4;
+  const nights = pickNights(d.packages, fallbackNights(d));
+  const visa = visaLabel(d, month);
   const rainyMonths = d.months.filter(isRainy).map((x) => `${x.month}월`);
   const cautions = [
     ...d.months.filter((x) => x.notes).map((x) => `${x.month}월: ${x.notes}`),
@@ -54,10 +56,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
           ],
           ['현지 1일 경비', won(m.dailyCost.total)],
           ['추천 일정', recommendedTrip(d)],
-          [
-            '비자',
-            d.visaInfo.required === null ? NA : d.visaInfo.required ? '필요/전자허가' : '무비자',
-          ],
+          ['비자', `${visa.text}${d.visaInfo.source ? '' : ' · 출처 미확인'}`],
         ].map(([k, v]) => (
           <div key={k} className="rounded-xl border border-zinc-200 p-3">
             <p className="text-xs text-zinc-600">{k}</p>
@@ -91,10 +90,15 @@ export function DetailBody({ d }: { d: DestinationView }) {
           12개월 한눈에
         </h2>
         <DetailCharts months={d.months} selected={month} />
-        {d.climateSource && <p className="mt-2 text-xs text-zinc-600">기후: {d.climateSource}</p>}
+        {d.climateSource && (
+          <p className="mt-2 text-xs text-zinc-600">
+            기후: {d.climateSource}. 격자 평균값이라 해안·섬·고지대는 실제 관측과 몇 도 차이 날 수
+            있어요.
+          </p>
+        )}
       </section>
 
-      <PackageCompare d={d} m={m} />
+      <PackageCompare d={d} m={m} defaultNights={nights} />
 
       <section aria-labelledby="lm-h">
         <h2 id="lm-h" className="mb-2 text-lg font-bold">

@@ -28,3 +28,28 @@ export const ymd = (d: Date) =>
   `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 export const addDays = (d: Date, n: number) =>
   new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+
+/** URL ?m 값 → 1~12 정수, 아니면 현재 월 */
+export function parseMonth(v: string | null): number {
+  const n = Number(v);
+  return Number.isInteger(n) && n >= 1 && n <= 12 ? n : new Date().getMonth() + 1;
+}
+
+/** 패키지가 없을 때 비교 기본 박수: 비행 5시간 이하면 3박, 아니면 4박 */
+export const fallbackNights = (d: Pick<DestinationView, 'flightHours'>) =>
+  (d.flightHours.ICN ?? 99) <= 5 ? 3 : 4;
+
+/** 입국 요건 표시. 한시적 무비자는 만료 후 여행이면 '확인 필요' */
+export function visaLabel(
+  d: Pick<DestinationView, 'visaInfo'>,
+  month: number,
+): { text: string; caution: boolean } {
+  const v = d.visaInfo;
+  if (v.kind === null) return { text: '정보 없음', caution: true };
+  const base = { free: '무비자', eta: '전자여행허가 필요', visa: '비자 필요' }[v.kind];
+  if (v.validUntil && ymd(nextDate(month)) > v.validUntil) {
+    return { text: `${base}(${v.validUntil} 종료 예정, 확인 필요)`, caution: true };
+  }
+  if (v.validUntil) return { text: `${base}(~${v.validUntil})`, caution: true };
+  return { text: base, caution: !v.source };
+}

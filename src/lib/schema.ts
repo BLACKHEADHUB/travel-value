@@ -63,6 +63,10 @@ export const destinationSchema = z.object({
   themes: z.array(z.enum(THEMES)).min(1),
   visaInfo: z.object({
     required: z.boolean().nullable(),
+    /** free=무비자, eta=전자여행허가(ESTA·eTA·NZeTA 등), visa=비자/도착비자 */
+    kind: z.enum(['free', 'eta', 'visa']).nullable().default(null),
+    /** 한시적 무비자 등 정책 만료일 */
+    validUntil: isoDate.nullable().default(null),
     note: z.string().nullable(),
     source: z.string().nullable(),
   }),

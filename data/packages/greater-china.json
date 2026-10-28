@@ -2,13 +2,16 @@
   {
     "destinationId": "taipei",
     "vendor": "노랑풍선",
-    "title": "대만 4일 #노쇼핑 #특식4회 #노랑풍선단독 #ZE #인천출발",
+    "title": "타이베이 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 949900,
     "departureDate": "2026-11-13",
     "priceIncludesFuelSurcharge": null,
-    "included": ["왕복항공", "특식 4회"],
+    "included": [
+      "왕복항공",
+      "특식 4회"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,
@@ -21,13 +24,19 @@
   {
     "destinationId": "taipei",
     "vendor": "모두투어",
-    "title": "[노쇼핑/101전망대] 대만/단수이/야류/지우펀/스펀 4일 (4성호텔/천등날리기/특식4회)",
+    "title": "타이베이 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 1018900,
     "departureDate": "2026-11-12",
     "priceIncludesFuelSurcharge": null,
-    "included": ["왕복항공", "4성급 호텔", "천등날리기", "특식 4회", "101 전망대"],
+    "included": [
+      "왕복항공",
+      "4성급 호텔",
+      "천등날리기",
+      "특식 4회",
+      "101 전망대"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,
@@ -40,13 +49,18 @@
   {
     "destinationId": "taipei",
     "vendor": "모두투어",
-    "title": "대만/단수이/예류/스펀/지우펀 4일 (4성호텔/천등체험/특식3회)",
+    "title": "타이베이 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 911900,
     "departureDate": "2026-11-12",
     "priceIncludesFuelSurcharge": null,
-    "included": ["왕복항공", "4성급 호텔", "천등체험", "특식 3회"],
+    "included": [
+      "왕복항공",
+      "4성급 호텔",
+      "천등체험",
+      "특식 3회"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -59,7 +73,7 @@
   {
     "destinationId": "hongkong",
     "vendor": "하나투어",
-    "title": "[출발확정] 홍콩/마카오 4일 #스마트초이스#핵심일정#노쇼핑#1일자유",
+    "title": "홍콩 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 1149000,
@@ -78,7 +92,7 @@
   {
     "destinationId": "shanghai",
     "vendor": "모두투어",
-    "title": "[노쇼핑/저녁출발] 상해+디즈니랜드 4일 (준4성호텔/시티투어)",
+    "title": "상하이 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 669900,
@@ -97,7 +111,7 @@
   {
     "destinationId": "qingdao",
     "vendor": "트립스토어(판매처 미표기)",
-    "title": "칭다오(청도) 3박4일 #노팁노옵션노쇼핑 #특급호텔 #중국동방항공",
+    "title": "칭다오 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 629900,

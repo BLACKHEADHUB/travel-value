@@ -8,9 +8,15 @@
       "lat": 48.8566,
       "lng": 2.3522
     },
-    "themes": ["도시", "문화/역사", "미식"],
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "90일 이내 단기방문은 입국사증 불필요. 쉥겐 지역 전체 합산 90일 한도. ETIAS 적용 여부와 시행 시기는 출처 페이지에 없어 미확인.",
       "source": "https://whic.mofa.go.kr/whic/nation/info.jsp?boardNo=100011"
     },
@@ -18,7 +24,11 @@
       "ICN": 14.2,
       "GMP": null
     },
-    "landmarks": ["에펠탑", "루브르 박물관", "노트르담 대성당"],
+    "landmarks": [
+      "에펠탑",
+      "루브르 박물관",
+      "노트르담 대성당"
+    ],
     "flightPriceTypical": {
       "min": 881537,
       "max": 1369347,
@@ -322,9 +332,15 @@
       "lat": 41.9028,
       "lng": 12.4964
     },
-    "themes": ["도시", "문화/역사", "미식"],
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
       "source": null
     },
@@ -332,7 +348,12 @@
       "ICN": 13.7,
       "GMP": null
     },
-    "landmarks": ["콜로세움", "트레비 분수", "바티칸 박물관", "판테온"],
+    "landmarks": [
+      "콜로세움",
+      "트레비 분수",
+      "바티칸 박물관",
+      "판테온"
+    ],
     "flightPriceTypical": {
       "min": 874823,
       "max": 1363759,
@@ -636,9 +657,15 @@
       "lat": 41.3874,
       "lng": 2.1686
     },
-    "themes": ["도시", "문화/역사", "미식"],
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
       "source": null
     },
@@ -646,7 +673,12 @@
       "ICN": 14.9,
       "GMP": null
     },
-    "landmarks": ["사그라다 파밀리아", "구엘 공원", "카사 바트요", "보케리아 시장"],
+    "landmarks": [
+      "사그라다 파밀리아",
+      "구엘 공원",
+      "카사 바트요",
+      "보케리아 시장"
+    ],
     "flightPriceTypical": {
       "min": 767564,
       "max": 1335269,
@@ -950,9 +982,14 @@
       "lat": 50.0755,
       "lng": 14.4378
     },
-    "themes": ["도시", "문화/역사"],
+    "themes": [
+      "도시",
+      "문화/역사"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
       "source": null
     },
@@ -960,7 +997,12 @@
       "ICN": 13.5,
       "GMP": null
     },
-    "landmarks": ["프라하 성", "카를교", "구시가지 광장", "천문시계"],
+    "landmarks": [
+      "프라하 성",
+      "카를교",
+      "구시가지 광장",
+      "천문시계"
+    ],
     "flightPriceTypical": {
       "min": 840268,
       "max": 1193683,

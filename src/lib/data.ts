@@ -52,7 +52,11 @@ export function flightFor(
   m: Destination['monthly'][number],
 ) {
   const monthly = m.flightPrice;
-  if (monthly.min !== null && monthly.max !== null) return { ...monthly, typical: false };
+  if (monthly.min !== null || monthly.max !== null) {
+    // 한쪽만 있으면(월 중간값 등) 같은 값으로 취급
+    const v = { min: monthly.min ?? monthly.max, max: monthly.max ?? monthly.min };
+    return { ...monthly, ...v, typical: false };
+  }
   const t = d.flightPriceTypical;
   if (t.min !== null && t.max !== null) return { ...t, typical: true };
   return { ...monthly, typical: false };
@@ -110,9 +114,8 @@ export function loadDestinations(): DestinationView[] {
           avgTempMax: cl?.avgTempMax ?? null,
           rainfallMm: cl?.rainfallMm ?? null,
           themeCount: d.themes.length,
-          landmarkCount: d.landmarks.length,
           flightHours: d.flightHours.ICN,
-          visaRequired: d.visaInfo.required,
+          visaKind: d.visaInfo.kind,
         });
         return {
           ...m,

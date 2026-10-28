@@ -8,9 +8,15 @@
       "lat": -33.8688,
       "lng": 151.2093
     },
-    "themes": ["도시", "자연", "액티비티"],
+    "themes": [
+      "도시",
+      "자연",
+      "액티비티"
+    ],
     "visaInfo": {
       "required": true,
+      "kind": "eta",
+      "validUntil": null,
       "note": "한국 여권 보유자는 호주 ETA(전자여행허가, ETA 앱 신청) 대상. 관광·방문 목적 최대 3개월.",
       "source": "https://southkorea.embassy.gov.au/seol/visaoptions.html"
     },
@@ -18,7 +24,12 @@
       "ICN": 10.3,
       "GMP": null
     },
-    "landmarks": ["오페라하우스", "하버브리지", "본다이비치", "블루마운틴"],
+    "landmarks": [
+      "오페라하우스",
+      "하버브리지",
+      "본다이비치",
+      "블루마운틴"
+    ],
     "flightPriceTypical": {
       "min": 760319,
       "max": 1236847,
@@ -442,9 +453,15 @@
       "lat": 13.4443,
       "lng": 144.7937
     },
-    "themes": ["휴양", "쇼핑", "액티비티"],
+    "themes": [
+      "휴양",
+      "쇼핑",
+      "액티비티"
+    ],
     "visaInfo": {
       "required": true,
+      "kind": "eta",
+      "validUntil": null,
       "note": "괌·북마리아나(CNMI) 입국은 ESTA 또는 괌-CNMI 비자면제(CBP I-736) 중 하나로 가능. 한국 국적은 유효한 ESTA가 있으면 I-736 면제, I-736만 사용 시 괌/CNMI 최대 45일 체류, 미국 내 다른 지역 입국 불가.",
       "source": "https://www.cbp.gov/sites/default/files/assets/documents/2024-Apr/CBP_Form_I%20-736%20Korean.pdf"
     },
@@ -452,7 +469,12 @@
       "ICN": 4.5,
       "GMP": null
     },
-    "landmarks": ["투몬비치", "사랑의 절벽", "구아후안 공원(리티디안 포인트)", "건 비치"],
+    "landmarks": [
+      "투몬비치",
+      "사랑의 절벽",
+      "구아후안 공원(리티디안 포인트)",
+      "건 비치"
+    ],
     "flightPriceTypical": {
       "min": 259275,
       "max": 490648,
@@ -876,9 +898,15 @@
       "lat": 15.1778,
       "lng": 145.7508
     },
-    "themes": ["휴양", "액티비티", "자연"],
+    "themes": [
+      "휴양",
+      "액티비티",
+      "자연"
+    ],
     "visaInfo": {
       "required": true,
+      "kind": "eta",
+      "validUntil": null,
       "note": "괌·북마리아나(CNMI) 입국은 ESTA 또는 괌-CNMI 비자면제(CBP I-736) 중 하나로 가능. 한국 국적은 유효한 ESTA가 있으면 I-736 면제, I-736만 사용 시 괌/CNMI 최대 45일 체류, 미국 내 다른 지역 입국 불가.",
       "source": "https://www.cbp.gov/sites/default/files/assets/documents/2024-Apr/CBP_Form_I%20-736%20Korean.pdf"
     },
@@ -886,7 +914,12 @@
       "ICN": 4.4,
       "GMP": null
     },
-    "landmarks": ["마나가하 섬", "만세 절벽", "그로토", "새섬(버드 아일랜드)"],
+    "landmarks": [
+      "마나가하 섬",
+      "만세 절벽",
+      "그로토",
+      "새섬(버드 아일랜드)"
+    ],
     "flightPriceTypical": {
       "min": 318937,
       "max": 494865,
@@ -1190,9 +1223,15 @@
       "lat": -36.8485,
       "lng": 174.7633
     },
-    "themes": ["도시", "자연", "액티비티"],
+    "themes": [
+      "도시",
+      "자연",
+      "액티비티"
+    ],
     "visaInfo": {
       "required": true,
+      "kind": "eta",
+      "validUntil": null,
       "note": "한국 여권은 비자면제 대상이나 NZeTA(전자여행허가) 사전 신청 필요, 3개월 미만 체류. 별도 국제방문자 보전관광세(IVL) 부과(금액은 공식 페이지에서 확인 필요).",
       "source": "https://mfat.govt.nz/en/countries-and-regions/asia/republic-of-korea-south/new-zealand-embassy/information-on-nzeta-and-visas"
     },
@@ -1200,7 +1239,12 @@
       "ICN": 11.5,
       "GMP": null
     },
-    "landmarks": ["스카이타워", "와이헤케 섬", "원트리힐", "오클랜드 도메인"],
+    "landmarks": [
+      "스카이타워",
+      "와이헤케 섬",
+      "원트리힐",
+      "오클랜드 도메인"
+    ],
     "flightPriceTypical": {
       "min": 1102170,
       "max": 1658708,

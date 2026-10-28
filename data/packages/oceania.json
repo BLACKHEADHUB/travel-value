@@ -2,7 +2,7 @@
   {
     "destinationId": "sydney",
     "vendor": "노랑풍선",
-    "title": "시드니/포트스테판 6일 (젯스타)",
+    "title": "시드니 4박 5일 패키지",
     "nights": 4,
     "departureMonth": 11,
     "priceKRW": 1499000,
@@ -21,7 +21,7 @@
   {
     "destinationId": "sydney",
     "vendor": "노랑풍선",
-    "title": "시드니/포트스테판 6일 (트리니티항공)",
+    "title": "시드니 4박 5일 패키지",
     "nights": 4,
     "departureMonth": 11,
     "priceKRW": 1549000,
@@ -40,7 +40,7 @@
   {
     "destinationId": "sydney",
     "vendor": "노랑풍선",
-    "title": "시드니/뉴캐슬/포트스테판 7일 (트리니티항공)",
+    "title": "시드니 5박 6일 패키지",
     "nights": 5,
     "departureMonth": 11,
     "priceKRW": 1619000,
@@ -59,7 +59,7 @@
   {
     "destinationId": "sydney",
     "vendor": "노랑풍선",
-    "title": "시드니/저비스베이 6일 (젯스타)",
+    "title": "시드니 4박 5일 패키지",
     "nights": 4,
     "departureMonth": 11,
     "priceKRW": 1449000,
@@ -78,7 +78,7 @@
   {
     "destinationId": "sydney",
     "vendor": "모두투어",
-    "title": "[하이클래스] 시드니 7일 포트스테판 (아시아나, 5성급)",
+    "title": "시드니 5박 6일 패키지",
     "nights": 5,
     "departureMonth": 12,
     "priceKRW": 6021200,
@@ -97,7 +97,7 @@
   {
     "destinationId": "guam",
     "vendor": "하나투어",
-    "title": "[저녁출발] 괌 5일 PIC 슈페리어플러스룸",
+    "title": "괌 4박 5일 패키지",
     "nights": 4,
     "departureMonth": 11,
     "priceKRW": 1259000,
@@ -116,7 +116,7 @@
   {
     "destinationId": "guam",
     "vendor": "하나투어",
-    "title": "[저녁출발] 괌 5일 리가로얄 오션뷰룸",
+    "title": "괌 4박 5일 패키지",
     "nights": 4,
     "departureMonth": 11,
     "priceKRW": 589000,
@@ -135,7 +135,7 @@
   {
     "destinationId": "saipan",
     "vendor": "하나투어",
-    "title": "사이판 크라운플라자 5일 자유여행 조식포함",
+    "title": "사이판 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 784000,
@@ -147,7 +147,10 @@
       "전일정 조식",
       "레이트체크아웃"
     ],
-    "excluded": ["공항-호텔 픽드랍(선택, 현지 성인 $20)", "조식 외 식사"],
+    "excluded": [
+      "공항-호텔 픽드랍(선택, 현지 성인 $20)",
+      "조식 외 식사"
+    ],
     "extraKnownKRW": null,
     "hasShopping": false,
     "hasOptionalTours": null,
@@ -159,7 +162,7 @@
   {
     "destinationId": "saipan",
     "vendor": "하나투어",
-    "title": "[성인2+아동2 전용] PIC 사이판 5일 골드패스 마나가하섬",
+    "title": "사이판 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 754000,
@@ -185,7 +188,7 @@
   {
     "destinationId": "auckland",
     "vendor": "노랑풍선",
-    "title": "[에어텔] 뉴질랜드 북섬 오클랜드 5박7일 (시내중심 4성급)",
+    "title": "오클랜드 5박 6일 패키지",
     "nights": 5,
     "departureMonth": 11,
     "priceKRW": 3589000,

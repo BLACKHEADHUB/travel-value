@@ -2,13 +2,15 @@
   {
     "destinationId": "tokyo",
     "vendor": "트립스토어",
-    "title": "동경4일 시내호텔3연박 1일자유OR하코네",
+    "title": "도쿄 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 999000,
     "departureDate": "2026-11-15",
     "priceIncludesFuelSurcharge": null,
-    "included": ["시내호텔 3박"],
+    "included": [
+      "시내호텔 3박"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -21,13 +23,15 @@
   {
     "destinationId": "tokyo",
     "vendor": "트립스토어",
-    "title": "동경4일 야마나시호텔 후지산조망 가마쿠라 에노덴",
+    "title": "도쿄 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 1249000,
     "departureDate": "2026-11-13",
     "priceIncludesFuelSurcharge": null,
-    "included": ["야마나시 호텔"],
+    "included": [
+      "야마나시 호텔"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -40,13 +44,17 @@
   {
     "destinationId": "tokyo",
     "vendor": "트립스토어",
-    "title": "후지산 단풍시즌 온천호텔 동경/오다이바/하코네/후지산 4일",
+    "title": "도쿄 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 1176000,
     "departureDate": "2026-11-12",
     "priceIncludesFuelSurcharge": null,
-    "included": ["온천호텔 2박", "시내호텔 1박", "가이드/기사 경비"],
+    "included": [
+      "온천호텔 2박",
+      "시내호텔 1박",
+      "가이드/기사 경비"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -59,7 +67,7 @@
   {
     "destinationId": "tokyo",
     "vendor": "트립스토어",
-    "title": "동경4일 카와고에 오후출발 온천호텔+동경호텔",
+    "title": "도쿄 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 899000,
@@ -78,13 +86,15 @@
   {
     "destinationId": "osaka",
     "vendor": "트립스토어",
-    "title": "오사카4일 1일자유 OMO간사이1박+시내2박",
+    "title": "오사카 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 899000,
     "departureDate": "2026-11-20",
     "priceIncludesFuelSurcharge": null,
-    "included": ["호텔 3박"],
+    "included": [
+      "호텔 3박"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -97,13 +107,15 @@
   {
     "destinationId": "osaka",
     "vendor": "트립스토어",
-    "title": "오사카4일 에어부산 시내호텔2연박 유니버셜or나라관광 힐링온천",
+    "title": "오사카 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 12,
     "priceKRW": 799000,
     "departureDate": "2026-12-13",
     "priceIncludesFuelSurcharge": null,
-    "included": ["시내호텔 2연박"],
+    "included": [
+      "시내호텔 2연박"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -116,13 +128,16 @@
   {
     "destinationId": "fukuoka",
     "vendor": "트립스토어",
-    "title": "후쿠오카4일 정통료칸2박+힐튼1박 대게뷔페",
+    "title": "후쿠오카 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 999000,
     "departureDate": "2026-11-24",
     "priceIncludesFuelSurcharge": null,
-    "included": ["료칸 2박", "힐튼 1박"],
+    "included": [
+      "료칸 2박",
+      "힐튼 1박"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -135,13 +150,16 @@
   {
     "destinationId": "fukuoka",
     "vendor": "트립스토어",
-    "title": "후쿠오카3일 온천1박+힐튼1박 나카스크루즈 대게+주류무제한",
+    "title": "후쿠오카 2박 3일 패키지",
     "nights": 2,
     "departureMonth": 11,
     "priceKRW": 749000,
     "departureDate": "2026-11-24",
     "priceIncludesFuelSurcharge": null,
-    "included": ["온천 1박", "힐튼 1박"],
+    "included": [
+      "온천 1박",
+      "힐튼 1박"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -154,13 +172,16 @@
   {
     "destinationId": "sapporo",
     "vendor": "트립스토어",
-    "title": "북해도4일 도야썬팔레스 호수뷰 대게뷔페2회+주류무제한",
+    "title": "삿포로 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 1099000,
     "departureDate": "2026-11-05",
     "priceIncludesFuelSurcharge": null,
-    "included": ["특급온천 2박", "시내호텔 1박"],
+    "included": [
+      "특급온천 2박",
+      "시내호텔 1박"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -173,13 +194,16 @@
   {
     "destinationId": "sapporo",
     "vendor": "트립스토어",
-    "title": "힐튼 특급호텔+팁포함 북해도 4일 온천2박 3대 게뷔페",
+    "title": "삿포로 3박 4일 패키지",
     "nights": 3,
     "departureMonth": 11,
     "priceKRW": 1225000,
     "departureDate": "2026-11-14",
     "priceIncludesFuelSurcharge": null,
-    "included": ["온천 2박", "팁"],
+    "included": [
+      "온천 2박",
+      "팁"
+    ],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,

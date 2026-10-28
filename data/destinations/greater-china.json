@@ -8,9 +8,15 @@
       "lat": 25.033,
       "lng": 121.5654
     },
-    "themes": ["도시", "미식", "문화/역사"],
+    "themes": [
+      "도시",
+      "미식",
+      "문화/역사"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 관광 목적 90일 무비자(여행 가이드 기준, 2026년 게재). 여권 잔여 6개월 이상, 왕복/제3국행 항공권, 대만 입국카드(온라인) 필요. 공식 현행 확인: 주타이베이 대한민국 대표부·대만 영사국(BOCA) (공식 페이지 열람 실패)",
       "source": "https://www.taipeitourism.org/?p=567"
     },
@@ -18,7 +24,12 @@
       "ICN": 2.7,
       "GMP": null
     },
-    "landmarks": ["타이베이 101", "지우펀", "스펀", "국립고궁박물관"],
+    "landmarks": [
+      "타이베이 101",
+      "지우펀",
+      "스펀",
+      "국립고궁박물관"
+    ],
     "flightPriceTypical": {
       "min": 273401,
       "max": 407914,
@@ -442,9 +453,15 @@
       "lat": 22.3193,
       "lng": 114.1694
     },
-    "themes": ["도시", "미식", "쇼핑"],
+    "themes": [
+      "도시",
+      "미식",
+      "쇼핑"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 관광 90일 무비자(홍콩 정부 2024년 발표 보도 기준). 공식 이민국 페이지는 열람 실패 — 현행 여부 재확인 필요",
       "source": "https://www.news.gov.hk/eng/2024/05/20240523/20240523_223502_886.html"
     },
@@ -452,7 +469,12 @@
       "ICN": 3.7,
       "GMP": null
     },
-    "landmarks": ["빅토리아 피크", "빅토리아 하버", "센트럴", "침사추이"],
+    "landmarks": [
+      "빅토리아 피크",
+      "빅토리아 하버",
+      "센트럴",
+      "침사추이"
+    ],
     "flightPriceTypical": {
       "min": 269436,
       "max": 372539,
@@ -482,9 +504,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -492,9 +514,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -515,9 +537,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -525,9 +547,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -548,9 +570,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -558,9 +580,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -581,9 +603,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -591,9 +613,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -614,9 +636,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -624,9 +646,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -647,9 +669,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -657,9 +679,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -680,9 +702,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -690,9 +712,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -713,9 +735,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -723,9 +745,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -746,9 +768,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -756,9 +778,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -779,9 +801,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -789,9 +811,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -812,9 +834,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -822,9 +844,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -845,9 +867,9 @@
           "local": {
             "currency": "HKD",
             "total": 1523,
-            "lodging": 1199,
-            "food": 422,
-            "transport": 68
+            "lodging": null,
+            "food": null,
+            "transport": null
           },
           "fx": {
             "rate": 169.233,
@@ -855,9 +877,9 @@
             "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
           },
           "total": 257700,
-          "lodging": 202900,
-          "food": 71400,
-          "transport": 11500,
+          "lodging": null,
+          "food": null,
+          "transport": null,
           "source": "https://www.budgetyourtrip.com/hong-kong",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -876,9 +898,15 @@
       "lat": 31.2304,
       "lng": 121.4737
     },
-    "themes": ["도시", "문화/역사", "미식"],
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": "2026-12-31",
       "note": "한국 일반여권 소지자 중국 무비자(관광·상용·친지방문·환승 등 30일 이내), 2026년 12월 31일까지 연장 보도(2025-11 중국 외교부 발표). 공식 원문은 열람 못 해 현행 여부는 주중국대한민국대사관·외교부 해외안전여행에서 재확인 필요",
       "source": "https://www.heraldk.com/article/2025110303430536138"
     },
@@ -886,7 +914,12 @@
       "ICN": 2,
       "GMP": null
     },
-    "landmarks": ["와이탄", "동방명주", "예원", "푸둥 루자쭈이"],
+    "landmarks": [
+      "와이탄",
+      "동방명주",
+      "예원",
+      "푸둥 루자쭈이"
+    ],
     "flightPriceTypical": {
       "min": 178016,
       "max": 310529,
@@ -1190,9 +1223,15 @@
       "lat": 36.0671,
       "lng": 120.3826
     },
-    "themes": ["도시", "휴양", "미식"],
+    "themes": [
+      "도시",
+      "휴양",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": "2026-12-31",
       "note": "한국 일반여권 소지자 중국 무비자(관광·상용·친지방문·환승 등 30일 이내), 2026년 12월 31일까지 연장 보도(2025-11 중국 외교부 발표). 공식 원문은 열람 못 해 현행 여부는 주중국대한민국대사관·외교부 해외안전여행에서 재확인 필요",
       "source": "https://www.heraldk.com/article/2025110303430536138"
     },
@@ -1200,7 +1239,12 @@
       "ICN": 1.5,
       "GMP": null
     },
-    "landmarks": ["잔교", "칭다오 맥주박물관", "5·4광장", "팔대관"],
+    "landmarks": [
+      "잔교",
+      "칭다오 맥주박물관",
+      "5·4광장",
+      "팔대관"
+    ],
     "flightPriceTypical": {
       "min": 97606,
       "max": 224027,

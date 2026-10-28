@@ -8,9 +8,16 @@
       "lat": 13.7563,
       "lng": 100.5018
     },
-    "themes": ["도시", "미식", "문화/역사", "쇼핑"],
+    "themes": [
+      "도시",
+      "미식",
+      "문화/역사",
+      "쇼핑"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 관광 목적 무비자(한-태 비자면제협정, 기존 안내 90일). 2026.9.15 태국 무비자 제도 개편으로 체류일수는 출국 전 주태국대사관 공지 재확인 필요. 입국 전 3일 이내 TDAC(디지털 입국카드) 온라인 작성 필수.",
       "source": "https://www.mofa.go.kr/th-ko/brd/m_25795/view.do?seq=1347228"
     },
@@ -18,7 +25,13 @@
       "ICN": 6,
       "GMP": null
     },
-    "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
+    "landmarks": [
+      "왓 아룬",
+      "왓 포",
+      "대왕궁",
+      "카오산로드",
+      "짜오프라야 강"
+    ],
     "flightPriceTypical": {
       "min": 288306,
       "max": 485467,
@@ -442,9 +455,15 @@
       "lat": 16.0544,
       "lng": 108.2022
     },
-    "themes": ["휴양", "미식", "도시"],
+    "themes": [
+      "휴양",
+      "미식",
+      "도시"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 관광 목적 무비자(45일 체류 안내). 최신 체류일수는 출국 전 주베트남대사관/외교부 공지 재확인 필요.",
       "source": null
     },
@@ -452,7 +471,13 @@
       "ICN": 4.8,
       "GMP": null
     },
-    "landmarks": ["미케 비치", "골든브리지(바나힐)", "용다리", "마블 마운틴", "호이안 구시가지"],
+    "landmarks": [
+      "미케 비치",
+      "골든브리지(바나힐)",
+      "용다리",
+      "마블 마운틴",
+      "호이안 구시가지"
+    ],
     "flightPriceTypical": {
       "min": 264919,
       "max": 404031,
@@ -499,7 +524,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기, 선선하고 맑음. 항공가 연중 최고 경향(Kayak 중간값)"
       },
       {
@@ -532,7 +557,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기, 따뜻해지는 시기"
       },
       {
@@ -565,7 +590,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기, 해수욕 시작"
       },
       {
@@ -598,7 +623,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기, 맑고 더움"
       },
       {
@@ -631,7 +656,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기"
       },
       {
@@ -664,7 +689,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기, 해수욕 적기"
       },
       {
@@ -697,7 +722,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기, 여름휴가 수요. 항공가 높은 편"
       },
       {
@@ -730,7 +755,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기, 매우 더움"
       },
       {
@@ -763,7 +788,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기 시작(9~12월), 태풍 시기. 항공가 연중 최저 경향"
       },
       {
@@ -796,7 +821,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기 한복판, 태풍·호우 가능"
       },
       {
@@ -829,7 +854,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기, 태풍·호우 가능"
       },
       {
@@ -862,7 +887,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "우기 끝자락, 선선"
       }
     ]
@@ -876,9 +901,14 @@
       "lat": 10.3157,
       "lng": 123.8854
     },
-    "themes": ["휴양", "액티비티"],
+    "themes": [
+      "휴양",
+      "액티비티"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 관광 목적 30일 무비자. 입국 72시간 이내 eTravel 온라인 등록 필요(최신 요건 출국 전 재확인).",
       "source": null
     },
@@ -886,7 +916,13 @@
       "ICN": 4.7,
       "GMP": null
     },
-    "landmarks": ["막탄 섬", "마젤란 십자가", "산토니뇨 성당", "카와산 폭포", "오슬롭"],
+    "landmarks": [
+      "막탄 섬",
+      "마젤란 십자가",
+      "산토니뇨 성당",
+      "카와산 폭포",
+      "오슬롭"
+    ],
     "flightPriceTypical": {
       "min": 299276,
       "max": 462614,
@@ -933,7 +969,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기, 성수기"
       },
       {
@@ -966,7 +1002,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기, 성수기"
       },
       {
@@ -999,7 +1035,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기. 항공가 연중 최저 경향(Kayak 중간값)"
       },
       {
@@ -1032,7 +1068,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 끝, 매우 더움(성수기 막바지), 성주간 수요"
       },
       {
@@ -1065,7 +1101,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "더워지고 우기 시작 전후"
       },
       {
@@ -1098,7 +1134,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기 시작(6~11월), 스콜 잦음. 항공가 연중 최고 경향"
       },
       {
@@ -1131,7 +1167,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기, 태풍 가능"
       },
       {
@@ -1164,7 +1200,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기, 태풍 가능"
       },
       {
@@ -1197,7 +1233,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기, 태풍 가능"
       },
       {
@@ -1230,7 +1266,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "우기 끝자락, 태풍 가능"
       },
       {
@@ -1263,7 +1299,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "우기 끝, 건기 진입"
       },
       {
@@ -1296,7 +1332,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기, 연말연시 수요 높음"
       }
     ]
@@ -1310,9 +1346,15 @@
       "lat": 1.3521,
       "lng": 103.8198
     },
-    "themes": ["도시", "미식", "쇼핑"],
+    "themes": [
+      "도시",
+      "미식",
+      "쇼핑"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "한국 여권 관광 목적 무비자(90일 체류 안내). 도착 3일 이내 SG Arrival Card(전자 입국신고) 온라인 제출 필수. 최신 요건 출국 전 재확인.",
       "source": null
     },
@@ -1373,7 +1415,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "연중 고온다습, 1~2월 상대적 건기. 항공가 높은 편"
       },
       {
@@ -1406,7 +1448,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "상대적 건기, 설 연휴 수요"
       },
       {
@@ -1439,7 +1481,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "연중 고온다습"
       },
       {
@@ -1472,7 +1514,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "연중 고온다습. 항공가 연중 최저 경향(Kayak 중간값)"
       },
       {
@@ -1505,7 +1547,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "연중 고온다습"
       },
       {
@@ -1538,7 +1580,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "학교 방학 시즌 수요 증가"
       },
       {
@@ -1571,7 +1613,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "여름 성수기 수요"
       },
       {
@@ -1604,7 +1646,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "연중 고온다습, 8월 건국기념일"
       },
       {
@@ -1637,7 +1679,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "연중 고온다습"
       },
       {
@@ -1670,7 +1712,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "연중 고온다습"
       },
       {
@@ -1703,7 +1745,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "북동 몬순 시작, 비 잦아짐"
       },
       {
@@ -1736,7 +1778,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "북동 몬순 우기, 연말 성수기. 항공가 연중 최고 경향"
       }
     ]
@@ -1750,9 +1792,14 @@
       "lat": -8.4095,
       "lng": 115.1889
     },
-    "themes": ["휴양", "문화/역사"],
+    "themes": [
+      "휴양",
+      "문화/역사"
+    ],
     "visaInfo": {
       "required": true,
+      "kind": "visa",
+      "validUntil": null,
       "note": "한국 여권은 도착비자(VoA, 전자 e-VOA 가능) 필요: 30일, 약 IDR 500,000 안내. 도착 전 All Indonesia 전자입국신고 및 발리 관광세(IDR 150,000) 납부 필요. 금액·요건은 출국 전 공식 사이트에서 재확인.",
       "source": null
     },
@@ -1813,7 +1860,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "우기(11~3월), 연말연시 이후 비 잦음"
       },
       {
@@ -1846,7 +1893,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기"
       },
       {
@@ -1879,7 +1926,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기 끝자락"
       },
       {
@@ -1912,7 +1959,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기 시작(4~10월)"
       },
       {
@@ -1945,7 +1992,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기"
       },
       {
@@ -1978,7 +2025,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기 시작"
       },
       {
@@ -2011,7 +2058,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기, 항공가 높은 편"
       },
       {
@@ -2044,7 +2091,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기"
       },
       {
@@ -2077,7 +2124,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기 성수기, 항공가 높은 편(Kayak 중간값)"
       },
       {
@@ -2110,7 +2157,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "건기 끝, 우기 직전"
       },
       {
@@ -2143,7 +2190,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "우기 시작, 항공가 연중 최저 경향(Kayak 중간값)"
       },
       {
@@ -2176,7 +2223,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "우기, 연말 성수기"
       }
     ]

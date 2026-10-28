@@ -26,11 +26,15 @@ export function MonthPicker({ value, onChange }: { value: number; onChange: (m: 
             onClick={() => onChange(m)}
             onKeyDown={(e) => {
               const next =
-                e.key === 'ArrowRight'
-                  ? (m % 12) + 1
-                  : e.key === 'ArrowLeft'
-                    ? ((m + 10) % 12) + 1
-                    : null;
+                e.key === 'Home'
+                  ? 1
+                  : e.key === 'End'
+                    ? 12
+                    : e.key === 'ArrowRight'
+                      ? (m % 12) + 1
+                      : e.key === 'ArrowLeft'
+                        ? ((m + 10) % 12) + 1
+                        : null;
               if (next === null) return;
               e.preventDefault();
               onChange(next);

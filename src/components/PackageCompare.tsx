@@ -6,8 +6,19 @@ import { NA, won, wonRange } from '@/lib/format';
 
 const yn = (v: boolean | null, yes: string, no: string) => (v === null ? NA : v ? yes : no);
 
-export function PackageCompare({ d, m }: { d: DestinationView; m: MonthView }) {
-  const [nights, setNights] = useState(4);
+export function PackageCompare({
+  d,
+  m,
+  defaultNights,
+}: {
+  d: DestinationView;
+  m: MonthView;
+  defaultNights: number;
+}) {
+  const [nights, setNights] = useState(defaultNights);
+  const nightOptions = [...new Set([3, 4, ...d.packages.map((p) => p.nights)])].sort(
+    (a, b) => a - b,
+  );
   const free = freeTripCost({
     flightMin: m.flight.min,
     flightMax: m.flight.max,
@@ -26,7 +37,7 @@ export function PackageCompare({ d, m }: { d: DestinationView; m: MonthView }) {
           자유여행 vs 패키지
         </h2>
         <div role="radiogroup" aria-label="일정" className="flex gap-1">
-          {[3, 4].map((n) => (
+          {nightOptions.map((n) => (
             <button
               key={n}
               role="radio"
@@ -99,7 +110,18 @@ export function PackageCompare({ d, m }: { d: DestinationView; m: MonthView }) {
                     )}
                   </div>
                   <p>
-                    <span className="text-lg font-bold">{won(p.priceKRW)}</span>
+                    <span
+                      className={
+                        p.termsClear ? 'text-lg font-bold' : 'text-sm font-semibold text-zinc-700'
+                      }
+                    >
+                      {won(p.priceKRW)}
+                    </span>
+                    {!p.termsClear && (
+                      <span className="ml-1 text-xs text-zinc-600">
+                        (포함 조건 미확인 — 가격만 참고)
+                      </span>
+                    )}
                     <span className="ml-1 text-xs text-zinc-600">
                       {p.nights}박 · {p.departureDate ?? `${p.departureMonth}월`} 출발 기준 · 기준일{' '}
                       {p.asOf}
