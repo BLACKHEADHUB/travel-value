@@ -1,6 +1,6 @@
 # PROGRESS
 
-갱신: 2026-10-28 · 저장소: https://github.com/BLACKHEADHUB/travel-value (private)
+갱신: 2026-10-28 · 저장소: https://github.com/BLACKHEADHUB/travel-value (private) · 배포: https://travel-value-eight.vercel.app
 
 ## 단계
 
@@ -13,7 +13,7 @@
 
 ## 현재 작업
 
-데이터 보강 PR 리뷰/머지 대기.
+없음. Vercel 프로덕션 배포 완료(main, CLI 수동 배포). GitHub 연동 자동 배포는 미설정.
 
 ## 다음 할 일
 
