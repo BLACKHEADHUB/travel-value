@@ -13,13 +13,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "90일 이내 단기방문은 입국사증 불필요. 쉥겐 지역 전체 합산 90일 한도. ETIAS 적용 여부와 시행 시기는 출처 페이지에 없어 미확인.",
-      "source": "https://whic.mofa.go.kr/whic/nation/info.jsp?boardNo=100011"
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS는 EU 공식 페이지(2026-04-28) 기준 미시행이며 2026년 4분기 시행 예정이나 정확한 시작일은 미공지(2026-10-28 기준 확정일 미확인). 시행되면 전자허가(ETIAS) 사전 신청 필요.",
+      "source": "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en"
     },
     "flightHours": {
-      "ICN": 14.2,
+      "ICN": 14.5,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Paris-PAR",
+    "seasonSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Paris-PAR",
     "landmarks": ["에펠탑", "루브르 박물관", "노트르담 대성당"],
     "flightPriceTypical": {
       "min": 881537,
@@ -241,7 +243,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 월별 왕복 중앙값이 연중 최고권(9월 1,491,055원)"
       },
       {
@@ -264,7 +266,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 월별 왕복 중앙값 1,382,470원으로 높은 편"
       },
       {
@@ -310,12 +312,10 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 연중 가장 저렴한 달(왕복 중앙값 887,217원)"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "rome",
@@ -331,13 +331,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
-      "source": null
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS는 EU 공식 페이지(2026-04-28) 기준 미시행이며 2026년 4분기 시행 예정이나 정확한 시작일은 미공지(2026-10-28 기준 확정일 미확인). 시행되면 전자허가(ETIAS) 사전 신청 필요.",
+      "source": "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en"
     },
     "flightHours": {
       "ICN": 13.7,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Rome-ROM",
+    "seasonSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Rome-ROM",
     "landmarks": ["콜로세움", "트레비 분수", "바티칸 박물관", "판테온"],
     "flightPriceTypical": {
       "min": 874823,
@@ -513,7 +515,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 월별 왕복 중앙값 연중 두 번째로 높음"
       },
       {
@@ -559,7 +561,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 월별 왕복 중앙값 연중 최고"
       },
       {
@@ -628,12 +630,10 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 연중 가장 저렴한 달"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "barcelona",
@@ -649,13 +649,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
-      "source": null
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS는 EU 공식 페이지(2026-04-28) 기준 미시행이며 2026년 4분기 시행 예정이나 정확한 시작일은 미공지(2026-10-28 기준 확정일 미확인). 시행되면 전자허가(ETIAS) 사전 신청 필요.",
+      "source": "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en"
     },
     "flightHours": {
       "ICN": 14.9,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Barcelona-BCN",
+    "seasonSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Barcelona-BCN",
     "landmarks": ["사그라다 파밀리아", "구엘 공원", "카사 바트요", "보케리아 시장"],
     "flightPriceTypical": {
       "min": 767564,
@@ -683,17 +685,27 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 연중 가장 저렴한 달"
       },
       {
@@ -706,18 +718,28 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "카약 기준 월별 왕복 중앙값 연중 최고(10월과 동률, 1,182,414원)"
       },
       {
         "month": 3,
@@ -729,14 +751,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -752,14 +784,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -775,14 +817,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -798,14 +850,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -821,14 +883,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -844,14 +916,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -867,14 +949,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -890,18 +982,28 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": null
+        "seasonLevel": "peak",
+        "notes": "카약 기준 월별 왕복 중앙값 연중 최고(2월과 동률, 1,182,414원)"
       },
       {
         "month": 11,
@@ -913,14 +1015,24 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
@@ -936,22 +1048,30 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "local": null,
-          "fx": null,
-          "total": null,
+          "local": {
+            "currency": "EUR",
+            "total": 160,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1479.29,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 236700,
           "lodging": null,
           "food": null,
           "transport": null,
-          "source": null,
-          "asOf": null,
+          "source": "https://radicalstorage.com/travel/is-barcelona-expensive/",
+          "asOf": "2026-10-28",
           "confidence": "low"
         },
         "seasonLevel": null,
         "notes": null
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "prague",
@@ -967,13 +1087,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
-      "source": null
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS는 EU 공식 페이지(2026-04-28) 기준 미시행이며 2026년 4분기 시행 예정이나 정확한 시작일은 미공지(2026-10-28 기준 확정일 미확인). 시행되면 전자허가(ETIAS) 사전 신청 필요.",
+      "source": "https://home-affairs.ec.europa.eu/news/main-differences-between-ees-and-etias-what-travellers-need-know-2026-04-28_en"
     },
     "flightHours": {
       "ICN": 13.5,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Prague-PRG",
+    "seasonSource": "https://www.kayak.co.kr/flight-routes/Seoul-Incheon-Intl-ICN/Prague-PRG",
     "landmarks": ["프라하 성", "카를교", "구시가지 광장", "천문시계"],
     "flightPriceTypical": {
       "min": 840268,
@@ -1011,7 +1133,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "카약 기준 연중 가장 저렴한 달"
       },
       {
@@ -1103,7 +1225,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 월별 왕복 중앙값 연중 두 번째로 높음"
       },
       {
@@ -1218,7 +1340,7 @@
           "asOf": null,
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "카약 기준 월별 왕복 중앙값 연중 최고"
       },
       {
@@ -1267,8 +1389,6 @@
         "seasonLevel": null,
         "notes": null
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   }
 ]

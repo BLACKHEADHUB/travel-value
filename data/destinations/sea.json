@@ -13,13 +13,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "한국 여권 관광 목적 무비자(한-태 비자면제협정, 기존 안내 90일). 2026.9.15 태국 무비자 제도 개편으로 체류일수는 출국 전 주태국대사관 공지 재확인 필요. 입국 전 3일 이내 TDAC(디지털 입국카드) 온라인 작성 필수.",
-      "source": "https://www.mofa.go.kr/th-ko/brd/m_25795/view.do?seq=1347228"
+      "note": "한국 여권 관광 목적 무비자 90일(한-태 사증면제협정, 외교부 영사협정 표 기준). 2026.9.15 태국 무비자 제도 개편(일반 국가 60일→30일)과 별개로 한국은 협정이 우선 적용된다고 보도되나 대사관 원문 미확인 → 출국 전 주태국대사관 공지 재확인. 입국 3일 전부터 TDAC(디지털 입국카드) 온라인 작성 필수.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
     },
     "flightHours": {
-      "ICN": 6,
+      "ICN": 6.1,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
     "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
     "flightPriceTypical": {
       "min": 288306,
@@ -68,7 +70,7 @@
           "confidence": "low"
         },
         "seasonLevel": "peak",
-        "notes": "건기(11~3월), 여행 최적기"
+        "notes": "건기, 여행 최적기. Kayak 성수기(여행객 증가)"
       },
       {
         "month": 2,
@@ -100,7 +102,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
+        "seasonLevel": null,
         "notes": "건기, 여행 최적기"
       },
       {
@@ -133,8 +135,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
-        "notes": "건기 끝자락, 더워지기 시작. 항공가 연중 최저 경향"
+        "seasonLevel": "off",
+        "notes": "건기 끝자락, 더워지기 시작. 항공가 연중 최저(Kayak 중간값)"
       },
       {
         "month": 4,
@@ -166,7 +168,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
+        "seasonLevel": null,
         "notes": "혹서기(4~5월), 중순 송크란 물 축제"
       },
       {
@@ -199,8 +201,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "shoulder",
-        "notes": "혹서기, 우기 시작 전후"
+        "seasonLevel": "off",
+        "notes": "혹서기, 우기 시작 전후. Kayak 비수기(여행객 감소)"
       },
       {
         "month": 6,
@@ -232,8 +234,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
-        "notes": "우기 시작(6~10월), 스콜 잦음. 항공가 연중 최고 경향"
+        "seasonLevel": "peak",
+        "notes": "우기 시작(6~10월), 스콜 잦음. 항공가 연중 최고(Kayak 중간값)"
       },
       {
         "month": 7,
@@ -265,8 +267,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
-        "notes": "우기, 단기 소나기"
+        "seasonLevel": "peak",
+        "notes": "우기, 단기 소나기. 항공가 높은 편(Kayak 2위)"
       },
       {
         "month": 8,
@@ -298,7 +300,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기"
       },
       {
@@ -331,7 +333,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기 한복판, 강수 많음"
       },
       {
@@ -364,7 +366,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "off",
+        "seasonLevel": null,
         "notes": "우기 끝자락, 홍수 가능"
       },
       {
@@ -397,8 +399,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
-        "notes": "건기 시작, 성수기 진입"
+        "seasonLevel": null,
+        "notes": "건기 시작"
       },
       {
         "month": 12,
@@ -430,12 +432,10 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": "peak",
-        "notes": "건기, 연말연시 수요 높음"
+        "seasonLevel": null,
+        "notes": "건기"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "danang",
@@ -450,14 +450,16 @@
     "visaInfo": {
       "required": false,
       "kind": "free",
-      "validUntil": null,
-      "note": "한국 여권 관광 목적 무비자(45일 체류 안내). 최신 체류일수는 출국 전 주베트남대사관/외교부 공지 재확인 필요.",
-      "source": null
+      "validUntil": "2028-03-14",
+      "note": "한국 여권 관광 목적 무비자 45일(베트남 정부 결의 44/NQ-CP, 2025.3.15~2028.3.14 한시 적용). 재입국·연장 조건은 출국 전 주한베트남대사관 공지 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
     },
     "flightHours": {
-      "ICN": 4.8,
+      "ICN": 5.1,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/다낭-DAD",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/다낭-DAD",
     "landmarks": ["미케 비치", "골든브리지(바나힐)", "용다리", "마블 마운틴", "호이안 구시가지"],
     "flightPriceTypical": {
       "min": 264919,
@@ -505,8 +507,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기, 선선하고 맑음. 항공가 연중 최고 경향(Kayak 중간값)"
+        "seasonLevel": "peak",
+        "notes": "우기 끝자락(9~12월 우기), 쌀쌀하고 흐린 날 많음. Kayak 성수기(여행객 증가)"
       },
       {
         "month": 2,
@@ -538,8 +540,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기, 따뜻해지는 시기"
+        "seasonLevel": "peak",
+        "notes": "쌀쌀하고 흐린 날 가능. 항공가 연중 최고(Kayak 중간값)"
       },
       {
         "month": 3,
@@ -637,8 +639,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기"
+        "seasonLevel": "off",
+        "notes": "건기, 더워짐. Kayak 비수기(여행객 감소)"
       },
       {
         "month": 6,
@@ -671,7 +673,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "건기 성수기, 해수욕 적기"
+        "notes": "건기, 해수욕 적기"
       },
       {
         "month": 7,
@@ -703,8 +705,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기 성수기, 여름휴가 수요. 항공가 높은 편"
+        "seasonLevel": "peak",
+        "notes": "건기, 여름휴가 수요. 항공가 높은 편(Kayak 2위)"
       },
       {
         "month": 8,
@@ -737,7 +739,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "건기 성수기, 매우 더움"
+        "notes": "건기, 매우 더움"
       },
       {
         "month": 9,
@@ -769,7 +771,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "우기 시작(9~12월), 태풍 시기. 항공가 연중 최저 경향"
       },
       {
@@ -871,9 +873,7 @@
         "seasonLevel": null,
         "notes": "우기 끝자락, 선선"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "cebu",
@@ -889,13 +889,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "한국 여권 관광 목적 30일 무비자. 입국 72시간 이내 eTravel 온라인 등록 필요(최신 요건 출국 전 재확인).",
-      "source": null
+      "note": "한국 여권 관광 목적 30일 무비자(외교부 영사협정 표 기준). 입국 72시간 이내 etravel.gov.ph(무료) 등록 필요. 연장은 이민국에서 가능. 출국 전 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
     },
     "flightHours": {
-      "ICN": 4.7,
+      "ICN": 4.8,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/세부-CEB",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/세부-CEB",
     "landmarks": ["막탄 섬", "마젤란 십자가", "산토니뇨 성당", "카와산 폭포", "오슬롭"],
     "flightPriceTypical": {
       "min": 299276,
@@ -943,8 +945,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기, 성수기"
+        "seasonLevel": "peak",
+        "notes": "건기. Kayak 성수기(여행객 증가)"
       },
       {
         "month": 2,
@@ -977,7 +979,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "건기, 성수기"
+        "notes": "건기"
       },
       {
         "month": 3,
@@ -1009,8 +1011,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기 성수기. 항공가 연중 최저 경향(Kayak 중간값)"
+        "seasonLevel": "off",
+        "notes": "건기. 항공가 연중 최저(Kayak 중간값)"
       },
       {
         "month": 4,
@@ -1043,7 +1045,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "건기 끝, 매우 더움(성수기 막바지), 성주간 수요"
+        "notes": "건기 끝, 매우 더움"
       },
       {
         "month": 5,
@@ -1108,7 +1110,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "우기 시작(6~11월), 스콜 잦음. 항공가 연중 최고 경향"
       },
       {
@@ -1141,7 +1143,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "peak",
         "notes": "우기, 태풍 가능"
       },
       {
@@ -1240,8 +1242,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "우기 끝자락, 태풍 가능"
+        "seasonLevel": "off",
+        "notes": "우기 끝자락, 태풍 가능. Kayak 비수기(여행객 감소)"
       },
       {
         "month": 11,
@@ -1307,11 +1309,9 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "건기 성수기, 연말연시 수요 높음"
+        "notes": "건기 시작"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "singapore",
@@ -1327,13 +1327,15 @@
       "required": false,
       "kind": "free",
       "validUntil": null,
-      "note": "한국 여권 관광 목적 무비자(90일 체류 안내). 도착 3일 이내 SG Arrival Card(전자 입국신고) 온라인 제출 필수. 최신 요건 출국 전 재확인.",
-      "source": null
+      "note": "한국 여권 관광·상용 목적 90일 무비자(외교부 영사협정 표, 주한싱가포르대사관 안내). 실제 체류기간은 입국 시 e-Pass(방문증)로 결정. 도착 3일 전부터 SG Arrival Card 온라인 제출 필수(ICA).",
+      "source": "https://seoul.mfa.gov.sg/consular-services/visa-information/"
     },
     "flightHours": {
-      "ICN": 6.6,
+      "ICN": 6.7,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/싱가포르-SIN",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/싱가포르-SIN",
     "landmarks": [
       "마리나 베이 샌즈",
       "가든스 바이 더 베이",
@@ -1387,8 +1389,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "연중 고온다습, 1~2월 상대적 건기. 항공가 높은 편"
+        "seasonLevel": "peak",
+        "notes": "연중 고온다습, 1~2월 상대적 건기. 항공가 높은 편(Kayak 2위), Kayak 성수기"
       },
       {
         "month": 2,
@@ -1421,7 +1423,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "상대적 건기, 설 연휴 수요"
+        "notes": "상대적 건기"
       },
       {
         "month": 3,
@@ -1486,8 +1488,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "연중 고온다습. 항공가 연중 최저 경향(Kayak 중간값)"
+        "seasonLevel": "off",
+        "notes": "연중 고온다습. 항공가 연중 최저(Kayak 중간값)"
       },
       {
         "month": 5,
@@ -1586,7 +1588,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "여름 성수기 수요"
+        "notes": "연중 고온다습, 학교 방학 시즌"
       },
       {
         "month": 8,
@@ -1717,8 +1719,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "북동 몬순 시작, 비 잦아짐"
+        "seasonLevel": "off",
+        "notes": "북동 몬순 시작, 비 잦아짐. Kayak 비수기(여행객 감소)"
       },
       {
         "month": 12,
@@ -1750,12 +1752,10 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "북동 몬순 우기, 연말 성수기. 항공가 연중 최고 경향"
+        "seasonLevel": "peak",
+        "notes": "북동 몬순 우기. 항공가 연중 최고(Kayak 중간값)"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   },
   {
     "id": "bali",
@@ -1771,13 +1771,15 @@
       "required": true,
       "kind": "visa",
       "validUntil": null,
-      "note": "한국 여권은 도착비자(VoA, 전자 e-VOA 가능) 필요: 30일, 약 IDR 500,000 안내. 도착 전 All Indonesia 전자입국신고 및 발리 관광세(IDR 150,000) 납부 필요. 금액·요건은 출국 전 공식 사이트에서 재확인.",
-      "source": null
+      "note": "한국 여권은 도착비자(VoA/e-VoA) 필요: 최대 30일(1회 연장 가능), IDR 500,000 (이민국 안내). 별도로 발리 외국인 관광세 IDR 150,000(1인, 여행 중 1회, lovebali.baliprov.go.id 공식 사이트에서 납부). All Indonesia 전자입국신고는 대사관/이민국 공식 안내 재확인. 요건·금액은 출국 전 재확인.",
+      "source": "https://www.imigrasi.go.id/en/e-voa/"
     },
     "flightHours": {
-      "ICN": 7.2,
+      "ICN": 7.3,
       "GMP": null
     },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/발리-DPS",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/발리-DPS",
     "landmarks": [
       "울루와뚜 사원",
       "따나롯 사원",
@@ -1930,8 +1932,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기 시작(4~10월)"
+        "seasonLevel": "off",
+        "notes": "건기 시작(4~10월). Kayak 비수기(여행객 감소)"
       },
       {
         "month": 5,
@@ -1997,7 +1999,7 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "건기 성수기 시작"
+        "notes": "건기"
       },
       {
         "month": 7,
@@ -2029,8 +2031,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기 성수기, 항공가 높은 편"
+        "seasonLevel": "peak",
+        "notes": "건기, 항공가 연중 최고(Kayak 중간값)"
       },
       {
         "month": 8,
@@ -2062,8 +2064,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기 성수기"
+        "seasonLevel": "peak",
+        "notes": "건기. Kayak 성수기(여행객 증가)"
       },
       {
         "month": 9,
@@ -2095,8 +2097,8 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
-        "notes": "건기 성수기, 항공가 높은 편(Kayak 중간값)"
+        "seasonLevel": "peak",
+        "notes": "건기, 항공가 연중 최고권(Kayak 2위)"
       },
       {
         "month": 10,
@@ -2161,7 +2163,7 @@
           "asOf": "2026-10-28",
           "confidence": "low"
         },
-        "seasonLevel": null,
+        "seasonLevel": "off",
         "notes": "우기 시작, 항공가 연중 최저 경향(Kayak 중간값)"
       },
       {
@@ -2195,10 +2197,8 @@
           "confidence": "low"
         },
         "seasonLevel": null,
-        "notes": "우기, 연말 성수기"
+        "notes": "우기"
       }
-    ],
-    "flightHoursSource": null,
-    "seasonSource": null
+    ]
   }
 ]
