@@ -15,13 +15,17 @@ export const SCORE_PARAMS = {
   rainFreeMm: 100,
   rainPenaltyPerMm: 0.25,
   rainMaxPenalty: 40,
+  /** 테마 수 themeCap 이상이면 100점 (랜드마크 개수는 입력 편차라 점수에 쓰지 않음) */
   themeCap: 4,
-  landmarkCap: 5,
   /** 비행시간 flightBestH 이하 100점, flightWorstH 이상 0점 */
   flightBestH: 3,
   flightWorstH: 14,
   flightShareOfAccess: 0.8,
+  /** 입국 요건별 점수: 무비자 / 전자여행허가 / 비자·도착비자 */
+  visaScore: { free: 100, eta: 70, visa: 0 },
 } as const;
+
+export type VisaKind = 'free' | 'eta' | 'visa';
 
 export type ScoreInput = {
   /** 항공 + 현지 경비 × 박수 (대표값). 모르면 null */
@@ -32,9 +36,8 @@ export type ScoreInput = {
   avgTempMax: number | null;
   rainfallMm: number | null;
   themeCount: number | null;
-  landmarkCount: number | null;
   flightHours: number | null;
-  visaRequired: boolean | null;
+  visaKind: VisaKind | null;
 };
 
 export type ScoreParts = {
@@ -77,23 +80,16 @@ export function climateScore(
   return clamp(score);
 }
 
-export function themeScore(themeCount: number | null, landmarkCount: number | null): number | null {
-  const p = SCORE_PARAMS;
-  const parts: number[] = [];
-  if (has(themeCount)) parts.push(clamp((themeCount / p.themeCap) * 100));
-  if (has(landmarkCount)) parts.push(clamp((landmarkCount / p.landmarkCap) * 100));
-  return parts.length ? parts.reduce((a, b) => a + b, 0) / parts.length : null;
+export function themeScore(themeCount: number | null): number | null {
+  return has(themeCount) ? clamp((themeCount / SCORE_PARAMS.themeCap) * 100) : null;
 }
 
-export function accessScore(
-  flightHours: number | null,
-  visaRequired: boolean | null,
-): number | null {
+export function accessScore(flightHours: number | null, visaKind: VisaKind | null): number | null {
   const p = SCORE_PARAMS;
   const flight = has(flightHours)
     ? clamp(((p.flightWorstH - flightHours) / (p.flightWorstH - p.flightBestH)) * 100)
     : null;
-  const visa = visaRequired === null ? null : visaRequired ? 0 : 100;
+  const visa = visaKind === null ? null : p.visaScore[visaKind];
   if (flight === null && visa === null) return null;
   if (flight === null) return visa;
   if (visa === null) return flight;
@@ -104,8 +100,8 @@ export function computeScore(i: ScoreInput): ScoreResult {
   const parts: ScoreParts = {
     price: priceScore(i.totalCost, i.regionAvgCost),
     climate: climateScore(i.avgTempMin, i.avgTempMax, i.rainfallMm),
-    theme: themeScore(i.themeCount, i.landmarkCount),
-    access: accessScore(i.flightHours, i.visaRequired),
+    theme: themeScore(i.themeCount),
+    access: accessScore(i.flightHours, i.visaKind),
   };
   const keys = Object.keys(parts) as (keyof ScoreParts)[];
   const active = keys.filter((k) => parts[k] !== null);

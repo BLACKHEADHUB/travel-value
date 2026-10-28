@@ -89,6 +89,22 @@ for (const [region, dests] of destFiles) {
         err(`${am}: 1일 경비 이상치 ${dc.total}`);
       const anyCost = [dc.total, dc.lodging, dc.food, dc.transport].some((v) => v !== null);
       if (anyCost && (!dc.source || !dc.asOf)) err(`${am}: 경비 source/asOf 누락`);
+      if (dc.local?.total && dc.local.lodging && dc.local.food && dc.local.transport) {
+        const sum = dc.local.lodging + dc.local.food + dc.local.transport;
+        if (Math.abs(sum - dc.local.total) / dc.local.total > 0.15)
+          warn(`${am}: 현지 경비 항목 합(${sum})과 total(${dc.local.total}) 불일치`);
+      }
+      if (dc.local && !dc.fx) {
+        // 수집 중(병렬)에는 VALIDATE_SKIP_FX=1 로 경고만, 최종 검증은 오류
+        (process.env.VALIDATE_SKIP_FX ? warn : err)(
+          `${am}: 현지 통화 경비가 환산되지 않음 (npm run fx)`,
+        );
+      }
+      if (dc.local?.total && dc.fx && dc.total !== null) {
+        const expect = dc.local.total * dc.fx.rate;
+        if (Math.abs(expect - dc.total) / expect > 0.01)
+          err(`${am}: 경비 KRW(${dc.total})가 현지값×환율(${Math.round(expect)})과 다름`);
+      }
       if (dc.total !== null && [dc.lodging, dc.food, dc.transport].every((v) => v !== null)) {
         const sum = (dc.lodging ?? 0) + (dc.food ?? 0) + (dc.transport ?? 0);
         if (Math.abs(sum - dc.total) / dc.total > 0.15)

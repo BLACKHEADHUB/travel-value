@@ -21,7 +21,11 @@ type Info = {
 
 async function lookup(file: string) {
   const url = `${API}?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1200&titles=${encodeURIComponent('File:' + file)}`;
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  let res = await fetch(url, { headers: { 'User-Agent': UA } });
+  for (let i = 1; res.status === 429 && i <= 4; i++) {
+    await new Promise((r) => setTimeout(r, i * 10_000)); // 429: 점점 길게 대기 후 재시도
+    res = await fetch(url, { headers: { 'User-Agent': UA } });
+  }
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const json = (await res.json()) as { query: { pages: Record<string, { imageinfo?: Info[] }> } };
   const info = Object.values(json.query.pages)[0]?.imageinfo?.[0];
@@ -44,6 +48,7 @@ async function main() {
     const dests = destinationFileSchema.parse(JSON.parse(readFileSync(p, 'utf8')));
     for (const d of dests) {
       if (!d.imageFile) continue;
+      if (d.imageUrl && d.imageCredit && !process.argv.includes('--force')) continue; // 이미 확인됨
       try {
         Object.assign(d, await lookup(d.imageFile));
         console.log(`✓ ${d.id}: ${d.imageCredit?.license}`);
@@ -51,7 +56,7 @@ async function main() {
         failed++;
         console.warn(`✗ ${d.id}: ${(e as Error).message}`);
       }
-      await new Promise((r) => setTimeout(r, 500));
+      await new Promise((r) => setTimeout(r, 1500));
     }
     writeFileSync(p, JSON.stringify(dests, null, 2) + '\n');
   }

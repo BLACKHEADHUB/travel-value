@@ -16,9 +16,8 @@ const full: ScoreInput = {
   avgTempMax: 26,
   rainfallMm: 50,
   themeCount: 4,
-  landmarkCount: 5,
   flightHours: 3,
-  visaRequired: false,
+  visaKind: 'free',
 };
 
 describe('weights', () => {
@@ -59,15 +58,17 @@ describe('climateScore', () => {
 });
 
 describe('theme / access', () => {
-  it('theme caps and partial nulls', () => {
-    expect(themeScore(8, 10)).toBe(100);
-    expect(themeScore(2, null)).toBe(50);
-    expect(themeScore(null, null)).toBeNull();
+  it('theme caps and null', () => {
+    expect(themeScore(8)).toBe(100);
+    expect(themeScore(2)).toBe(50);
+    expect(themeScore(null)).toBeNull();
   });
-  it('access combines flight and visa', () => {
-    expect(accessScore(3, false)).toBe(100);
-    expect(accessScore(14, true)).toBe(0);
-    expect(accessScore(null, true)).toBe(0);
+  it('access combines flight and graded visa', () => {
+    expect(accessScore(3, 'free')).toBe(100);
+    expect(accessScore(14, 'visa')).toBe(0);
+    expect(accessScore(null, 'visa')).toBe(0);
+    expect(accessScore(null, 'eta')).toBe(70);
+    expect(accessScore(3, 'eta')).toBeCloseTo(100 * 0.8 + 70 * 0.2);
     expect(accessScore(3, null)).toBe(100);
     expect(accessScore(null, null)).toBeNull();
   });
@@ -93,9 +94,8 @@ describe('computeScore', () => {
       avgTempMax: null,
       rainfallMm: null,
       themeCount: null,
-      landmarkCount: null,
       flightHours: null,
-      visaRequired: null,
+      visaKind: null,
     });
     expect(r.total).toBeNull();
   });
@@ -106,9 +106,8 @@ describe('computeScore', () => {
       avgTempMin: -30,
       avgTempMax: -20,
       flightHours: 30,
-      visaRequired: true,
+      visaKind: 'visa',
       themeCount: 0,
-      landmarkCount: 0,
     });
     expect(r.total).toBe(0);
   });

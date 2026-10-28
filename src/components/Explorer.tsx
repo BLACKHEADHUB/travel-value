@@ -3,8 +3,7 @@ import { useMemo } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import type { DestinationView } from '@/lib/data';
 import { THEMES } from '@/lib/themes';
-import { ORIGIN_LABEL, type Origin } from '@/lib/links';
-import { meanTemp } from '@/lib/view';
+import { meanTemp, parseMonth } from '@/lib/view';
 import { MonthPicker } from './MonthPicker';
 import { DestinationCard } from './DestinationCard';
 import { PriceNotice } from './Notice';
@@ -31,11 +30,11 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
   const router = useRouter();
   const pathname = usePathname();
 
-  const month = Number(sp.get('m')) || new Date().getMonth() + 1;
-  const origin = (sp.get('from') === 'GMP' ? 'GMP' : 'ICN') as Origin;
+  const month = parseMonth(sp.get('m'));
   const themeParam = sp.get('theme') ?? '';
   const themes = useMemo(() => themeParam.split(',').filter(Boolean), [themeParam]);
   const budget = Number(sp.get('budget')) || null; // 만 원
+  const includeUnknownCost = sp.get('unknown') === '1';
   const maxHours = Number(sp.get('hours')) || null;
   const visaFree = sp.get('visa') === 'free';
   const tempKey = (sp.get('temp') ?? 'any') as TempKey;
@@ -50,20 +49,27 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
     router.replace(`${pathname}?${p}`, { scroll: false });
   };
 
-  const list = useMemo(() => {
+  const { list, unknownCostHidden } = useMemo(() => {
+    let unknownCostHidden = 0;
     const out = destinations.filter((d) => {
       const m = d.months[month - 1];
       if (themes.length && !themes.some((t) => (d.themes as string[]).includes(t))) return false;
-      if (visaFree && d.visaInfo.required !== false) return false;
-      const h = d.flightHours[origin] ?? d.flightHours.ICN;
+      if (visaFree && d.visaInfo.kind !== 'free') return false;
+      const h = d.flightHours.ICN;
       if (maxHours && (h === null || h > maxHours)) return false;
-      if (budget && (m.totalCost === null || m.totalCost > budget * 10000)) return false;
       const t = meanTemp(m);
       if (tempKey !== 'any') {
         if (t === null) return false;
         if (tempKey === 'cool' && t >= 18) return false;
         if (tempKey === 'mild' && (t < 18 || t > 27)) return false;
         if (tempKey === 'hot' && t <= 27) return false;
+      }
+      if (budget) {
+        if (m.totalCost === null) {
+          if (!includeUnknownCost) unknownCostHidden++;
+          return includeUnknownCost;
+        }
+        if (m.totalCost > budget * 10000) return false;
       }
       return true;
     });
@@ -73,8 +79,10 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
       if (sort === 'comfort') return -last(m.score.parts.climate, -Infinity);
       return -last(m.score.total, -Infinity);
     };
-    return out.sort((a, b) => key(a) - key(b));
-  }, [destinations, month, origin, themes, budget, maxHours, visaFree, tempKey, sort]);
+    return { list: out.sort((a, b) => key(a) - key(b)), unknownCostHidden };
+  }, [destinations, month, themes, budget, includeUnknownCost, maxHours, visaFree, tempKey, sort]);
+
+  const unpricedShown = list.filter((d) => d.months[month - 1].score.parts.price === null).length;
 
   const toggleTheme = (t: string) =>
     set({
@@ -117,21 +125,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             })}
           </div>
         </fieldset>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
-          <label className="flex flex-col gap-1 text-xs text-zinc-700">
-            출발지
-            <select
-              className={select}
-              value={origin}
-              onChange={(e) => set({ from: e.target.value === 'ICN' ? null : e.target.value })}
-            >
-              {(Object.keys(ORIGIN_LABEL) as Origin[]).map((o) => (
-                <option key={o} value={o}>
-                  {ORIGIN_LABEL[o]}
-                </option>
-              ))}
-            </select>
-          </label>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
           <label className="flex flex-col gap-1 text-xs text-zinc-700">
             기온
             <select
@@ -147,7 +141,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             </select>
           </label>
           <label className="flex flex-col gap-1 text-xs text-zinc-700">
-            예산 상한 (4박 총액)
+            예산 상한 (항공+경비)
             <select
               className={select}
               value={budget ?? ''}
@@ -162,7 +156,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             </select>
           </label>
           <label className="flex flex-col gap-1 text-xs text-zinc-700">
-            비행시간
+            비행시간 (인천 출발)
             <select
               className={select}
               value={maxHours ?? ''}
@@ -200,12 +194,22 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             무비자만
           </label>
         </div>
-        {origin === 'GMP' && (
-          <p className="text-xs text-zinc-600">
-            항공값은 인천 출발 기준이에요. 김포 직항이 없는 도시는 비행시간이 &lsquo;정보
-            없음&rsquo;으로 보여요.
-          </p>
+        {budget !== null && (
+          <label className="flex items-center gap-2 text-xs text-zinc-700">
+            <input
+              type="checkbox"
+              className="size-4 accent-sky-700"
+              checked={includeUnknownCost}
+              onChange={(e) => set({ unknown: e.target.checked ? '1' : null })}
+            />
+            경비 정보가 없는 곳도 보기
+            {unknownCostHidden > 0 && ` (지금 ${unknownCostHidden}곳 숨김)`}
+          </label>
         )}
+        <p className="text-xs text-zinc-600">
+          예산은 왕복 항공(해당 월 또는 연중 대표가 중간값) + 1일 경비 × 4박 기준이에요. 항공값은
+          인천 출발 기준이에요.
+        </p>
       </section>
 
       <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
@@ -214,12 +218,18 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
         </h2>
         <PriceNotice />
       </div>
+      {sort === 'score' && unpricedShown > 0 && (
+        <p className="-mt-3 text-xs text-zinc-600">
+          &lsquo;가격 제외&rsquo; 표시가 있는 {unpricedShown}곳은 경비 정보가 없어 가격 항목을 빼고
+          점수를 매겼어요. 가격이 반영된 곳과 점수를 그대로 비교하기는 어려워요.
+        </p>
+      )}
 
       {list.length ? (
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((d) => (
             <li key={d.id}>
-              <DestinationCard d={d} month={month} origin={origin} />
+              <DestinationCard d={d} month={month} />
             </li>
           ))}
         </ul>

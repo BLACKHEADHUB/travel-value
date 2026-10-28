@@ -20,7 +20,25 @@ export const flightPriceSchema = z.object({
   ...priceMeta,
 });
 
+const localAmount = z.number().positive().nullable();
+
 export const dailyCostSchema = z.object({
+  /** 출처에 적힌 현지 통화 원값. 있으면 KRW 필드는 scripts/fx.ts가 환산해 채운다 */
+  local: z
+    .object({
+      currency: z.string().regex(/^[A-Z]{3}$/),
+      total: localAmount,
+      lodging: localAmount,
+      food: localAmount,
+      transport: localAmount,
+    })
+    .nullable()
+    .default(null),
+  /** 환산에 쓴 환율 (1 현지통화 = rate 원) */
+  fx: z
+    .object({ rate: z.number().positive(), date: isoDate, source: z.string() })
+    .nullable()
+    .default(null),
   total: z.number().int().positive().nullable(),
   lodging: z.number().int().positive().nullable(),
   food: z.number().int().positive().nullable(),
@@ -45,6 +63,10 @@ export const destinationSchema = z.object({
   themes: z.array(z.enum(THEMES)).min(1),
   visaInfo: z.object({
     required: z.boolean().nullable(),
+    /** free=무비자, eta=전자여행허가(ESTA·eTA·NZeTA 등), visa=비자/도착비자 */
+    kind: z.enum(['free', 'eta', 'visa']).nullable().default(null),
+    /** 한시적 무비자 등 정책 만료일 */
+    validUntil: isoDate.nullable().default(null),
     note: z.string().nullable(),
     source: z.string().nullable(),
   }),

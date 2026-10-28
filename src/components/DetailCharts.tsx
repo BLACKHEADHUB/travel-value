@@ -23,14 +23,47 @@ export function DetailCharts({ months, selected }: { months: MonthView[]; select
     min: m.avgTempMin,
     max: m.avgTempMax,
     rain: m.rainfallMm,
-    flightMin: m.flightPrice.min === null ? null : Math.round(m.flightPrice.min / 10000),
-    flightMax: m.flightPrice.max === null ? null : Math.round(m.flightPrice.max / 10000),
+    flightMin:
+      (m.flightPrice.min ?? m.flightPrice.max) === null
+        ? null
+        : Math.round((m.flightPrice.min ?? m.flightPrice.max)! / 10000),
+    flightMax:
+      (m.flightPrice.max ?? m.flightPrice.min) === null
+        ? null
+        : Math.round((m.flightPrice.max ?? m.flightPrice.min)! / 10000),
     season: m.seasonLevel,
   }));
   const seasonAreas = rows.filter((r) => r.season);
   const hasFlight = rows.some((r) => r.flightMin !== null);
+  // 출처가 월 평균/중간값 하나만 줄 때(min=max)는 선을 하나로
+  const singleValue = rows.every((r) => r.flightMin === r.flightMax);
   return (
     <div className="space-y-6">
+      <table className="sr-only">
+        <caption>월별 기온·강수·항공값·시즌</caption>
+        <thead>
+          <tr>
+            <th scope="col">월</th>
+            <th scope="col">최저기온</th>
+            <th scope="col">최고기온</th>
+            <th scope="col">강수량(mm)</th>
+            <th scope="col">항공(만 원)</th>
+            <th scope="col">시즌</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr key={r.month}>
+              <th scope="row">{r.name}</th>
+              <td>{r.min ?? '정보 없음'}</td>
+              <td>{r.max ?? '정보 없음'}</td>
+              <td>{r.rain ?? '정보 없음'}</td>
+              <td>{r.flightMin ?? '정보 없음'}</td>
+              <td>{r.season ? SEASON_LABEL[r.season] : '정보 없음'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
       <figure>
         <figcaption className="mb-2 text-sm font-semibold">기온(℃)과 강수량(mm)</figcaption>
         <div className="h-64 w-full">
@@ -101,18 +134,20 @@ export function DetailCharts({ months, selected }: { months: MonthView[]; select
                 <ReferenceArea x1={`${selected}월`} x2={`${selected}월`} fill="#e0f2fe" />
                 <Line
                   dataKey="flightMin"
-                  name="최저"
+                  name={singleValue ? '월 평균/중간값' : '최저'}
                   stroke="#0369a1"
                   strokeWidth={2}
                   connectNulls={false}
                 />
-                <Line
-                  dataKey="flightMax"
-                  name="최고"
-                  stroke="#94a3b8"
-                  strokeWidth={2}
-                  connectNulls={false}
-                />
+                {!singleValue && (
+                  <Line
+                    dataKey="flightMax"
+                    name="최고"
+                    stroke="#94a3b8"
+                    strokeWidth={2}
+                    connectNulls={false}
+                  />
+                )}
               </ComposedChart>
             </ResponsiveContainer>
           </div>

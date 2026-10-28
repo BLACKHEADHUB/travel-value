@@ -19,7 +19,7 @@
 
 - **flightPrice (ICN 왕복, 1인, 이코노미, KRW)**: 월별 최저가 경향을 보여주는 페이지(Skyscanner/Kayak/Google Flights "가장 저렴한 달", 여행사·뉴스 기사 등)를 우선. 특정 월 근거가 없으면 그 달은 null. 연간 범위 하나만 있으면 모든 달에 같은 값을 넣지 말고, 근거가 있는 달만 채운다.
 - **flightPriceTypical (연중 대표 왕복가, ICN, KRW)**: 월별 근거가 없을 때를 위한 값. 노선 단위로 출처가 있는 범위(예: Skyscanner/Kayak/Google Flights 노선 페이지의 "왕복 최저가/평균가", 항공사 특가 기사). min/max는 출처 범위 그대로, note에 "왕복 평균가 기준" 등 근거 설명. 월별 값을 이것으로 복사해 채우지 않는다.
-- **dailyCost (1인 1일, 숙박+식비+교통, 중저가 기준, KRW)**: Budget Your Trip, Numbeo 등. 월별로 크게 안 변하면 12개월 같은 값 + 동일 source 허용(confidence medium). 환율 환산했다면 notes 없이 source에 원 출처만.
+- **dailyCost (1인 1일, 숙박+식비+교통, 중저가 기준)**: Budget Your Trip(403 잦음), Numbeo, 관광청 비용 가이드 등. **출처에 적힌 통화 그대로** `dailyCost.local`({currency: ISO 코드, total, lodging, food, transport})에 넣고 KRW 필드(total/lodging/food/transport)와 fx는 **null로 둔다** — `npm run fx`가 환산한다. **환율을 가정하거나 직접 환산하지 않는다.** 출처가 원화면 local=null, KRW 필드에 그대로. 범위만 있으면 범위 하한·상한 중 하나를 고르지 말고 출처가 '중간/평균'으로 제시한 값만 쓴다. 월별로 안 변하면 12개월 같은 값 허용(confidence medium).
 - **seasonLevel**: peak/shoulder/off — 관광청·여행 가이드의 성수기 설명 근거. 근거 없으면 null.
 - **notes**: 우기, 태풍, 축제로 인한 가격 급등 등 짧게(한국어). 없으면 null.
 - **visaInfo**: 한국 여권 기준. 외교부 해외안전여행 또는 대사관 페이지. ETA/ESTA/K-ETA류 전자허가는 required=true + note에 명칭.
@@ -31,4 +31,4 @@
 
 ## 마무리
 
-`npx tsx scripts/validate-data.ts` 로 검증 통과 확인 후, 메인에 **10줄 이내 요약만** 반환: 도시별 채운 월 수(항공/경비), null 비율, 패키지 개수, confidence low 항목, 막힌 사이트.
+`npm run fx`, `npm run fetch:images`는 **실행하지 않는다**(메인이 일괄 실행). 기후는 `npx tsx scripts/fetch-climate.ts <region>`으로 자기 지역만 생성. 검증은 `VALIDATE_SKIP_FX=1 npx tsx scripts/validate-data.ts`로 하고 자기 파일의 오류만 고친 뒤, 메인에 **10줄 이내 요약만** 반환: 도시별 채운 월 수(항공/경비), null 비율, 패키지 개수, confidence low 항목, 막힌 사이트.

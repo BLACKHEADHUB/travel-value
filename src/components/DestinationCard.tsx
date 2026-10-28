@@ -1,21 +1,13 @@
 import Link from 'next/link';
 import type { DestinationView } from '@/lib/data';
 import { NA, SEASON_LABEL, temp, won, wonRange } from '@/lib/format';
-import { isRainy } from '@/lib/view';
-import { freeTripCost, packageStats, verdict } from '@/lib/compare';
-import type { Origin } from '@/lib/links';
+import { fallbackNights, isRainy, visaLabel } from '@/lib/view';
+import { freeTripCost, packageStats, pickNights, verdict } from '@/lib/compare';
 
-export function DestinationCard({
-  d,
-  month,
-  origin,
-}: {
-  d: DestinationView;
-  month: number;
-  origin: Origin;
-}) {
+export function DestinationCard({ d, month }: { d: DestinationView; month: number }) {
   const m = d.months[month - 1];
-  const nights = 4;
+  const nights = pickNights(d.packages, fallbackNights(d));
+  const visa = visaLabel(d, month);
   const stats = packageStats(d.packages, month, nights);
   const v = verdict(
     freeTripCost({
@@ -26,7 +18,7 @@ export function DestinationCard({
     }),
     stats,
   );
-  const hours = d.flightHours[origin];
+  const hours = d.flightHours.ICN;
   return (
     <article className="group relative overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition focus-within:ring-2 focus-within:ring-sky-600 hover:shadow-md">
       <div className="relative aspect-[16/10] bg-gradient-to-br from-sky-200 to-emerald-100">
@@ -52,7 +44,7 @@ export function DestinationCard({
           <span className="text-xs font-normal text-zinc-600">점</span>
           {m.score.total !== null && m.score.parts.price === null && (
             <span
-              className="ml-1 text-[10px] font-normal text-zinc-600"
+              className="ml-1 text-xs font-normal text-zinc-600"
               title="가격 정보가 없어 가격 항목을 빼고 계산"
             >
               가격 제외
@@ -114,17 +106,20 @@ export function DestinationCard({
           </div>
           <div>
             <dt className="text-xs text-zinc-600">비자</dt>
-            <dd className="font-medium">
-              {d.visaInfo.required === null ? NA : d.visaInfo.required ? '필요/전자허가' : '무비자'}
-            </dd>
+            <dd className="font-medium">{visa.text}</dd>
           </div>
         </dl>
         <p className="text-xs text-zinc-700">
           <span className="font-medium">랜드마크</span> · {d.landmarks.join(' · ')}
         </p>
         <p className="rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-900">
-          <span className="font-semibold">4박 기준 패키지 비교</span> · {v.text}
+          <span className="font-semibold">{nights}박 기준 패키지 비교</span> · {v.text}
         </p>
+        {d.imageCredit && (
+          <p className="truncate text-xs text-zinc-500">
+            사진: {d.imageCredit.author} / {d.imageCredit.license} (Wikimedia Commons)
+          </p>
+        )}
       </div>
     </article>
   );

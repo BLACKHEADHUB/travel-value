@@ -8,9 +8,15 @@
       "lat": 48.8566,
       "lng": 2.3522
     },
-    "themes": ["도시", "문화/역사", "미식"],
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
     "visaInfo": {
       "required": false,
+      "kind": "free",
+      "validUntil": null,
       "note": "90일 이내 단기방문은 입국사증 불필요. 쉥겐 지역 전체 합산 90일 한도. ETIAS 적용 여부와 시행 시기는 출처 페이지에 없어 미확인.",
       "source": "https://whic.mofa.go.kr/whic/nation/info.jsp?boardNo=100011"
     },
@@ -18,9 +24,26 @@
       "ICN": 14.2,
       "GMP": null
     },
-    "landmarks": ["에펠탑", "루브르 박물관", "노트르담 대성당"],
-    "imageUrl": null,
-    "imageCredit": null,
+    "landmarks": [
+      "에펠탑",
+      "루브르 박물관",
+      "노트르담 대성당"
+    ],
+    "flightPriceTypical": {
+      "min": 881537,
+      "max": 1369347,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 ICN→파리 왕복 12개월 데이터 기준 일반 범위(평균 약 1,087,053원)"
+    },
+    "imageFile": "Tour_Eiffel_Wikimedia_Commons.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Benh LIEU SONG",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+    },
     "monthly": [
       {
         "month": 1,
@@ -32,6 +55,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -53,6 +78,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -74,6 +101,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -95,6 +124,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -116,6 +147,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -137,6 +170,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -158,6 +193,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -179,6 +216,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -200,6 +239,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -221,6 +262,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -242,6 +285,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -263,6 +308,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -274,15 +321,980 @@
         "seasonLevel": null,
         "notes": "카약 기준 연중 가장 저렴한 달(왕복 중앙값 887,217원)"
       }
+    ]
+  },
+  {
+    "id": "rome",
+    "nameKo": "로마",
+    "country": "이탈리아",
+    "region": "europe",
+    "coordinates": {
+      "lat": 41.9028,
+      "lng": 12.4964
+    },
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 13.7,
+      "GMP": null
+    },
+    "landmarks": [
+      "콜로세움",
+      "트레비 분수",
+      "바티칸 박물관",
+      "판테온"
     ],
     "flightPriceTypical": {
-      "min": 881537,
-      "max": 1369347,
-      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+      "min": 874823,
+      "max": 1363759,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로마-ROM",
       "asOf": "2026-10-28",
       "confidence": "medium",
-      "note": "카약 ICN→파리 왕복 12개월 데이터 기준 일반 범위(평균 약 1,087,053원)"
+      "note": "카약 ICN 왕복 12개월 데이터 기준 일반 범위(평균 약 1,081,915원)"
     },
-    "imageFile": "Tour_Eiffel_Wikimedia_Commons.jpg"
+    "imageFile": "Colosseo_2020.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "FeaturedPics",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 1272561,
+          "max": 1272561,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로마-ROM",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 월별 왕복 중앙값 연중 두 번째로 높음"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 1367904,
+          "max": 1367904,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로마-ROM",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 월별 왕복 중앙값 연중 최고"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 775984,
+          "max": 775984,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/로마-ROM",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 연중 가장 저렴한 달"
+      }
+    ]
+  },
+  {
+    "id": "barcelona",
+    "nameKo": "바르셀로나",
+    "country": "스페인",
+    "region": "europe",
+    "coordinates": {
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "themes": [
+      "도시",
+      "문화/역사",
+      "미식"
+    ],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 14.9,
+      "GMP": null
+    },
+    "landmarks": [
+      "사그라다 파밀리아",
+      "구엘 공원",
+      "카사 바트요",
+      "보케리아 시장"
+    ],
+    "flightPriceTypical": {
+      "min": 767564,
+      "max": 1335269,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/바르셀로나-BCN",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 ICN 왕복 12개월 데이터 기준 일반 범위(평균 약 1,007,340원)"
+    },
+    "imageFile": "Sagrada_Familia_01.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Sagrada_Familia_01.jpg/1280px-Sagrada_Familia_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_01.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 837213,
+          "max": 837213,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/바르셀로나-BCN",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 연중 가장 저렴한 달"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "prague",
+    "nameKo": "프라하",
+    "country": "체코",
+    "region": "europe",
+    "coordinates": {
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "themes": [
+      "도시",
+      "문화/역사"
+    ],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 90일 이내 단기방문 사증 불필요(쉥겐 90/180일 한도). ETIAS 시행 여부·시기는 이번 수집에서 미확인.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 13.5,
+      "GMP": null
+    },
+    "landmarks": [
+      "프라하 성",
+      "카를교",
+      "구시가지 광장",
+      "천문시계"
+    ],
+    "flightPriceTypical": {
+      "min": 840268,
+      "max": 1193683,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/프라하-PRG",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 ICN 왕복 12개월 데이터 기준 일반 범위(평균 약 1,015,554원)"
+    },
+    "imageFile": "Prague Panorama - Oct 2010.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Prague_Panorama_-_Oct_2010.jpg/1280px-Prague_Panorama_-_Oct_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prague_Panorama_-_Oct_2010.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 793567,
+          "max": 793567,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/프라하-PRG",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 연중 가장 저렴한 달"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": 1151994,
+          "max": 1151994,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/프라하-PRG",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 월별 왕복 중앙값 연중 두 번째로 높음"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 1343773,
+          "max": 1343773,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/프라하-PRG",
+          "asOf": "2026-10-28",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "카약 기준 월별 왕복 중앙값 연중 최고"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
   }
 ]

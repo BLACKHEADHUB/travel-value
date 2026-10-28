@@ -76,6 +76,302 @@
         "avgTempMax": 31,
         "rainfallMm": 14
       }
+    ],
+    "danang": [
+      {
+        "month": 1,
+        "avgTempMin": 19.8,
+        "avgTempMax": 23.6,
+        "rainfallMm": 172
+      },
+      {
+        "month": 2,
+        "avgTempMin": 20.3,
+        "avgTempMax": 24.7,
+        "rainfallMm": 67
+      },
+      {
+        "month": 3,
+        "avgTempMin": 22.8,
+        "avgTempMax": 27.2,
+        "rainfallMm": 50
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.5,
+        "avgTempMax": 29,
+        "rainfallMm": 105
+      },
+      {
+        "month": 5,
+        "avgTempMin": 26.2,
+        "avgTempMax": 31.5,
+        "rainfallMm": 60
+      },
+      {
+        "month": 6,
+        "avgTempMin": 27.5,
+        "avgTempMax": 33.9,
+        "rainfallMm": 34
+      },
+      {
+        "month": 7,
+        "avgTempMin": 26.9,
+        "avgTempMax": 33,
+        "rainfallMm": 96
+      },
+      {
+        "month": 8,
+        "avgTempMin": 26.8,
+        "avgTempMax": 33,
+        "rainfallMm": 127
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.5,
+        "avgTempMax": 30.4,
+        "rainfallMm": 271
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.5,
+        "avgTempMax": 28,
+        "rainfallMm": 576
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.1,
+        "avgTempMax": 26.6,
+        "rainfallMm": 327
+      },
+      {
+        "month": 12,
+        "avgTempMin": 20.9,
+        "avgTempMax": 24.1,
+        "rainfallMm": 309
+      }
+    ],
+    "cebu": [
+      {
+        "month": 1,
+        "avgTempMin": 24.2,
+        "avgTempMax": 28.2,
+        "rainfallMm": 233
+      },
+      {
+        "month": 2,
+        "avgTempMin": 24,
+        "avgTempMax": 28.4,
+        "rainfallMm": 144
+      },
+      {
+        "month": 3,
+        "avgTempMin": 24.5,
+        "avgTempMax": 29.4,
+        "rainfallMm": 123
+      },
+      {
+        "month": 4,
+        "avgTempMin": 25.1,
+        "avgTempMax": 30.5,
+        "rainfallMm": 158
+      },
+      {
+        "month": 5,
+        "avgTempMin": 25.7,
+        "avgTempMax": 30.4,
+        "rainfallMm": 244
+      },
+      {
+        "month": 6,
+        "avgTempMin": 25.4,
+        "avgTempMax": 29.9,
+        "rainfallMm": 264
+      },
+      {
+        "month": 7,
+        "avgTempMin": 25.3,
+        "avgTempMax": 29.6,
+        "rainfallMm": 288
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.4,
+        "avgTempMax": 29.9,
+        "rainfallMm": 230
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.4,
+        "avgTempMax": 30,
+        "rainfallMm": 229
+      },
+      {
+        "month": 10,
+        "avgTempMin": 25,
+        "avgTempMax": 29.7,
+        "rainfallMm": 356
+      },
+      {
+        "month": 11,
+        "avgTempMin": 25,
+        "avgTempMax": 29.6,
+        "rainfallMm": 218
+      },
+      {
+        "month": 12,
+        "avgTempMin": 24.7,
+        "avgTempMax": 28.9,
+        "rainfallMm": 245
+      }
+    ],
+    "singapore": [
+      {
+        "month": 1,
+        "avgTempMin": 23.4,
+        "avgTempMax": 29.2,
+        "rainfallMm": 209
+      },
+      {
+        "month": 2,
+        "avgTempMin": 23.6,
+        "avgTempMax": 30.1,
+        "rainfallMm": 114
+      },
+      {
+        "month": 3,
+        "avgTempMin": 23.9,
+        "avgTempMax": 30.7,
+        "rainfallMm": 225
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.4,
+        "avgTempMax": 30.2,
+        "rainfallMm": 290
+      },
+      {
+        "month": 5,
+        "avgTempMin": 25.2,
+        "avgTempMax": 30.1,
+        "rainfallMm": 301
+      },
+      {
+        "month": 6,
+        "avgTempMin": 24.9,
+        "avgTempMax": 29.2,
+        "rainfallMm": 394
+      },
+      {
+        "month": 7,
+        "avgTempMin": 24.8,
+        "avgTempMax": 29.4,
+        "rainfallMm": 258
+      },
+      {
+        "month": 8,
+        "avgTempMin": 24.7,
+        "avgTempMax": 29.4,
+        "rainfallMm": 261
+      },
+      {
+        "month": 9,
+        "avgTempMin": 24.6,
+        "avgTempMax": 29.6,
+        "rainfallMm": 244
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.2,
+        "avgTempMax": 29.8,
+        "rainfallMm": 336
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.9,
+        "avgTempMax": 29.5,
+        "rainfallMm": 359
+      },
+      {
+        "month": 12,
+        "avgTempMin": 23.6,
+        "avgTempMax": 29.1,
+        "rainfallMm": 335
+      }
+    ],
+    "bali": [
+      {
+        "month": 1,
+        "avgTempMin": 21.3,
+        "avgTempMax": 26.4,
+        "rainfallMm": 343
+      },
+      {
+        "month": 2,
+        "avgTempMin": 21.2,
+        "avgTempMax": 26.6,
+        "rainfallMm": 370
+      },
+      {
+        "month": 3,
+        "avgTempMin": 21.1,
+        "avgTempMax": 26.7,
+        "rainfallMm": 408
+      },
+      {
+        "month": 4,
+        "avgTempMin": 21.1,
+        "avgTempMax": 26.4,
+        "rainfallMm": 232
+      },
+      {
+        "month": 5,
+        "avgTempMin": 21,
+        "avgTempMax": 26.1,
+        "rainfallMm": 161
+      },
+      {
+        "month": 6,
+        "avgTempMin": 20.2,
+        "avgTempMax": 25.1,
+        "rainfallMm": 151
+      },
+      {
+        "month": 7,
+        "avgTempMin": 19.4,
+        "avgTempMax": 23.7,
+        "rainfallMm": 146
+      },
+      {
+        "month": 8,
+        "avgTempMin": 19.2,
+        "avgTempMax": 24.1,
+        "rainfallMm": 152
+      },
+      {
+        "month": 9,
+        "avgTempMin": 19.7,
+        "avgTempMax": 24.9,
+        "rainfallMm": 152
+      },
+      {
+        "month": 10,
+        "avgTempMin": 20.4,
+        "avgTempMax": 26,
+        "rainfallMm": 198
+      },
+      {
+        "month": 11,
+        "avgTempMin": 20.9,
+        "avgTempMax": 26.6,
+        "rainfallMm": 320
+      },
+      {
+        "month": 12,
+        "avgTempMin": 21.2,
+        "avgTempMax": 26.7,
+        "rainfallMm": 327
+      }
     ]
   }
 }
