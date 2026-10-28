@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { parsePrefs, prefsQuery, returnDate, validDate, whenLabel } from '../src/lib/prefs';
+import { monthsLabel } from '../src/lib/format';
 
 const q = (s: string) => new URLSearchParams(s);
 const now = new Date(2026, 9, 28); // 10월
@@ -44,5 +45,15 @@ describe('departure date', () => {
     expect(whenLabel(parsePrefs(q('d=2026-11-14&n=4'), now))).toBe('11월 14일(토) → 18일(수)');
     expect(whenLabel(parsePrefs(q('d=2026-11-28&n=4'), now))).toBe('11월 28일(토) → 12월 2일(수)');
     expect(whenLabel(parsePrefs(q('m=7'), now))).toBe('7월 중');
+  });
+});
+
+describe('monthsLabel', () => {
+  it('compresses runs, wrapping year end', () => {
+    expect(monthsLabel([1, 2, 11, 12])).toBe('11~2월');
+    expect(monthsLabel([3, 5])).toBe('3·5월');
+    expect(monthsLabel([4, 5, 6, 10])).toBe('4~6·10월');
+    expect(monthsLabel([7])).toBe('7월');
+    expect(monthsLabel([])).toBe('정보 없음');
   });
 });

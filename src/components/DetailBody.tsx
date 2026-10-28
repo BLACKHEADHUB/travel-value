@@ -3,12 +3,13 @@ import type { DestinationView } from '@/lib/data';
 import { CONFIDENCE_LABEL, NA, SEASON_LABEL, temp, won, wonRange } from '@/lib/format';
 import { flightSearchUrl, staySearchUrl } from '@/lib/links';
 import { isRainy, recommendedTrip, visaLabel } from '@/lib/view';
-import { SCORE_WEIGHTS, scorePoints, travelBurden } from '@/lib/score';
+import { SCORE_WEIGHTS, scorePoints, seasonScores, travelBurden } from '@/lib/score';
 import { nightsLabel } from '@/lib/prefs';
 import type { PeerStats } from '@/lib/trip';
 import { useTrip } from '@/lib/useTrip';
 import { TripControls } from './TripControls';
 import { ScoreBreakdown } from './ScoreBreakdown';
+import { SeasonCalendar } from './SeasonCalendar';
 import { DetailCharts } from './DetailCharts';
 import { PackageCompare } from './PackageCompare';
 import { PriceNotice } from './Notice';
@@ -25,6 +26,7 @@ export function DetailBody({ d, peers }: { d: DestinationView; peers: PeerStats 
   const { month, nights } = prefs;
   const m = d.months[month - 1];
   const score = scores.get(d.id)!;
+  const season = seasonScores(d, prefs, peers);
   const visa = visaLabel(d, month);
   const rainyMonths = d.months.filter(isRainy).map((x) => `${x.month}월`);
   const cautions = [
@@ -54,6 +56,15 @@ export function DetailBody({ d, peers }: { d: DestinationView; peers: PeerStats 
     <div className="space-y-6">
       <div className={card}>
         <TripControls prefs={prefs} onChange={setPrefs} />
+      </div>
+
+      <div className={card}>
+        <SeasonCalendar
+          name={d.nameKo}
+          scores={season}
+          prefs={prefs}
+          onPick={(month) => setPrefs({ month, date: null })}
+        />
       </div>
 
       <section aria-labelledby="sum-h" className={`${card} grid gap-6 md:grid-cols-[1fr_1.3fr]`}>

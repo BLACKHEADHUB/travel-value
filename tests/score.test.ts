@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   SCORE_WEIGHTS,
+  bestMonths,
   scorePoints,
   travelBurden,
   accessScore,
@@ -152,5 +153,14 @@ describe('user preferences', () => {
     const pts = scorePoints(computeScore({ ...full, totalCost: null }));
     expect(pts.find((p) => p.key === 'price')).toEqual({ key: 'price', got: null, max: 0 });
     expect(pts.find((p) => p.key === 'climate')!.max).toBe(50);
+  });
+});
+
+describe('season', () => {
+  it('bestMonths picks months within the margin of the top score', () => {
+    const s = [70, 72, 60, 50, 40, 30, 30, 30, 40, 50, 69, 71];
+    expect(bestMonths(s)).toEqual([1, 2, 11, 12]);
+    expect(bestMonths([null, 80, null, 90, ...Array(8).fill(null)])).toEqual([4]);
+    expect(bestMonths(Array(12).fill(null))).toEqual([]);
   });
 });
