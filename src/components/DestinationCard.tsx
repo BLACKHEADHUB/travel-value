@@ -50,6 +50,14 @@ export function DestinationCard({
           <span className="sr-only">가성비 점수 </span>
           {m.score.total ?? '–'}
           <span className="text-xs font-normal text-zinc-600">점</span>
+          {m.score.total !== null && m.score.parts.price === null && (
+            <span
+              className="ml-1 text-[10px] font-normal text-zinc-600"
+              title="가격 정보가 없어 가격 항목을 빼고 계산"
+            >
+              가격 제외
+            </span>
+          )}
         </div>
         {m.seasonLevel && (
           <span className="absolute top-3 left-3 rounded-full bg-zinc-900/75 px-2.5 py-1 text-xs text-white">

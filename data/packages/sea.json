@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "destinationId": "bangkok",
+    "vendor": "Very Good Tour",
+    "title": "[방콕/파타야 패키지] 왓아룬뷰 레스토랑 전신마사지 2시간UP 5일",
+    "nights": 3,
+    "departureMonth": 3,
+    "priceKRW": 391000,
+    "departureDate": "2025-03-04",
+    "priceIncludesFuelSurcharge": true,
+    "included": [
+      "왕복항공",
+      "제세공과금",
+      "유류할증료",
+      "일정표상 식사",
+      "호텔 숙박(2인1실)",
+      "여행자보험"
+    ],
+    "excluded": ["가이드/기사 경비 $50", "선택관광", "개인비용", "매너팁"],
+    "extraKnownKRW": 70000,
+    "hasShopping": true,
+    "hasOptionalTours": true,
+    "termsClear": true,
+    "url": "https://m.verygoodtour.com/Product/PackageDetail?ProCode=APP5158-2503047C35&PriceSeq=0",
+    "asOf": "2026-10-28",
+    "confidence": "low"
+  }
+]

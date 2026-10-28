@@ -8,10 +8,7 @@
     "priceKRW": 949900,
     "departureDate": "2026-11-13",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "왕복항공",
-      "특식 4회"
-    ],
+    "included": ["왕복항공", "특식 4회"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,
@@ -30,13 +27,7 @@
     "priceKRW": 1018900,
     "departureDate": "2026-11-12",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "왕복항공",
-      "4성급 호텔",
-      "천등날리기",
-      "특식 4회",
-      "101 전망대"
-    ],
+    "included": ["왕복항공", "4성급 호텔", "천등날리기", "특식 4회", "101 전망대"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,
@@ -55,12 +46,7 @@
     "priceKRW": 911900,
     "departureDate": "2026-11-12",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "왕복항공",
-      "4성급 호텔",
-      "천등체험",
-      "특식 3회"
-    ],
+    "included": ["왕복항공", "4성급 호텔", "천등체험", "특식 3회"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,

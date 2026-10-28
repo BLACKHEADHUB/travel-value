@@ -8,9 +8,7 @@
     "priceKRW": 3880000,
     "departureDate": "2026-11-16",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "왕복항공"
-    ],
+    "included": ["왕복항공"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,
@@ -48,9 +46,7 @@
     "priceKRW": 4171000,
     "departureDate": "2026-12-19",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "왕복항공"
-    ],
+    "included": ["왕복항공"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": false,

@@ -8,9 +8,7 @@
     "priceKRW": 999000,
     "departureDate": "2026-11-15",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "시내호텔 3박"
-    ],
+    "included": ["시내호텔 3박"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -29,9 +27,7 @@
     "priceKRW": 1249000,
     "departureDate": "2026-11-13",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "야마나시 호텔"
-    ],
+    "included": ["야마나시 호텔"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,
@@ -50,11 +46,7 @@
     "priceKRW": 1176000,
     "departureDate": "2026-11-12",
     "priceIncludesFuelSurcharge": null,
-    "included": [
-      "온천호텔 2박",
-      "시내호텔 1박",
-      "가이드/기사 경비"
-    ],
+    "included": ["온천호텔 2박", "시내호텔 1박", "가이드/기사 경비"],
     "excluded": [],
     "extraKnownKRW": null,
     "hasShopping": true,

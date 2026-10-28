@@ -127,6 +127,8 @@ for (const [region, pkgs] of pkgFiles) {
     if (d.region !== region) err(`${at}: 도시 지역(${d.region})과 파일 불일치`);
     if (out(p.nights, LIMITS.nights)) warn(`${at}: 박수 범위 밖 ${p.nights}박`);
     if (!p.termsClear) warn(`${at}: 조건 불명확(통계 제외)`);
+    if (p.departureDate && p.departureDate < p.asOf)
+      warn(`${at}: 출발일(${p.departureDate})이 기준일보다 과거 — 지난 가격`);
     const m = d.monthly.find((x) => x.month === p.departureMonth);
     const free = m
       ? freeTripCost({
