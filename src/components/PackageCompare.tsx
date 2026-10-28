@@ -44,7 +44,7 @@ export function PackageCompare({
               aria-checked={nights === n}
               onClick={() => setNights(n)}
               className={`rounded-full border px-3 py-1 text-sm focus-visible:outline-2 focus-visible:outline-sky-600 ${
-                nights === n ? 'border-sky-700 bg-sky-700 text-white' : 'border-zinc-300'
+                nights === n ? 'border-sky-700 bg-sky-700 text-white' : 'border-line-strong'
               }`}
             >
               {n}박 {n + 1}일
@@ -54,20 +54,20 @@ export function PackageCompare({
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2">
-        <div className="rounded-xl border border-zinc-200 p-4">
-          <p className="text-xs text-zinc-600">자유여행 추정 총비용 (성인 1인)</p>
+        <div className="rounded-xl border border-line p-4">
+          <p className="text-xs text-sub">자유여행 추정 총비용 (성인 1인)</p>
           <p className="mt-1 text-xl font-bold">{free ? wonRange(free.min, free.max) : NA}</p>
-          <p className="mt-1 text-xs text-zinc-600">
+          <p className="mt-1 text-xs text-sub">
             항공{m.flight.typical ? '(연중 대표가)' : ''} + 1일 경비 {won(m.dailyCost.total)} ×{' '}
             {nights}박
           </p>
         </div>
-        <div className="rounded-xl border border-zinc-200 p-4">
-          <p className="text-xs text-zinc-600">패키지 대표 가격대 (최저~중앙값)</p>
+        <div className="rounded-xl border border-line p-4">
+          <p className="text-xs text-sub">패키지 대표 가격대 (최저~중앙값)</p>
           <p className="mt-1 text-xl font-bold">
             {stats.min !== null ? wonRange(stats.min, stats.median) : NA}
           </p>
-          <p className="mt-1 text-xs text-zinc-600">
+          <p className="mt-1 text-xs text-sub">
             {m.month}월 출발 {nights}박 · 비교 가능 {stats.count}개
             {stats.excludedNightsMismatch
               ? ` · 박수 달라 제외 ${stats.excludedNightsMismatch}개`
@@ -76,10 +76,8 @@ export function PackageCompare({
           </p>
         </div>
       </div>
-      <p className="rounded-lg bg-amber-50 px-4 py-3 text-sm font-medium text-amber-950">
-        {v.text}
-      </p>
-      <p className="text-xs text-zinc-600">
+      <p className="rounded-lg bg-note px-4 py-3 text-sm font-medium text-note-ink">{v.text}</p>
+      <p className="text-xs text-sub">
         패키지 가격은 출발일 기준이며 변동이 커요. 참고용이니 실제 가격·조건은 판매처에서
         확인하세요.
       </p>
@@ -96,15 +94,15 @@ export function PackageCompare({
               {g.items.map((p) => (
                 <li
                   key={p.url + p.priceKRW}
-                  className="space-y-2 rounded-xl border border-zinc-200 p-4 text-sm"
+                  className="space-y-2 rounded-xl border border-line p-4 text-sm"
                 >
                   <div className="flex items-start justify-between gap-2">
                     <div>
-                      <p className="text-xs text-zinc-600">{p.vendor}</p>
+                      <p className="text-xs text-sub">{p.vendor}</p>
                       <p className="font-semibold">{p.title}</p>
                     </div>
                     {!p.termsClear && (
-                      <span className="shrink-0 rounded bg-zinc-200 px-1.5 py-0.5 text-xs text-zinc-700">
+                      <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 text-xs text-sub">
                         조건 불명확
                       </span>
                     )}
@@ -112,32 +110,32 @@ export function PackageCompare({
                   <p>
                     <span
                       className={
-                        p.termsClear ? 'text-lg font-bold' : 'text-sm font-semibold text-zinc-700'
+                        p.termsClear ? 'text-lg font-bold' : 'text-sm font-semibold text-sub'
                       }
                     >
                       {won(p.priceKRW)}
                     </span>
                     {!p.termsClear && (
-                      <span className="ml-1 text-xs text-zinc-600">
+                      <span className="ml-1 text-xs text-sub">
                         (포함 조건 미확인 — 가격만 참고)
                       </span>
                     )}
-                    <span className="ml-1 text-xs text-zinc-600">
+                    <span className="ml-1 text-xs text-sub">
                       {p.nights}박 · {p.departureDate ?? `${p.departureMonth}월`} 출발 기준 · 기준일{' '}
                       {p.asOf}
                     </span>
                   </p>
                   <dl className="grid grid-cols-[auto_1fr] gap-x-2 gap-y-1 text-xs">
-                    <dt className="text-zinc-600">포함</dt>
+                    <dt className="text-sub">포함</dt>
                     <dd>{p.included.length ? p.included.join(', ') : NA}</dd>
-                    <dt className="text-zinc-600">불포함</dt>
+                    <dt className="text-sub">불포함</dt>
                     <dd>
                       {p.excluded.length ? p.excluded.join(', ') : NA}
                       {p.extraKnownKRW ? ` (확인된 추가 ${won(p.extraKnownKRW)})` : ''}
                     </dd>
-                    <dt className="text-zinc-600">유류할증료</dt>
+                    <dt className="text-sub">유류할증료</dt>
                     <dd>{yn(p.priceIncludesFuelSurcharge, '포함', '불포함')}</dd>
-                    <dt className="text-zinc-600">쇼핑 / 선택관광</dt>
+                    <dt className="text-sub">쇼핑 / 선택관광</dt>
                     <dd>
                       {yn(p.hasShopping, '쇼핑 있음', '노쇼핑')} /{' '}
                       {yn(p.hasOptionalTours, '선택관광 있음', '없음')}
@@ -147,7 +145,7 @@ export function PackageCompare({
                     href={p.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-sm font-medium text-sky-800 underline underline-offset-2"
+                    className="inline-block text-sm font-medium text-link underline underline-offset-2"
                   >
                     판매처에서 보기<span className="sr-only"> (새 창)</span>
                   </a>
@@ -156,21 +154,21 @@ export function PackageCompare({
             </ul>
           </div>
         ))}
-      {!d.packages.length && <p className="text-sm text-zinc-600">수집된 패키지 상품이 없어요.</p>}
+      {!d.packages.length && <p className="text-sm text-sub">수집된 패키지 상품이 없어요.</p>}
 
-      <div className="rounded-xl bg-zinc-50 p-4 text-sm">
+      <div className="rounded-xl bg-surface-2 p-4 text-sm">
         <h3 className="mb-2 font-semibold">어떤 방식이 맞을까?</h3>
         <ul className="grid gap-3 sm:grid-cols-2">
           <li>
             <p className="font-medium">패키지가 잘 맞는 사람</p>
-            <p className="text-zinc-700">
+            <p className="text-sub">
               일정 짜기가 부담되거나, 현지 언어·이동이 걱정되거나, 단체 일정·가이드 설명을 선호하는
               경우. 쇼핑·선택관광 여부와 가이드 경비를 꼭 확인하세요.
             </p>
           </li>
           <li>
             <p className="font-medium">자유여행이 잘 맞는 사람</p>
-            <p className="text-zinc-700">
+            <p className="text-sub">
               원하는 곳에 오래 머물고 싶고, 대중교통·예약을 스스로 처리할 수 있으며, 특가
               항공·숙소를 직접 찾는 걸 즐기는 경우.
             </p>

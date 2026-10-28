@@ -106,7 +106,7 @@ export function DetailCharts({ months, selected }: { months: MonthView[]; select
           </ResponsiveContainer>
         </div>
         {seasonAreas.length > 0 && (
-          <p className="mt-1 flex flex-wrap gap-3 text-xs text-zinc-600">
+          <p className="mt-1 flex flex-wrap gap-3 text-xs text-sub">
             {(Object.keys(SEASON_FILL) as (keyof typeof SEASON_FILL)[]).map((k) => (
               <span key={k} className="inline-flex items-center gap-1">
                 <span
@@ -152,7 +152,7 @@ export function DetailCharts({ months, selected }: { months: MonthView[]; select
             </ResponsiveContainer>
           </div>
         ) : (
-          <p className="rounded-lg bg-zinc-50 p-4 text-sm text-zinc-600">월별 항공값 정보 없음</p>
+          <p className="rounded-lg bg-surface-2 p-4 text-sm text-sub">월별 항공값 정보 없음</p>
         )}
       </figure>
     </div>

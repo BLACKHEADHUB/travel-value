@@ -7,6 +7,8 @@ import { meanTemp, parseMonth } from '@/lib/view';
 import { MonthPicker } from './MonthPicker';
 import { DestinationCard } from './DestinationCard';
 import { PriceNotice } from './Notice';
+import { TopFive } from './TopFive';
+import { FAV_KEY, useStoredList } from '@/lib/storage';
 
 type Sort = 'score' | 'flight' | 'comfort';
 const SORT_LABEL: Record<Sort, string> = {
@@ -39,6 +41,8 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
   const visaFree = sp.get('visa') === 'free';
   const tempKey = (sp.get('temp') ?? 'any') as TempKey;
   const sort = (sp.get('sort') ?? 'score') as Sort;
+  const favOnly = sp.get('fav') === '1';
+  const fav = useStoredList(FAV_KEY);
 
   const set = (patch: Record<string, string | null>) => {
     const p = new URLSearchParams(sp.toString());
@@ -53,6 +57,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
     let unknownCostHidden = 0;
     const out = destinations.filter((d) => {
       const m = d.months[month - 1];
+      if (favOnly && !fav.list.includes(d.id)) return false;
       if (themes.length && !themes.some((t) => (d.themes as string[]).includes(t))) return false;
       if (visaFree && d.visaInfo.kind !== 'free') return false;
       const h = d.flightHours.ICN;
@@ -80,7 +85,19 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
       return -last(m.score.total, -Infinity);
     };
     return { list: out.sort((a, b) => key(a) - key(b)), unknownCostHidden };
-  }, [destinations, month, themes, budget, includeUnknownCost, maxHours, visaFree, tempKey, sort]);
+  }, [
+    destinations,
+    month,
+    themes,
+    budget,
+    includeUnknownCost,
+    maxHours,
+    visaFree,
+    tempKey,
+    sort,
+    favOnly,
+    fav.list,
+  ]);
 
   const unpricedShown = list.filter((d) => d.months[month - 1].score.parts.price === null).length;
 
@@ -91,7 +108,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
     });
 
   const select =
-    'rounded-lg border border-zinc-300 bg-white px-2.5 py-2 text-sm focus-visible:outline-2 focus-visible:outline-sky-600';
+    'rounded-lg border border-line-strong bg-surface px-2.5 py-2 text-sm focus-visible:outline-2 focus-visible:outline-sky-600';
 
   return (
     <div className="space-y-5">
@@ -99,12 +116,14 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
         <MonthPicker value={month} onChange={(m) => set({ m: String(m) })} />
       </section>
 
+      {!favOnly && <TopFive destinations={destinations} month={month} />}
+
       <section
         aria-label="필터와 정렬"
-        className="space-y-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4"
+        className="space-y-3 rounded-2xl border border-line bg-surface-2 p-4"
       >
         <fieldset>
-          <legend className="mb-1.5 text-xs font-semibold text-zinc-700">테마</legend>
+          <legend className="mb-1.5 text-xs font-semibold text-sub">테마</legend>
           <div className="flex flex-wrap gap-1.5">
             {THEMES.map((t) => {
               const on = themes.includes(t);
@@ -116,7 +135,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
                   className={`rounded-full border px-3 py-1.5 text-xs focus-visible:outline-2 focus-visible:outline-sky-600 ${
                     on
                       ? 'border-sky-700 bg-sky-700 text-white'
-                      : 'border-zinc-300 bg-white text-zinc-800'
+                      : 'border-line-strong bg-surface text-ink'
                   }`}
                 >
                   {t}
@@ -125,8 +144,8 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             })}
           </div>
         </fieldset>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
-          <label className="flex flex-col gap-1 text-xs text-zinc-700">
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+          <label className="flex flex-col gap-1 text-xs text-sub">
             기온
             <select
               className={select}
@@ -140,7 +159,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
               ))}
             </select>
           </label>
-          <label className="flex flex-col gap-1 text-xs text-zinc-700">
+          <label className="flex flex-col gap-1 text-xs text-sub">
             예산 상한 (항공+경비)
             <select
               className={select}
@@ -155,7 +174,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
               ))}
             </select>
           </label>
-          <label className="flex flex-col gap-1 text-xs text-zinc-700">
+          <label className="flex flex-col gap-1 text-xs text-sub">
             비행시간 (인천 출발)
             <select
               className={select}
@@ -170,7 +189,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
               ))}
             </select>
           </label>
-          <label className="flex flex-col gap-1 text-xs text-zinc-700">
+          <label className="flex flex-col gap-1 text-xs text-sub">
             정렬
             <select
               className={select}
@@ -184,7 +203,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
               ))}
             </select>
           </label>
-          <label className="flex items-center gap-2 self-end py-2 text-sm text-zinc-800">
+          <label className="flex items-center gap-2 self-end py-2 text-sm text-ink">
             <input
               type="checkbox"
               className="size-4 accent-sky-700"
@@ -193,9 +212,18 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             />
             무비자만
           </label>
+          <label className="flex items-center gap-2 self-end py-2 text-sm text-ink">
+            <input
+              type="checkbox"
+              className="size-4 accent-sky-700"
+              checked={favOnly}
+              onChange={(e) => set({ fav: e.target.checked ? '1' : null })}
+            />
+            즐겨찾기만 ({fav.list.length})
+          </label>
         </div>
         {budget !== null && (
-          <label className="flex items-center gap-2 text-xs text-zinc-700">
+          <label className="flex items-center gap-2 text-xs text-sub">
             <input
               type="checkbox"
               className="size-4 accent-sky-700"
@@ -206,7 +234,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
             {unknownCostHidden > 0 && ` (지금 ${unknownCostHidden}곳 숨김)`}
           </label>
         )}
-        <p className="text-xs text-zinc-600">
+        <p className="text-xs text-sub">
           예산은 왕복 항공(해당 월 또는 연중 대표가 중간값) + 1일 경비 × 4박 기준이에요. 항공값은
           인천 출발 기준이에요.
         </p>
@@ -219,7 +247,7 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
         <PriceNotice />
       </div>
       {sort === 'score' && unpricedShown > 0 && (
-        <p className="-mt-3 text-xs text-zinc-600">
+        <p className="-mt-3 text-xs text-sub">
           &lsquo;가격 제외&rsquo; 표시가 있는 {unpricedShown}곳은 경비 정보가 없어 가격 항목을 빼고
           점수를 매겼어요. 가격이 반영된 곳과 점수를 그대로 비교하기는 어려워요.
         </p>
@@ -234,8 +262,10 @@ export function Explorer({ destinations }: { destinations: DestinationView[] }) 
           ))}
         </ul>
       ) : (
-        <p className="rounded-xl border border-dashed border-zinc-300 p-8 text-center text-sm text-zinc-600">
-          조건에 맞는 여행지가 없어요. 필터를 조금 풀어 보세요.
+        <p className="rounded-xl border border-dashed border-line-strong p-8 text-center text-sm text-sub">
+          {favOnly && !fav.list.length
+            ? '아직 저장한 여행지가 없어요. 카드의 ☆ 저장을 눌러 보세요.'
+            : '조건에 맞는 여행지가 없어요. 필터를 조금 풀어 보세요.'}
         </p>
       )}
     </div>

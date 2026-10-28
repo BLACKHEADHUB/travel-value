@@ -58,8 +58,8 @@ export function DetailBody({ d }: { d: DestinationView }) {
           ['추천 일정', recommendedTrip(d)],
           ['비자', `${visa.text}${d.visaInfo.source ? '' : ' · 출처 미확인'}`],
         ].map(([k, v]) => (
-          <div key={k} className="rounded-xl border border-zinc-200 p-3">
-            <p className="text-xs text-zinc-600">{k}</p>
+          <div key={k} className="rounded-xl border border-line p-3">
+            <p className="text-xs text-sub">{k}</p>
             <p className="font-semibold">{v}</p>
           </div>
         ))}
@@ -76,7 +76,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
           {month}월 항공권 검색<span className="sr-only"> (새 창, Google 항공편)</span>
         </a>
         <a
-          className={`${linkCls} border border-zinc-300`}
+          className={`${linkCls} border border-line-strong`}
           target="_blank"
           rel="noopener noreferrer"
           href={staySearchUrl({ cityKo: d.nameKo, month, nights })}
@@ -91,7 +91,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
         </h2>
         <DetailCharts months={d.months} selected={month} />
         {d.climateSource && (
-          <p className="mt-2 text-xs text-zinc-600">
+          <p className="mt-2 text-xs text-sub">
             기후: {d.climateSource}. 격자 평균값이라 해안·섬·고지대는 실제 관측과 몇 도 차이 날 수
             있어요.
           </p>
@@ -106,7 +106,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
         </h2>
         <ul className="flex flex-wrap gap-2">
           {d.landmarks.map((l) => (
-            <li key={l} className="rounded-lg bg-zinc-100 px-3 py-1.5 text-sm">
+            <li key={l} className="rounded-lg bg-muted px-3 py-1.5 text-sm">
               {l}
             </li>
           ))}
@@ -124,7 +124,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
             ))}
           </ul>
         ) : (
-          <p className="text-sm text-zinc-600">{NA}</p>
+          <p className="text-sm text-sub">{NA}</p>
         )}
         {d.visaInfo.note && <p className="mt-2 text-sm">비자: {d.visaInfo.note}</p>}
       </section>
@@ -135,7 +135,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
         </h2>
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b text-left text-xs text-zinc-600">
+            <tr className="border-b text-left text-xs text-sub">
               <th className="py-1.5 font-medium">항목</th>
               <th className="py-1.5 font-medium">기본 가중치</th>
               <th className="py-1.5 font-medium">적용 가중치</th>
@@ -144,7 +144,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
           </thead>
           <tbody>
             {(Object.keys(PART_LABEL) as (keyof typeof PART_LABEL)[]).map((k) => (
-              <tr key={k} className="border-b border-zinc-100">
+              <tr key={k} className="border-b border-line">
                 <td className="py-1.5">{PART_LABEL[k]}</td>
                 <td>{Math.round(SCORE_WEIGHTS[k] * 100)}%</td>
                 <td>{Math.round(m.score.weights[k] * 100)}%</td>
@@ -155,7 +155,7 @@ export function DetailBody({ d }: { d: DestinationView }) {
             ))}
           </tbody>
         </table>
-        <p className="mt-2 text-xs text-zinc-600">
+        <p className="mt-2 text-xs text-sub">
           정보가 없는 항목은 빼고 나머지 가중치를 비례 재분배해요. 가격은 항공 중간값 + 1일 경비 ×
           4박 기준
           {m.priceBasis === 'all'
@@ -164,8 +164,8 @@ export function DetailBody({ d }: { d: DestinationView }) {
         </p>
       </section>
 
-      <section aria-labelledby="src-h" className="text-xs text-zinc-600">
-        <h2 id="src-h" className="mb-1 font-semibold text-zinc-800">
+      <section aria-labelledby="src-h" className="text-xs text-sub">
+        <h2 id="src-h" className="mb-1 font-semibold text-ink">
           출처
         </h2>
         <ul className="space-y-0.5 break-all">
