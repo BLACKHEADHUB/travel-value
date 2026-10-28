@@ -9,17 +9,19 @@
 - [x] Phase 2 — UI MVP (PR #1 머지)
 - [x] Phase 3 — 25도시(6개 지역), 환율 자동 환산(fx.ts), 이미지 25/25(fetch-images), reviewer 검수 반영 (브랜치 feat/phase-3-data)
 - [x] 데이터 보강 (브랜치 feat/data-enrich): 경비 12→17도시, 비자 25/25 공식 출처, 시즌 정의+출처, 비행시간 출처 25/25
-- [ ] Phase 4 · [ ] Phase 5
+- [x] Phase 4 (브랜치 feat/phase-4): 여행 조건(월·1~13박·선호 기온 범위·비 회피) URL 설정 + 브라우저 점수 재계산, 카드 항목별 점수(가격 n/40 …), 점수 기준 페이지(/score), 이달의 TOP 5, 즐겨찾기·비교 담기(localStorage), 비교 뷰(/compare, 공유 링크), 지도(/map, Leaflet+OSM), 추천 퀴즈(/quiz), 다크모드
+- [ ] Phase 5
 
 ## 현재 작업
 
-없음. Vercel 자동 배포 연결됨: main 머지 → 프로덕션, PR 브랜치 push → 미리보기(Preview) URL.
+Phase 4 PR 리뷰/머지 대기.
 
-## 다음 할 일
+## 다음 할 일 (Phase 5)
 
-1. Phase 4 기능: 비교 뷰(자유 vs 패키지·여행지 간), 즐겨찾기, 지도, 퀴즈, 다크모드, 이달의 TOP 5
-2. 남은 경비 8곳(honolulu, losangeles, paris, rome, prague, taipei, fukuoka, saipan) — 출처가 범위만 주거나 403. 범위 값 처리 규칙(예: 출처 범위를 min/max로 저장)을 정하면 채울 수 있음
-3. 비자: 공식 페이지 다수가 JS 렌더링/403이라 검색 요약 기반인 곳 있음(일본, 태국 90일, 발리 VoA 대상국) — 브라우저 열람으로 재확인 권장
+1. qa 에이전트로 전 기능 점검 + 스크린샷(qa-screenshots/)
+2. README (실행, 데이터 추가·수정, 재수집 명령, 배포)
+3. 최종 보고: 확인값 vs 추정값 비율, 신뢰도 낮은 데이터, 패키지 확보 도시 수/샘플 부족 목록
+4. 데이터: 경비 없는 8곳, 도시 확대(목표 40곳 안팎 — 데이터가 다 찬 도시 위주)
 
 ## 데이터 현황 (25도시)
 

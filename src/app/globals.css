@@ -1,1 +1,54 @@
 @import 'tailwindcss';
+
+/* 다크모드: <html class="dark"> 기준 (ThemeToggle이 설정, 기본은 OS 설정) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 의미 기반 색 토큰 — 컴포넌트는 zinc/white 대신 이 토큰을 쓴다 */
+@theme inline {
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-sub: var(--sub);
+  --color-link: var(--link);
+  --color-info: var(--info);
+  --color-note: var(--note);
+  --color-note-ink: var(--note-ink);
+}
+
+:root {
+  color-scheme: light;
+  --surface: #ffffff;
+  --surface-2: #fafafa;
+  --muted: #f4f4f5;
+  --line: #e4e4e7;
+  --line-strong: #d4d4d8;
+  --ink: #18181b;
+  --sub: #52525b;
+  --link: #075985;
+  --info: #e0f2fe;
+  --note: #fffbeb;
+  --note-ink: #78350f;
+}
+
+.dark {
+  color-scheme: dark;
+  --surface: #18181b;
+  --surface-2: #1f1f23;
+  --muted: #27272a;
+  --line: #3f3f46;
+  --line-strong: #52525b;
+  --ink: #f4f4f5;
+  --sub: #a1a1aa;
+  --link: #7dd3fc;
+  --info: #0c4a6e;
+  --note: #422006;
+  --note-ink: #fde68a;
+}
+
+/* Leaflet 팝업·컨트롤은 라이트 고정이라 글자색만 보정 */
+.leaflet-popup-content {
+  color: #18181b;
+}

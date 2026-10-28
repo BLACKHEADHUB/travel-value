@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { SiteNav } from '@/components/SiteNav';
+import { themeInitScript } from '@/components/ThemeToggle';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -8,8 +10,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko">
-      <body className="bg-white text-zinc-900">{children}</body>
+    <html lang="ko" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
+      <body className="bg-surface text-ink">
+        <SiteNav />
+        {children}
+      </body>
     </html>
   );
 }

@@ -46,7 +46,7 @@ export function MonthPicker({ value, onChange }: { value: number; onChange: (m: 
             className={`min-w-12 shrink-0 rounded-full border px-3 py-2 text-sm font-medium transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600 ${
               on
                 ? 'border-sky-700 bg-sky-700 text-white'
-                : 'border-zinc-300 bg-white text-zinc-800 hover:border-sky-600'
+                : 'border-line-strong bg-surface text-ink hover:border-sky-600'
             }`}
           >
             {m}월
