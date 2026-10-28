@@ -1,0 +1,81 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5), 도시 좌표 기준 월평균",
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "generatedAt": "2026-10-28",
+  "cities": {
+    "tokyo": [
+      {
+        "month": 1,
+        "avgTempMin": 0.3,
+        "avgTempMax": 9,
+        "rainfallMm": 52
+      },
+      {
+        "month": 2,
+        "avgTempMin": 1.2,
+        "avgTempMax": 10.7,
+        "rainfallMm": 54
+      },
+      {
+        "month": 3,
+        "avgTempMin": 5.7,
+        "avgTempMax": 14.9,
+        "rainfallMm": 126
+      },
+      {
+        "month": 4,
+        "avgTempMin": 9.2,
+        "avgTempMax": 17.8,
+        "rainfallMm": 162
+      },
+      {
+        "month": 5,
+        "avgTempMin": 14.6,
+        "avgTempMax": 22.2,
+        "rainfallMm": 147
+      },
+      {
+        "month": 6,
+        "avgTempMin": 19,
+        "avgTempMax": 25.5,
+        "rainfallMm": 187
+      },
+      {
+        "month": 7,
+        "avgTempMin": 23,
+        "avgTempMax": 28.9,
+        "rainfallMm": 235
+      },
+      {
+        "month": 8,
+        "avgTempMin": 24.8,
+        "avgTempMax": 31.2,
+        "rainfallMm": 121
+      },
+      {
+        "month": 9,
+        "avgTempMin": 21.2,
+        "avgTempMax": 27.7,
+        "rainfallMm": 185
+      },
+      {
+        "month": 10,
+        "avgTempMin": 14.3,
+        "avgTempMax": 21.6,
+        "rainfallMm": 209
+      },
+      {
+        "month": 11,
+        "avgTempMin": 8.6,
+        "avgTempMax": 17.5,
+        "rainfallMm": 86
+      },
+      {
+        "month": 12,
+        "avgTempMin": 2.7,
+        "avgTempMax": 11.8,
+        "rainfallMm": 64
+      }
+    ]
+  }
+}

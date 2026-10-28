@@ -1,0 +1,81 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5), 도시 좌표 기준 월평균",
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "generatedAt": "2026-10-28",
+  "cities": {
+    "paris": [
+      {
+        "month": 1,
+        "avgTempMin": 1.8,
+        "avgTempMax": 7.4,
+        "rainfallMm": 60
+      },
+      {
+        "month": 2,
+        "avgTempMin": 2.7,
+        "avgTempMax": 10.7,
+        "rainfallMm": 44
+      },
+      {
+        "month": 3,
+        "avgTempMin": 3.9,
+        "avgTempMax": 12.7,
+        "rainfallMm": 64
+      },
+      {
+        "month": 4,
+        "avgTempMin": 5.2,
+        "avgTempMax": 15.8,
+        "rainfallMm": 42
+      },
+      {
+        "month": 5,
+        "avgTempMin": 9,
+        "avgTempMax": 19,
+        "rainfallMm": 58
+      },
+      {
+        "month": 6,
+        "avgTempMin": 13.8,
+        "avgTempMax": 24.1,
+        "rainfallMm": 73
+      },
+      {
+        "month": 7,
+        "avgTempMin": 14.9,
+        "avgTempMax": 25.6,
+        "rainfallMm": 53
+      },
+      {
+        "month": 8,
+        "avgTempMin": 15.2,
+        "avgTempMax": 25.3,
+        "rainfallMm": 61
+      },
+      {
+        "month": 9,
+        "avgTempMin": 12.8,
+        "avgTempMax": 22.8,
+        "rainfallMm": 57
+      },
+      {
+        "month": 10,
+        "avgTempMin": 9.6,
+        "avgTempMax": 17.3,
+        "rainfallMm": 91
+      },
+      {
+        "month": 11,
+        "avgTempMin": 5.3,
+        "avgTempMax": 11.4,
+        "rainfallMm": 64
+      },
+      {
+        "month": 12,
+        "avgTempMin": 3.5,
+        "avgTempMax": 8.7,
+        "rainfallMm": 96
+      }
+    ]
+  }
+}

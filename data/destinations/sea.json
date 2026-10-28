@@ -1,0 +1,273 @@
+[
+  {
+    "id": "bangkok",
+    "nameKo": "방콕",
+    "country": "태국",
+    "region": "sea",
+    "coordinates": { "lat": 13.7563, "lng": 100.5018 },
+    "themes": ["도시", "미식", "문화/역사", "쇼핑"],
+    "visaInfo": {
+      "required": false,
+      "note": "한국 일반여권, 취업 목적 아닐 경우 무비자 최대 90일. 입국 3일 전 이내 TDAC 온라인 신고 필요. 외교부 페이지 확인 못 함(2차 기사 기준).",
+      "source": "https://news-wa.com/article/travel/tour-world/2026/09/08/20260908500063"
+    },
+    "flightHours": { "ICN": 6.0, "GMP": null },
+    "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
+    "imageUrl": null,
+    "imageCredit": null,
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 209598,
+          "max": null,
+          "source": "https://www.hotelscombined.co.kr/flight-routes/Incheon-Intl-ICN/Bangkok-Suvarnabhumi-BKK.ksp",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "total": 120000,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.tripstore.kr/blog/%EB%B0%A9%EC%BD%95-%EB%AC%BC%EA%B0%80-2026%EB%85%84-%ED%95%AD%EB%AA%A9%EB%B3%84-%EC%B2%B4%EA%B0%90-%EB%AC%BC%EA%B0%80-1%EC%9D%BC-%EC%98%88%EC%82%B0",
+          "asOf": "2026-10-28",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  }
+]

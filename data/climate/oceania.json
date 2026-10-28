@@ -1,0 +1,81 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5), 도시 좌표 기준 월평균",
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "generatedAt": "2026-10-28",
+  "cities": {
+    "sydney": [
+      {
+        "month": 1,
+        "avgTempMin": 19.3,
+        "avgTempMax": 26.6,
+        "rainfallMm": 97
+      },
+      {
+        "month": 2,
+        "avgTempMin": 18.6,
+        "avgTempMax": 25.7,
+        "rainfallMm": 147
+      },
+      {
+        "month": 3,
+        "avgTempMin": 17.5,
+        "avgTempMax": 24.6,
+        "rainfallMm": 211
+      },
+      {
+        "month": 4,
+        "avgTempMin": 13.7,
+        "avgTempMax": 22.5,
+        "rainfallMm": 76
+      },
+      {
+        "month": 5,
+        "avgTempMin": 10.6,
+        "avgTempMax": 19.5,
+        "rainfallMm": 73
+      },
+      {
+        "month": 6,
+        "avgTempMin": 8.4,
+        "avgTempMax": 17.1,
+        "rainfallMm": 48
+      },
+      {
+        "month": 7,
+        "avgTempMin": 8.2,
+        "avgTempMax": 17.2,
+        "rainfallMm": 99
+      },
+      {
+        "month": 8,
+        "avgTempMin": 8.3,
+        "avgTempMax": 18.4,
+        "rainfallMm": 63
+      },
+      {
+        "month": 9,
+        "avgTempMin": 10.4,
+        "avgTempMax": 20.8,
+        "rainfallMm": 57
+      },
+      {
+        "month": 10,
+        "avgTempMin": 12.7,
+        "avgTempMax": 22.6,
+        "rainfallMm": 92
+      },
+      {
+        "month": 11,
+        "avgTempMin": 14.6,
+        "avgTempMax": 23.3,
+        "rainfallMm": 84
+      },
+      {
+        "month": 12,
+        "avgTempMin": 16.8,
+        "avgTempMax": 25.2,
+        "rainfallMm": 76
+      }
+    ]
+  }
+}

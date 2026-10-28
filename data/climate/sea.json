@@ -1,0 +1,81 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5), 도시 좌표 기준 월평균",
+  "years": [2019, 2020, 2021, 2022, 2023],
+  "generatedAt": "2026-10-28",
+  "cities": {
+    "bangkok": [
+      {
+        "month": 1,
+        "avgTempMin": 22,
+        "avgTempMax": 31.6,
+        "rainfallMm": 16
+      },
+      {
+        "month": 2,
+        "avgTempMin": 23.7,
+        "avgTempMax": 32.4,
+        "rainfallMm": 43
+      },
+      {
+        "month": 3,
+        "avgTempMin": 25.8,
+        "avgTempMax": 33.4,
+        "rainfallMm": 41
+      },
+      {
+        "month": 4,
+        "avgTempMin": 26.7,
+        "avgTempMax": 33.9,
+        "rainfallMm": 88
+      },
+      {
+        "month": 5,
+        "avgTempMin": 26.5,
+        "avgTempMax": 33.8,
+        "rainfallMm": 140
+      },
+      {
+        "month": 6,
+        "avgTempMin": 26.1,
+        "avgTempMax": 32.8,
+        "rainfallMm": 151
+      },
+      {
+        "month": 7,
+        "avgTempMin": 25.6,
+        "avgTempMax": 32,
+        "rainfallMm": 198
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.4,
+        "avgTempMax": 31.4,
+        "rainfallMm": 224
+      },
+      {
+        "month": 9,
+        "avgTempMin": 24.9,
+        "avgTempMax": 30.9,
+        "rainfallMm": 325
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.2,
+        "avgTempMax": 30.7,
+        "rainfallMm": 271
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.6,
+        "avgTempMax": 31.4,
+        "rainfallMm": 77
+      },
+      {
+        "month": 12,
+        "avgTempMin": 21.9,
+        "avgTempMax": 31,
+        "rainfallMm": 14
+      }
+    ]
+  }
+}

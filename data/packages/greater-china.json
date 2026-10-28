@@ -1,0 +1,25 @@
+[
+  {
+    "destinationId": "taipei",
+    "vendor": "참좋은여행",
+    "title": "대만 3박4일 노쇼핑/월드체인호텔UP (타이중 왕복, 오전출발) 진에어",
+    "nights": 3,
+    "departureMonth": 11,
+    "priceKRW": 784000,
+    "departureDate": "2026-11-15",
+    "priceIncludesFuelSurcharge": null,
+    "included": [
+      "진에어 인천 출발·도착 항공",
+      "4성급 호텔 3박",
+      "딤섬·우육면·대만식 샤브샤브 등 현지식"
+    ],
+    "excluded": [],
+    "extraKnownKRW": null,
+    "hasShopping": false,
+    "hasOptionalTours": null,
+    "termsClear": false,
+    "url": "https://www.tripstore.kr/products/TFDBC3DC4B735",
+    "asOf": "2026-10-28",
+    "confidence": "low"
+  }
+]
