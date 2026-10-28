@@ -35,7 +35,7 @@ export function DestinationCard({
   );
   const hours = d.flightHours.ICN;
   return (
-    <article className="group relative overflow-hidden rounded-2xl border border-line bg-surface shadow-sm transition focus-within:ring-2 focus-within:ring-sky-600 hover:shadow-md">
+    <article className="group relative min-w-0 overflow-hidden rounded-2xl border border-line bg-surface shadow-sm transition focus-within:ring-2 focus-within:ring-sky-600 hover:shadow-md">
       <div className="relative aspect-[16/10] bg-gradient-to-br from-sky-200 to-emerald-100">
         {d.imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element -- 정적 export, 외부 Commons 이미지

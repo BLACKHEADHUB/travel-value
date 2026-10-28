@@ -45,3 +45,5 @@
 - 추천 퀴즈는 별도 점수 로직 없이 같은 조건(URL)을 단계별로 고르게 하는 입구로 구현.
 - 다크모드: 의미 기반 색 토큰(--surface, --ink 등) + html.dark, 기본은 OS 설정, 선택은 localStorage.
 - 지도: Leaflet 1.9.4 + OpenStreetMap 타일(출처 표기), 마커 색 = 선택 조건의 점수, 대체 목록 제공.
+- 2026-10-28 QA는 Playwright(tests/e2e, *.e2e.ts — vitest와 분리), 정적 빌드(out/)를 serve로 띄워 desktop·mobile 2개 프로젝트. 원본 캡처는 git 제외, docs/qa/에 축소본.
+- 최종 데이터 지표는 scripts/data-report.ts가 계산: 확인값=confidence high/medium, 추정값=low.
