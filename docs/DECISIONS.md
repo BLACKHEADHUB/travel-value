@@ -34,3 +34,4 @@
 - 비행시간은 Kayak 노선 평균(왕복 평균 포함 가능), 출처 flightHoursSource.
 - 타이베이 경비(3,400 TWD) 삭제: 출처가 범위만 제공 — 범위에서 값을 고르지 않는 규칙 적용.
 - ETIAS: EU 공식 페이지 기준 2026-10 현재 미시행(4분기 예정, 날짜 미정) → 무비자 유지 + note.
+- 2026-10-28 Vercel 프로덕션 배포(계정 mynameisblackhead, 프로젝트 travel-value). 현재는 `vercel deploy --prod` 수동 배포, GitHub 연동 자동 배포는 미설정. `.vercel/`은 gitignore.
