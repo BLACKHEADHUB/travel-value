@@ -42,25 +42,75 @@ test.afterEach(async ({}, info) => {
   if (info.status === 'passed') expect(errors, 'console errors').toEqual([]);
 });
 
-test('home: 기본 월 + 7월 선택', async ({ page }, info) => {
+test('home: 기본 월 + 월만 정하기로 7월 선택', async ({ page }, info) => {
   const now = new Date().getMonth() + 1;
   await page.goto('/');
+  await expect(page).toHaveTitle(/제철여행/);
   await expect(listHeading(page)).toContainText(`${now}월 ·`);
-  await expect(page.getByRole('radio', { name: `${now}월` })).toHaveAttribute(
-    'aria-checked',
-    'true',
-  );
-  await page.getByRole('radio', { name: '7월' }).click();
+  const when = page.getByRole('button', { name: /언제/ });
+  await expect(when).toContainText(`${now}월 중`);
+  await when.click();
+  const dialog = page.getByRole('dialog', { name: '언제 떠나세요?' });
+  await expect(dialog).toBeVisible();
+  await dialog.getByRole('tab', { name: '월만 정하기' }).click();
+  await dialog.getByRole('button', { name: '7월', exact: true }).click();
+  await dialog.getByRole('button', { name: '적용' }).click();
+  await expect(dialog).toBeHidden();
   await expect(listHeading(page)).toContainText('7월 ·');
   await expect(page).toHaveURL(/[?&]m=7(&|$)/);
   await shot(page, info, 'home-month7');
+});
+
+test('date picker: 출발·귀국일 범위 선택', async ({ page }, info) => {
+  // 다음 달 10일 출발 → 15일 귀국 (5박)
+  const t = new Date();
+  const out = new Date(t.getFullYear(), t.getMonth() + 1, 10);
+  const back = new Date(t.getFullYear(), t.getMonth() + 1, 15);
+  const iso = (d: Date) =>
+    `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const label = (d: Date) => `${d.getMonth() + 1}월 ${d.getDate()}일`;
+
+  await page.goto(`/?m=${out.getMonth() + 1}`);
+  await page.getByRole('button', { name: /언제/ }).click();
+  const dialog = page.getByRole('dialog', { name: '언제 떠나세요?' });
+  await expect(dialog.getByRole('tab', { name: '날짜 지정' })).toHaveAttribute(
+    'aria-selected',
+    'true',
+  );
+  await expect(dialog.getByRole('button', { name: '적용' })).toBeDisabled();
+  await dialog
+    .getByRole('button', { name: new RegExp(`^${label(out)}\\(`) })
+    .first()
+    .click();
+  await dialog
+    .getByRole('button', { name: new RegExp(`^${label(back)}\\(`) })
+    .first()
+    .click();
+  await expect(dialog).toContainText('5박 6일');
+  await shot(page, info, 'date-picker');
+  await dialog.getByRole('button', { name: '적용' }).click();
+  await expect(page).toHaveURL(new RegExp(`[?&]d=${iso(out)}`));
+  await expect(page).toHaveURL(/[?&]n=5/);
+  await expect(page.getByRole('button', { name: /언제/ })).toContainText(`${label(out)}`);
+  await expect(listHeading(page)).toContainText('5박 6일');
+
+  // 빠른 길이 선택: 같은 출발일에서 2박
+  await page.getByRole('button', { name: /언제/ }).click();
+  await dialog.getByRole('button', { name: '2박 3일' }).click();
+  await dialog.getByRole('button', { name: '적용' }).click();
+  await expect(page).toHaveURL(/[?&]n=2/);
+  // Esc로 닫기
+  await page.getByRole('button', { name: /언제/ }).click();
+  await page.keyboard.press('Escape');
+  await expect(dialog).toBeHidden();
 });
 
 test('trip controls: 박수·기온·비', async ({ page }, info) => {
   await page.goto('/?m=7');
   await page.getByLabel('여행 기간').selectOption('9');
   await expect(listHeading(page)).toContainText('9박 10일');
-  await expect(top5(page)).toContainText('9박 10일 가성비 TOP 5');
+  await expect(top5(page)).toContainText('제철 여행지 TOP 5');
+  await expect(page.getByText('9박 10일 기준')).toBeVisible();
   await expect(page).toHaveURL(/[?&]n=9/);
 
   const range = page.getByText(/일평균 -?\d+~-?\d+℃/);
@@ -88,7 +138,7 @@ test('trip controls: 박수·기온·비', async ({ page }, info) => {
 test('filters: 테마·예산·정렬', async ({ page }, info) => {
   await page.goto('/?m=4');
   const countOf = async () =>
-    Number((await listHeading(page).innerText()).match(/추천 (\d+)곳/)![1]);
+    Number((await listHeading(page).innerText()).match(/전체 (\d+)곳/)![1]);
   const all = await countOf();
   expect(all).toBe(25);
   await openFilters(page);

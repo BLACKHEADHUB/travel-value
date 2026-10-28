@@ -27,7 +27,7 @@ export function Quiz() {
   const finish = () => {
     const c = CLIMATES.find((x) => x.id === climate)!;
     const q = new URLSearchParams(
-      prefsQuery({ month, nights, tMin: c.t[0], tMax: c.t[1], rainAvoid }),
+      prefsQuery({ month, nights, date: null, tMin: c.t[0], tMax: c.t[1], rainAvoid }),
     );
     if (budget) q.set('budget', String(budget));
     if (themes.length) q.set('theme', themes.join(','));
@@ -35,10 +35,10 @@ export function Quiz() {
   };
 
   const opt = (on: boolean) =>
-    `rounded-xl border px-3 py-2.5 text-sm text-left focus-visible:outline-2 focus-visible:outline-sky-600 ${
+    `rounded-xl border px-3 py-2.5 text-sm text-left focus-visible:outline-2 focus-visible:outline-accent ${
       on
-        ? 'border-sky-700 bg-sky-700 text-white'
-        : 'border-line-strong bg-surface hover:border-sky-600'
+        ? 'border-accent bg-accent text-white'
+        : 'border-line-strong bg-surface hover:border-accent'
     }`;
 
   const steps = [
@@ -148,7 +148,7 @@ export function Quiz() {
           <label className="flex items-center gap-2 text-sm">
             <input
               type="checkbox"
-              className="size-4 accent-sky-700"
+              className="size-4 accent-[var(--accent)]"
               checked={rainAvoid}
               onChange={(e) => setRainAvoid(e.target.checked)}
             />
@@ -177,14 +177,14 @@ export function Quiz() {
           type="button"
           disabled={step === 0}
           onClick={() => setStep(step - 1)}
-          className="rounded-xl border border-line-strong px-4 py-2.5 text-sm disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-sky-600"
+          className="rounded-xl border border-line-strong px-4 py-2.5 text-sm disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-accent"
         >
           이전
         </button>
         <button
           type="button"
           onClick={() => (last ? finish() : setStep(step + 1))}
-          className="rounded-xl bg-sky-700 px-5 py-2.5 text-sm font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          className="rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           {last ? '추천 보기' : '다음'}
         </button>

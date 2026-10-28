@@ -46,8 +46,8 @@ export function PackageCompare({
               role="radio"
               aria-checked={nights === n}
               onClick={() => onNights(n)}
-              className={`rounded-full border px-3 py-1 text-sm focus-visible:outline-2 focus-visible:outline-sky-600 ${
-                nights === n ? 'border-sky-700 bg-sky-700 text-white' : 'border-line-strong'
+              className={`rounded-full border px-3 py-1 text-sm focus-visible:outline-2 focus-visible:outline-accent ${
+                nights === n ? 'border-accent bg-accent text-white' : 'border-line-strong'
               }`}
             >
               {n}박 {n + 1}일

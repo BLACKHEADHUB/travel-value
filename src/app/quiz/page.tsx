@@ -1,6 +1,6 @@
 import { Quiz } from '@/components/Quiz';
 
-export const metadata = { title: '내 조건으로 추천받기 — 몇 월에 어디 갈까' };
+export const metadata = { title: '내 조건으로 추천받기' };
 
 export default function QuizPage() {
   return (

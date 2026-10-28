@@ -80,7 +80,13 @@ export function DetailBody({ d, peers }: { d: DestinationView; peers: PeerStats 
               className={`${linkCls} bg-accent text-white hover:opacity-90`}
               target="_blank"
               rel="noopener noreferrer"
-              href={flightSearchUrl({ origin: 'ICN', cityKo: d.nameKo, month, nights })}
+              href={flightSearchUrl({
+                origin: 'ICN',
+                cityKo: d.nameKo,
+                month,
+                nights,
+                date: prefs.date,
+              })}
             >
               항공권 검색<span className="sr-only"> (새 창, Google 항공편)</span>
             </a>
@@ -88,7 +94,7 @@ export function DetailBody({ d, peers }: { d: DestinationView; peers: PeerStats 
               className={`${linkCls} bg-muted hover:bg-line`}
               target="_blank"
               rel="noopener noreferrer"
-              href={staySearchUrl({ cityKo: d.nameKo, month, nights })}
+              href={staySearchUrl({ cityKo: d.nameKo, month, nights, date: prefs.date })}
             >
               숙소 검색<span className="sr-only"> (새 창, Booking.com)</span>
             </a>

@@ -4,7 +4,13 @@ import { addDays, nextDate, ymd } from './view';
 export type Origin = 'ICN' | 'GMP';
 export const ORIGIN_LABEL: Record<Origin, string> = { ICN: '인천(ICN)', GMP: '김포(GMP)' };
 
-export function tripDates(month: number, nights: number) {
+/** 출발일이 정해졌으면 그 날짜, 아니면 해당 월의 다음 15일 출발 */
+export function tripDates(month: number, nights: number, date: string | null = null) {
+  if (date) {
+    const [y, m, d] = date.split('-').map(Number);
+    const out = new Date(y, m - 1, d);
+    return { checkin: date, checkout: ymd(addDays(out, nights)) };
+  }
   const out = nextDate(month);
   return { checkin: ymd(out), checkout: ymd(addDays(out, nights)) };
 }
@@ -14,14 +20,20 @@ export function flightSearchUrl(o: {
   cityKo: string;
   month: number;
   nights: number;
+  date?: string | null;
 }) {
-  const { checkin, checkout } = tripDates(o.month, o.nights);
+  const { checkin, checkout } = tripDates(o.month, o.nights, o.date);
   const q = `${o.origin}에서 ${o.cityKo} 왕복 항공편 ${checkin} 출발 ${checkout} 귀국`;
   return `https://www.google.com/travel/flights?hl=ko&curr=KRW&q=${encodeURIComponent(q)}`;
 }
 
-export function staySearchUrl(o: { cityKo: string; month: number; nights: number }) {
-  const { checkin, checkout } = tripDates(o.month, o.nights);
+export function staySearchUrl(o: {
+  cityKo: string;
+  month: number;
+  nights: number;
+  date?: string | null;
+}) {
+  const { checkin, checkout } = tripDates(o.month, o.nights, o.date);
   const p = new URLSearchParams({
     ss: o.cityKo,
     checkin,

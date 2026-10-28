@@ -39,6 +39,7 @@ export function useTrip(destinations: DestinationView[], peers: PeerStats) {
       const next = new URLSearchParams(prefsQuery({ ...prefs, ...patch }));
       setParams({
         m: next.get('m'),
+        d: next.get('d'),
         n: next.get('n'),
         t: next.get('t'),
         rain: next.get('rain'),

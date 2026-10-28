@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { loadDestinations, loadPeerStats } from '@/lib/data';
 import { MapView } from '@/components/MapView';
 
-export const metadata = { title: '지도로 보기 — 몇 월에 어디 갈까' };
+export const metadata = { title: '지도로 보기' };
 
 export default function MapPage() {
   return (

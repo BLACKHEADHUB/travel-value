@@ -1,7 +1,7 @@
 'use client';
 import { nightsLabel, TEMP_BOUNDS, type Prefs } from '@/lib/prefs';
 import { MAX_NIGHTS, MIN_NIGHTS } from '@/lib/trip';
-import { MonthPicker } from './MonthPicker';
+import { WhenPicker } from './WhenPicker';
 
 const NIGHTS = Array.from({ length: MAX_NIGHTS - MIN_NIGHTS + 1 }, (_, i) => i + MIN_NIGHTS);
 
@@ -16,11 +16,13 @@ export const CLIMATE_PRESETS = [
 const presetOf = (p: Prefs) =>
   CLIMATE_PRESETS.find((c) => c.t[0] === p.tMin && c.t[1] === p.tMax)?.id ?? 'custom';
 
-/** 문장형 선택 상자: 밑줄 친 강조 글씨처럼 보이는 select */
-const inline =
-  'cursor-pointer appearance-none rounded-lg bg-accent-soft px-2.5 py-1 font-bold text-accent focus-visible:outline-2 focus-visible:outline-accent';
+/** 검색창처럼 보이는 칸 안의 select: 라벨은 위, 값은 굵게 */
+const cell =
+  'flex min-w-0 flex-col rounded-2xl px-4 py-2.5 transition hover:bg-muted focus-within:outline-2 focus-within:outline-accent';
+const cellSelect =
+  'w-full min-w-0 cursor-pointer appearance-none truncate bg-transparent font-bold outline-none';
 
-/** 여행 조건: 언제(월) · 며칠 · 어떤 날씨 */
+/** 여행 조건: 언제 · 기간 · 날씨 */
 export function TripControls({
   prefs,
   onChange,
@@ -30,13 +32,16 @@ export function TripControls({
 }) {
   const preset = presetOf(prefs);
   return (
-    <section aria-label="여행 조건" className="space-y-4">
-      <MonthPicker value={prefs.month} onChange={(month) => onChange({ month })} />
-      <p className="flex flex-wrap items-center gap-x-1.5 gap-y-2 text-base sm:text-lg">
-        <label>
-          <span className="sr-only">여행 기간</span>
+    <section aria-label="여행 조건" className="space-y-3">
+      <div className="grid grid-cols-2 gap-1 rounded-3xl bg-surface p-1.5 shadow-sm ring-1 ring-line sm:grid-cols-[1.6fr_1fr_1.2fr] sm:divide-x sm:divide-line">
+        <div className="col-span-2 sm:col-span-1">
+          <WhenPicker prefs={prefs} onChange={onChange} />
+        </div>
+        <label className={cell}>
+          <span className="text-xs font-semibold text-sub">기간</span>
           <select
-            className={inline}
+            aria-label="여행 기간"
+            className={cellSelect}
             value={prefs.nights}
             onChange={(e) => onChange({ nights: Number(e.target.value) })}
           >
@@ -47,11 +52,16 @@ export function TripControls({
             ))}
           </select>
         </label>
-        <span>동안</span>
-        <label>
-          <span className="sr-only">날씨 취향</span>
+        <label className={cell}>
+          <span className="text-xs font-semibold text-sub">
+            날씨{' '}
+            <span className="font-normal">
+              · {prefs.tMin}~{prefs.tMax}℃
+            </span>
+          </span>
           <select
-            className={inline}
+            aria-label="날씨 취향"
+            className={cellSelect}
             value={preset}
             onChange={(e) => {
               const c = CLIMATE_PRESETS.find((x) => x.id === e.target.value);
@@ -67,19 +77,18 @@ export function TripControls({
             <option value="custom">직접 설정</option>
           </select>
         </label>
-        <span>로 떠나요</span>
-        <span className="text-sm text-sub">
-          (일평균 {prefs.tMin}~{prefs.tMax}℃)
-        </span>
+      </div>
+      <p className="sr-only" aria-live="polite">
+        일평균 {prefs.tMin}~{prefs.tMax}℃
       </p>
       {preset === 'custom' && (
-        <fieldset className="grid max-w-xl grid-cols-[auto_1fr] items-center gap-x-3 gap-y-2 text-sm text-sub">
+        <fieldset className="grid max-w-xl grid-cols-[auto_1fr] items-center gap-x-3 gap-y-2 rounded-2xl bg-surface px-4 py-3 text-sm text-sub ring-1 ring-line">
           <legend className="sr-only">선호 기온 직접 설정</legend>
           <label htmlFor="t-min">최저 {prefs.tMin}℃</label>
           <input
             id="t-min"
             type="range"
-            className="w-full min-w-0 accent-sky-700"
+            className="w-full min-w-0 accent-[var(--accent)]"
             min={TEMP_BOUNDS.min}
             max={TEMP_BOUNDS.max}
             value={prefs.tMin}
@@ -90,7 +99,7 @@ export function TripControls({
           <input
             id="t-max"
             type="range"
-            className="w-full min-w-0 accent-sky-700"
+            className="w-full min-w-0 accent-[var(--accent)]"
             min={TEMP_BOUNDS.min}
             max={TEMP_BOUNDS.max}
             value={prefs.tMax}

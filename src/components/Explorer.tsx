@@ -3,13 +3,14 @@ import { useMemo, useState } from 'react';
 import type { DestinationView } from '@/lib/data';
 import { THEMES } from '@/lib/themes';
 import { meanTemp } from '@/lib/view';
-import { nightsLabel } from '@/lib/prefs';
+import { nightsLabel, whenLabel } from '@/lib/prefs';
 import { FAV_KEY, useStoredList } from '@/lib/storage';
 import { useTrip } from '@/lib/useTrip';
 import type { PeerStats } from '@/lib/trip';
 import { DestinationCard } from './DestinationCard';
 import { TopFive } from './TopFive';
 import { TripControls } from './TripControls';
+import { BRAND } from './Logo';
 
 type Sort = 'score' | 'cost' | 'flight' | 'comfort';
 const SORT_LABEL: Record<Sort, string> = {
@@ -115,14 +116,13 @@ export function Explorer({
 
   return (
     <div className="space-y-10">
-      <section className="space-y-5 rounded-3xl bg-surface p-5 shadow-sm ring-1 ring-line sm:p-8">
+      <section className="space-y-6 rounded-[2rem] bg-gradient-to-br from-accent-soft via-surface to-surface p-5 ring-1 ring-line sm:p-10">
         <div>
-          <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-            {favOnly ? '저장한 여행지' : '언제 떠나세요?'}
+          <p className="text-sm font-bold text-accent">{BRAND.name}</p>
+          <h1 className="mt-1 text-3xl font-extrabold tracking-tight sm:text-5xl">
+            {favOnly ? '저장한 여행지' : BRAND.tagline}
           </h1>
-          <p className="mt-2 text-sub">
-            같은 돈으로 가장 알차게 다녀올 곳을 날씨·비용·이동 부담으로 골라 드려요.
-          </p>
+          <p className="mt-3 max-w-xl text-sub">{BRAND.description}</p>
         </div>
         <TripControls prefs={prefs} onChange={setPrefs} />
       </section>
@@ -134,7 +134,8 @@ export function Explorer({
       <section aria-labelledby="list-h" className="space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 id="list-h" className="text-xl font-bold tracking-tight" aria-live="polite">
-            {month}월 · {nightsLabel(prefs.nights)} 추천 {list.length}곳
+            {prefs.date ? whenLabel(prefs) : `${month}월`} · {nightsLabel(prefs.nights)} 전체{' '}
+            {list.length}곳
           </h2>
           <div className="flex items-center gap-2">
             <label>
@@ -227,7 +228,7 @@ export function Explorer({
               <label className={check}>
                 <input
                   type="checkbox"
-                  className="size-4 accent-sky-700"
+                  className="size-4 accent-[var(--accent)]"
                   checked={prefs.rainAvoid}
                   onChange={(e) => setPrefs({ rainAvoid: e.target.checked })}
                 />
@@ -236,7 +237,7 @@ export function Explorer({
               <label className={check}>
                 <input
                   type="checkbox"
-                  className="size-4 accent-sky-700"
+                  className="size-4 accent-[var(--accent)]"
                   checked={inTempOnly}
                   onChange={(e) => setParams({ intemp: e.target.checked ? '1' : null })}
                 />
@@ -245,7 +246,7 @@ export function Explorer({
               <label className={check}>
                 <input
                   type="checkbox"
-                  className="size-4 accent-sky-700"
+                  className="size-4 accent-[var(--accent)]"
                   checked={visaFree}
                   onChange={(e) => setParams({ visa: e.target.checked ? 'free' : null })}
                 />
@@ -254,7 +255,7 @@ export function Explorer({
               <label className={check}>
                 <input
                   type="checkbox"
-                  className="size-4 accent-sky-700"
+                  className="size-4 accent-[var(--accent)]"
                   checked={favOnly}
                   onChange={(e) => setParams({ fav: e.target.checked ? '1' : null })}
                 />
@@ -264,7 +265,7 @@ export function Explorer({
                 <label className={check}>
                   <input
                     type="checkbox"
-                    className="size-4 accent-sky-700"
+                    className="size-4 accent-[var(--accent)]"
                     checked={includeUnknownCost}
                     onChange={(e) => setParams({ unknown: e.target.checked ? '1' : null })}
                   />

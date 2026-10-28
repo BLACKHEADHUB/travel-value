@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { SCORE_PARAMS as P, SCORE_WEIGHTS as W } from '@/lib/score';
 
-export const metadata = { title: '점수 기준 — 몇 월에 어디 갈까' };
+export const metadata = { title: '점수 기준' };
 
 const pct = (n: number) => `${Math.round(n * 100)}%`;
 
