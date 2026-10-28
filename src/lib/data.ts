@@ -19,6 +19,8 @@ export type MonthView = Destination['monthly'][number] & {
   avgTempMin: number | null;
   avgTempMax: number | null;
   rainfallMm: number | null;
+  /** 실제 표시용 항공가 (월별 없으면 연중 대표가, typical=true) */
+  flight: ReturnType<typeof flightFor>;
   /** 항공 중간값 + 1일 경비 × DEFAULT_NIGHTS */
   totalCost: number | null;
   score: ScoreResult;
@@ -44,8 +46,24 @@ function readDir<T>(sub: string, parse: (x: unknown) => T): Map<string, T> {
   return out;
 }
 
-export function representativeTotal(m: Destination['monthly'][number], nights = DEFAULT_NIGHTS) {
-  const { min, max } = m.flightPrice;
+/** 해당 월 항공가. 월별 값이 없으면 연중 대표가로 대체하고 typical=true */
+export function flightFor(
+  d: Pick<Destination, 'flightPriceTypical'>,
+  m: Destination['monthly'][number],
+) {
+  const monthly = m.flightPrice;
+  if (monthly.min !== null && monthly.max !== null) return { ...monthly, typical: false };
+  const t = d.flightPriceTypical;
+  if (t.min !== null && t.max !== null) return { ...t, typical: true };
+  return { ...monthly, typical: false };
+}
+
+export function representativeTotal(
+  d: Pick<Destination, 'flightPriceTypical'>,
+  m: Destination['monthly'][number],
+  nights = DEFAULT_NIGHTS,
+) {
+  const { min, max } = flightFor(d, m);
   const daily = m.dailyCost.total;
   if (min === null || max === null || daily === null) return null;
   return Math.round((min + max) / 2 + daily * nights);
@@ -70,11 +88,16 @@ export function loadDestinations(): DestinationView[] {
       .sort((a, b) => a.month - b.month)
       .map((m) => {
         const cl = rows?.find((r) => r.month === m.month);
-        const totalCost = representativeTotal(m);
+        const totalCost = representativeTotal(d, m);
         const peerTotals = (filter: (x: { d: Destination }) => boolean) =>
           flat
             .filter(filter)
-            .map(({ d: o }) => representativeTotal(o.monthly.find((x) => x.month === m.month)!))
+            .map(({ d: o }) =>
+              representativeTotal(
+                o,
+                o.monthly.find((x) => x.month === m.month)!,
+              ),
+            )
             .filter((v): v is number => v !== null);
         const regionPeers = peerTotals((x) => x.d.region === d.region);
         const usesRegion = regionPeers.length >= MIN_REGION_PEERS;
@@ -93,6 +116,7 @@ export function loadDestinations(): DestinationView[] {
         });
         return {
           ...m,
+          flight: flightFor(d, m),
           avgTempMin: cl?.avgTempMin ?? null,
           avgTempMax: cl?.avgTempMax ?? null,
           rainfallMm: cl?.rainfallMm ?? null,

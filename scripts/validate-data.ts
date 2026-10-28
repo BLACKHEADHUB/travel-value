@@ -66,6 +66,13 @@ for (const [region, dests] of destFiles) {
       err(`${at}: flightHours.ICN 이상치 ${d.flightHours.ICN}`);
     if (d.visaInfo.required !== null && !d.visaInfo.source) warn(`${at}: 비자 정보 출처 없음`);
 
+    const tp = d.flightPriceTypical;
+    if (tp.min !== null && tp.max !== null && tp.min > tp.max) err(`${at}: 연중 대표가 min > max`);
+    for (const v of [tp.min, tp.max])
+      if (v !== null && out(v, LIMITS.flight)) err(`${at}: 연중 대표가 이상치 ${v}`);
+    if ((tp.min !== null || tp.max !== null) && (!tp.source || !tp.asOf))
+      err(`${at}: 연중 대표가 source/asOf 누락`);
+
     const months = d.monthly.map((m) => m.month).sort((a, b) => a - b);
     if (months.join() !== '1,2,3,4,5,6,7,8,9,10,11,12') err(`${at}: 12개월(1~12) 데이터가 아님`);
 

@@ -4,14 +4,20 @@
     "nameKo": "도쿄",
     "country": "일본",
     "region": "japan",
-    "coordinates": { "lat": 35.6812, "lng": 139.7671 },
+    "coordinates": {
+      "lat": 35.6812,
+      "lng": 139.7671
+    },
     "themes": ["도시", "문화/역사", "미식", "쇼핑"],
     "visaInfo": {
       "required": false,
       "note": "관광 목적 90일 이내 무비자(2025-09-01 일본 외무성 고시 기준, 2차 출처 확인). 전자여행허가(JESTA)는 2028년경 도입 예정. 공식 페이지 확인 필요.",
       "source": "https://japan-visa.com/ko/guides/visa-free"
     },
-    "flightHours": { "ICN": 2.7, "GMP": null },
+    "flightHours": {
+      "ICN": 2.7,
+      "GMP": null
+    },
     "landmarks": ["아사쿠사 센소지", "시부야 스크램블 교차로", "도쿄타워", "오다이바"],
     "imageUrl": null,
     "imageCredit": null,
@@ -268,6 +274,15 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightPriceTypical": {
+      "min": null,
+      "max": null,
+      "source": null,
+      "asOf": null,
+      "confidence": "low",
+      "note": null
+    },
+    "imageFile": null
   }
 ]

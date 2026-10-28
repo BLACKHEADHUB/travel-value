@@ -4,14 +4,20 @@
     "nameKo": "파리",
     "country": "프랑스",
     "region": "europe",
-    "coordinates": { "lat": 48.8566, "lng": 2.3522 },
+    "coordinates": {
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
     "themes": ["도시", "문화/역사", "미식"],
     "visaInfo": {
       "required": false,
       "note": "90일 이내 단기방문은 입국사증 불필요. 쉥겐 지역 전체 합산 90일 한도. ETIAS 적용 여부와 시행 시기는 출처 페이지에 없어 미확인.",
       "source": "https://whic.mofa.go.kr/whic/nation/info.jsp?boardNo=100011"
     },
-    "flightHours": { "ICN": null, "GMP": null },
+    "flightHours": {
+      "ICN": null,
+      "GMP": null
+    },
     "landmarks": ["에펠탑", "루브르 박물관", "노트르담 대성당"],
     "imageUrl": null,
     "imageCredit": null,
@@ -268,6 +274,15 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightPriceTypical": {
+      "min": null,
+      "max": null,
+      "source": null,
+      "asOf": null,
+      "confidence": "low",
+      "note": null
+    },
+    "imageFile": null
   }
 ]

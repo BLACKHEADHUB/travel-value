@@ -4,14 +4,20 @@
     "nameKo": "방콕",
     "country": "태국",
     "region": "sea",
-    "coordinates": { "lat": 13.7563, "lng": 100.5018 },
+    "coordinates": {
+      "lat": 13.7563,
+      "lng": 100.5018
+    },
     "themes": ["도시", "미식", "문화/역사", "쇼핑"],
     "visaInfo": {
       "required": false,
       "note": "한국 일반여권, 취업 목적 아닐 경우 무비자 최대 90일. 입국 3일 전 이내 TDAC 온라인 신고 필요. 외교부 페이지 확인 못 함(2차 기사 기준).",
       "source": "https://news-wa.com/article/travel/tour-world/2026/09/08/20260908500063"
     },
-    "flightHours": { "ICN": 6.0, "GMP": null },
+    "flightHours": {
+      "ICN": 6,
+      "GMP": null
+    },
     "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
     "imageUrl": null,
     "imageCredit": null,
@@ -268,6 +274,15 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightPriceTypical": {
+      "min": null,
+      "max": null,
+      "source": null,
+      "asOf": null,
+      "confidence": "low",
+      "note": null
+    },
+    "imageFile": null
   }
 ]

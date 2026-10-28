@@ -4,14 +4,20 @@
     "nameKo": "타이베이",
     "country": "대만",
     "region": "greater-china",
-    "coordinates": { "lat": 25.033, "lng": 121.5654 },
+    "coordinates": {
+      "lat": 25.033,
+      "lng": 121.5654
+    },
     "themes": ["도시", "미식", "문화/역사"],
     "visaInfo": {
       "required": false,
       "note": "관광 목적 90일 무비자. 주타이베이 대한민국 대표부 공지(2017.10.13 게시, 최신 재확인 필요). 여권 잔여기간 6개월 이상, 왕복 또는 다음 행선지 항공권 필요.",
       "source": "https://overseas.mofa.go.kr/tw-ko/brd/m_11926/view.do?seq=1331925"
     },
-    "flightHours": { "ICN": 2.7, "GMP": null },
+    "flightHours": {
+      "ICN": 2.7,
+      "GMP": null
+    },
     "landmarks": ["타이베이 101", "지우펀", "스펀", "국립고궁박물관"],
     "imageUrl": null,
     "imageCredit": null,
@@ -268,6 +274,15 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightPriceTypical": {
+      "min": null,
+      "max": null,
+      "source": null,
+      "asOf": null,
+      "confidence": "low",
+      "note": null
+    },
+    "imageFile": null
   }
 ]
