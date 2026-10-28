@@ -75,6 +75,10 @@ export const destinationSchema = z.object({
     ICN: z.number().positive().nullable(),
     GMP: z.number().positive().nullable(),
   }),
+  /** flightHours 근거 URL */
+  flightHoursSource: z.string().nullable().default(null),
+  /** monthly[].seasonLevel 근거 URL. seasonLevel = 항공·숙박 수요(가격) 기준 성수기/숄더/비수기 */
+  seasonSource: z.string().nullable().default(null),
   landmarks: z.array(z.string().min(1)).min(3).max(5),
   /** 월별 근거가 없을 때 쓰는 출처 있는 연중 대표 왕복 항공가(ICN). UI에 '연중 대표가'로 표시 */
   flightPriceTypical: flightPriceSchema.extend({ note: z.string().nullable() }),

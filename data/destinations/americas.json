@@ -8,11 +8,7 @@
       "lat": 21.3069,
       "lng": -157.8583
     },
-    "themes": [
-      "휴양",
-      "자연",
-      "액티비티"
-    ],
+    "themes": ["휴양", "자연", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -24,12 +20,7 @@
       "ICN": 8,
       "GMP": null
     },
-    "landmarks": [
-      "와이키키 해변",
-      "다이아몬드 헤드",
-      "진주만",
-      "할레이바"
-    ],
+    "landmarks": ["와이키키 해변", "다이아몬드 헤드", "진주만", "할레이바"],
     "flightPriceTypical": {
       "min": 627819,
       "max": 974694,
@@ -322,7 +313,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "losangeles",
@@ -333,11 +326,7 @@
       "lat": 34.0522,
       "lng": -118.2437
     },
-    "themes": [
-      "도시",
-      "쇼핑",
-      "문화/역사"
-    ],
+    "themes": ["도시", "쇼핑", "문화/역사"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -349,12 +338,7 @@
       "ICN": 11.1,
       "GMP": null
     },
-    "landmarks": [
-      "할리우드 사인",
-      "산타모니카 비치",
-      "그리피스 천문대",
-      "유니버설 스튜디오"
-    ],
+    "landmarks": ["할리우드 사인", "산타모니카 비치", "그리피스 천문대", "유니버설 스튜디오"],
     "flightPriceTypical": {
       "min": 779322,
       "max": 1196296,
@@ -647,7 +631,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "newyork",
@@ -658,12 +644,7 @@
       "lat": 40.7128,
       "lng": -74.006
     },
-    "themes": [
-      "도시",
-      "문화/역사",
-      "쇼핑",
-      "미식"
-    ],
+    "themes": ["도시", "문화/역사", "쇼핑", "미식"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -1094,7 +1075,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "vancouver",
@@ -1105,11 +1088,7 @@
       "lat": 49.2827,
       "lng": -123.1207
     },
-    "themes": [
-      "자연",
-      "도시",
-      "액티비티"
-    ],
+    "themes": ["자연", "도시", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -1121,12 +1100,7 @@
       "ICN": 9.8,
       "GMP": null
     },
-    "landmarks": [
-      "스탠리 파크",
-      "개스타운",
-      "그랜빌 아일랜드",
-      "캐필라노 현수교"
-    ],
+    "landmarks": ["스탠리 파크", "개스타운", "그랜빌 아일랜드", "캐필라노 현수교"],
     "flightPriceTypical": {
       "min": 741588,
       "max": 1319569,
@@ -1539,6 +1513,8 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   }
 ]

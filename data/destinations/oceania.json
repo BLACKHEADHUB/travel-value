@@ -8,11 +8,7 @@
       "lat": -33.8688,
       "lng": 151.2093
     },
-    "themes": [
-      "도시",
-      "자연",
-      "액티비티"
-    ],
+    "themes": ["도시", "자연", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -24,12 +20,7 @@
       "ICN": 10.3,
       "GMP": null
     },
-    "landmarks": [
-      "오페라하우스",
-      "하버브리지",
-      "본다이비치",
-      "블루마운틴"
-    ],
+    "landmarks": ["오페라하우스", "하버브리지", "본다이비치", "블루마운틴"],
     "flightPriceTypical": {
       "min": 760319,
       "max": 1236847,
@@ -442,7 +433,9 @@
         "seasonLevel": "peak",
         "notes": "여름 성수기, 12/31 새해맞이 불꽃놀이 전후 숙박·항공가 급등"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "guam",
@@ -453,11 +446,7 @@
       "lat": 13.4443,
       "lng": 144.7937
     },
-    "themes": [
-      "휴양",
-      "쇼핑",
-      "액티비티"
-    ],
+    "themes": ["휴양", "쇼핑", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -469,12 +458,7 @@
       "ICN": 4.5,
       "GMP": null
     },
-    "landmarks": [
-      "투몬비치",
-      "사랑의 절벽",
-      "구아후안 공원(리티디안 포인트)",
-      "건 비치"
-    ],
+    "landmarks": ["투몬비치", "사랑의 절벽", "구아후안 공원(리티디안 포인트)", "건 비치"],
     "flightPriceTypical": {
       "min": 259275,
       "max": 490648,
@@ -887,7 +871,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "saipan",
@@ -898,11 +884,7 @@
       "lat": 15.1778,
       "lng": 145.7508
     },
-    "themes": [
-      "휴양",
-      "액티비티",
-      "자연"
-    ],
+    "themes": ["휴양", "액티비티", "자연"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -914,12 +896,7 @@
       "ICN": 4.4,
       "GMP": null
     },
-    "landmarks": [
-      "마나가하 섬",
-      "만세 절벽",
-      "그로토",
-      "새섬(버드 아일랜드)"
-    ],
+    "landmarks": ["마나가하 섬", "만세 절벽", "그로토", "새섬(버드 아일랜드)"],
     "flightPriceTypical": {
       "min": 318937,
       "max": 494865,
@@ -1212,7 +1189,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "auckland",
@@ -1223,11 +1202,7 @@
       "lat": -36.8485,
       "lng": 174.7633
     },
-    "themes": [
-      "도시",
-      "자연",
-      "액티비티"
-    ],
+    "themes": ["도시", "자연", "액티비티"],
     "visaInfo": {
       "required": true,
       "kind": "eta",
@@ -1239,12 +1214,7 @@
       "ICN": 11.5,
       "GMP": null
     },
-    "landmarks": [
-      "스카이타워",
-      "와이헤케 섬",
-      "원트리힐",
-      "오클랜드 도메인"
-    ],
+    "landmarks": ["스카이타워", "와이헤케 섬", "원트리힐", "오클랜드 도메인"],
     "flightPriceTypical": {
       "min": 1102170,
       "max": 1658708,
@@ -1537,6 +1507,8 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   }
 ]

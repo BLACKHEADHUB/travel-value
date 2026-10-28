@@ -8,12 +8,7 @@
       "lat": 13.7563,
       "lng": 100.5018
     },
-    "themes": [
-      "도시",
-      "미식",
-      "문화/역사",
-      "쇼핑"
-    ],
+    "themes": ["도시", "미식", "문화/역사", "쇼핑"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -25,13 +20,7 @@
       "ICN": 6,
       "GMP": null
     },
-    "landmarks": [
-      "왓 아룬",
-      "왓 포",
-      "대왕궁",
-      "카오산로드",
-      "짜오프라야 강"
-    ],
+    "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
     "flightPriceTypical": {
       "min": 288306,
       "max": 485467,
@@ -444,7 +433,9 @@
         "seasonLevel": "peak",
         "notes": "건기, 연말연시 수요 높음"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "danang",
@@ -455,11 +446,7 @@
       "lat": 16.0544,
       "lng": 108.2022
     },
-    "themes": [
-      "휴양",
-      "미식",
-      "도시"
-    ],
+    "themes": ["휴양", "미식", "도시"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -471,13 +458,7 @@
       "ICN": 4.8,
       "GMP": null
     },
-    "landmarks": [
-      "미케 비치",
-      "골든브리지(바나힐)",
-      "용다리",
-      "마블 마운틴",
-      "호이안 구시가지"
-    ],
+    "landmarks": ["미케 비치", "골든브리지(바나힐)", "용다리", "마블 마운틴", "호이안 구시가지"],
     "flightPriceTypical": {
       "min": 264919,
       "max": 404031,
@@ -890,7 +871,9 @@
         "seasonLevel": null,
         "notes": "우기 끝자락, 선선"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "cebu",
@@ -901,10 +884,7 @@
       "lat": 10.3157,
       "lng": 123.8854
     },
-    "themes": [
-      "휴양",
-      "액티비티"
-    ],
+    "themes": ["휴양", "액티비티"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -916,13 +896,7 @@
       "ICN": 4.7,
       "GMP": null
     },
-    "landmarks": [
-      "막탄 섬",
-      "마젤란 십자가",
-      "산토니뇨 성당",
-      "카와산 폭포",
-      "오슬롭"
-    ],
+    "landmarks": ["막탄 섬", "마젤란 십자가", "산토니뇨 성당", "카와산 폭포", "오슬롭"],
     "flightPriceTypical": {
       "min": 299276,
       "max": 462614,
@@ -1335,7 +1309,9 @@
         "seasonLevel": null,
         "notes": "건기 성수기, 연말연시 수요 높음"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "singapore",
@@ -1346,11 +1322,7 @@
       "lat": 1.3521,
       "lng": 103.8198
     },
-    "themes": [
-      "도시",
-      "미식",
-      "쇼핑"
-    ],
+    "themes": ["도시", "미식", "쇼핑"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -1781,7 +1753,9 @@
         "seasonLevel": null,
         "notes": "북동 몬순 우기, 연말 성수기. 항공가 연중 최고 경향"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "bali",
@@ -1792,10 +1766,7 @@
       "lat": -8.4095,
       "lng": 115.1889
     },
-    "themes": [
-      "휴양",
-      "문화/역사"
-    ],
+    "themes": ["휴양", "문화/역사"],
     "visaInfo": {
       "required": true,
       "kind": "visa",
@@ -2226,6 +2197,8 @@
         "seasonLevel": null,
         "notes": "우기, 연말 성수기"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   }
 ]

@@ -20,9 +20,10 @@
 - **flightPrice (ICN 왕복, 1인, 이코노미, KRW)**: 월별 최저가 경향을 보여주는 페이지(Skyscanner/Kayak/Google Flights "가장 저렴한 달", 여행사·뉴스 기사 등)를 우선. 특정 월 근거가 없으면 그 달은 null. 연간 범위 하나만 있으면 모든 달에 같은 값을 넣지 말고, 근거가 있는 달만 채운다.
 - **flightPriceTypical (연중 대표 왕복가, ICN, KRW)**: 월별 근거가 없을 때를 위한 값. 노선 단위로 출처가 있는 범위(예: Skyscanner/Kayak/Google Flights 노선 페이지의 "왕복 최저가/평균가", 항공사 특가 기사). min/max는 출처 범위 그대로, note에 "왕복 평균가 기준" 등 근거 설명. 월별 값을 이것으로 복사해 채우지 않는다.
 - **dailyCost (1인 1일, 숙박+식비+교통, 중저가 기준)**: Budget Your Trip(403 잦음), Numbeo, 관광청 비용 가이드 등. **출처에 적힌 통화 그대로** `dailyCost.local`({currency: ISO 코드, total, lodging, food, transport})에 넣고 KRW 필드(total/lodging/food/transport)와 fx는 **null로 둔다** — `npm run fx`가 환산한다. **환율을 가정하거나 직접 환산하지 않는다.** 출처가 원화면 local=null, KRW 필드에 그대로. 범위만 있으면 범위 하한·상한 중 하나를 고르지 말고 출처가 '중간/평균'으로 제시한 값만 쓴다. 월별로 안 변하면 12개월 같은 값 허용(confidence medium).
-- **seasonLevel**: peak/shoulder/off — 관광청·여행 가이드의 성수기 설명 근거. 근거 없으면 null.
+- **seasonLevel**: peak/shoulder/off = **항공·숙박 수요(가격) 기준** 성수기/숄더/비수기 (날씨 아님). 관광청·여행사·항공가 통계(Kayak 등 '가장 비싼/싼 달')를 근거로 하고 URL을 `seasonSource`에 남긴다. 근거 없는 달은 null. notes가 seasonLevel과 모순되지 않게 한다.
+- **flightHoursSource**: flightHours 근거 URL(Kayak 노선 페이지, 항공사 시간표 등).
 - **notes**: 우기, 태풍, 축제로 인한 가격 급등 등 짧게(한국어). 없으면 null.
-- **visaInfo**: 한국 여권 기준. 외교부 해외안전여행 또는 대사관 페이지. ETA/ESTA/K-ETA류 전자허가는 required=true + note에 명칭.
+- **visaInfo**: 한국 여권 기준. 출처 우선순위: 외교부 해외안전여행(0404.go.kr 국가별 '입국허가요건') → 해당국 정부/대사관 → 주한 대사관. 상업 대행사·블로그 금지. `kind`: free(무비자) / eta(ESTA·eTA·NZeTA·I-736 등 전자허가) / visa(비자·도착비자). 한시 정책은 `validUntil`(YYYY-MM-DD). source에 URL 필수.
 - **flightHours.ICN**: 직항 기준 편도 시간(소수 1자리). GMP 직항 있으면 GMP에도, 없으면 null.
 - **landmarks**: 3~5개, 한국어 이름.
 - **imageFile**: Commons 파일명(`File:` 접두어 제외, 예: `Tokyo_Tower_2023.jpg`). Wikipedia 문서 대표 이미지나 Commons 검색에서 고른다. 라이선스 확인과 imageUrl/imageCredit 채우기는 `npm run fetch:images`가 한다(직접 쓰지 말 것).

@@ -8,11 +8,7 @@
       "lat": 25.033,
       "lng": 121.5654
     },
-    "themes": [
-      "도시",
-      "미식",
-      "문화/역사"
-    ],
+    "themes": ["도시", "미식", "문화/역사"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -24,12 +20,7 @@
       "ICN": 2.7,
       "GMP": null
     },
-    "landmarks": [
-      "타이베이 101",
-      "지우펀",
-      "스펀",
-      "국립고궁박물관"
-    ],
+    "landmarks": ["타이베이 101", "지우펀", "스펀", "국립고궁박물관"],
     "flightPriceTypical": {
       "min": 273401,
       "max": 407914,
@@ -442,7 +433,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "hongkong",
@@ -453,11 +446,7 @@
       "lat": 22.3193,
       "lng": 114.1694
     },
-    "themes": [
-      "도시",
-      "미식",
-      "쇼핑"
-    ],
+    "themes": ["도시", "미식", "쇼핑"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -469,12 +458,7 @@
       "ICN": 3.7,
       "GMP": null
     },
-    "landmarks": [
-      "빅토리아 피크",
-      "빅토리아 하버",
-      "센트럴",
-      "침사추이"
-    ],
+    "landmarks": ["빅토리아 피크", "빅토리아 하버", "센트럴", "침사추이"],
     "flightPriceTypical": {
       "min": 269436,
       "max": 372539,
@@ -887,7 +871,9 @@
         "seasonLevel": null,
         "notes": "KAYAK 월 중간값 기준 두 번째로 비싼 달"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "shanghai",
@@ -898,11 +884,7 @@
       "lat": 31.2304,
       "lng": 121.4737
     },
-    "themes": [
-      "도시",
-      "문화/역사",
-      "미식"
-    ],
+    "themes": ["도시", "문화/역사", "미식"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -914,12 +896,7 @@
       "ICN": 2,
       "GMP": null
     },
-    "landmarks": [
-      "와이탄",
-      "동방명주",
-      "예원",
-      "푸둥 루자쭈이"
-    ],
+    "landmarks": ["와이탄", "동방명주", "예원", "푸둥 루자쭈이"],
     "flightPriceTypical": {
       "min": 178016,
       "max": 310529,
@@ -1212,7 +1189,9 @@
         "seasonLevel": null,
         "notes": "KAYAK 월 중간값 기준 연중 최저가 달"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "qingdao",
@@ -1223,11 +1202,7 @@
       "lat": 36.0671,
       "lng": 120.3826
     },
-    "themes": [
-      "도시",
-      "휴양",
-      "미식"
-    ],
+    "themes": ["도시", "휴양", "미식"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -1239,12 +1214,7 @@
       "ICN": 1.5,
       "GMP": null
     },
-    "landmarks": [
-      "잔교",
-      "칭다오 맥주박물관",
-      "5·4광장",
-      "팔대관"
-    ],
+    "landmarks": ["잔교", "칭다오 맥주박물관", "5·4광장", "팔대관"],
     "flightPriceTypical": {
       "min": 97606,
       "max": 224027,
@@ -1657,6 +1627,8 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   }
 ]

@@ -8,12 +8,7 @@
       "lat": 35.6812,
       "lng": 139.7671
     },
-    "themes": [
-      "도시",
-      "문화/역사",
-      "미식",
-      "쇼핑"
-    ],
+    "themes": ["도시", "문화/역사", "미식", "쇼핑"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -25,12 +20,7 @@
       "ICN": 2.7,
       "GMP": null
     },
-    "landmarks": [
-      "아사쿠사 센소지",
-      "시부야 스크램블 교차로",
-      "도쿄타워",
-      "오다이바"
-    ],
+    "landmarks": ["아사쿠사 센소지", "시부야 스크램블 교차로", "도쿄타워", "오다이바"],
     "flightPriceTypical": {
       "min": 256287,
       "max": 371519,
@@ -323,7 +313,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "osaka",
@@ -334,12 +326,7 @@
       "lat": 34.6937,
       "lng": 135.5023
     },
-    "themes": [
-      "도시",
-      "미식",
-      "문화/역사",
-      "쇼핑"
-    ],
+    "themes": ["도시", "미식", "문화/역사", "쇼핑"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -351,12 +338,7 @@
       "ICN": 1.9,
       "GMP": null
     },
-    "landmarks": [
-      "오사카성",
-      "도톤보리",
-      "유니버설 스튜디오 재팬",
-      "신세카이"
-    ],
+    "landmarks": ["오사카성", "도톤보리", "유니버설 스튜디오 재팬", "신세카이"],
     "flightPriceTypical": {
       "min": 197439,
       "max": 304819,
@@ -649,7 +631,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "fukuoka",
@@ -660,11 +644,7 @@
       "lat": 33.5902,
       "lng": 130.4017
     },
-    "themes": [
-      "도시",
-      "미식",
-      "온천"
-    ],
+    "themes": ["도시", "미식", "온천"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -676,12 +656,7 @@
       "ICN": 1.5,
       "GMP": null
     },
-    "landmarks": [
-      "다자이후 텐만구",
-      "오호리 공원",
-      "캐널시티 하카타",
-      "나카스 야타이"
-    ],
+    "landmarks": ["다자이후 텐만구", "오호리 공원", "캐널시티 하카타", "나카스 야타이"],
     "flightPriceTypical": {
       "min": 193784,
       "max": 320140,
@@ -974,7 +949,9 @@
         "seasonLevel": null,
         "notes": null
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   },
   {
     "id": "sapporo",
@@ -985,12 +962,7 @@
       "lat": 43.0618,
       "lng": 141.3545
     },
-    "themes": [
-      "도시",
-      "자연",
-      "미식",
-      "온천"
-    ],
+    "themes": ["도시", "자연", "미식", "온천"],
     "visaInfo": {
       "required": false,
       "kind": "free",
@@ -1002,12 +974,7 @@
       "ICN": 2.5,
       "GMP": null
     },
-    "landmarks": [
-      "오도리 공원",
-      "삿포로 TV타워",
-      "삿포로 맥주박물관",
-      "니조 시장"
-    ],
+    "landmarks": ["오도리 공원", "삿포로 TV타워", "삿포로 맥주박물관", "니조 시장"],
     "flightPriceTypical": {
       "min": 367311,
       "max": 589697,
@@ -1300,6 +1267,8 @@
         "seasonLevel": null,
         "notes": "카약 기준 월별 항공 중간값"
       }
-    ]
+    ],
+    "flightHoursSource": null,
+    "seasonSource": null
   }
 ]
