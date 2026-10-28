@@ -19,8 +19,21 @@
       "GMP": null
     },
     "landmarks": ["오페라하우스", "하버브리지", "본다이비치", "블루마운틴"],
-    "imageUrl": null,
-    "imageCredit": null,
+    "flightPriceTypical": {
+      "min": 760319,
+      "max": 1236847,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/시드니-킹스포드스미스국제공항-SYD",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 노선 페이지 ICN-SYD 왕복 일반 가격대, 최근 12개월 평균 983,487원 기준"
+    },
+    "imageFile": "Sydney_Opera_House_-_Dec_2008.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1280px-Sydney_Opera_House_-_Dec_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Diliff",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg"
+    },
     "monthly": [
       {
         "month": 1,
@@ -32,10 +45,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -53,10 +78,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -74,10 +111,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -95,10 +144,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -116,10 +177,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -137,10 +210,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -158,10 +243,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -179,10 +276,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -200,10 +309,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -221,10 +342,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -242,10 +375,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -263,10 +408,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 191363,
-          "lodging": 118125,
-          "food": 56700,
-          "transport": 16538,
+          "local": {
+            "currency": "AUD",
+            "total": 202.5,
+            "lodging": 125,
+            "food": 60,
+            "transport": 17.5
+          },
+          "fx": {
+            "rate": 932.836,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 188900,
+          "lodging": 116600,
+          "food": 56000,
+          "transport": 16300,
           "source": "https://radicalstorage.com/travel/is-sydney-expensive/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -274,15 +431,6 @@
         "seasonLevel": "peak",
         "notes": "여름 성수기, 12/31 새해맞이 불꽃놀이 전후 숙박·항공가 급등"
       }
-    ],
-    "flightPriceTypical": {
-      "min": 760319,
-      "max": 1236847,
-      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/시드니-킹스포드스미스국제공항-SYD",
-      "asOf": "2026-10-28",
-      "confidence": "medium",
-      "note": "KAYAK 노선 페이지 ICN-SYD 왕복 일반 가격대, 최근 12개월 평균 983,487원 기준"
-    },
-    "imageFile": "Sydney_Opera_House_-_Dec_2008.jpg"
+    ]
   }
 ]

@@ -19,8 +19,21 @@
       "GMP": null
     },
     "landmarks": ["타이베이 101", "지우펀", "스펀", "국립고궁박물관"],
-    "imageUrl": null,
-    "imageCredit": null,
+    "flightPriceTypical": {
+      "min": 273401,
+      "max": 407914,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타이베이-TW1",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "KAYAK 인천-타이베이 왕복 최근 12개월 가격 범위(평균 326,623원)"
+    },
+    "imageFile": "Taipei_Skyline_2022.06.29.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Taipei_Skyline_2022.06.29.jpg/1280px-Taipei_Skyline_2022.06.29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "毛貓大少爺",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Skyline_2022.06.29.jpg"
+    },
     "monthly": [
       {
         "month": 1,
@@ -32,10 +45,22 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -53,10 +78,22 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -74,10 +111,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -95,10 +144,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -116,10 +177,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -137,10 +210,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -158,10 +243,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -179,10 +276,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -200,10 +309,22 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -221,10 +342,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -242,10 +375,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -263,10 +408,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 153000,
-          "lodging": 81000,
-          "food": 58500,
-          "transport": 13500,
+          "local": {
+            "currency": "TWD",
+            "total": 3400,
+            "lodging": 1800,
+            "food": 1300,
+            "transport": 300
+          },
+          "fx": {
+            "rate": 40.901,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 139100,
+          "lodging": 73600,
+          "food": 53200,
+          "transport": 12300,
           "source": "https://www.taipeitourism.org/taipei-travel-cost/",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -274,15 +431,6 @@
         "seasonLevel": null,
         "notes": null
       }
-    ],
-    "flightPriceTypical": {
-      "min": 273401,
-      "max": 407914,
-      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타이베이-TW1",
-      "asOf": "2026-10-28",
-      "confidence": "medium",
-      "note": "KAYAK 인천-타이베이 왕복 최근 12개월 가격 범위(평균 326,623원)"
-    },
-    "imageFile": "Taipei_Skyline_2022.06.29.jpg"
+    ]
   }
 ]

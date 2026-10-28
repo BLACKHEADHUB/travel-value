@@ -19,8 +19,21 @@
       "GMP": null
     },
     "landmarks": ["에펠탑", "루브르 박물관", "노트르담 대성당"],
-    "imageUrl": null,
-    "imageCredit": null,
+    "flightPriceTypical": {
+      "min": 881537,
+      "max": 1369347,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 ICN→파리 왕복 12개월 데이터 기준 일반 범위(평균 약 1,087,053원)"
+    },
+    "imageFile": "Tour_Eiffel_Wikimedia_Commons.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Benh LIEU SONG",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+    },
     "monthly": [
       {
         "month": 1,
@@ -32,6 +45,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -53,6 +68,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -74,6 +91,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -95,6 +114,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -116,6 +137,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -137,6 +160,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -158,6 +183,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -179,6 +206,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -200,6 +229,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -221,6 +252,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -242,6 +275,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -263,6 +298,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -274,15 +311,6 @@
         "seasonLevel": null,
         "notes": "카약 기준 연중 가장 저렴한 달(왕복 중앙값 887,217원)"
       }
-    ],
-    "flightPriceTypical": {
-      "min": 881537,
-      "max": 1369347,
-      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/파리-PAR",
-      "asOf": "2026-10-28",
-      "confidence": "medium",
-      "note": "카약 ICN→파리 왕복 12개월 데이터 기준 일반 범위(평균 약 1,087,053원)"
-    },
-    "imageFile": "Tour_Eiffel_Wikimedia_Commons.jpg"
+    ]
   }
 ]

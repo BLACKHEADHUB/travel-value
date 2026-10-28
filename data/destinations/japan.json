@@ -19,8 +19,21 @@
       "GMP": null
     },
     "landmarks": ["아사쿠사 센소지", "시부야 스크램블 교차로", "도쿄타워", "오다이바"],
-    "imageUrl": null,
-    "imageCredit": null,
+    "flightPriceTypical": {
+      "min": 256287,
+      "max": 371519,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/도쿄-TYO",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "카약 인천→도쿄 왕복 '일반적인 금액' 범위(11월 출발 검색 기준), 최근 12개월 평균 305,163원"
+    },
+    "imageFile": "Skyscrapers_of_Shinjuku_2009_January.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/1280px-Skyscrapers_of_Shinjuku_2009_January.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
     "monthly": [
       {
         "month": 1,
@@ -32,6 +45,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -53,6 +68,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -74,6 +91,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -95,6 +114,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -116,6 +137,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -137,6 +160,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -158,6 +183,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -179,6 +206,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -200,6 +229,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -221,6 +252,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -242,6 +275,8 @@
           "confidence": "medium"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -263,6 +298,8 @@
           "confidence": "low"
         },
         "dailyCost": {
+          "local": null,
+          "fx": null,
           "total": null,
           "lodging": null,
           "food": null,
@@ -274,15 +311,6 @@
         "seasonLevel": null,
         "notes": null
       }
-    ],
-    "flightPriceTypical": {
-      "min": 256287,
-      "max": 371519,
-      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/도쿄-TYO",
-      "asOf": "2026-10-28",
-      "confidence": "medium",
-      "note": "카약 인천→도쿄 왕복 '일반적인 금액' 범위(11월 출발 검색 기준), 최근 12개월 평균 305,163원"
-    },
-    "imageFile": "Skyscrapers_of_Shinjuku_2009_January.jpg"
+    ]
   }
 ]

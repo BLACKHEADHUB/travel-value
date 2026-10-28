@@ -1,0 +1,9 @@
+{
+  "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)",
+  "date": "2026-10-28",
+  "krwPer": {
+    "TWD": 40.901,
+    "AUD": 932.836,
+    "USD": 1326.26
+  }
+}

@@ -19,8 +19,21 @@
       "GMP": null
     },
     "landmarks": ["왓 아룬", "왓 포", "대왕궁", "카오산로드", "짜오프라야 강"],
-    "imageUrl": null,
-    "imageCredit": null,
+    "flightPriceTypical": {
+      "min": 288306,
+      "max": 485467,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
+      "asOf": "2026-10-28",
+      "confidence": "medium",
+      "note": "Kayak ICN-방콕 왕복 최저~최고 범위, 지난 12개월 평균 왕복 374,949원 기준"
+    },
+    "imageFile": "Wat_Arun_Bangkok.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Wat_Arun_Bangkok.jpg/1280px-Wat_Arun_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Cun Cun",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wat_Arun_Bangkok.jpg"
+    },
     "monthly": [
       {
         "month": 1,
@@ -32,10 +45,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -53,10 +78,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -74,10 +111,22 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -95,10 +144,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -116,10 +177,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -137,10 +210,22 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -158,10 +243,22 @@
           "confidence": "medium"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -179,10 +276,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -200,10 +309,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -221,10 +342,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -242,10 +375,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -263,10 +408,22 @@
           "confidence": "low"
         },
         "dailyCost": {
-          "total": 143000,
+          "local": {
+            "currency": "USD",
+            "total": 102,
+            "lodging": null,
+            "food": 35,
+            "transport": 6.28
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 135300,
           "lodging": null,
-          "food": 49000,
-          "transport": 8800,
+          "food": 46400,
+          "transport": 8300,
           "source": "https://www.budgetyourtrip.com/thailand/bangkok",
           "asOf": "2026-10-28",
           "confidence": "low"
@@ -274,15 +431,6 @@
         "seasonLevel": "peak",
         "notes": "건기, 연말연시 수요 높음"
       }
-    ],
-    "flightPriceTypical": {
-      "min": 288306,
-      "max": 485467,
-      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/방콕-TH1",
-      "asOf": "2026-10-28",
-      "confidence": "medium",
-      "note": "Kayak ICN-방콕 왕복 최저~최고 범위, 지난 12개월 평균 왕복 374,949원 기준"
-    },
-    "imageFile": "Wat_Arun_Bangkok.jpg"
+    ]
   }
 ]
