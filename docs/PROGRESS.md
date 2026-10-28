@@ -16,9 +16,16 @@
 
 - [x] 날짜 지정·브랜드 (브랜치 feat/date-brand): 출발·귀국일 달력(범위·빠른 길이·월만 정하기, 모바일 바텀시트), 검색창형 조건 바, 브랜드 '제철여행'(잎 로고, 청록 포인트, 따뜻한 바탕)
 
-## 현재 작업
+## 현재 작업 (2026-10-29, 브랜치 feat/expand-cities)
+**도시 25 → 57곳 확장 진행 중.** 수집 에이전트 9개가 `data/staging/<이름>.json`에 쓰는 중(japan-x, vn-th, sea-b, china-x, west-asia, europe-a, europe-b, americas-x, oceania-x). 새 지역 `west-asia`(중동·중앙·남아시아) 추가됨. 패키지는 이번엔 수집 안 함.
 
-날짜·브랜드 PR 리뷰/머지 대기.
+이어서 할 순서:
+1. `ls data/staging` 로 9개 파일 확인 → 각각 `npx tsx scripts/staging.ts check <file>`
+2. `npx tsx scripts/staging.ts merge` (지역 파일로 병합, 스테이징 비움)
+3. `npm run fetch:climate` → `npm run fx` → `npm run fetch:images`(429 나면 잠시 후 재실행, 실패 파일명은 Commons 검색으로 교체) → `npm run validate:data`
+4. 점수에 성수기·비수기 수요 반영: `src/lib/score.ts` 가격 항목에 seasonLevel 보정(예: peak −10, off +10), `/score` 페이지 설명·테스트 추가
+5. reviewer 에이전트로 새 도시 검수 → 수정 → `npm run data:report`
+6. `npm run build && npm run qa`, `npm run verify` → PROGRESS·DECISIONS 갱신 → 커밋 → PR
 
 ## 다음 할 일 (선택)
 
