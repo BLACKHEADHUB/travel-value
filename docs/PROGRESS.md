@@ -13,7 +13,7 @@
 
 ## 현재 작업
 
-없음. Vercel 프로덕션 배포 완료(main, CLI 수동 배포). GitHub 연동 자동 배포는 미설정.
+없음. Vercel 자동 배포 연결됨: main 머지 → 프로덕션, PR 브랜치 push → 미리보기(Preview) URL.
 
 ## 다음 할 일
 
