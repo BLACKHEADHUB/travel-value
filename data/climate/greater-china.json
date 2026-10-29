@@ -298,6 +298,302 @@
         "avgTempMax": 6,
         "rainfallMm": 12
       }
+    ],
+    "macau": [
+      {
+        "month": 1,
+        "avgTempMin": 13.8,
+        "avgTempMax": 19.5,
+        "rainfallMm": 17
+      },
+      {
+        "month": 2,
+        "avgTempMin": 15.2,
+        "avgTempMax": 20.4,
+        "rainfallMm": 75
+      },
+      {
+        "month": 3,
+        "avgTempMin": 18.7,
+        "avgTempMax": 23.2,
+        "rainfallMm": 83
+      },
+      {
+        "month": 4,
+        "avgTempMin": 21,
+        "avgTempMax": 25.1,
+        "rainfallMm": 108
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.4,
+        "avgTempMax": 27.9,
+        "rainfallMm": 228
+      },
+      {
+        "month": 6,
+        "avgTempMin": 26.7,
+        "avgTempMax": 29.8,
+        "rainfallMm": 285
+      },
+      {
+        "month": 7,
+        "avgTempMin": 27.2,
+        "avgTempMax": 30.8,
+        "rainfallMm": 246
+      },
+      {
+        "month": 8,
+        "avgTempMin": 26.4,
+        "avgTempMax": 30.1,
+        "rainfallMm": 402
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.7,
+        "avgTempMax": 29.9,
+        "rainfallMm": 322
+      },
+      {
+        "month": 10,
+        "avgTempMin": 22.8,
+        "avgTempMax": 27.4,
+        "rainfallMm": 236
+      },
+      {
+        "month": 11,
+        "avgTempMin": 19.6,
+        "avgTempMax": 25,
+        "rainfallMm": 46
+      },
+      {
+        "month": 12,
+        "avgTempMin": 14,
+        "avgTempMax": 20.4,
+        "rainfallMm": 27
+      }
+    ],
+    "kaohsiung": [
+      {
+        "month": 1,
+        "avgTempMin": 15.8,
+        "avgTempMax": 23.6,
+        "rainfallMm": 22
+      },
+      {
+        "month": 2,
+        "avgTempMin": 16.9,
+        "avgTempMax": 24.8,
+        "rainfallMm": 14
+      },
+      {
+        "month": 3,
+        "avgTempMin": 19.2,
+        "avgTempMax": 26.6,
+        "rainfallMm": 24
+      },
+      {
+        "month": 4,
+        "avgTempMin": 21.8,
+        "avgTempMax": 28.1,
+        "rainfallMm": 60
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.5,
+        "avgTempMax": 29.7,
+        "rainfallMm": 218
+      },
+      {
+        "month": 6,
+        "avgTempMin": 26.2,
+        "avgTempMax": 30.8,
+        "rainfallMm": 231
+      },
+      {
+        "month": 7,
+        "avgTempMin": 26.5,
+        "avgTempMax": 31.2,
+        "rainfallMm": 271
+      },
+      {
+        "month": 8,
+        "avgTempMin": 26,
+        "avgTempMax": 30.4,
+        "rainfallMm": 488
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.5,
+        "avgTempMax": 30.4,
+        "rainfallMm": 151
+      },
+      {
+        "month": 10,
+        "avgTempMin": 23.9,
+        "avgTempMax": 29.2,
+        "rainfallMm": 121
+      },
+      {
+        "month": 11,
+        "avgTempMin": 21.2,
+        "avgTempMax": 27.6,
+        "rainfallMm": 33
+      },
+      {
+        "month": 12,
+        "avgTempMin": 17.3,
+        "avgTempMax": 24.9,
+        "rainfallMm": 32
+      }
+    ],
+    "beijing": [
+      {
+        "month": 1,
+        "avgTempMin": -6.9,
+        "avgTempMax": 2.8,
+        "rainfallMm": 2
+      },
+      {
+        "month": 2,
+        "avgTempMin": -4.8,
+        "avgTempMax": 6.3,
+        "rainfallMm": 9
+      },
+      {
+        "month": 3,
+        "avgTempMin": 1.1,
+        "avgTempMax": 15.3,
+        "rainfallMm": 12
+      },
+      {
+        "month": 4,
+        "avgTempMin": 7.7,
+        "avgTempMax": 21.4,
+        "rainfallMm": 17
+      },
+      {
+        "month": 5,
+        "avgTempMin": 14.1,
+        "avgTempMax": 27.8,
+        "rainfallMm": 25
+      },
+      {
+        "month": 6,
+        "avgTempMin": 20.2,
+        "avgTempMax": 32.6,
+        "rainfallMm": 65
+      },
+      {
+        "month": 7,
+        "avgTempMin": 22.3,
+        "avgTempMax": 31.7,
+        "rainfallMm": 224
+      },
+      {
+        "month": 8,
+        "avgTempMin": 21,
+        "avgTempMax": 29.8,
+        "rainfallMm": 147
+      },
+      {
+        "month": 9,
+        "avgTempMin": 16.5,
+        "avgTempMax": 27.2,
+        "rainfallMm": 71
+      },
+      {
+        "month": 10,
+        "avgTempMin": 7.8,
+        "avgTempMax": 18.9,
+        "rainfallMm": 22
+      },
+      {
+        "month": 11,
+        "avgTempMin": 0.2,
+        "avgTempMax": 10.1,
+        "rainfallMm": 21
+      },
+      {
+        "month": 12,
+        "avgTempMin": -6.7,
+        "avgTempMax": 2.5,
+        "rainfallMm": 5
+      }
+    ],
+    "zhangjiajie": [
+      {
+        "month": 1,
+        "avgTempMin": 3,
+        "avgTempMax": 9.9,
+        "rainfallMm": 83
+      },
+      {
+        "month": 2,
+        "avgTempMin": 4.5,
+        "avgTempMax": 12,
+        "rainfallMm": 77
+      },
+      {
+        "month": 3,
+        "avgTempMin": 9.5,
+        "avgTempMax": 18.1,
+        "rainfallMm": 132
+      },
+      {
+        "month": 4,
+        "avgTempMin": 13,
+        "avgTempMax": 21.6,
+        "rainfallMm": 164
+      },
+      {
+        "month": 5,
+        "avgTempMin": 17.6,
+        "avgTempMax": 25.6,
+        "rainfallMm": 184
+      },
+      {
+        "month": 6,
+        "avgTempMin": 22.2,
+        "avgTempMax": 29.7,
+        "rainfallMm": 251
+      },
+      {
+        "month": 7,
+        "avgTempMin": 24.6,
+        "avgTempMax": 31.9,
+        "rainfallMm": 218
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.2,
+        "avgTempMax": 32.7,
+        "rainfallMm": 154
+      },
+      {
+        "month": 9,
+        "avgTempMin": 21.2,
+        "avgTempMax": 29.1,
+        "rainfallMm": 85
+      },
+      {
+        "month": 10,
+        "avgTempMin": 15.1,
+        "avgTempMax": 22.2,
+        "rainfallMm": 76
+      },
+      {
+        "month": 11,
+        "avgTempMin": 10.3,
+        "avgTempMax": 17.9,
+        "rainfallMm": 62
+      },
+      {
+        "month": 12,
+        "avgTempMin": 4.1,
+        "avgTempMax": 11.7,
+        "rainfallMm": 31
+      }
     ]
   }
 }

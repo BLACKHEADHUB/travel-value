@@ -298,6 +298,450 @@
         "avgTempMax": 5.1,
         "rainfallMm": 51
       }
+    ],
+    "istanbul": [
+      {
+        "month": 1,
+        "avgTempMin": 4,
+        "avgTempMax": 9.7,
+        "rainfallMm": 99
+      },
+      {
+        "month": 2,
+        "avgTempMin": 3.7,
+        "avgTempMax": 10.1,
+        "rainfallMm": 84
+      },
+      {
+        "month": 3,
+        "avgTempMin": 4.6,
+        "avgTempMax": 11.4,
+        "rainfallMm": 77
+      },
+      {
+        "month": 4,
+        "avgTempMin": 7.9,
+        "avgTempMax": 15.8,
+        "rainfallMm": 68
+      },
+      {
+        "month": 5,
+        "avgTempMin": 12.9,
+        "avgTempMax": 21.5,
+        "rainfallMm": 53
+      },
+      {
+        "month": 6,
+        "avgTempMin": 17.8,
+        "avgTempMax": 25.6,
+        "rainfallMm": 65
+      },
+      {
+        "month": 7,
+        "avgTempMin": 20.2,
+        "avgTempMax": 28.8,
+        "rainfallMm": 33
+      },
+      {
+        "month": 8,
+        "avgTempMin": 21.2,
+        "avgTempMax": 29.5,
+        "rainfallMm": 26
+      },
+      {
+        "month": 9,
+        "avgTempMin": 17.7,
+        "avgTempMax": 25.6,
+        "rainfallMm": 32
+      },
+      {
+        "month": 10,
+        "avgTempMin": 14,
+        "avgTempMax": 21,
+        "rainfallMm": 52
+      },
+      {
+        "month": 11,
+        "avgTempMin": 10.4,
+        "avgTempMax": 17,
+        "rainfallMm": 90
+      },
+      {
+        "month": 12,
+        "avgTempMin": 7,
+        "avgTempMax": 12.7,
+        "rainfallMm": 66
+      }
+    ],
+    "lisbon": [
+      {
+        "month": 1,
+        "avgTempMin": 8.3,
+        "avgTempMax": 14.4,
+        "rainfallMm": 35
+      },
+      {
+        "month": 2,
+        "avgTempMin": 9.2,
+        "avgTempMax": 16.8,
+        "rainfallMm": 47
+      },
+      {
+        "month": 3,
+        "avgTempMin": 10.4,
+        "avgTempMax": 18.2,
+        "rainfallMm": 45
+      },
+      {
+        "month": 4,
+        "avgTempMin": 11.8,
+        "avgTempMax": 19.4,
+        "rainfallMm": 74
+      },
+      {
+        "month": 5,
+        "avgTempMin": 14.8,
+        "avgTempMax": 23.8,
+        "rainfallMm": 23
+      },
+      {
+        "month": 6,
+        "avgTempMin": 15.9,
+        "avgTempMax": 24.6,
+        "rainfallMm": 17
+      },
+      {
+        "month": 7,
+        "avgTempMin": 17.9,
+        "avgTempMax": 28.4,
+        "rainfallMm": 1
+      },
+      {
+        "month": 8,
+        "avgTempMin": 18.2,
+        "avgTempMax": 28.2,
+        "rainfallMm": 2
+      },
+      {
+        "month": 9,
+        "avgTempMin": 17.5,
+        "avgTempMax": 26,
+        "rainfallMm": 52
+      },
+      {
+        "month": 10,
+        "avgTempMin": 15.4,
+        "avgTempMax": 23.3,
+        "rainfallMm": 85
+      },
+      {
+        "month": 11,
+        "avgTempMin": 12.1,
+        "avgTempMax": 18.1,
+        "rainfallMm": 71
+      },
+      {
+        "month": 12,
+        "avgTempMin": 10.6,
+        "avgTempMax": 16.1,
+        "rainfallMm": 116
+      }
+    ],
+    "london": [
+      {
+        "month": 1,
+        "avgTempMin": 1.5,
+        "avgTempMax": 7.7,
+        "rainfallMm": 56
+      },
+      {
+        "month": 2,
+        "avgTempMin": 2.9,
+        "avgTempMax": 10,
+        "rainfallMm": 54
+      },
+      {
+        "month": 3,
+        "avgTempMin": 3.8,
+        "avgTempMax": 11.4,
+        "rainfallMm": 54
+      },
+      {
+        "month": 4,
+        "avgTempMin": 4,
+        "avgTempMax": 14,
+        "rainfallMm": 35
+      },
+      {
+        "month": 5,
+        "avgTempMin": 7.7,
+        "avgTempMax": 17.2,
+        "rainfallMm": 53
+      },
+      {
+        "month": 6,
+        "avgTempMin": 11.6,
+        "avgTempMax": 21.2,
+        "rainfallMm": 74
+      },
+      {
+        "month": 7,
+        "avgTempMin": 13.7,
+        "avgTempMax": 22.7,
+        "rainfallMm": 62
+      },
+      {
+        "month": 8,
+        "avgTempMin": 13.9,
+        "avgTempMax": 22.8,
+        "rainfallMm": 52
+      },
+      {
+        "month": 9,
+        "avgTempMin": 11.8,
+        "avgTempMax": 20.6,
+        "rainfallMm": 54
+      },
+      {
+        "month": 10,
+        "avgTempMin": 8.8,
+        "avgTempMax": 15.8,
+        "rainfallMm": 113
+      },
+      {
+        "month": 11,
+        "avgTempMin": 5.1,
+        "avgTempMax": 11.2,
+        "rainfallMm": 78
+      },
+      {
+        "month": 12,
+        "avgTempMin": 3.4,
+        "avgTempMax": 8.8,
+        "rainfallMm": 79
+      }
+    ],
+    "interlaken": [
+      {
+        "month": 1,
+        "avgTempMin": 1.1,
+        "avgTempMax": 6.1,
+        "rainfallMm": 138
+      },
+      {
+        "month": 2,
+        "avgTempMin": 2.8,
+        "avgTempMax": 10.1,
+        "rainfallMm": 105
+      },
+      {
+        "month": 3,
+        "avgTempMin": 3.2,
+        "avgTempMax": 11.6,
+        "rainfallMm": 123
+      },
+      {
+        "month": 4,
+        "avgTempMin": 5.1,
+        "avgTempMax": 14.2,
+        "rainfallMm": 134
+      },
+      {
+        "month": 5,
+        "avgTempMin": 8.4,
+        "avgTempMax": 17.4,
+        "rainfallMm": 202
+      },
+      {
+        "month": 6,
+        "avgTempMin": 13.4,
+        "avgTempMax": 23.4,
+        "rainfallMm": 166
+      },
+      {
+        "month": 7,
+        "avgTempMin": 15.6,
+        "avgTempMax": 24.5,
+        "rainfallMm": 186
+      },
+      {
+        "month": 8,
+        "avgTempMin": 15.8,
+        "avgTempMax": 24.2,
+        "rainfallMm": 194
+      },
+      {
+        "month": 9,
+        "avgTempMin": 13.9,
+        "avgTempMax": 21.1,
+        "rainfallMm": 125
+      },
+      {
+        "month": 10,
+        "avgTempMin": 10.3,
+        "avgTempMax": 17.8,
+        "rainfallMm": 149
+      },
+      {
+        "month": 11,
+        "avgTempMin": 5.7,
+        "avgTempMax": 11,
+        "rainfallMm": 157
+      },
+      {
+        "month": 12,
+        "avgTempMin": 2.9,
+        "avgTempMax": 8.6,
+        "rainfallMm": 176
+      }
+    ],
+    "reykjavik": [
+      {
+        "month": 1,
+        "avgTempMin": -3,
+        "avgTempMax": 1.9,
+        "rainfallMm": 161
+      },
+      {
+        "month": 2,
+        "avgTempMin": -1.9,
+        "avgTempMax": 2.4,
+        "rainfallMm": 154
+      },
+      {
+        "month": 3,
+        "avgTempMin": -1.7,
+        "avgTempMax": 2.8,
+        "rainfallMm": 140
+      },
+      {
+        "month": 4,
+        "avgTempMin": 1.6,
+        "avgTempMax": 6.6,
+        "rainfallMm": 149
+      },
+      {
+        "month": 5,
+        "avgTempMin": 3.6,
+        "avgTempMax": 8.7,
+        "rainfallMm": 119
+      },
+      {
+        "month": 6,
+        "avgTempMin": 6.6,
+        "avgTempMax": 11.4,
+        "rainfallMm": 97
+      },
+      {
+        "month": 7,
+        "avgTempMin": 8.6,
+        "avgTempMax": 13.3,
+        "rainfallMm": 71
+      },
+      {
+        "month": 8,
+        "avgTempMin": 8.5,
+        "avgTempMax": 13.2,
+        "rainfallMm": 110
+      },
+      {
+        "month": 9,
+        "avgTempMin": 6,
+        "avgTempMax": 10.4,
+        "rainfallMm": 167
+      },
+      {
+        "month": 10,
+        "avgTempMin": 2.5,
+        "avgTempMax": 6.7,
+        "rainfallMm": 143
+      },
+      {
+        "month": 11,
+        "avgTempMin": 0.5,
+        "avgTempMax": 4.4,
+        "rainfallMm": 120
+      },
+      {
+        "month": 12,
+        "avgTempMin": -3,
+        "avgTempMax": 1.1,
+        "rainfallMm": 122
+      }
+    ],
+    "budapest": [
+      {
+        "month": 1,
+        "avgTempMin": -1.9,
+        "avgTempMax": 4.5,
+        "rainfallMm": 39
+      },
+      {
+        "month": 2,
+        "avgTempMin": -0.3,
+        "avgTempMax": 8.5,
+        "rainfallMm": 29
+      },
+      {
+        "month": 3,
+        "avgTempMin": 1.5,
+        "avgTempMax": 12.2,
+        "rainfallMm": 28
+      },
+      {
+        "month": 4,
+        "avgTempMin": 5.3,
+        "avgTempMax": 16.1,
+        "rainfallMm": 50
+      },
+      {
+        "month": 5,
+        "avgTempMin": 10.3,
+        "avgTempMax": 20.1,
+        "rainfallMm": 93
+      },
+      {
+        "month": 6,
+        "avgTempMin": 16.2,
+        "avgTempMax": 26.5,
+        "rainfallMm": 74
+      },
+      {
+        "month": 7,
+        "avgTempMin": 17.7,
+        "avgTempMax": 28.5,
+        "rainfallMm": 64
+      },
+      {
+        "month": 8,
+        "avgTempMin": 17.6,
+        "avgTempMax": 28.1,
+        "rainfallMm": 65
+      },
+      {
+        "month": 9,
+        "avgTempMin": 12.8,
+        "avgTempMax": 23,
+        "rainfallMm": 61
+      },
+      {
+        "month": 10,
+        "avgTempMin": 8,
+        "avgTempMax": 17.3,
+        "rainfallMm": 53
+      },
+      {
+        "month": 11,
+        "avgTempMin": 3.3,
+        "avgTempMax": 9.9,
+        "rainfallMm": 66
+      },
+      {
+        "month": 12,
+        "avgTempMin": -0.3,
+        "avgTempMax": 5.3,
+        "rainfallMm": 72
+      }
     ]
   }
 }

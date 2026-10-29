@@ -33,3 +33,12 @@
 ## 마무리
 
 `npm run fx`, `npm run fetch:images`는 **실행하지 않는다**(메인이 일괄 실행). 기후는 `npx tsx scripts/fetch-climate.ts <region>`으로 자기 지역만 생성. 검증은 `VALIDATE_SKIP_FX=1 npx tsx scripts/validate-data.ts`로 하고 자기 파일의 오류만 고친 뒤, 메인에 **10줄 이내 요약만** 반환: 도시별 채운 월 수(항공/경비), null 비율, 패키지 개수, confidence low 항목, 막힌 사이트.
+
+## 병렬 확장 수집 (스테이징)
+
+여러 에이전트가 같은 지역 파일을 동시에 고치지 않도록, 확장 수집은 **`data/staging/<agent-name>.json`**(Destination 배열) 한 파일에만 쓴다.
+
+- 형식 예시는 기존 `data/destinations/*.json`의 도시 하나를 참고(필드 전부 포함: `flightPriceTypical`, `imageFile`, `seasonSource`, `flightHoursSource`, `visaInfo.kind/validUntil`, `dailyCost.local/fx` 등).
+- 패키지는 이번에 수집하지 않는다(상세 페이지에서 조건 확인이 거의 불가해 비용 대비 효과 낮음).
+- 기후·환율·이미지 스크립트는 **실행하지 않는다**(메인이 병합 후 일괄 실행).
+- 검사: `npx tsx scripts/staging.ts check data/staging/<agent-name>.json`

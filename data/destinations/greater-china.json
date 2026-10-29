@@ -1630,5 +1630,1757 @@
         "notes": null
       }
     ]
+  },
+  {
+    "id": "macau",
+    "nameKo": "마카오",
+    "country": "마카오",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 22.1987,
+      "lng": 113.5439
+    },
+    "themes": ["도시", "쇼핑", "미식"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "마카오 보안경찰국(PSP) 출입국 안내: 한국 여권 소지자 최대 90일 무비자. 여권 체류 예정 기간 후 90일 이상 유효, 귀국/제3국행 항공권과 체류 자금 증빙 필요.",
+      "source": "https://www.gov.mo/en/services/ps-1474/"
+    },
+    "flightHours": {
+      "ICN": 4.1,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/마카오-MFM",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/마카오-MFM | https://asgam.com/2025/02/06/macau-average-hotel-occupancy-rate-climbs-to-95-during-chinese-new-year/",
+    "landmarks": ["세나도 광장", "성 바울 성당 유적", "베네시안 마카오", "마카오 타워"],
+    "flightPriceTypical": {
+      "min": 315026,
+      "max": 472936,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/마카오-MFM",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "KAYAK 인천-마카오 왕복 최근 12개월 일반 가격대(평균 381,640원)"
+    },
+    "imageFile": "Macau skyline 2013.JPG",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Macau_skyline_2013.JPG/1280px-Macau_skyline_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Mimihitam",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macau_skyline_2013.JPG"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 448413,
+          "max": 448413,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/마카오-MFM",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 월 중간값 최고가 달. 춘절 연휴 호텔 평균 객실 점유율 약 95%(MGTO 집계 보도)"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 292328,
+          "max": 292328,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/마카오-MFM",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 월 중간값 최저가 달"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 431217,
+          "max": 431217,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/마카오-MFM",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "MOP",
+            "total": 1281,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 164.285,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 210400,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/macao",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 기준 비싼 편(연말)"
+      }
+    ]
+  },
+  {
+    "id": "kaohsiung",
+    "nameKo": "가오슝",
+    "country": "대만",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 22.6273,
+      "lng": 120.3014
+    },
+    "themes": ["도시", "미식", "문화/역사"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "대만 영사국(BOCA) 면비자 입국 안내: 한국 여권 90일 이내 무비자(입국일 다음날부터, 연장 불가). 여권 잔여 6개월 이상, 확정된 왕복/제3국행 항공권 필요.",
+      "source": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html"
+    },
+    "flightHours": {
+      "ICN": 3.3,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/가오슝-KHH",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/가오슝-KHH",
+    "landmarks": ["보얼 예술특구", "롄츠탄", "불광산사", "치진섬"],
+    "flightPriceTypical": {
+      "min": 309189,
+      "max": 441875,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/가오슝-KHH",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "KAYAK 인천-가오슝 왕복 최근 12개월 일반 가격대(평균 359,713원)"
+    },
+    "imageFile": "Kaohsiung skyline 2020 May.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kaohsiung_skyline_2020_May.jpg/1280px-Kaohsiung_skyline_2020_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "ABOVE THE SKY",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaohsiung_skyline_2020_May.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 416175,
+          "max": 416175,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/가오슝-KHH",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 월 중간값 두 번째로 비싼 달(설 연휴 전후)"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 498350,
+          "max": 498350,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/가오슝-KHH",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 월 중간값 연중 최고가 달"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": 299540,
+          "max": 299540,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/가오슝-KHH",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 월 중간값 연중 최저가 달"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 126,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 167100,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/compare/taipei-vs-kao-hsiung-1668341-1673820",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "beijing",
+    "nameKo": "베이징",
+    "country": "중국",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 39.9042,
+      "lng": 116.4074
+    },
+    "themes": ["문화/역사", "도시", "미식"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": "2026-12-31",
+      "note": "한국 일반여권 소지자 중국 한시 무비자(관광·상용·친지/교류방문·경유, 1회 30일 이내). 시행기간 2026.1.1~2026.12.31. 취업·취재·유학·공연 등은 별도 비자. 주시안대한민국총영사관 공지(2025-11-06) 기준.",
+      "source": "https://www.mofa.go.kr/cn-xian-ko/brd/m_738/view.do?seq=1346727"
+    },
+    "flightHours": {
+      "ICN": 2.3,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+    "landmarks": ["자금성", "만리장성", "천안문 광장", "이화원", "천단"],
+    "flightPriceTypical": {
+      "min": 237298,
+      "max": 389992,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "KAYAK 인천-베이징 왕복 최근 12개월 가격 범위(평균 약 30만원)"
+    },
+    "imageFile": "The Forbidden City - View from Coal Hill.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/1280px-The_Forbidden_City_-_View_from_Coal_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Pixelflake",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 233060,
+          "max": 233060,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 월 중간값 최저가 달(11월과 동일)"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 386668,
+          "max": 386668,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 월 중간값 최고가권. 호텔도 여름 최고 요금대"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 384020,
+          "max": 384020,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "KAYAK 월 중간값 최고가권"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 233060,
+          "max": 233060,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/베이징-BJS",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 월 중간값 최저가 달(3월과 동일)"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 650,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 128900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/beijing",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "zhangjiajie",
+    "nameKo": "장자제",
+    "country": "중국",
+    "region": "greater-china",
+    "coordinates": {
+      "lat": 29.1171,
+      "lng": 110.4792
+    },
+    "themes": ["자연", "액티비티"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": "2026-12-31",
+      "note": "한국 일반여권 소지자 중국 한시 무비자(관광·상용·친지/교류방문·경유, 1회 30일 이내). 시행기간 2026.1.1~2026.12.31. 취업·취재·유학·공연 등은 별도 비자. 주시안대한민국총영사관 공지(2025-11-06) 기준.",
+      "source": "https://www.mofa.go.kr/cn-xian-ko/brd/m_738/view.do?seq=1346727"
+    },
+    "flightHours": {
+      "ICN": 3.5,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/장자제-DYG",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/장자제-DYG | https://sg.trip.com/guide/info/best-time-to-visit-zhangjiajie.html",
+    "landmarks": ["장자제 국가삼림공원", "톈먼산", "유리다리(대협곡)", "보봉호", "원가계"],
+    "flightPriceTypical": {
+      "min": 427235,
+      "max": 631138,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/장자제-DYG",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "KAYAK 인천-장자제 왕복 최근 12개월 일반 가격대(평균 511,892원)"
+    },
+    "imageFile": "Zhangjiajie National Forest Park.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Zhangjiajie_National_Forest_Park.jpg/1280px-Zhangjiajie_National_Forest_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Kuruman from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangjiajie_National_Forest_Park.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 582011,
+          "max": 582011,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/장자제-DYG",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 기준 비싼 편"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "국경절 연휴(10/1~7) 투어·호텔 요금 50~100% 상승(Trip.com 가이드)"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 679894,
+          "max": 679894,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/장자제-DYG",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "KAYAK 월 중간값 최고가 달. 단 10월말~11월중순 호텔은 하락한다는 가이드도 있어 seasonLevel 미지정"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 407407,
+          "max": 407407,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/장자제-DYG",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "CNY",
+            "total": 563,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 198.295,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 111600,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/china/zhangjiajie",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "KAYAK 월 중간값 연중 최저가 달"
+      }
+    ]
   }
 ]

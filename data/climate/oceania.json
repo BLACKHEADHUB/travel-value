@@ -298,6 +298,228 @@
         "avgTempMax": 21.2,
         "rainfallMm": 110
       }
+    ],
+    "queenstown": [
+      {
+        "month": 1,
+        "avgTempMin": 12.4,
+        "avgTempMax": 21.5,
+        "rainfallMm": 95
+      },
+      {
+        "month": 2,
+        "avgTempMin": 12.2,
+        "avgTempMax": 20.9,
+        "rainfallMm": 120
+      },
+      {
+        "month": 3,
+        "avgTempMin": 10.9,
+        "avgTempMax": 19.1,
+        "rainfallMm": 97
+      },
+      {
+        "month": 4,
+        "avgTempMin": 7.8,
+        "avgTempMax": 15.2,
+        "rainfallMm": 108
+      },
+      {
+        "month": 5,
+        "avgTempMin": 6.2,
+        "avgTempMax": 12.4,
+        "rainfallMm": 124
+      },
+      {
+        "month": 6,
+        "avgTempMin": 2.8,
+        "avgTempMax": 7.7,
+        "rainfallMm": 102
+      },
+      {
+        "month": 7,
+        "avgTempMin": 1.9,
+        "avgTempMax": 7.1,
+        "rainfallMm": 123
+      },
+      {
+        "month": 8,
+        "avgTempMin": 2.3,
+        "avgTempMax": 8.4,
+        "rainfallMm": 115
+      },
+      {
+        "month": 9,
+        "avgTempMin": 3.8,
+        "avgTempMax": 11.3,
+        "rainfallMm": 179
+      },
+      {
+        "month": 10,
+        "avgTempMin": 5.4,
+        "avgTempMax": 14,
+        "rainfallMm": 132
+      },
+      {
+        "month": 11,
+        "avgTempMin": 8.5,
+        "avgTempMax": 17.6,
+        "rainfallMm": 115
+      },
+      {
+        "month": 12,
+        "avgTempMin": 10.5,
+        "avgTempMax": 19,
+        "rainfallMm": 154
+      }
+    ],
+    "cairns": [
+      {
+        "month": 1,
+        "avgTempMin": 24.8,
+        "avgTempMax": 29.6,
+        "rainfallMm": 504
+      },
+      {
+        "month": 2,
+        "avgTempMin": 25.1,
+        "avgTempMax": 30.6,
+        "rainfallMm": 296
+      },
+      {
+        "month": 3,
+        "avgTempMin": 24.7,
+        "avgTempMax": 29.4,
+        "rainfallMm": 287
+      },
+      {
+        "month": 4,
+        "avgTempMin": 23.9,
+        "avgTempMax": 28.1,
+        "rainfallMm": 339
+      },
+      {
+        "month": 5,
+        "avgTempMin": 21.8,
+        "avgTempMax": 25.8,
+        "rainfallMm": 108
+      },
+      {
+        "month": 6,
+        "avgTempMin": 20.6,
+        "avgTempMax": 24.6,
+        "rainfallMm": 56
+      },
+      {
+        "month": 7,
+        "avgTempMin": 19.3,
+        "avgTempMax": 23.9,
+        "rainfallMm": 67
+      },
+      {
+        "month": 8,
+        "avgTempMin": 19.3,
+        "avgTempMax": 24.4,
+        "rainfallMm": 53
+      },
+      {
+        "month": 9,
+        "avgTempMin": 20.8,
+        "avgTempMax": 25.7,
+        "rainfallMm": 50
+      },
+      {
+        "month": 10,
+        "avgTempMin": 22.6,
+        "avgTempMax": 27.9,
+        "rainfallMm": 42
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.7,
+        "avgTempMax": 28.8,
+        "rainfallMm": 59
+      },
+      {
+        "month": 12,
+        "avgTempMin": 24.8,
+        "avgTempMax": 29.5,
+        "rainfallMm": 290
+      }
+    ],
+    "melbourne": [
+      {
+        "month": 1,
+        "avgTempMin": 15.2,
+        "avgTempMax": 27.1,
+        "rainfallMm": 69
+      },
+      {
+        "month": 2,
+        "avgTempMin": 14.2,
+        "avgTempMax": 25,
+        "rainfallMm": 42
+      },
+      {
+        "month": 3,
+        "avgTempMin": 13.4,
+        "avgTempMax": 23.4,
+        "rainfallMm": 47
+      },
+      {
+        "month": 4,
+        "avgTempMin": 10.4,
+        "avgTempMax": 20.3,
+        "rainfallMm": 73
+      },
+      {
+        "month": 5,
+        "avgTempMin": 8.2,
+        "avgTempMax": 16,
+        "rainfallMm": 72
+      },
+      {
+        "month": 6,
+        "avgTempMin": 6.8,
+        "avgTempMax": 13.9,
+        "rainfallMm": 80
+      },
+      {
+        "month": 7,
+        "avgTempMin": 6.3,
+        "avgTempMax": 13.5,
+        "rainfallMm": 49
+      },
+      {
+        "month": 8,
+        "avgTempMin": 6.8,
+        "avgTempMax": 14.3,
+        "rainfallMm": 67
+      },
+      {
+        "month": 9,
+        "avgTempMin": 7.8,
+        "avgTempMax": 17.1,
+        "rainfallMm": 72
+      },
+      {
+        "month": 10,
+        "avgTempMin": 8.9,
+        "avgTempMax": 18.8,
+        "rainfallMm": 113
+      },
+      {
+        "month": 11,
+        "avgTempMin": 10.9,
+        "avgTempMax": 21.1,
+        "rainfallMm": 93
+      },
+      {
+        "month": 12,
+        "avgTempMin": 12.2,
+        "avgTempMax": 23.6,
+        "rainfallMm": 67
+      }
     ]
   }
 }

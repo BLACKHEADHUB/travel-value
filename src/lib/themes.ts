@@ -1,8 +1,17 @@
-export const REGIONS = ['japan', 'sea', 'greater-china', 'europe', 'americas', 'oceania'] as const;
+export const REGIONS = [
+  'japan',
+  'sea',
+  'greater-china',
+  'west-asia',
+  'europe',
+  'americas',
+  'oceania',
+] as const;
 export const REGION_LABEL: Record<(typeof REGIONS)[number], string> = {
   japan: '일본',
   sea: '동남아',
   'greater-china': '중화권',
+  'west-asia': '중동·중앙·남아시아',
   europe: '유럽',
   americas: '미주',
   oceania: '대양주',

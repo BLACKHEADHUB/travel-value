@@ -1516,5 +1516,1199 @@
         "notes": null
       }
     ]
+  },
+  {
+    "id": "cancun",
+    "nameKo": "칸쿤",
+    "country": "멕시코",
+    "region": "americas",
+    "coordinates": {
+      "lat": 21.1619,
+      "lng": -86.8515
+    },
+    "themes": ["휴양", "자연"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한-멕시코 비자면제 협정에 따라 관광·친지방문·상용 목적 최대 180일 무비자(입국심사관이 더 짧게 허가할 수 있음). 킨타나로오주 방문객세는 별도.",
+      "source": "https://embamex.sre.gob.mx/corea/index.php/visas/2016-05-13-07-16-01"
+    },
+    "flightHours": {
+      "ICN": null,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칸쿤-CUN",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칸쿤-CUN",
+    "landmarks": ["치첸이트사", "이슬라 무헤레스", "호텔 존 해변", "툴룸 유적"],
+    "flightPriceTypical": {
+      "min": 1312394,
+      "max": 2041878,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칸쿤-CUN",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "카약 인천→칸쿤 왕복 '일반적인 금액' 범위(1인, 경유 필수), 최근 12개월 평균 1,600,278원"
+    },
+    "imageFile": "Cancun Beach.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Cancun_Beach.jpg/1280px-Cancun_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Keith Pomakis",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cancun_Beach.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1166667,
+          "max": 1166667,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/칸쿤-CUN",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달. 직항 없음(LAX·MEX 경유 약 19~21시간). 허리케인 시즌"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 163,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 216200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mexico/cancun",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "banff",
+    "nameKo": "밴프",
+    "country": "캐나다",
+    "region": "americas",
+    "coordinates": {
+      "lat": 51.1784,
+      "lng": -115.5708
+    },
+    "themes": ["자연", "액티비티"],
+    "visaInfo": {
+      "required": true,
+      "kind": "eta",
+      "validUntil": null,
+      "note": "캘거리(YYC) 경유 입국. 한국 여권은 항공 입국 시 eTA 사전 취득 필요(캐나다 정부 국가별 입국요건 목록 기준). 국립공원 입장료 별도.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html"
+    },
+    "flightHours": {
+      "ICN": 10.2,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/캘거리-YYC",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/캘거리-YYC",
+    "landmarks": ["레이크 루이스", "모레인 호수", "밴프 곤돌라", "페어몬트 밴프 스프링스"],
+    "flightPriceTypical": {
+      "min": 1136927,
+      "max": 1579994,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/캘거리-YYC",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "카약 인천→캘거리 왕복 '일반적인 금액' 범위(1인), 최근 12개월 평균 1,388,991원. 밴프는 캘거리에서 육로 약 1.5시간"
+    },
+    "imageFile": "Fairmont Banff Springs Hotel, west view 20240820 1.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Fairmont_Banff_Springs_Hotel%2C_west_view_20240820_1.jpg/1280px-Fairmont_Banff_Springs_Hotel%2C_west_view_20240820_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "DXR",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fairmont_Banff_Springs_Hotel,_west_view_20240820_1.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": 966216,
+          "max": 966216,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/캘거리-YYC",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "카약 기준 캘거리 항공 중간값이 연중 가장 낮은 달"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1575899,
+          "max": 1575899,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/캘거리-YYC",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "카약 기준 캘거리 항공 중간값이 연중 가장 높은 달"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 1485772,
+          "max": 1485772,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/캘거리-YYC",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "카약 기준 캘거리 항공 중간값 2위(스키 시즌 시작)"
+      }
+    ]
+  },
+  {
+    "id": "sanfrancisco",
+    "nameKo": "샌프란시스코",
+    "country": "미국",
+    "region": "americas",
+    "coordinates": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "themes": ["도시", "미식"],
+    "visaInfo": {
+      "required": true,
+      "kind": "eta",
+      "validUntil": null,
+      "note": "한국은 비자면제프로그램(VWP) 대상. 관광·상용 90일 이내 체류 시 비자 대신 탑승 전 ESTA 승인 필수.",
+      "source": "https://kr.usembassy.gov/visas/"
+    },
+    "flightHours": {
+      "ICN": 10.7,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/샌프란시스코-SFO",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/샌프란시스코-SFO",
+    "landmarks": ["금문교", "알카트라즈", "피셔맨스 워프", "케이블카"],
+    "flightPriceTypical": {
+      "min": 702222,
+      "max": 1284881,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/샌프란시스코-SFO",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "카약 인천→샌프란시스코 왕복 '일반적인 금액' 범위(1인), 최근 12개월 평균 964,193원"
+    },
+    "imageFile": "Golden Gate bridge 3.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Golden_Gate_bridge_3.jpg/1280px-Golden_Gate_bridge_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Sebring12Hrs",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Gate_bridge_3.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 726190,
+          "max": 726190,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/샌프란시스코-SFO",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "카약 기준 항공 중간값이 연중 가장 낮은 달"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 1297619,
+          "max": 1297619,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/샌프란시스코-SFO",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "카약 기준 항공 중간값 2위"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1375661,
+          "max": 1375661,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/샌프란시스코-SFO",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "카약 기준 항공 중간값이 연중 가장 높은 달"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 251,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 332900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-states-of-america/san-francisco",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
   }
 ]

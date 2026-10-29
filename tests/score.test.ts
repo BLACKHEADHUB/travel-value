@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   SCORE_WEIGHTS,
+  adjustForDemand,
   bestMonths,
   scorePoints,
   travelBurden,
@@ -162,5 +163,22 @@ describe('season', () => {
     expect(bestMonths(s)).toEqual([1, 2, 11, 12]);
     expect(bestMonths([null, 80, null, 90, ...Array(8).fill(null)])).toEqual([4]);
     expect(bestMonths(Array(12).fill(null))).toEqual([]);
+  });
+});
+
+describe('demand adjustment', () => {
+  it('peak lowers, off raises the price part, clamped, null-safe', () => {
+    expect(adjustForDemand(60, 'peak')).toBe(50);
+    expect(adjustForDemand(60, 'off')).toBe(70);
+    expect(adjustForDemand(95, 'off')).toBe(100);
+    expect(adjustForDemand(5, 'peak')).toBe(0);
+    expect(adjustForDemand(60, null)).toBe(60);
+    expect(adjustForDemand(null, 'peak')).toBeNull();
+  });
+  it('flows into computeScore only through price', () => {
+    const base = computeScore(full);
+    const peak = computeScore({ ...full, seasonLevel: 'peak' });
+    expect(peak.parts.price).toBe(base.parts.price! - 10);
+    expect(peak.parts.climate).toBe(base.parts.climate);
   });
 });

@@ -2200,5 +2200,3034 @@
         "notes": "우기"
       }
     ]
+  },
+  {
+    "id": "phuket",
+    "nameKo": "푸켓",
+    "country": "태국",
+    "region": "sea",
+    "coordinates": {
+      "lat": 7.8804,
+      "lng": 98.3923
+    },
+    "themes": ["휴양", "액티비티", "자연"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 관광 등 비영리 목적 무비자 90일(외교부 영사협정 표 기준). 2026.9 태국 무비자 제도 개편 영향 및 TDAC(디지털 입국카드) 요건은 주태국대사관 공지 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 6.6,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸켓-HKT",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸켓-HKT",
+    "landmarks": ["빅 부다", "왓 찰롱", "프롬텝 곶", "카타 비치", "파통 비치"],
+    "flightPriceTypical": {
+      "min": 389259,
+      "max": 617950,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸켓-HKT",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-푸켓 왕복 일반 범위, 지난 12개월 평균 왕복 483,849원 기준"
+    },
+    "imageFile": "The_Big_Buddha,_Phuket.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Big_Buddha%2C_Phuket.jpg/1280px-The_Big_Buddha%2C_Phuket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Subhrajyoti07",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Big_Buddha,_Phuket.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 531746,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸켓-HKT",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 상위(성수기)"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 398148,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸켓-HKT",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 월별 왕복 중간값 연중 최저"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 551587,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸켓-HKT",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 연중 최고"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "kotakinabalu",
+    "nameKo": "코타키나발루",
+    "country": "말레이시아",
+    "region": "sea",
+    "coordinates": {
+      "lat": 5.9804,
+      "lng": 116.0735
+    },
+    "themes": ["휴양", "자연", "액티비티"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 관광 등 비영리 목적 무비자 90일(외교부 영사협정 표 기준). MDAC(디지털 입국카드) 등 입국 절차는 출국 전 주한 말레이시아대사관 공지 확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 5.6,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/코타키나발루-BKI",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/코타키나발루-BKI",
+    "landmarks": [
+      "코타키나발루 시티 모스크",
+      "시그널 힐 전망대",
+      "툰구 압둘 라만 해양공원",
+      "키나발루 산"
+    ],
+    "flightPriceTypical": {
+      "min": 303791,
+      "max": 449040,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/코타키나발루-BKI",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-코타키나발루 왕복 일반 범위, 지난 12개월 평균 왕복 370,305원 기준"
+    },
+    "imageFile": "Kota_Kinabalu_City_Mosque.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kota_Kinabalu_City_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageCredit": {
+      "author": "Kevin Wasilin",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kota_Kinabalu_City_Mosque.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 435139,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/코타키나발루-BKI",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 연중 최고"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 410010,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/코타키나발루-BKI",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 상위(성수기)"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 294942,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/코타키나발루-BKI",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 월별 왕복 중간값 연중 최저"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "kualalumpur",
+    "nameKo": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "region": "sea",
+    "coordinates": {
+      "lat": 3.139,
+      "lng": 101.6869
+    },
+    "themes": ["도시", "미식", "쇼핑"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 관광 등 비영리 목적 무비자 90일(외교부 영사협정 표 기준). MDAC(디지털 입국카드) 등 입국 절차는 출국 전 주한 말레이시아대사관 공지 확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 6.8,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/쿠알라룸푸르-KUL",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/쿠알라룸푸르-KUL",
+    "landmarks": ["페트로나스 트윈타워", "바투 동굴", "KL 타워", "메르데카 광장", "부킷 빈탕"],
+    "flightPriceTypical": {
+      "min": 358968,
+      "max": 594841,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/쿠알라룸푸르-KUL",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-쿠알라룸푸르 왕복 최저~최고 범위, 지난 12개월 평균 왕복 470,992원 기준"
+    },
+    "imageFile": "Petronas_Towers_Kuala_Lumpur.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Petronas_Towers_Kuala_Lumpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageCredit": {
+      "author": "Moatazayman",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petronas_Towers_Kuala_Lumpur.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 552910,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/쿠알라룸푸르-KUL",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 연중 최고"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 355820,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/쿠알라룸푸르-KUL",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 월별 왕복 중간값 연중 최저"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": 509259,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/쿠알라룸푸르-KUL",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 상위(성수기)"
+      }
+    ]
+  },
+  {
+    "id": "boracay",
+    "nameKo": "보라카이",
+    "country": "필리핀",
+    "region": "sea",
+    "coordinates": {
+      "lat": 11.9674,
+      "lng": 121.9248
+    },
+    "themes": ["휴양", "액티비티", "자연"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 관광 등 비영리 목적 30일 무비자(외교부 영사협정 표 기준, 일방 면제). 입국 전 eTravel 등록 등 절차는 필리핀 정부/대사관 공지 확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": null,
+      "GMP": null
+    },
+    "flightHoursSource": null,
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/보라카이-MPH",
+    "landmarks": ["화이트 비치", "푸카 비치", "윌리스 록", "마운트 루호 전망대"],
+    "flightPriceTypical": {
+      "min": 388628,
+      "max": 551320,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/보라카이-MPH",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-보라카이(칼리보/카티클란) 노선 왕복 일반 범위(직항 없음, 경유 포함), 지난 12개월 평균 왕복 456,440원 기준"
+    },
+    "imageFile": "White_Beach,_Boracay.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/White_Beach%2C_Boracay.jpg/1280px-White_Beach%2C_Boracay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Ray in Manila",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Beach,_Boracay.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "직항 없음: 마닐라·세부 등 경유 후 칼리보(육로·보트 이동 필요) 또는 카티클란(보라카이 건너편, 보트 약간 이동) 도착. 환승·이동 시간·비용 별도"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 513792,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/보라카이-MPH",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 연중 최고"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 387992,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/보라카이-MPH",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 월별 왕복 중간값 연중 최저"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 503198,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/보라카이-MPH",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 월별 왕복 중간값 상위(성수기)"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "hanoi",
+    "nameKo": "하노이",
+    "country": "베트남",
+    "region": "sea",
+    "coordinates": {
+      "lat": 21.0285,
+      "lng": 105.8542
+    },
+    "themes": ["도시", "미식", "문화/역사"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": "2028-03-14",
+      "note": "한국 여권 관광 목적 무비자 45일(베트남 정부 결의 44/NQ-CP, 2025.3.15~2028.3.14 한시 적용). 재입국·연장 조건은 출국 전 주한베트남대사관 공지 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 5.1,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/하노이-HAN",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/하노이-HAN",
+    "landmarks": ["호안끼엠 호수", "문묘", "호치민 묘소", "하노이 구시가지", "탕롱 황성"],
+    "flightPriceTypical": {
+      "min": 311633,
+      "max": 514346,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/하노이-HAN",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-하노이 왕복 최저~최고 범위, 지난 12개월 평균 왕복 391,318원 기준"
+    },
+    "imageFile": "Ngoc_Son_Temple.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ngoc_Son_Temple.jpg/1280px-Ngoc_Son_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Radek Kucharski",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ngoc_Son_Temple.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 612758,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/하노이-HAN",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 기준 항공가 연중 최고권"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 비수기(여행객 감소)"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 301747,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/하노이-HAN",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "항공가 연중 최저(Kayak 중간값)"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 514823,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/하노이-HAN",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 성수기, 항공가 높음"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 57,
+            "lodging": 25,
+            "food": 23,
+            "transport": 6.68
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 75600,
+          "lodging": 33200,
+          "food": 30500,
+          "transport": 8900,
+          "source": "https://www.budgetyourtrip.com/compare/hanoi-vs-harbin-1581130-2037013",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "nhatrang",
+    "nameKo": "나트랑",
+    "country": "베트남",
+    "region": "sea",
+    "coordinates": {
+      "lat": 12.2388,
+      "lng": 109.1967
+    },
+    "themes": ["휴양", "액티비티", "도시"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": "2028-03-14",
+      "note": "한국 여권 관광 목적 무비자 45일(베트남 정부 결의 44/NQ-CP, 2025.3.15~2028.3.14 한시 적용). 재입국·연장 조건은 출국 전 주한베트남대사관 공지 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 5.5,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나트랑-CXR",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나트랑-CXR",
+    "landmarks": ["포나가르 참탑", "나트랑 해변", "롱선사", "빈펄 랜드", "혼총 곶"],
+    "flightPriceTypical": {
+      "min": 290756,
+      "max": 430142,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나트랑-CXR",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-나트랑 왕복 일반 가격 범위, 지난 12개월 평균 왕복 349,113원 기준"
+    },
+    "imageFile": "Ganesh_Tempel_Po_Nagar_Nha_Trang.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ganesh_Tempel_Po_Nagar_Nha_Trang.jpg/1280px-Ganesh_Tempel_Po_Nagar_Nha_Trang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Tervlugt",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ganesh_Tempel_Po_Nagar_Nha_Trang.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 성수기"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 비수기"
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 435664,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나트랑-CXR",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": "peak",
+        "notes": "항공가 연중 최고(Kayak 중간값)"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 411828,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나트랑-CXR",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": "항공가 높은 편(Kayak 2위)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 290001,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/나트랑-CXR",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": "off",
+        "notes": "항공가 연중 최저(Kayak 중간값)"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 48,
+            "lodging": 25,
+            "food": 25,
+            "transport": 13
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 63700,
+          "lodging": 33200,
+          "food": 33200,
+          "transport": 17200,
+          "source": "https://www.budgetyourtrip.com/vietnam/nha-trang",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "phuquoc",
+    "nameKo": "푸꾸옥",
+    "country": "베트남",
+    "region": "sea",
+    "coordinates": {
+      "lat": 10.2899,
+      "lng": 103.984
+    },
+    "themes": ["휴양", "액티비티", "자연"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": "2028-03-14",
+      "note": "한국 여권 관광 목적 무비자 45일(베트남 정부 결의 44/NQ-CP, 2025.3.15~2028.3.14 한시 적용). 재입국·연장 조건은 출국 전 주한베트남대사관 공지 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 6,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸꾸옥-PQC",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸꾸옥-PQC",
+    "landmarks": ["사오 비치", "롱 비치", "빈펄 사파리", "푸꾸옥 야시장", "혼텀 케이블카"],
+    "flightPriceTypical": {
+      "min": 318509,
+      "max": 481370,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸꾸옥-PQC",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-푸꾸옥 왕복 일반 가격 범위, 지난 12개월 평균 왕복 386,769원 기준"
+    },
+    "imageFile": "Bai-sao-phu-quoc-tuonglamphotos.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bai-sao-phu-quoc-tuonglamphotos.jpg/1280px-Bai-sao-phu-quoc-tuonglamphotos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "[//commons.wikimedia.org/wiki/User:Trantuonglam Trantuonglam]",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bai-sao-phu-quoc-tuonglamphotos.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 440774,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸꾸옥-PQC",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 성수기, 항공가 연중 최고"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": 424890,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸꾸옥-PQC",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "항공가 높은 편(Kayak 2위)"
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 비수기"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 318998,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/푸꾸옥-PQC",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "항공가 연중 최저(Kayak 중간값)"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 54,
+            "lodging": 34,
+            "food": 15,
+            "transport": 6.78
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 71600,
+          "lodging": 45100,
+          "food": 19900,
+          "transport": 9000,
+          "source": "https://www.budgetyourtrip.com/vietnam/phu-quoc",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "chiangmai",
+    "nameKo": "치앙마이",
+    "country": "태국",
+    "region": "sea",
+    "coordinates": {
+      "lat": 18.7883,
+      "lng": 98.9853
+    },
+    "themes": ["도시", "문화/역사", "자연"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 관광 목적 무비자 90일(한-태 협정, 외교부 표 기준). 입국 전 TDAC(디지털 입국카드) 온라인 작성 필요 여부는 출국 전 주태국대사관 공지 재확인.",
+      "source": "https://www.0404.go.kr/bbs/contsPst/MST0000000000113/13/detail"
+    },
+    "flightHours": {
+      "ICN": 6.1,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/치앙마이-CNX",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/치앙마이-CNX",
+    "landmarks": ["도이수텝", "왓 프라싱", "치앙마이 올드시티", "님만해민", "선데이 워킹 스트리트"],
+    "flightPriceTypical": {
+      "min": 353428,
+      "max": 516996,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/치앙마이-CNX",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-치앙마이 왕복 일반 가격 범위, 지난 12개월 평균 왕복 430,933원 기준"
+    },
+    "imageFile": "Doi_Suthep.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Doi_Suthep.jpg/1280px-Doi_Suthep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Poohpachatpimuk",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doi_Suthep.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": 519786,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/치앙마이-CNX",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "Kayak 성수기, 항공가 연중 최고(건기)"
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 322717,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/치앙마이-CNX",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "항공가 연중 최저(Kayak 중간값)"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "Kayak 비수기"
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": 480108,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/치앙마이-CNX",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "항공가 높은 편(Kayak 2위)"
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": null,
+            "lodging": null,
+            "food": 20,
+            "transport": 4
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": null,
+          "lodging": null,
+          "food": 26500,
+          "transport": 5300,
+          "source": "https://www.budgetyourtrip.com/compare/chiang-mai-vs-jinghong-1153671-1785710",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
   }
 ]

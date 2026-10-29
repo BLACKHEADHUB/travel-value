@@ -372,6 +372,598 @@
         "avgTempMax": 26.7,
         "rainfallMm": 327
       }
+    ],
+    "phuket": [
+      {
+        "month": 1,
+        "avgTempMin": 24.3,
+        "avgTempMax": 30.1,
+        "rainfallMm": 38
+      },
+      {
+        "month": 2,
+        "avgTempMin": 24.6,
+        "avgTempMax": 31.5,
+        "rainfallMm": 42
+      },
+      {
+        "month": 3,
+        "avgTempMin": 25.2,
+        "avgTempMax": 32.4,
+        "rainfallMm": 61
+      },
+      {
+        "month": 4,
+        "avgTempMin": 25.5,
+        "avgTempMax": 31.7,
+        "rainfallMm": 105
+      },
+      {
+        "month": 5,
+        "avgTempMin": 25.5,
+        "avgTempMax": 30.4,
+        "rainfallMm": 196
+      },
+      {
+        "month": 6,
+        "avgTempMin": 25.2,
+        "avgTempMax": 29.8,
+        "rainfallMm": 180
+      },
+      {
+        "month": 7,
+        "avgTempMin": 25.1,
+        "avgTempMax": 29.7,
+        "rainfallMm": 185
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25,
+        "avgTempMax": 29.5,
+        "rainfallMm": 181
+      },
+      {
+        "month": 9,
+        "avgTempMin": 24.6,
+        "avgTempMax": 29.1,
+        "rainfallMm": 230
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.2,
+        "avgTempMax": 28.9,
+        "rainfallMm": 301
+      },
+      {
+        "month": 11,
+        "avgTempMin": 24.2,
+        "avgTempMax": 28.8,
+        "rainfallMm": 275
+      },
+      {
+        "month": 12,
+        "avgTempMin": 24.1,
+        "avgTempMax": 29,
+        "rainfallMm": 133
+      }
+    ],
+    "kotakinabalu": [
+      {
+        "month": 1,
+        "avgTempMin": 23.4,
+        "avgTempMax": 28.2,
+        "rainfallMm": 279
+      },
+      {
+        "month": 2,
+        "avgTempMin": 23.2,
+        "avgTempMax": 28.4,
+        "rainfallMm": 91
+      },
+      {
+        "month": 3,
+        "avgTempMin": 23.6,
+        "avgTempMax": 29.2,
+        "rainfallMm": 140
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.5,
+        "avgTempMax": 30.3,
+        "rainfallMm": 123
+      },
+      {
+        "month": 5,
+        "avgTempMin": 25.1,
+        "avgTempMax": 30.7,
+        "rainfallMm": 190
+      },
+      {
+        "month": 6,
+        "avgTempMin": 24.7,
+        "avgTempMax": 30,
+        "rainfallMm": 203
+      },
+      {
+        "month": 7,
+        "avgTempMin": 24.5,
+        "avgTempMax": 29.9,
+        "rainfallMm": 208
+      },
+      {
+        "month": 8,
+        "avgTempMin": 24.6,
+        "avgTempMax": 30.4,
+        "rainfallMm": 210
+      },
+      {
+        "month": 9,
+        "avgTempMin": 24.3,
+        "avgTempMax": 29.7,
+        "rainfallMm": 348
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.1,
+        "avgTempMax": 29.2,
+        "rainfallMm": 359
+      },
+      {
+        "month": 11,
+        "avgTempMin": 24,
+        "avgTempMax": 29,
+        "rainfallMm": 271
+      },
+      {
+        "month": 12,
+        "avgTempMin": 23.8,
+        "avgTempMax": 28.7,
+        "rainfallMm": 287
+      }
+    ],
+    "kualalumpur": [
+      {
+        "month": 1,
+        "avgTempMin": 23.4,
+        "avgTempMax": 30.7,
+        "rainfallMm": 157
+      },
+      {
+        "month": 2,
+        "avgTempMin": 23.8,
+        "avgTempMax": 31.5,
+        "rainfallMm": 122
+      },
+      {
+        "month": 3,
+        "avgTempMin": 23.9,
+        "avgTempMax": 31.7,
+        "rainfallMm": 202
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.2,
+        "avgTempMax": 31.4,
+        "rainfallMm": 236
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.5,
+        "avgTempMax": 31.4,
+        "rainfallMm": 197
+      },
+      {
+        "month": 6,
+        "avgTempMin": 24.2,
+        "avgTempMax": 30.9,
+        "rainfallMm": 195
+      },
+      {
+        "month": 7,
+        "avgTempMin": 24,
+        "avgTempMax": 30.9,
+        "rainfallMm": 191
+      },
+      {
+        "month": 8,
+        "avgTempMin": 23.8,
+        "avgTempMax": 30.7,
+        "rainfallMm": 215
+      },
+      {
+        "month": 9,
+        "avgTempMin": 23.7,
+        "avgTempMax": 30.7,
+        "rainfallMm": 253
+      },
+      {
+        "month": 10,
+        "avgTempMin": 23.8,
+        "avgTempMax": 30.6,
+        "rainfallMm": 278
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.7,
+        "avgTempMax": 30.1,
+        "rainfallMm": 344
+      },
+      {
+        "month": 12,
+        "avgTempMin": 23.6,
+        "avgTempMax": 29.9,
+        "rainfallMm": 314
+      }
+    ],
+    "boracay": [
+      {
+        "month": 1,
+        "avgTempMin": 24.3,
+        "avgTempMax": 26.8,
+        "rainfallMm": 231
+      },
+      {
+        "month": 2,
+        "avgTempMin": 24.1,
+        "avgTempMax": 26.8,
+        "rainfallMm": 171
+      },
+      {
+        "month": 3,
+        "avgTempMin": 24.8,
+        "avgTempMax": 28,
+        "rainfallMm": 109
+      },
+      {
+        "month": 4,
+        "avgTempMin": 25.4,
+        "avgTempMax": 29.1,
+        "rainfallMm": 110
+      },
+      {
+        "month": 5,
+        "avgTempMin": 26,
+        "avgTempMax": 30.1,
+        "rainfallMm": 121
+      },
+      {
+        "month": 6,
+        "avgTempMin": 25.7,
+        "avgTempMax": 29.6,
+        "rainfallMm": 194
+      },
+      {
+        "month": 7,
+        "avgTempMin": 25.4,
+        "avgTempMax": 29,
+        "rainfallMm": 300
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.5,
+        "avgTempMax": 28.9,
+        "rainfallMm": 248
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.4,
+        "avgTempMax": 28.9,
+        "rainfallMm": 257
+      },
+      {
+        "month": 10,
+        "avgTempMin": 25.2,
+        "avgTempMax": 28.6,
+        "rainfallMm": 388
+      },
+      {
+        "month": 11,
+        "avgTempMin": 25.1,
+        "avgTempMax": 28.3,
+        "rainfallMm": 260
+      },
+      {
+        "month": 12,
+        "avgTempMin": 24.8,
+        "avgTempMax": 27.7,
+        "rainfallMm": 338
+      }
+    ],
+    "hanoi": [
+      {
+        "month": 1,
+        "avgTempMin": 13.8,
+        "avgTempMax": 21.2,
+        "rainfallMm": 51
+      },
+      {
+        "month": 2,
+        "avgTempMin": 15.9,
+        "avgTempMax": 23,
+        "rainfallMm": 78
+      },
+      {
+        "month": 3,
+        "avgTempMin": 19.2,
+        "avgTempMax": 26.1,
+        "rainfallMm": 84
+      },
+      {
+        "month": 4,
+        "avgTempMin": 21.2,
+        "avgTempMax": 28.2,
+        "rainfallMm": 122
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.5,
+        "avgTempMax": 31.5,
+        "rainfallMm": 197
+      },
+      {
+        "month": 6,
+        "avgTempMin": 26.7,
+        "avgTempMax": 33.6,
+        "rainfallMm": 229
+      },
+      {
+        "month": 7,
+        "avgTempMin": 26.6,
+        "avgTempMax": 33.3,
+        "rainfallMm": 236
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.7,
+        "avgTempMax": 31.8,
+        "rainfallMm": 449
+      },
+      {
+        "month": 9,
+        "avgTempMin": 24.6,
+        "avgTempMax": 30.8,
+        "rainfallMm": 362
+      },
+      {
+        "month": 10,
+        "avgTempMin": 21.6,
+        "avgTempMax": 27.9,
+        "rainfallMm": 221
+      },
+      {
+        "month": 11,
+        "avgTempMin": 19,
+        "avgTempMax": 26.4,
+        "rainfallMm": 65
+      },
+      {
+        "month": 12,
+        "avgTempMin": 14,
+        "avgTempMax": 21.6,
+        "rainfallMm": 22
+      }
+    ],
+    "nhatrang": [
+      {
+        "month": 1,
+        "avgTempMin": 21.4,
+        "avgTempMax": 26.3,
+        "rainfallMm": 97
+      },
+      {
+        "month": 2,
+        "avgTempMin": 21.6,
+        "avgTempMax": 27.1,
+        "rainfallMm": 41
+      },
+      {
+        "month": 3,
+        "avgTempMin": 22.9,
+        "avgTempMax": 29.1,
+        "rainfallMm": 61
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.4,
+        "avgTempMax": 30.3,
+        "rainfallMm": 59
+      },
+      {
+        "month": 5,
+        "avgTempMin": 25.9,
+        "avgTempMax": 32,
+        "rainfallMm": 67
+      },
+      {
+        "month": 6,
+        "avgTempMin": 26.5,
+        "avgTempMax": 33.5,
+        "rainfallMm": 33
+      },
+      {
+        "month": 7,
+        "avgTempMin": 25.9,
+        "avgTempMax": 32.5,
+        "rainfallMm": 74
+      },
+      {
+        "month": 8,
+        "avgTempMin": 25.9,
+        "avgTempMax": 32.7,
+        "rainfallMm": 81
+      },
+      {
+        "month": 9,
+        "avgTempMin": 25.1,
+        "avgTempMax": 30.9,
+        "rainfallMm": 185
+      },
+      {
+        "month": 10,
+        "avgTempMin": 24.2,
+        "avgTempMax": 29.1,
+        "rainfallMm": 282
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.3,
+        "avgTempMax": 27.7,
+        "rainfallMm": 417
+      },
+      {
+        "month": 12,
+        "avgTempMin": 22.2,
+        "avgTempMax": 26.6,
+        "rainfallMm": 111
+      }
+    ],
+    "phuquoc": [
+      {
+        "month": 1,
+        "avgTempMin": 22.4,
+        "avgTempMax": 29.4,
+        "rainfallMm": 57
+      },
+      {
+        "month": 2,
+        "avgTempMin": 22.9,
+        "avgTempMax": 30.6,
+        "rainfallMm": 40
+      },
+      {
+        "month": 3,
+        "avgTempMin": 23.6,
+        "avgTempMax": 31.9,
+        "rainfallMm": 55
+      },
+      {
+        "month": 4,
+        "avgTempMin": 24.5,
+        "avgTempMax": 31.7,
+        "rainfallMm": 161
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.9,
+        "avgTempMax": 30.6,
+        "rainfallMm": 248
+      },
+      {
+        "month": 6,
+        "avgTempMin": 24.5,
+        "avgTempMax": 29.3,
+        "rainfallMm": 294
+      },
+      {
+        "month": 7,
+        "avgTempMin": 24.1,
+        "avgTempMax": 28.7,
+        "rainfallMm": 452
+      },
+      {
+        "month": 8,
+        "avgTempMin": 24,
+        "avgTempMax": 28.6,
+        "rainfallMm": 353
+      },
+      {
+        "month": 9,
+        "avgTempMin": 23.7,
+        "avgTempMax": 28.3,
+        "rainfallMm": 450
+      },
+      {
+        "month": 10,
+        "avgTempMin": 23.5,
+        "avgTempMax": 29.2,
+        "rainfallMm": 357
+      },
+      {
+        "month": 11,
+        "avgTempMin": 23.5,
+        "avgTempMax": 29.4,
+        "rainfallMm": 213
+      },
+      {
+        "month": 12,
+        "avgTempMin": 22.9,
+        "avgTempMax": 29.4,
+        "rainfallMm": 56
+      }
+    ],
+    "chiangmai": [
+      {
+        "month": 1,
+        "avgTempMin": 16.5,
+        "avgTempMax": 27.5,
+        "rainfallMm": 20
+      },
+      {
+        "month": 2,
+        "avgTempMin": 17.6,
+        "avgTempMax": 30.2,
+        "rainfallMm": 38
+      },
+      {
+        "month": 3,
+        "avgTempMin": 20.8,
+        "avgTempMax": 34.3,
+        "rainfallMm": 12
+      },
+      {
+        "month": 4,
+        "avgTempMin": 23,
+        "avgTempMax": 35.1,
+        "rainfallMm": 75
+      },
+      {
+        "month": 5,
+        "avgTempMin": 24.5,
+        "avgTempMax": 34.1,
+        "rainfallMm": 191
+      },
+      {
+        "month": 6,
+        "avgTempMin": 24.1,
+        "avgTempMax": 31.9,
+        "rainfallMm": 211
+      },
+      {
+        "month": 7,
+        "avgTempMin": 23.8,
+        "avgTempMax": 30.6,
+        "rainfallMm": 328
+      },
+      {
+        "month": 8,
+        "avgTempMin": 23.5,
+        "avgTempMax": 29.5,
+        "rainfallMm": 449
+      },
+      {
+        "month": 9,
+        "avgTempMin": 23.1,
+        "avgTempMax": 29.4,
+        "rainfallMm": 395
+      },
+      {
+        "month": 10,
+        "avgTempMin": 22.1,
+        "avgTempMax": 29.2,
+        "rainfallMm": 172
+      },
+      {
+        "month": 11,
+        "avgTempMin": 20.2,
+        "avgTempMax": 29.1,
+        "rainfallMm": 55
+      },
+      {
+        "month": 12,
+        "avgTempMin": 17,
+        "avgTempMax": 27.4,
+        "rainfallMm": 18
+      }
     ]
   }
 }

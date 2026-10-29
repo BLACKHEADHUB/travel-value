@@ -1,0 +1,2090 @@
+[
+  {
+    "id": "dubai",
+    "nameKo": "두바이",
+    "country": "아랍에미리트",
+    "region": "west-asia",
+    "coordinates": {
+      "lat": 25.2048,
+      "lng": 55.2708
+    },
+    "themes": ["도시", "쇼핑", "휴양"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "한국 여권 사증면제 90일(2016 한-UAE 상호 면제 MOU). 여권 잔여 6개월 이상 권장. 출국 전 외교부 0404.go.kr 재확인.",
+      "source": "https://www.mofa.gov.ae/ko-KR/Missions/Seoul/UAE-Relationships/Visit--Country"
+    },
+    "flightHours": {
+      "ICN": 10.3,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/두바이-DXB",
+    "seasonSource": "https://blog.wego.com/cheapest-months-to-book-hotels/",
+    "landmarks": ["부르즈 할리파", "두바이 몰", "팜 주메이라", "두바이 마리나", "사막 사파리"],
+    "flightPriceTypical": {
+      "min": 581817,
+      "max": 1312030,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/두바이-DXB",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-두바이 왕복 최저~최고 범위, 평균 947,638원 기준"
+    },
+    "imageFile": "Burj Khalifa Dubai, UAE at Sunset 001 by Eric Chamchoum.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Burj_Khalifa_Dubai%2C_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg/1280px-Burj_Khalifa_Dubai%2C_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "ECWiki1",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_Dubai,_UAE_at_Sunset_001_by_Eric_Chamchoum.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "한여름 폭염, 숙박 연중 최저(Wego)"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 1464131,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/두바이-DXB",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "폭염. 숙박은 저렴하나 한국발 항공가는 Kayak 연중 최고(방학 수요)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 536980,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/두바이-DXB",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "항공가 Kayak 연중 최저"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 289,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 383300,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/united-arab-emirates/dubai",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "연말·두바이 쇼핑 페스티벌로 숙박 연중 최고(Wego 호텔 평균가)"
+      }
+    ]
+  },
+  {
+    "id": "kathmandu",
+    "nameKo": "카트만두",
+    "country": "네팔",
+    "region": "west-asia",
+    "coordinates": {
+      "lat": 27.7172,
+      "lng": 85.324
+    },
+    "themes": ["문화/역사", "자연", "액티비티"],
+    "visaInfo": {
+      "required": true,
+      "kind": "visa",
+      "validUntil": null,
+      "note": "한국 여권은 도착비자 가능(15일 30달러~90일 125달러 수준, 네팔 관광청 안내). 여권 잔여 6개월 이상. 금액은 변동 가능, 출국 전 재확인.",
+      "source": "https://trade.ntb.gov.np/wp-content/uploads/2023/08/Traveleres-Information-KoreanUpdated-July-2023.pdf"
+    },
+    "flightHours": {
+      "ICN": 7.8,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/카트만두-KTM",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/카트만두-KTM",
+    "landmarks": ["보다나트 스투파", "스와얌부나트", "두르바르 광장", "파슈파티나트", "타멜 거리"],
+    "flightPriceTypical": {
+      "min": 579093,
+      "max": 933160,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/카트만두-KTM",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-카트만두 왕복 최저~최고 범위, 평균 734,125원 기준(대한항공 직항 주 2회)"
+    },
+    "imageFile": "Boudhanath_Stupa.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Boudhanath_Stupa.jpg/1280px-Boudhanath_Stupa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Pemba08",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boudhanath_Stupa.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 616310,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/카트만두-KTM",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "항공가 Kayak 연중 최저"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": 853557,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/카트만두-KTM",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "트레킹 최성수기, 항공가 Kayak 연중 최고"
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 55,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 72900,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/nepal/kathmandu",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "maldives",
+    "nameKo": "몰디브",
+    "country": "몰디브",
+    "region": "west-asia",
+    "coordinates": {
+      "lat": 4.1755,
+      "lng": 73.5093
+    },
+    "themes": ["휴양", "액티비티"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": null,
+      "note": "전 국적 30일 무료 도착비자(주몰디브/주싱가포르 몰디브 공관 안내). 입국 96시간 전 IMUGA 여행자 신고서 필수, 여권 잔여 1개월 이상, 숙박 예약 증빙.",
+      "source": "https://maldivesmission.sg/?p=67"
+    },
+    "flightHours": {
+      "ICN": null,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/말레-MLE",
+    "seasonSource": "https://maldives.com/blog/best-time-to-visit-maldives",
+    "landmarks": [
+      "말레 술탄 공원",
+      "후쿠루 미스키(금요 모스크)",
+      "말레 어시장",
+      "인공 해변",
+      "리조트 워터빌라"
+    ],
+    "flightPriceTypical": {
+      "min": 856733,
+      "max": 1253122,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/말레-MLE",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-말레 경유 왕복 최저~최고 범위(직항 없음), 평균 1,090,013원 기준"
+    },
+    "imageFile": "Diamonds Thudufushi Beach and Water Villas, May 2017 -03.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Diamonds_Thudufushi_Beach_and_Water_Villas%2C_May_2017_-03.jpg/1280px-Diamonds_Thudufushi_Beach_and_Water_Villas%2C_May_2017_-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diamonds_Thudufushi_Beach_and_Water_Villas,_May_2017_-03.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": null
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": 743386,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/말레-MLE",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "우기, 숙박 최저가권·항공가 Kayak 연중 최저"
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": null
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 1292328,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/말레-MLE",
+          "asOf": "2026-10-29",
+          "confidence": "medium"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "우기지만 한국발 항공가는 Kayak 연중 최고"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "shoulder",
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 350,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 464200,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/maldives",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "연말 최성수기"
+      }
+    ]
+  },
+  {
+    "id": "samarkand",
+    "nameKo": "사마르칸트",
+    "country": "우즈베키스탄",
+    "region": "west-asia",
+    "coordinates": {
+      "lat": 39.627,
+      "lng": 66.975
+    },
+    "themes": ["문화/역사", "도시"],
+    "visaInfo": {
+      "required": null,
+      "kind": null,
+      "validUntil": null,
+      "note": "한국 여권 무비자 입국 가능하나 체류 일수(30일/60일 등 출처 상이)를 공식 원문으로 확인하지 못함. 외교부 0404.go.kr 확인 필요.",
+      "source": null
+    },
+    "flightHours": {
+      "ICN": 7.4,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타슈켄트-TAS",
+    "seasonSource": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타슈켄트-TAS",
+    "landmarks": [
+      "레기스탄 광장",
+      "구르 에미르 영묘",
+      "샤히진다 묘역군",
+      "비비하눔 모스크",
+      "울루그벡 천문대"
+    ],
+    "flightPriceTypical": {
+      "min": 599080,
+      "max": 898276,
+      "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타슈켄트-TAS",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-타슈켄트(경유지, 사마르칸트는 국내선·고속열차로 추가 이동) 왕복 최저~최고, 평균 743,588원 기준"
+    },
+    "imageFile": "Registan_Samarkand.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Registan_Samarkand.jpg/1280px-Registan_Samarkand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Euyasik",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Registan_Samarkand.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 656072,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타슈켄트-TAS",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "타슈켄트행 항공가 연중 최저"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 846930,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타슈켄트-TAS",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": "타슈켄트행 항공가 2위"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": 905247,
+          "max": null,
+          "source": "https://www.kayak.co.kr/항공권/서울-인천국제공항-ICN/타슈켄트-TAS",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "타슈켄트행 항공가 Kayak 연중 최고"
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": null,
+          "fx": null,
+          "total": null,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "ulaanbaatar",
+    "nameKo": "울란바토르",
+    "country": "몽골",
+    "region": "west-asia",
+    "coordinates": {
+      "lat": 47.8864,
+      "lng": 106.9057
+    },
+    "themes": ["자연", "문화/역사", "액티비티"],
+    "visaInfo": {
+      "required": false,
+      "kind": "free",
+      "validUntil": "2026-12-31",
+      "note": "한국 여권 관광 90일 무비자(몽골 정부 연장 결정, 2026-12-31까지). 이후 연장 여부 재확인 (보도 기준, 몽골 정부 공식 원문 미확인 → 출국 전 주한몽골대사관 확인).",
+      "source": "https://english.ratopati.com/story/44220/mongolia-extends-visa-free-travel-for-south-korean-tourists-until-2026"
+    },
+    "flightHours": {
+      "ICN": 3.6,
+      "GMP": null
+    },
+    "flightHoursSource": "https://www.kayak.co.kr/%ED%95%AD%EA%B3%B5%EA%B6%8C/%EC%84%9C%EC%9A%B8-%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD-ICN/%EB%AA%BD%EA%B3%A8-MN0",
+    "seasonSource": "https://www.kayak.co.kr/%ED%95%AD%EA%B3%B5%EA%B6%8C/%EC%84%9C%EC%9A%B8-%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD-ICN/%EB%AA%BD%EA%B3%A8-MN0",
+    "landmarks": [
+      "수흐바타르 광장",
+      "간단 사원",
+      "자이승 전승기념탑",
+      "칭기즈칸 광장",
+      "테를지 국립공원"
+    ],
+    "flightPriceTypical": {
+      "min": 366437,
+      "max": null,
+      "source": "https://www.kayak.co.kr/%ED%95%AD%EA%B3%B5%EA%B6%8C/%EC%84%9C%EC%9A%B8-%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD-ICN/%EB%AA%BD%EA%B3%A8-MN0",
+      "asOf": "2026-10-29",
+      "confidence": "medium",
+      "note": "Kayak ICN-몽골행 최근 최저 왕복가(상한은 '550,000원+' 수준으로만 표기되어 null)"
+    },
+    "imageFile": "Sükhbaatar Square.jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/S%C3%BCkhbaatar_Square.jpg/1280px-S%C3%BCkhbaatar_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageCredit": {
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCkhbaatar_Square.jpg"
+    },
+    "monthly": [
+      {
+        "month": 1,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 2,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 3,
+        "flightPrice": {
+          "min": 312335,
+          "max": null,
+          "source": "https://www.kayak.co.kr/%ED%95%AD%EA%B3%B5%EA%B6%8C/%EC%84%9C%EC%9A%B8-%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD-ICN/%EB%AA%BD%EA%B3%A8-MN0",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "off",
+        "notes": "항공가 Kayak 몽골행 연중 최저, 혹한 끝자락"
+      },
+      {
+        "month": 4,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 5,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 6,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 7,
+        "flightPrice": {
+          "min": 563790,
+          "max": null,
+          "source": "https://www.kayak.co.kr/%ED%95%AD%EA%B3%B5%EA%B6%8C/%EC%84%9C%EC%9A%B8-%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD-ICN/%EB%AA%BD%EA%B3%A8-MN0",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "여름 성수기, 항공가 높음(Kayak 몽골행 2위)"
+      },
+      {
+        "month": 8,
+        "flightPrice": {
+          "min": 575701,
+          "max": null,
+          "source": "https://www.kayak.co.kr/%ED%95%AD%EA%B3%B5%EA%B6%8C/%EC%84%9C%EC%9A%B8-%EC%9D%B8%EC%B2%9C%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD-ICN/%EB%AA%BD%EA%B3%A8-MN0",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": "peak",
+        "notes": "항공가 Kayak 몽골행 연중 최고(나담 이후 여름 수요)"
+      },
+      {
+        "month": 9,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 10,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 11,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      },
+      {
+        "month": 12,
+        "flightPrice": {
+          "min": null,
+          "max": null,
+          "source": null,
+          "asOf": null,
+          "confidence": "low"
+        },
+        "dailyCost": {
+          "local": {
+            "currency": "USD",
+            "total": 30,
+            "lodging": null,
+            "food": null,
+            "transport": null
+          },
+          "fx": {
+            "rate": 1326.26,
+            "date": "2026-10-28",
+            "source": "https://open.er-api.com/v6/latest/KRW (ExchangeRate-API)"
+          },
+          "total": 39800,
+          "lodging": null,
+          "food": null,
+          "transport": null,
+          "source": "https://www.budgetyourtrip.com/mongolia/ulaanbaatar",
+          "asOf": "2026-10-29",
+          "confidence": "low"
+        },
+        "seasonLevel": null,
+        "notes": null
+      }
+    ]
+  }
+]
